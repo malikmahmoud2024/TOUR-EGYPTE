@@ -94,7 +94,7 @@
     .itinerary-day__number span { font-size:1.1rem; }
     .itinerary-day__content { flex:1; padding-top:0.5rem; }
     .itinerary-day__title { font-family:'Playfair Display',serif; font-size:1.2rem; font-weight:700; color:#1A1208; margin-bottom:0.4rem; }
-    .itinerary-day__desc { font-family:'Cormorant Garamond',serif; font-size:1.05rem; line-height:1.7; color:#4A3728; font-weight:700; }
+    .itinerary-day__desc { font-family:'Cormorant Garamond',serif; font-size:1.05rem; line-height:1.7; color:#4A3728; font-weight:400; }
     .itinerary-day__highlights { margin-top:0.5rem; display:flex; flex-wrap:wrap; gap:0.4rem; }
     .itinerary-highlight { display:inline-block; background:rgba(201,168,76,0.1); border:1px solid rgba(201,168,76,0.25); color:#8B6A1E; font-family:'Cormorant Garamond',serif; font-size:0.8rem; letter-spacing:0.5px; padding:0.2rem 0.6rem; border-radius:2px; }
     .inclusions-section { background:#FBF8F1; padding:5rem 0; }
@@ -102,7 +102,7 @@
     @media(max-width:640px){ .inclusions-grid{ grid-template-columns:1fr; } }
     .inclusions-block h3 { font-family:'Playfair Display',serif; font-size:1.3rem; color:#1A1208; margin-bottom:1.25rem; padding-bottom:0.75rem; border-bottom:2px solid rgba(201,168,76,0.3); }
     .inclusions-list { list-style:none; padding:0; margin:0; }
-    .inclusions-list li { display:flex; align-items:flex-start; gap:0.75rem; padding:0.5rem 0; font-family:'Cormorant Garamond',serif; font-size:1.05rem; line-height:1.5; color:#4A3728; border-bottom:1px solid rgba(201,168,76,0.1); font-weight:700; }
+    .inclusions-list li { display:flex; align-items:flex-start; gap:0.75rem; padding:0.5rem 0; font-family:'Cormorant Garamond',serif; font-size:1.05rem; line-height:1.5; color:#4A3728; border-bottom:1px solid rgba(201,168,76,0.1); font-weight:400; }
     .inclusions-list li::before { flex-shrink:0; margin-top:0.1rem; }
     .included li::before { content:'✓'; color:#2E7D32; font-weight:700; }
     .excluded li::before { content:'✗'; color:#C62828; font-weight:700; }
@@ -128,7 +128,7 @@
   <nav class="navbar transparent" role="navigation" aria-label="Main navigation">
     <div class="navbar__inner">
       <a href="index.html" class="navbar__logo" aria-label="Tour Egypte — Home">
-        <svg class="logo-svg" viewBox="0 0 280 72" xmlns="http://www.w3.org/2000/svg">
+        <svg class="logo-svg" viewBox="0 0 320 72" xmlns="http://www.w3.org/2000/svg">
           <line x1="8" y1="60" x2="128" y2="60" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
           <polygon points="12,60 28,42 44,60" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" opacity="0.45"/>
           <polygon points="38,60 68,8 98,60" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
@@ -145,9 +145,12 @@
       </a>
       <ul class="navbar__links" role="list">
         <li><a href="index.html" data-i18n="nav.home">Home</a></li>
-        <li><a href="packages.html" data-i18n="nav.packages">Packages</a></li>
+        <li><a href="packages.html" class="active" data-i18n="nav.packages">Packages</a></li>
         <li><a href="about.html" data-i18n="nav.about">About Us</a></li>
+        <li><a href="reviews.html" data-i18n="nav.reviews">Reviews</a></li>
         <li><a href="contact.html" data-i18n="nav.contact">Contact Us</a></li>
+        <li><a href="references.html" data-i18n="nav.references">Travel Tips</a></li>
+        <li><a href="faq.html" data-i18n="nav.faq">FAQ</a></li>
       </ul>
       <div class="navbar__right">
         <div class="lang-switcher" role="navigation" aria-label="Language selector">
@@ -171,7 +174,7 @@
   </nav>
   <div class="navbar__mobile" role="dialog" aria-modal="true" aria-label="Mobile navigation">
     <div class="navbar__mobile-header">
-      <svg class="logo-svg" viewBox="0 0 280 72" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <svg class="logo-svg" viewBox="0 0 320 72" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <line x1="8" y1="60" x2="128" y2="60" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
         <polygon points="12,60 28,42 44,60" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" opacity="0.45"/>
         <polygon points="38,60 68,8 98,60" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
@@ -198,9 +201,21 @@
         <span class="mobile-nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg></span>
         <span data-i18n="nav.about">About Us</span>
       </a>
+      <a href="reviews.html" data-i18n="nav.reviews">
+        <span class="mobile-nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></span>
+        <span data-i18n="nav.reviews">Reviews</span>
+      </a>
       <a href="contact.html" data-i18n="nav.contact">
         <span class="mobile-nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span>
         <span data-i18n="nav.contact">Contact Us</span>
+      </a>
+      <a href="references.html" data-i18n="nav.references">
+        <span class="mobile-nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span>
+        <span data-i18n="nav.references">Travel Tips</span>
+      </a>
+      <a href="faq.html" data-i18n="nav.faq">
+        <span class="mobile-nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></span>
+        <span data-i18n="nav.faq">FAQ</span>
       </a>
     </div>
     <div class="navbar__mobile-divider"></div>
@@ -222,21 +237,21 @@
     <div class="pkg-hero__overlay"></div>
     <div class="pkg-hero__content">
       <div class="container">
-        <p class="pkg-hero__breadcrumb"><a href="index.html">Home</a> &nbsp;/&nbsp; <a href="packages.html">Packages</a> &nbsp;/&nbsp; Cairo &amp; Alexandria</p>
-        <span class="pkg-hero__badge">Private Tour</span>
+        <p class="pkg-hero__breadcrumb"><a href="index.html" data-i18n="nav.home">Home</a> &nbsp;/&nbsp; <a href="packages.html" data-i18n="nav.packages">Packages</a> &nbsp;/&nbsp; <span data-i18n="pkg_names.3">Cairo &amp; Alexandria</span></p>
+        <span class="pkg-hero__badge" data-i18n="pkg_detail.badge">Private Tour</span>
         <h1 class="pkg-hero__title">Cairo &amp;<br>Alexandria</h1>
         <div class="pkg-hero__meta">
           <div class="pkg-hero__meta-item">
             <span class="pkg-hero__meta-icon">◆</span>
-            <span>6 Days / 5 Nights</span>
+            <span data-i18n="pkg_durations.3">6 Days / 5 Nights</span>
           </div>
           <div class="pkg-hero__meta-item">
             <span class="pkg-hero__meta-icon">◆</span>
-            <span>100% Private</span>
+            <span data-i18n="pkg_detail.meta_private">100% Private</span>
           </div>
           <div class="pkg-hero__meta-item">
             <span class="pkg-hero__meta-icon">◆</span>
-            <span>Cairo → Alexandria → Cairo</span>
+            <span data-i18n="pkg4.route">Cairo → Alexandria → Cairo</span>
           </div>
         </div>
       </div>
@@ -448,6 +463,21 @@
           </a>
           <a href="mailto:Reservation@touregypte.fr" class="btn btn-outline-white"><span data-i18n="pkg_detail.send_email">Send Email</span></a>
         </div>
+
+        <div class="trust-bar">
+          <span class="trust-bar__item">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2L4 5v6c0 5.25 3.4 9.74 8 11 4.6-1.26 8-5.75 8-11V5l-8-3zm-1.2 14.2L6.8 12.2l1.4-1.4 2.6 2.6 5.4-5.4 1.4 1.4-6.8 6.8z"/></svg>
+            <span data-i18n="trust_bar.license">Ministry of Tourism Licence No. 1200</span>
+          </span>
+          <span class="trust-bar__item">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.9 6.26L22 9.27l-5 4.87L18.2 21 12 17.77 5.8 21 7 14.14 2 9.27l7.1-1.01L12 2z"/></svg>
+            <span data-i18n="trust_bar.reviews">13 reviews 5★ — Petit Futé 2026</span>
+          </span>
+          <span class="trust-bar__item">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 2v2H5a2 2 0 00-2 2v2h18V6a2 2 0 00-2-2h-2V2h-2v2H9V2H7zM3 10v10a2 2 0 002 2h14a2 2 0 002-2V10H3zm4 3h2v2H7v-2zm4 0h2v2h-2v-2zm4 0h2v2h-2v-2z"/></svg>
+            <span data-i18n="trust_bar.founded">Founded 2000 — 25 years experience</span>
+          </span>
+        </div>
       </div>
     </div>
   </section>
@@ -457,7 +487,7 @@
     <div class="container">
       <div class="footer__grid">
         <div class="footer__brand">
-          <svg class="logo-svg" viewBox="0 0 280 72" xmlns="http://www.w3.org/2000/svg">
+          <svg class="logo-svg" viewBox="0 0 320 72" xmlns="http://www.w3.org/2000/svg">
             <line x1="8" y1="60" x2="128" y2="60" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
             <polygon points="12,60 28,42 44,60" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" opacity="0.45"/>
             <polygon points="38,60 68,8 98,60" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
@@ -517,7 +547,7 @@
       <div class="footer__bottom">
         <span>© 2025 touregypte.fr. All rights reserved.</span>
         <span>Designed with passion for Egypt.</span>
-        <span data-i18n="footer.license">Official operator approved by the Egyptian Ministry of Tourism — Licence No. 1200</span>
+        <span class="footer__license" data-i18n="footer.license">Official operator approved by the Egyptian Ministry of Tourism — Licence No. 1200</span>
       </div>
     </div>
   </footer>
@@ -533,6 +563,7 @@
   </a>
 
   <script src="js/translations.js?v=3"></script>
+  <script src="js/i18n-extend.js?v=1"></script>
   <script src="js/main.js?v=3"></script>
 </body>
 </html>

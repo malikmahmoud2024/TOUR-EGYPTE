@@ -198,7 +198,7 @@
   <nav class="navbar transparent" role="navigation" aria-label="Main navigation">
     <div class="navbar__inner">
       <a href="index.html" class="navbar__logo" aria-label="Tour Egypte — Home">
-        <svg class="logo-svg" viewBox="0 0 280 72" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tour Egypte logo">
+        <svg class="logo-svg" viewBox="0 0 320 72" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tour Egypte logo">
           <line x1="8" y1="60" x2="128" y2="60" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
           <polygon points="12,60 28,42 44,60" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" opacity="0.45"/>
           <polygon points="38,60 68,8 98,60" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
@@ -426,7 +426,10 @@
         <!-- Package 7: Cairo, Lake Nasser Cruise, Dahabiya & Luxor -->
         <article class="package-card reveal reveal-delay-1">
           <div class="package-card__image">
-            <img src="images/abu-simbel.jpg" alt="Temples of Abu Simbel on Lake Nasser" loading="lazy" />
+            <picture>
+              <source srcset="images/abu-simbel.webp" type="image/webp">
+              <img src="images/abu-simbel.jpg" alt="Temples of Abu Simbel on Lake Nasser" loading="lazy" />
+            </picture>
             <span class="package-card__badge" data-i18n="packages.badge">Private Tour</span>
           </div>
           <div class="package-card__body">
@@ -445,7 +448,10 @@
         <!-- Package 8: Cairo & Hurghada -->
         <article class="package-card reveal reveal-delay-2">
           <div class="package-card__image">
-            <img src="images/hurghada-red-sea.jpg" alt="Turquoise waters of the Red Sea at Hurghada" loading="lazy" />
+            <picture>
+              <source srcset="images/hurghada-red-sea.webp" type="image/webp">
+              <img src="images/hurghada-red-sea.jpg" alt="Turquoise waters of the Red Sea at Hurghada" loading="lazy" />
+            </picture>
             <span class="package-card__badge" data-i18n="packages.badge">Private Tour</span>
           </div>
           <div class="package-card__body">
@@ -601,7 +607,7 @@
     <div class="container">
       <div class="footer__grid">
         <div class="footer__brand">
-          <svg class="logo-svg" viewBox="0 0 280 72" xmlns="http://www.w3.org/2000/svg" aria-label="Tour Egypte">
+          <svg class="logo-svg" viewBox="0 0 320 72" xmlns="http://www.w3.org/2000/svg" aria-label="Tour Egypte">
             <line x1="8" y1="60" x2="128" y2="60" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
             <polygon points="12,60 28,42 44,60" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" opacity="0.45"/>
             <polygon points="38,60 68,8 98,60" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
@@ -668,7 +674,7 @@
       <div class="footer__bottom">
         <span data-i18n="footer.copy">© 2025 touregypte.fr. All rights reserved.</span>
         <span data-i18n="footer.designed">Designed with passion for Egypt.</span>
-        <span data-i18n="footer.license">Official operator approved by the Egyptian Ministry of Tourism — Licence No. 1200</span>
+        <span class="footer__license" data-i18n="footer.license">Official operator approved by the Egyptian Ministry of Tourism — Licence No. 1200</span>
       </div>
     </div>
   </footer>
