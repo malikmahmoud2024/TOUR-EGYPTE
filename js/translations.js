@@ -2803,6 +2803,12 @@ function applyTranslations(lang) {
     el.textContent = langLabels[lang] || lang.toUpperCase();
   });
 
+  /* Update lang switcher flag */
+  const langFlags = { en: '🇬🇧', fr: '🇫🇷', de: '🇩🇪', es: '🇪🇸', it: '🇮🇹' };
+  document.querySelectorAll('.lang-flag-current').forEach(el => {
+    el.textContent = langFlags[lang] || '';
+  });
+
   /* Mark active lang */
   document.querySelectorAll('[data-lang]').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.lang === lang);

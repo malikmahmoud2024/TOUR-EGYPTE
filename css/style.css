@@ -284,6 +284,10 @@ p:last-child { margin-bottom: 0; }
   display: flex;
   align-items: center;
   transition: background 0.4s ease, box-shadow 0.4s ease, height 0.3s ease;
+  /* Navbar must never be hidden by scroll or script on any page */
+  visibility: visible !important;
+  opacity: 1 !important;
+  transform: none !important;
 }
 
 .navbar.transparent {
@@ -389,11 +393,11 @@ p:last-child { margin-bottom: 0; }
   align-items: center;
   justify-content: center;
   gap: 0.4rem;
-  min-width: 80px;
-  padding: 8px 12px;
+  min-width: 90px;
+  padding: 8px 14px;
   border-radius: 20px;
   font-family: var(--font-body);
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   font-weight: 500;
   letter-spacing: 1px;
   transition: var(--transition);
@@ -401,7 +405,7 @@ p:last-child { margin-bottom: 0; }
 }
 .navbar.transparent .lang-switcher__btn {
   color: rgba(255,255,255,0.9);
-  border: 1px solid rgba(255,255,255,0.5);
+  border: 1.5px solid rgba(255,255,255,0.6);
 }
 .navbar.transparent .lang-switcher__btn:hover {
   background: rgba(255,255,255,0.12);
@@ -410,7 +414,7 @@ p:last-child { margin-bottom: 0; }
 }
 .navbar.scrolled .lang-switcher__btn {
   color: var(--text-medium);
-  border: 1px solid rgba(0,0,0,0.2);
+  border: 1.5px solid rgba(0,0,0,0.25);
 }
 .navbar.scrolled .lang-switcher__btn:hover {
   background: var(--cream);
@@ -418,8 +422,14 @@ p:last-child { margin-bottom: 0; }
   color: var(--gold-text);
 }
 
+.lang-flag-current {
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
 .lang-switcher__btn svg {
-  width: 14px; height: 14px;
+  width: 16px; height: 16px;
+  stroke-width: 2.5;
   transition: transform 0.25s ease;
 }
 .lang-switcher.open .lang-switcher__btn svg { transform: rotate(180deg); }
