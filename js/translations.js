@@ -2803,10 +2803,17 @@ function applyTranslations(lang) {
     el.textContent = langLabels[lang] || lang.toUpperCase();
   });
 
-  /* Update lang switcher flag */
-  const langFlags = { en: '🇬🇧', fr: '🇫🇷', de: '🇩🇪', es: '🇪🇸', it: '🇮🇹' };
+  /* Update lang switcher flag (inline SVG, not emoji — Windows renders
+     regional-indicator flag emoji as boxed letters instead of flags) */
+  const langFlagSvgs = {
+    en: '<svg class="flag-icon" viewBox="0 0 3 2" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="UK flag"><rect width="3" height="2" fill="#00247D"/><path d="M0,0 L3,2 M3,0 L0,2" stroke="#fff" stroke-width="0.4"/><path d="M0,0 L3,2 M3,0 L0,2" stroke="#CF142B" stroke-width="0.15"/><path d="M1.5,0 V2 M0,1 H3" stroke="#fff" stroke-width="0.7"/><path d="M1.5,0 V2 M0,1 H3" stroke="#CF142B" stroke-width="0.4"/></svg>',
+    fr: '<svg class="flag-icon" viewBox="0 0 3 2" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="French flag"><rect width="3" height="2" fill="#fff"/><rect width="1" height="2" fill="#002654"/><rect x="2" width="1" height="2" fill="#CE1126"/></svg>',
+    de: '<svg class="flag-icon" viewBox="0 0 3 2" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="German flag"><rect width="3" height="2" fill="#FFCE00"/><rect width="3" height="1.3333" fill="#DD0000"/><rect width="3" height="0.6667" fill="#000"/></svg>',
+    es: '<svg class="flag-icon" viewBox="0 0 3 2" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Spanish flag"><rect width="3" height="2" fill="#AA151B"/><rect y="0.5" width="3" height="1" fill="#F1BF00"/></svg>',
+    it: '<svg class="flag-icon" viewBox="0 0 3 2" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Italian flag"><rect width="3" height="2" fill="#fff"/><rect width="1" height="2" fill="#008C45"/><rect x="2" width="1" height="2" fill="#CD212A"/></svg>',
+  };
   document.querySelectorAll('.lang-flag-current').forEach(el => {
-    el.textContent = langFlags[lang] || '';
+    el.innerHTML = langFlagSvgs[lang] || '';
   });
 
   /* Mark active lang */

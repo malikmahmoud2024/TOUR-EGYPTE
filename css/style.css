@@ -423,16 +423,28 @@ p:last-child { margin-bottom: 0; }
 }
 
 .lang-flag-current {
-  font-size: 1.1rem;
-  line-height: 1;
+  display: inline-flex;
+  align-items: center;
 }
 
-.lang-switcher__btn svg {
+/* Inline SVG flag icons (used instead of emoji so flags render consistently
+   on Windows, where regional-indicator emoji often show as boxed letters) */
+.flag-icon {
+  width: 1.3em;
+  height: 0.9em;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.12);
+  flex-shrink: 0;
+}
+
+.lang-switcher__btn svg:not(.flag-icon) {
   width: 16px; height: 16px;
   stroke-width: 2.5;
   transition: transform 0.25s ease;
 }
-.lang-switcher.open .lang-switcher__btn svg { transform: rotate(180deg); }
+.lang-switcher.open .lang-switcher__btn svg:not(.flag-icon) { transform: rotate(180deg); }
 
 .lang-switcher__dropdown {
   position: absolute;
@@ -478,7 +490,8 @@ p:last-child { margin-bottom: 0; }
   font-weight: 500;
 }
 .lang-flag {
-  font-size: 1.1rem;
+  display: inline-flex;
+  align-items: center;
 }
 
 /* Mobile menu toggle */
@@ -640,9 +653,9 @@ p:last-child { margin-bottom: 0; }
   background: var(--gold);
   color: var(--white);
 }
-.navbar__mobile-lang-grid button .lang-flag {
-  font-size: 1.3rem;
-  line-height: 1;
+.navbar__mobile-lang-grid button .lang-flag .flag-icon {
+  width: 1.5em;
+  height: 1.05em;
 }
 
 /* ── Hero Section ───────────────────────────────────────────── */
@@ -1684,7 +1697,7 @@ p:last-child { margin-bottom: 0; }
     padding: 6px 10px;
     font-size: 0.85rem;
   }
-  .lang-switcher__btn svg { width: 13px; height: 13px; }
+  .lang-switcher__btn svg:not(.flag-icon) { width: 13px; height: 13px; }
 
   .about-teaser { padding: 5rem 0; }
   .about-teaser__inner { grid-template-columns: 1fr; gap: 2.5rem; }
