@@ -1,5 +1,15 @@
 User-agent: *
 Allow: /
+Disallow: /contact - Copy.html
+Disallow: /packages - Copy.html
+Disallow: /package-4-cairo-alexandria - Copy.html
+Disallow: /package-5-ultimate - Copy.html
+Disallow: /package-6-hurghada - Copy.html
+Disallow: /css/package-2-cairo-weekend.html
+Disallow: /css/package-3-cairo-nile.html
+Disallow: /css/package-4-cairo-alexandria.html
+Disallow: /css/package-5-ultimate.html
+Disallow: /css/package-6-hurghada.html
 
 User-agent: Googlebot
 Allow: /
