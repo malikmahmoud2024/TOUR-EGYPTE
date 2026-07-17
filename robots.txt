@@ -10,6 +10,15 @@ Disallow: /css/package-3-cairo-nile.html
 Disallow: /css/package-4-cairo-alexandria.html
 Disallow: /css/package-5-ultimate.html
 Disallow: /css/package-6-hurghada.html
+Disallow: /CLAUDE.md
+Disallow: /package.json
+Disallow: /package-lock.json
+Disallow: /screenshot.mjs
+Disallow: /trans-french.md
+Disallow: /trans-spanish.md
+Disallow: /translations-content.md
+Disallow: /spanish
+Disallow: /temporary screenshots/
 
 User-agent: Googlebot
 Allow: /

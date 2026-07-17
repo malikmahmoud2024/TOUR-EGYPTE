@@ -3,7 +3,20 @@
    Premium Egypt Tourism Website
    ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,600&display=swap');
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  background: var(--gold);
+  color: #000;
+  padding: 8px 16px;
+  z-index: 10000;
+  font-weight: 600;
+  text-decoration: none;
+}
+.skip-link:focus {
+  top: 0;
+}
 
 /* ── CSS Variables ─────────────────────────────────────────── */
 :root {
@@ -12,7 +25,7 @@
   --gold-lighter:  #F5E6B8;
   --gold-dark:     #9E7C2E;
   --gold-deep:     #7A5E1A;
-  --gold-text:     #9E7C2E;
+  --gold-text:     #7A5E1E;
   --white:         #FFFFFF;
   --cream:         #FBF8F1;
   --off-white:     #F5EFE3;
@@ -21,7 +34,7 @@
   --text-dark:     #1A1208;
   --text-medium:   #4A3728;
   --text-light:    #7A6A5A;
-  --text-lighter:  #9A8A7A;
+  --text-lighter:  #7E6E5E;
   --border:        rgba(201,168,76,0.25);
   --border-light:  rgba(201,168,76,0.12);
 

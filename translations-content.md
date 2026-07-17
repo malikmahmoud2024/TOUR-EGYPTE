@@ -928,7 +928,7 @@ Pagina 9
 
 TOUR EGYPTE – NOS FORFAITS EN FRANÇAIS
 =======================================
-Découvrez la Magie de l'Égypte – Fondé en 2005
+Découvrez la Magie de l'Égypte – Fondé en 2000
 =======================================
 ═══════════════════════════════════════════════════════════════════
 FORFAIT 1
@@ -1563,7 +1563,7 @@ en van privé climatisé, inclus aussi les billets d'entrée et les repas de mid
 francophone privé, en van privé climatisé, inclus aussi les billets d'entrée.- Transfert Louxor / Hurghada et Hurghada / Le Caire en van privé bien climatisé.- Tous les transferts mentionnés au programme en véhicule climatisé.- Assistance à l'aéroport du Caire et transfert à votre hôtel et l'inverse.- Transfert partout, au Caire, à Louxor et à Assouan en voiture privée.- Les services du guide francophone privé au Caire et à bord de la croisière.- Toutes les taxes sont comprises.- Tous les services seront privés, pas de rejoindre d'autres clients.
 CE QUI N'EST PAS INCLUS :--------------------------- Vol international de votre pays à la destination égyptienne demandée.- Le visa d'entrée pour l'Égypte (émis sur place).- Les pourboires (chauffeur, Guide………etc.).- Les boissons non mentionnées dans le programme.- Les dépenses personnelles.- Les Excursions Facultatives comme le Son et Lumière.
 ═══════════════════════════════════════════════════════════════════
-TOUR EGYPTE – Fondé en 2005
+TOUR EGYPTE – Fondé en 2000
 Découvrez la Magie de l'Égypte
 © Tour Egypte. Tous droits réservés.
 ═══════════════════════════════════════════════════════════════════
