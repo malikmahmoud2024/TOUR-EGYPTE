@@ -18,6 +18,16 @@
   top: 0;
 }
 
+*:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+.btn:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+}
+
 /* ── CSS Variables ─────────────────────────────────────────── */
 :root {
   --gold:          #C9A84C;
@@ -1497,7 +1507,11 @@ p:last-child { margin-bottom: 0; }
   transition: border 0.2s ease;
 }
 .footer__newsletter-form input::placeholder { color: rgba(255,255,255,0.3); }
-.footer__newsletter-form input:focus { border-color: var(--gold); }
+.footer__newsletter-form input:focus {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+  border-color: var(--gold);
+}
 .footer__newsletter-form button {
   padding: 0.6rem 1.1rem;
   background: var(--gold);

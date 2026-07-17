@@ -1,0 +1,13 @@
+# Dev files
+.claude/
+temporary screenshots/
+screenshot.mjs
+fix-images.js
+package.json
+package-lock.json
+CLAUDE.md
+trans-french.md
+trans-spanish.md
+translations-content.md
+spanish
+node_modules/

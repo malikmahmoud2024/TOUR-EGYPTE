@@ -439,7 +439,7 @@
        PAGE HERO
   ═══════════════════════════════════════════════════════════ -->
   <section class="page-hero" aria-labelledby="page-hero-title">
-    <div class="page-hero__bg" style="background-image: url('images/grand-egyptian-museum.jpg');"></div>
+    <div class="page-hero__bg" style="background-image: image-set(url('images/grand-egyptian-museum.webp') type('image/webp'), url('images/grand-egyptian-museum.jpg') type('image/jpeg'));"></div>
     <div class="page-hero__overlay"></div>
     <div class="page-hero__content">
       <p class="page-hero__breadcrumb">
@@ -743,47 +743,6 @@
     <span data-i18n="whatsapp_tooltip">Chat on WhatsApp</span>
   </a>
 
-  <!-- ════════════════════════════════════════════════════════
-       EmailJS — Send form data to mahmoud.egy80@yahoo.com
-       ─────────────────────────────────────────────────────────
-       HOW TO SET UP EmailJS (free tier = 200 emails/month):
-
-       1. Create a free account at https://www.emailjs.com/
-
-       2. GET YOUR SERVICE ID:
-          - Go to "Email Services" → click "Add New Service"
-          - Choose your email provider (Gmail, Outlook, etc.)
-          - Connect your email account
-          - Copy the Service ID (e.g. "service_abc123")
-          - Paste it below where it says service_kkdx53u
-
-       3. GET YOUR TEMPLATE ID:
-          - Go to "Email Templates" → click "Create New Template"
-          - Set the "To Email" field to: mahmoud.egy80@yahoo.com
-          - Set the subject to something like:
-              New Booking Request from {{from_name}}
-          - In the template body, use these variables:
-              Name: {{from_name}}
-              Email: {{from_email}}
-              Phone: {{phone}}
-              Nationality: {{nationality}}
-              Package: {{package}}
-              Travellers: {{travellers}}
-              Departure Date: {{departure_date}}
-              Message: {{message}}
-          - Save the template
-          - Copy the Template ID (e.g. "template_xyz789")
-          - Paste it below where it says template_gezcwlb
-
-       4. GET YOUR PUBLIC KEY:
-          - Go to "Account" → "General" tab
-          - Copy the "Public Key" (e.g. "pK_ABCdef123456")
-          - Paste it below where it says -I7u8k8ObF8-3bNLu
-
-       5. That's it! The form will now email all data to
-          mahmoud.egy80@yahoo.com AND open WhatsApp simultaneously.
-  ═══════════════════════════════════════════════════════════ -->
-
   <!-- EmailJS SDK -->
   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
@@ -878,7 +837,7 @@
     });
   </script>
 
-  <script src="js/translations.js?v=3"></script>
-  <script src="js/main.js?v=3"></script>
+  <script src="js/translations.js?v=3" defer></script>
+  <script src="js/main.js?v=3" defer></script>
 </body>
 </html>
