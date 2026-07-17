@@ -14,6 +14,7 @@ Disallow: /CLAUDE.md
 Disallow: /package.json
 Disallow: /package-lock.json
 Disallow: /screenshot.mjs
+Disallow: /fix-images.js
 Disallow: /trans-french.md
 Disallow: /trans-spanish.md
 Disallow: /translations-content.md
