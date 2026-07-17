@@ -487,7 +487,7 @@
       <span data-i18n="nav_icons.faq">FAQ</span>
     </a>
   </nav>
-  <div id="main-content"></div>
+  <main id="main-content">
 
 
   <!-- ════════════════════════════════════════════════════════
@@ -703,6 +703,16 @@
             <div class="form-submit-area">
               <button type="submit" class="btn btn-primary" data-i18n="contact_page.submit_btn">Envoyer Ma Demande</button>
               <p class="form-note" data-i18n="contact_page.form_note">Sans engagement. Nous vous répondrons avec un itinéraire personnalisé et un devis sous 24 heures.</p>
+
+              <div class="form-error" id="form-error" role="alert" style="display:none;">
+                <span class="form-error__icon" aria-hidden="true">⚠</span>
+                <span class="form-error__text" id="form-error-text">Veuillez remplir tous les champs obligatoires.</span>
+              </div>
+
+              <div class="form-success-actions" id="form-success-actions" style="display:none;">
+                <span class="form-success-actions__note" data-i18n="contact_page.success_email_note">✉ Confirmation envoyée par email</span>
+                <a href="https://wa.me/201223797757" target="_blank" rel="noopener noreferrer" class="whatsapp-cta-btn form-success-actions__whatsapp" data-i18n="contact_page.success_whatsapp_btn">💬 Nous contacter sur WhatsApp →</a>
+              </div>
             </div>
 
           </form>
@@ -716,6 +726,8 @@
   <!-- ════════════════════════════════════════════════════════
        FOOTER
   ═══════════════════════════════════════════════════════════ -->
+  </main>
+
   <footer class="footer" role="contentinfo">
     <div class="container">
       <div class="footer__grid">
@@ -826,9 +838,26 @@
     emailjs.init(EMAILJS_PUBLIC_KEY);
 
     const contactForm = document.getElementById('contact-form');
+    const formErrorEl = document.getElementById('form-error');
+    const formErrorTextEl = document.getElementById('form-error-text');
+    const formSuccessActionsEl = document.getElementById('form-success-actions');
+
+    function getContactT() {
+      return (typeof TRANSLATIONS !== 'undefined' && typeof currentLang !== 'undefined') ? TRANSLATIONS[currentLang]?.contact_page : null;
+    }
+    function showFormError(message) {
+      formErrorTextEl.textContent = message;
+      formErrorEl.style.display = 'flex';
+    }
+    function hideFormError() {
+      formErrorEl.style.display = 'none';
+    }
 
     contactForm.addEventListener('submit', function(e) {
       e.preventDefault();
+
+      hideFormError();
+      formSuccessActionsEl.style.display = 'none';
 
       // Gather form data
       const name      = document.getElementById('contact-name').value.trim();
@@ -845,8 +874,8 @@
 
       // Basic validation
       if (!name || !email) {
-        const t = (typeof TRANSLATIONS !== 'undefined' && typeof currentLang !== 'undefined') ? TRANSLATIONS[currentLang]?.contact_page : null;
-        alert(t?.validation_error || 'Please fill in all required fields.');
+        const t = getContactT();
+        showFormError(t?.validation_error || 'Please fill in all required fields.');
         return;
       }
 
@@ -856,7 +885,7 @@
       submitBtn.disabled = true;
       submitBtn.textContent = 'Sending…';
 
-      // ── 1) Send email via EmailJS ──────────────────────
+      // Send email via EmailJS
       const templateParams = {
         from_name:      name,
         from_email:     email,
@@ -870,9 +899,10 @@
 
       emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, templateParams)
         .then(function() {
-          // Show success feedback
+          // Show success feedback + let the visitor choose to also reach out on WhatsApp
           submitBtn.textContent = '✓ Sent!';
           submitBtn.style.background = '#25D366';
+          formSuccessActionsEl.style.display = 'flex';
           setTimeout(function() {
             submitBtn.disabled = false;
             submitBtn.textContent = originalText;
@@ -884,24 +914,9 @@
           console.error('EmailJS error:', error);
           submitBtn.disabled = false;
           submitBtn.textContent = originalText;
-          alert('There was an error sending your request. Please try WhatsApp or email us directly at Reservation@touregypte.fr');
+          const t = getContactT();
+          showFormError(t?.error_send || 'An error occurred. Please try again or contact us on WhatsApp.');
         });
-
-      // ── 2) Open WhatsApp with pre-filled message ──────
-      const whatsappPhone = '201223797757';
-      const whatsappMsg =
-        `New Booking Request\n` +
-        `———————————————\n` +
-        `Name: ${name}\n` +
-        `Email: ${email}\n` +
-        `Phone: ${phone || 'Not provided'}\n` +
-        `Package: ${packageText || 'Not selected'}\n` +
-        `Dates: ${date || 'Not specified'}\n` +
-        `Travelers: ${travellers || 'Not specified'}\n` +
-        `Message: ${message || 'No message'}`;
-
-      const whatsappURL = `https://wa.me/${whatsappPhone}?text=${encodeURIComponent(whatsappMsg)}`;
-      window.open(whatsappURL, '_blank');
     });
   </script>
 
