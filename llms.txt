@@ -65,3 +65,23 @@ https://touregypte.fr/en/
 - [Travel Tips](https://touregypte.fr/en/references.html)
 - [Reviews](https://touregypte.fr/en/reviews.html)
 - [Contact](https://touregypte.fr/en/contact.html)
+
+## Deutsche Version (German)
+
+Alle Seiten sind auf Deutsch verfügbar unter
+https://touregypte.fr/de/
+
+- [Dahabija-Nilkreuzfahrt](https://touregypte.fr/de/package-1-dahabiya.html)
+- [Kairo Wochenende](https://touregypte.fr/de/package-2-cairo-weekend.html)
+- [Kairo und Nilkreuzfahrt](https://touregypte.fr/de/package-3-cairo-nile.html)
+- [Kairo und Alexandria](https://touregypte.fr/de/package-4-cairo-alexandria.html)
+- [Große Ägyptenreise 14 Tage](https://touregypte.fr/de/package-5-ultimate.html)
+- [Kairo und Hurghada](https://touregypte.fr/de/package-6-hurghada.html)
+- [Kairo, Nassersee, Dahabija und Luxor](https://touregypte.fr/de/package-7-cairo-lac-nasser-dahabiya-luxor.html)
+- [Kairo und Hurghada 8 Tage](https://touregypte.fr/de/package-8-cairo-hurghada.html)
+- [Kairo, Luxor und Hurghada](https://touregypte.fr/de/package-9-cairo-luxor-hurghada.html)
+- [Über uns](https://touregypte.fr/de/about.html)
+- [FAQ](https://touregypte.fr/de/faq.html)
+- [Reisetipps](https://touregypte.fr/de/references.html)
+- [Bewertungen](https://touregypte.fr/de/reviews.html)
+- [Kontakt](https://touregypte.fr/de/contact.html)
