@@ -85,3 +85,43 @@ https://touregypte.fr/de/
 - [Reisetipps](https://touregypte.fr/de/references.html)
 - [Bewertungen](https://touregypte.fr/de/reviews.html)
 - [Kontakt](https://touregypte.fr/de/contact.html)
+
+## Versión en Español (Spanish)
+
+Todas las páginas disponibles en español en
+https://touregypte.fr/es/
+
+- [Crucero Dahabiya](https://touregypte.fr/es/package-1-dahabiya.html)
+- [Fin de Semana en El Cairo](https://touregypte.fr/es/package-2-cairo-weekend.html)
+- [El Cairo y Crucero Nilo](https://touregypte.fr/es/package-3-cairo-nile.html)
+- [El Cairo y Alejandría](https://touregypte.fr/es/package-4-cairo-alexandria.html)
+- [Gran Circuito 14 Días](https://touregypte.fr/es/package-5-ultimate.html)
+- [El Cairo y Hurghada](https://touregypte.fr/es/package-6-hurghada.html)
+- [Lago Nasser y Dahabiya](https://touregypte.fr/es/package-7-cairo-lac-nasser-dahabiya-luxor.html)
+- [El Cairo y Hurghada 8 Días](https://touregypte.fr/es/package-8-cairo-hurghada.html)
+- [El Cairo, Luxor y Hurghada](https://touregypte.fr/es/package-9-cairo-luxor-hurghada.html)
+- [Sobre Nosotros](https://touregypte.fr/es/about.html)
+- [FAQ](https://touregypte.fr/es/faq.html)
+- [Consejos de Viaje](https://touregypte.fr/es/references.html)
+- [Opiniones](https://touregypte.fr/es/reviews.html)
+- [Contacto](https://touregypte.fr/es/contact.html)
+
+## Versione Italiana (Italian)
+
+Tutte le pagine disponibili in italiano su
+https://touregypte.fr/it/
+
+- [Crociera Dahabiya](https://touregypte.fr/it/package-1-dahabiya.html)
+- [Weekend al Cairo](https://touregypte.fr/it/package-2-cairo-weekend.html)
+- [Il Cairo e Crociera Nilo](https://touregypte.fr/it/package-3-cairo-nile.html)
+- [Il Cairo e Alessandria](https://touregypte.fr/it/package-4-cairo-alexandria.html)
+- [Grande Tour 14 Giorni](https://touregypte.fr/it/package-5-ultimate.html)
+- [Il Cairo e Hurghada](https://touregypte.fr/it/package-6-hurghada.html)
+- [Lago Nasser e Dahabiya](https://touregypte.fr/it/package-7-cairo-lac-nasser-dahabiya-luxor.html)
+- [Il Cairo e Hurghada 8 Giorni](https://touregypte.fr/it/package-8-cairo-hurghada.html)
+- [Il Cairo, Luxor e Hurghada](https://touregypte.fr/it/package-9-cairo-luxor-hurghada.html)
+- [Chi Siamo](https://touregypte.fr/it/about.html)
+- [FAQ](https://touregypte.fr/it/faq.html)
+- [Consigli di Viaggio](https://touregypte.fr/it/references.html)
+- [Recensioni](https://touregypte.fr/it/reviews.html)
+- [Contatto](https://touregypte.fr/it/contact.html)
