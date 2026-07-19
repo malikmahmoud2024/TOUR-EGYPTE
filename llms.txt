@@ -31,6 +31,9 @@ Licence : Ministère du Tourisme égyptien N° 1200
 - [Le Caire, Lac Nasser, Dahabiya et Louxor](https://touregypte.fr/package-7-cairo-lac-nasser-dahabiya-luxor.html) — 15 jours grand voyage
 - [Le Caire et Hurghada 8 Jours](https://touregypte.fr/package-8-cairo-hurghada.html) — Le Caire + Mer Rouge 8 jours
 - [Le Caire, Louxor et Hurghada](https://touregypte.fr/package-9-cairo-luxor-hurghada.html) — 3 destinations 8 jours
+- [Croisière Nil 7 Nuits & Hurghada](https://touregypte.fr/package-10-nile-cruise-hurghada.html) — Croisière + Mer Rouge 15 jours
+- [Croisière Culturelle Nil 7 Nuits Louxor](https://touregypte.fr/package-11-nile-cruise-luxor.html) — Croisière Nil 8 jours
+- [Le Caire, Fayoum & Alexandrie](https://touregypte.fr/package-12-cairo-fayoum-alexandria.html) — Vallée des Baleines, Fayoum, Alexandrie
 
 ## Pages importantes
 
@@ -60,6 +63,9 @@ https://touregypte.fr/en/
 - [Cairo Lake Nasser Dahabiya Luxor](https://touregypte.fr/en/package-7-cairo-lac-nasser-dahabiya-luxor.html)
 - [Cairo and Hurghada 8 Days](https://touregypte.fr/en/package-8-cairo-hurghada.html)
 - [Cairo Luxor and Hurghada](https://touregypte.fr/en/package-9-cairo-luxor-hurghada.html)
+- [Nile Cruise 7 Nights & Hurghada](https://touregypte.fr/en/package-10-nile-cruise-hurghada.html)
+- [Cultural Nile Cruise 7 Nights Luxor](https://touregypte.fr/en/package-11-nile-cruise-luxor.html)
+- [Cairo, Fayoum & Alexandria](https://touregypte.fr/en/package-12-cairo-fayoum-alexandria.html)
 - [About Us](https://touregypte.fr/en/about.html)
 - [FAQ](https://touregypte.fr/en/faq.html)
 - [Travel Tips](https://touregypte.fr/en/references.html)
@@ -80,6 +86,9 @@ https://touregypte.fr/de/
 - [Kairo, Nassersee, Dahabija und Luxor](https://touregypte.fr/de/package-7-cairo-lac-nasser-dahabiya-luxor.html)
 - [Kairo und Hurghada 8 Tage](https://touregypte.fr/de/package-8-cairo-hurghada.html)
 - [Kairo, Luxor und Hurghada](https://touregypte.fr/de/package-9-cairo-luxor-hurghada.html)
+- [Nilkreuzfahrt 7 Nächte & Hurghada](https://touregypte.fr/de/package-10-nile-cruise-hurghada.html)
+- [Kulturelle Nilkreuzfahrt 7 Nächte Luxor](https://touregypte.fr/de/package-11-nile-cruise-luxor.html)
+- [Kairo, Fayum-Oase & Alexandria](https://touregypte.fr/de/package-12-cairo-fayoum-alexandria.html)
 - [Über uns](https://touregypte.fr/de/about.html)
 - [FAQ](https://touregypte.fr/de/faq.html)
 - [Reisetipps](https://touregypte.fr/de/references.html)
@@ -100,6 +109,9 @@ https://touregypte.fr/es/
 - [Lago Nasser y Dahabiya](https://touregypte.fr/es/package-7-cairo-lac-nasser-dahabiya-luxor.html)
 - [El Cairo y Hurghada 8 Días](https://touregypte.fr/es/package-8-cairo-hurghada.html)
 - [El Cairo, Luxor y Hurghada](https://touregypte.fr/es/package-9-cairo-luxor-hurghada.html)
+- [Crucero Nilo 7 Noches & Hurghada](https://touregypte.fr/es/package-10-nile-cruise-hurghada.html)
+- [Crucero Cultural Nilo 7 Noches Luxor](https://touregypte.fr/es/package-11-nile-cruise-luxor.html)
+- [El Cairo, Fayum & Alejandría](https://touregypte.fr/es/package-12-cairo-fayoum-alexandria.html)
 - [Sobre Nosotros](https://touregypte.fr/es/about.html)
 - [FAQ](https://touregypte.fr/es/faq.html)
 - [Consejos de Viaje](https://touregypte.fr/es/references.html)
@@ -120,6 +132,9 @@ https://touregypte.fr/it/
 - [Lago Nasser e Dahabiya](https://touregypte.fr/it/package-7-cairo-lac-nasser-dahabiya-luxor.html)
 - [Il Cairo e Hurghada 8 Giorni](https://touregypte.fr/it/package-8-cairo-hurghada.html)
 - [Il Cairo, Luxor e Hurghada](https://touregypte.fr/it/package-9-cairo-luxor-hurghada.html)
+- [Crociera Nilo 7 Notti & Hurghada](https://touregypte.fr/it/package-10-nile-cruise-hurghada.html)
+- [Crociera Culturale Nilo 7 Notti Luxor](https://touregypte.fr/it/package-11-nile-cruise-luxor.html)
+- [Il Cairo, Fayum & Alessandria](https://touregypte.fr/it/package-12-cairo-fayoum-alexandria.html)
 - [Chi Siamo](https://touregypte.fr/it/about.html)
 - [FAQ](https://touregypte.fr/it/faq.html)
 - [Consigli di Viaggio](https://touregypte.fr/it/references.html)

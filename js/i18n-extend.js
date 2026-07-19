@@ -21,6 +21,9 @@
     if (data.pkg7) t.pkg7 = data.pkg7;
     if (data.pkg8) t.pkg8 = data.pkg8;
     if (data.pkg9) t.pkg9 = data.pkg9;
+    if (data.pkg10) t.pkg10 = data.pkg10;
+    if (data.pkg11) t.pkg11 = data.pkg11;
+    if (data.pkg12) t.pkg12 = data.pkg12;
     if (data.faq_page) t.faq_page = data.faq_page;
     if (data.reviews_page) t.reviews_page = data.reviews_page;
     if (data.references_page) t.references_page = data.references_page;
@@ -188,6 +191,151 @@
         "Drinks",
         "Personal expenses",
         "Optional excursions (Sound and Light)"
+      ]
+    },
+    pkg10: {
+      overview_heading: "Nile Cruise & <span>Red Sea</span> Escape",
+      overview_p1: "Seven nights aboard a five-star Nile cruise sailing from Luxor to Aswan and back, visiting the Valley of the Kings, Edfu, Kom Ombo and the colossal temples of Abu Simbel, followed by seven nights of all-inclusive relaxation on the shores of the Red Sea in Hurghada.",
+      overview_p2: "This 15-day private journey pairs ancient wonders with total relaxation — your private French-speaking guide leads every temple visit, then hands you over to sun, sea and all-inclusive comfort for a full week.",
+      cta_heading: "Ready for the <em>Nile & the Red Sea?</em>",
+      day_titles: [
+        "Luxor — Arrival",
+        "Luxor / Esna / Edfu",
+        "Edfu / Kom Ombo / Aswan",
+        "Aswan",
+        "Aswan / Abu Simbel",
+        "Aswan / Kom Ombo / Edfu",
+        "Edfu / Esna / Luxor",
+        "Luxor / Hurghada — Red Sea",
+        "Hurghada — Red Sea",
+        "Hurghada — Red Sea",
+        "Hurghada — Red Sea",
+        "Hurghada — Red Sea",
+        "Hurghada — Red Sea",
+        "Hurghada — Red Sea",
+        "Hurghada — Final Departure"
+      ],
+      day_descs: [
+        "Arrival in Luxor, welcome at Luxor Airport. Transfer and check-in on the Nile cruise ship. Dinner and overnight on board.",
+        "Breakfast on board. Visit the Theban Necropolis: Valley of the Kings and Hatshepsut Temple at Deir El Bahari. Stop at the Colossi of Memnon. Return to ship. Lunch on board. Sail to Esna lock. Navigation to Edfu. Dinner and overnight on board.",
+        "Morning visit to the Temple of Horus at Edfu. Sail to Kom Ombo. Lunch on board. Late afternoon visit to the illuminated Temple of Kom Ombo. Sail to Aswan. Dinner and overnight on board.",
+        "Breakfast. Boat ride to Philae Temple dedicated to goddess Isis. Return to ship. Lunch on board. Afternoon felucca ride around Elephantine Island and Botanical Gardens. Dinner and overnight on board.",
+        "Early morning departure by private van to Abu Simbel: visit the grand temples of Ramesses II and Nefertari. Return to ship. Lunch on board. Free afternoon in Aswan. Optional Sound and Light show at Philae. Dinner and overnight on board.",
+        "Breakfast. Free morning. Lunch on board. Navigation to Kom Ombo then Edfu. Dinner and overnight on board.",
+        "Breakfast on board. Navigation to Esna lock. Continue to Luxor. Lunch on board. Arrival in Luxor afternoon. Visit Karnak Temple then Luxor Temple. Dinner and overnight on board.",
+        "After breakfast, private car to Hurghada (approx 4 hours). Arrival and hotel transfer. Lunch and dinner at hotel. Overnight at hotel.",
+        "Breakfast. Free day by the Red Sea. Lunch and dinner at hotel. Overnight at hotel.",
+        "Breakfast. Free day by the Red Sea. Lunch and dinner at hotel. Overnight at hotel.",
+        "Breakfast. Free day by the Red Sea. Lunch and dinner at hotel. Overnight at hotel.",
+        "Breakfast. Free day by the Red Sea. Lunch and dinner at hotel. Overnight at hotel.",
+        "Breakfast. Free day by the Red Sea. Lunch and dinner at hotel. Overnight at hotel.",
+        "Breakfast. Free day by the Red Sea. Lunch and dinner at hotel. Overnight at hotel.",
+        "Breakfast. Transfer to Hurghada Airport for final departure."
+      ],
+      included: [
+        "7 nights aboard Nile Cruise MS Magic or similar (5 stars) Luxor/Luxor full board",
+        "7 nights Hurghada Jasmine Palace or similar (5 stars) All Inclusive",
+        "All cruise itinerary visits with private French-speaking guide, air-conditioned car and entrance tickets",
+        "Abu Simbel visit with private guide and tickets",
+        "Transfer Luxor/Hurghada private car",
+        "All transfers private air-conditioned car",
+        "Airport assistance Luxor",
+        "All taxes",
+        "All services private"
+      ],
+      excluded: [
+        "International flights",
+        "Egypt visa (on arrival)",
+        "Tips",
+        "Drinks",
+        "Personal expenses",
+        "Optional excursions"
+      ]
+    },
+    pkg11: {
+      overview_heading: "Seven Nights on the <span>Ancient Nile</span>",
+      overview_p1: "A pure Nile cruise experience: seven nights sailing between Luxor and Aswan aboard a five-star ship, visiting the Valley of the Kings, Edfu, Kom Ombo, Philae Temple and the colossal temples of Abu Simbel.",
+      overview_p2: "This 8-day private journey is ideal for travellers who want the essential temples of Upper Egypt without extending their trip — every visit is guided privately in French, with all transfers and entrance tickets included.",
+      cta_heading: "Ready to Sail the <em>Nile from Luxor?</em>",
+      day_titles: [
+        "Luxor — Arrival",
+        "Luxor / Esna / Edfu",
+        "Edfu / Kom Ombo / Aswan",
+        "Aswan",
+        "Aswan / Abu Simbel",
+        "Aswan / Kom Ombo / Edfu",
+        "Edfu / Esna / Luxor",
+        "Luxor — Final Departure"
+      ],
+      day_descs: [
+        "Arrival in Luxor, welcome at Luxor Airport. Transfer and check-in on Nile cruise ship. Dinner and overnight on board.",
+        "Breakfast on board. Visit the Theban Necropolis: Valley of the Kings and Hatshepsut Temple. Stop at Colossi of Memnon. Lunch on board. Sail to Esna lock then Edfu. Dinner and overnight on board.",
+        "Visit Temple of Horus at Edfu. Sail to Kom Ombo. Lunch on board. Visit illuminated Temple of Kom Ombo. Sail to Aswan. Dinner and overnight on board.",
+        "Breakfast. Boat ride to Philae Temple. Lunch on board. Felucca ride around Elephantine Island and Botanical Gardens. Dinner and overnight on board.",
+        "Early morning private van to Abu Simbel: visit temples of Ramesses II and Nefertari. Return to ship. Lunch on board. Free afternoon. Optional Sound and Light show. Dinner and overnight on board.",
+        "Breakfast. Free morning. Lunch on board. Navigation to Kom Ombo then Edfu. Dinner and overnight on board.",
+        "Breakfast on board. Navigate to Esna then Luxor. Lunch on board. Arrive Luxor afternoon. Visit Karnak Temple then Luxor Temple. Dinner and overnight on board.",
+        "Breakfast. Transfer to Luxor Airport for final departure."
+      ],
+      included: [
+        "7 nights Nile Cruise MS Magic or similar (5 stars) Luxor/Luxor full board",
+        "All visits with private French-speaking guide, air-conditioned car and entrance tickets",
+        "Abu Simbel visit with guide and tickets",
+        "All transfers private air-conditioned car",
+        "Airport assistance Luxor",
+        "All taxes",
+        "All services private"
+      ],
+      excluded: [
+        "International flights",
+        "Egypt visa",
+        "Tips",
+        "Drinks",
+        "Personal expenses",
+        "Optional excursions"
+      ]
+    },
+    pkg12: {
+      overview_heading: "Cairo Beyond the Pyramids: <span>Fayoum, Fossil Whales</span> & Alexandria",
+      overview_p1: "A unique tour that goes far beyond the Pyramids: the Saqqara Necropolis and the Grand Egyptian Museum in Cairo, a 4x4 jeep safari through the UNESCO-listed Valley of the Whales and Fayoum Oasis, then a day in Alexandria on the Mediterranean.",
+      overview_p2: "This 8-day private journey combines Cairo's great classics — the Citadel, Khan El Khalili, the Coptic Quarter — with rare experiences: sand, waterfalls and 40-million-year-old whale fossils, far from the crowds.",
+      cta_heading: "Ready for <em>Off-the-Beaten-Path Egypt?</em>",
+      day_titles: [
+        "Cairo — Arrival",
+        "Cairo — Saqqara & Giza Plateau",
+        "Cairo / Fayoum Oasis — Valley of the Whales",
+        "Cairo — Grand Egyptian Museum & Citadel",
+        "Cairo / Alexandria",
+        "Cairo — Coptic Quarter & Islamic Cairo",
+        "Cairo — Free Day",
+        "Cairo — Final Departure"
+      ],
+      day_descs: [
+        "Arrival in Cairo, welcome at Cairo Airport and transfer to hotel. Free dinner. Overnight at hotel.",
+        "After breakfast, 8:30am departure with private French-speaking guide to visit the Saqqara Necropolis: King Djoser's Step Pyramid, royal funerary texts, mastabas. Lunch included. Afternoon visit to the Giza Plateau: Pyramids, Valley Temple and Sphinx. Return to hotel around 5pm. Free dinner. Overnight at hotel.",
+        "After breakfast, 7am departure by private van to Fayoum Oasis (90km from Cairo). 4x4 jeep excursion to the UNESCO World Heritage Site of Wadi Hitan (Valley of the Whales), home to 40-million-year-old whale skeletons. Bedouin barbecue lunch. Visit Magic Lake, jeep safari and sandboarding. Discover Wadi El Rayan protected area with its waterfalls and Modawara Mountain. Return to Cairo around 8pm. Free dinner. Overnight at hotel.",
+        "After breakfast, 8:30am departure to visit the GEM — Grand Egyptian Museum: Tutankhamun's treasure, Solar Boat, Egyptian monument halls. Lunch included. Afternoon visit to the Mohamed Ali Mosque inside the Citadel of Saladin. Return to hotel around 5pm. Free dinner. Overnight at hotel.",
+        "Breakfast. 7:30am private car to Alexandria (arriving around 10am). Visit Fort Qaitbay and the Roman Theatre. Lunch included. Afternoon visit to the New Alexandria Library and famous Catacombs. Return to Cairo around 8pm. Free dinner. Overnight at hotel.",
+        "After breakfast, visit the Coptic Quarter: Hanging Church and Church of Saints Sergius. Lunch included. Afternoon visit to Sultan Hassan Mosque, Khan El Khalili covered souks, stroll along El Moez Street and visit the Kalawoun Complex. Return to hotel. Dinner. Overnight at hotel.",
+        "Breakfast. Free day in Cairo. Free dinner. Overnight at hotel.",
+        "Breakfast. Transfer to Cairo Airport for final departure."
+      ],
+      included: [
+        "7 nights Cairo Grand Pyramids Hotel (breakfast)",
+        "3 days Cairo sightseeing private French-speaking guide air-conditioned car entrance tickets lunches",
+        "1 day Alexandria private guide car tickets lunch",
+        "1 day Fayoum Oasis private guide 4x4 jeep tickets Bedouin barbecue lunch",
+        "Airport assistance Cairo",
+        "All taxes",
+        "All services private"
+      ],
+      excluded: [
+        "International flights",
+        "Egypt visa",
+        "Tips",
+        "Drinks",
+        "Personal expenses",
+        "Optional excursions"
       ]
     },
     faq_page: {
@@ -487,6 +635,155 @@
         "Excursions facultatives (Son et Lumière)"
       ]
     },
+    pkg10: {
+      overview_heading: "Croisière sur le Nil & <span>Évasion Mer Rouge</span>",
+      overview_p1: "Sept nuits à bord d'une croisière 5 étoiles sur le Nil entre Louxor et Assouan, avec la Vallée des Rois, Edfou, Kom Ombo et les temples colossaux d'Abou Simbel, suivies de sept nuits de détente en all-inclusive au bord de la Mer Rouge à Hurghada.",
+      overview_p2: "Ce voyage privé de 15 jours associe la richesse culturelle de l'Égypte ancienne à un repos total — votre guide francophone privé vous accompagne à chaque visite de temple, avant de vous laisser profiter d'une semaine entière de soleil, de mer et de confort all-inclusive.",
+      cta_heading: "Prêt pour le <em>Nil et la Mer Rouge ?</em>",
+      day_titles: [
+        "Louxor — Arrivée",
+        "Louxor / Esna / Edfou",
+        "Edfou / Kom Ombo / Assouan",
+        "Assouan",
+        "Assouan / Abou Simbel",
+        "Assouan / Kom Ombo / Edfou",
+        "Edfou / Esna / Louxor",
+        "Louxor / Hurghada — Mer Rouge",
+        "Hurghada — Mer Rouge",
+        "Hurghada — Mer Rouge",
+        "Hurghada — Mer Rouge",
+        "Hurghada — Mer Rouge",
+        "Hurghada — Mer Rouge",
+        "Hurghada — Mer Rouge",
+        "Hurghada / Départ Final"
+      ],
+      day_descs: [
+        "Arrivée à Louxor, accueil à l'aéroport de Louxor. Transfert et installation sur le bateau de croisière sur le Nil. Dîner et nuit à bord.",
+        "Petit-déjeuner à bord. Départ pour la visite des temples de la nécropole de Thèbes : la Vallée des Rois et le Temple à terrasses de Deir El Bahari, dédié à Hatchepsout. Arrêt devant les Colosses de Memnon. Retour au bateau. Déjeuner à bord. Navigation vers Esna pour le passage de l'écluse. Navigation vers Edfou. Dîner et nuit à bord.",
+        "Le matin, visite du Temple d'Horus à tête de faucon à Edfou. Navigation vers Kom Ombo. Déjeuner à bord. En fin d'après-midi, visite du Temple illuminé de Kom Ombo dédié aux dieux Haroeris et Sobek. Navigation vers Assouan. Dîner et nuit à bord.",
+        "Petit-déjeuner. Promenade en barque jusqu'au Temple de Philae, dédié à la déesse Isis. Retour au bateau. Déjeuner à bord. L'après-midi, promenade en felouque autour de l'île Éléphantine et visite des Jardins Botaniques. Dîner et nuit à bord.",
+        "Tôt le matin, départ en van privé pour la visite d'Abou Simbel : temples grandioses de Ramsès II et de son épouse Néfertari. Retour au bateau. Déjeuner à bord. Après-midi libre à Assouan. En soirée, spectacle Son et Lumière à Philae (facultatif). Dîner et nuit à bord.",
+        "Petit-déjeuner. Matinée libre. Déjeuner à bord. Navigation vers Kom Ombo puis vers Edfou. Dîner et nuit à bord.",
+        "Petit-déjeuner à bord. Navigation vers Esna pour le passage de l'écluse. Navigation vers Louxor. Déjeuner à bord. Arrivée à Louxor dans l'après-midi. Visite du Temple de Karnak puis du Temple de Louxor. Dîner et nuit à bord.",
+        "Après le petit-déjeuner, départ en voiture privée pour Hurghada (environ 4 heures de route). Arrivée et transfert à l'hôtel. Déjeuner et dîner à l'hôtel. Nuit à l'hôtel.",
+        "Petit-déjeuner. Journée libre au bord de la Mer Rouge. Déjeuner et dîner à l'hôtel. Nuit à l'hôtel.",
+        "Petit-déjeuner. Journée libre au bord de la Mer Rouge. Déjeuner et dîner à l'hôtel. Nuit à l'hôtel.",
+        "Petit-déjeuner. Journée libre au bord de la Mer Rouge. Déjeuner et dîner à l'hôtel. Nuit à l'hôtel.",
+        "Petit-déjeuner. Journée libre au bord de la Mer Rouge. Déjeuner et dîner à l'hôtel. Nuit à l'hôtel.",
+        "Petit-déjeuner. Journée libre au bord de la Mer Rouge. Déjeuner et dîner à l'hôtel. Nuit à l'hôtel.",
+        "Petit-déjeuner. Journée libre au bord de la Mer Rouge. Déjeuner et dîner à l'hôtel. Nuit à l'hôtel.",
+        "Petit-déjeuner. Selon l'horaire de vol, transfert à l'aéroport d'Hurghada pour le départ final."
+      ],
+      included: [
+        "7 nuits à bord de la Croisière sur le Nil MS Magic ou similaire (5 étoiles) Louxor/Louxor en pension complète",
+        "7 nuits à Hurghada à l'Hôtel Jasmine Palace ou similaire (5 étoiles) en All Inclusive",
+        "Toutes les visites selon l'itinéraire du bateau avec guide francophone privé, voiture privée climatisée et billets d'entrée inclus",
+        "Visite d'Abou Simbel avec guide francophone privé, voiture privée climatisée et billets d'entrée inclus",
+        "Transfert Louxor / Hurghada en voiture privée climatisée",
+        "Tous les transferts en voiture privée climatisée",
+        "Assistance à l'aéroport de Louxor et transfert à bord de la croisière, et retour à Hurghada",
+        "Transferts à Louxor et à Assouan en voiture privée",
+        "Services du guide francophone privé pour toutes les visites de la croisière",
+        "Toutes taxes incluses",
+        "Tous services privés, sans rejoindre d'autres clients"
+      ],
+      excluded: [
+        "Vol international",
+        "Visa d'entrée pour l'Égypte (émis sur place)",
+        "Pourboires",
+        "Boissons",
+        "Dépenses personnelles",
+        "Excursions facultatives (Son et Lumière, Abou Simbel)"
+      ]
+    },
+    pkg11: {
+      overview_heading: "Sept Nuits sur le <span>Nil Antique</span>",
+      overview_p1: "Une croisière sur le Nil dans sa forme la plus pure : sept nuits entre Louxor et Assouan à bord d'un bateau 5 étoiles, avec la Vallée des Rois, Edfou, Kom Ombo, le Temple de Philae et les temples colossaux d'Abou Simbel.",
+      overview_p2: "Ce voyage privé de 8 jours est idéal pour les voyageurs qui souhaitent vivre l'essentiel des temples de Haute-Égypte sans prolonger leur séjour — chaque visite est guidée en privé en français, tous les transferts et billets d'entrée sont inclus.",
+      cta_heading: "Prêt à Naviguer sur le <em>Nil depuis Louxor ?</em>",
+      day_titles: [
+        "Louxor — Arrivée",
+        "Louxor / Esna / Edfou",
+        "Edfou / Kom Ombo / Assouan",
+        "Assouan",
+        "Assouan / Abou Simbel",
+        "Assouan / Kom Ombo / Edfou",
+        "Edfou / Esna / Louxor",
+        "Louxor / Départ Final"
+      ],
+      day_descs: [
+        "Arrivée à Louxor, accueil à l'aéroport de Louxor. Transfert et installation sur le bateau de croisière sur le Nil. Dîner et nuit à bord.",
+        "Petit-déjeuner à bord. Visite des temples de la nécropole de Thèbes : Vallée des Rois et Temple d'Hatchepsout à Deir El Bahari. Arrêt aux Colosses de Memnon. Retour au bateau. Déjeuner à bord. Navigation vers Esna pour le passage de l'écluse. Navigation vers Edfou. Dîner et nuit à bord.",
+        "Visite du Temple d'Horus à tête de faucon à Edfou. Navigation vers Kom Ombo. Déjeuner à bord. Visite du Temple illuminé de Kom Ombo dédié aux dieux Haroeris et Sobek. Navigation vers Assouan. Dîner et nuit à bord.",
+        "Petit-déjeuner. Promenade en barque jusqu'au Temple de Philae. Déjeuner à bord. Promenade en felouque autour de l'île Éléphantine et visite des Jardins Botaniques. Dîner et nuit à bord.",
+        "Tôt le matin, départ en van privé pour Abou Simbel : visite des temples grandioses de Ramsès II et Néfertari. Retour au bateau. Déjeuner à bord. Après-midi libre. Spectacle Son et Lumière à Philae (facultatif). Dîner et nuit à bord.",
+        "Petit-déjeuner. Matinée libre. Déjeuner à bord. Navigation vers Kom Ombo puis vers Edfou. Dîner et nuit à bord.",
+        "Petit-déjeuner à bord. Navigation vers Esna puis vers Louxor. Déjeuner à bord. Arrivée à Louxor dans l'après-midi. Visite du Temple de Karnak puis du Temple de Louxor. Dîner et nuit à bord.",
+        "Petit-déjeuner. Selon l'horaire de vol, transfert à l'aéroport de Louxor pour le départ final."
+      ],
+      included: [
+        "7 nuits à bord de la Croisière sur le Nil MS Magic ou similaire (5 étoiles) Louxor/Louxor en pension complète",
+        "Toutes les visites selon l'itinéraire avec guide francophone privé, voiture privée climatisée et billets d'entrée inclus",
+        "Visite d'Abou Simbel avec guide francophone privé et billets d'entrée",
+        "Tous les transferts en voiture privée climatisée",
+        "Assistance à l'aéroport de Louxor et transfert à bord de la croisière",
+        "Transferts à Louxor et à Assouan en voiture privée",
+        "Services du guide francophone privé pour toutes les visites",
+        "Toutes taxes incluses",
+        "Tous services privés"
+      ],
+      excluded: [
+        "Vol international",
+        "Visa d'entrée (émis sur place)",
+        "Pourboires",
+        "Boissons",
+        "Dépenses personnelles",
+        "Excursions facultatives (Son et Lumière, Abou Simbel)"
+      ]
+    },
+    pkg12: {
+      overview_heading: "Le Caire Autrement : <span>Fayoum, Baleines Fossiles</span> et Alexandrie",
+      overview_p1: "Un circuit unique qui va bien au-delà des Pyramides : la nécropole de Sakkarah et le Grand Musée Égyptien au Caire, un safari en jeep 4x4 dans la Vallée des Baleines classée à l'UNESCO et l'Oasis du Fayoum, puis une journée à Alexandrie sur la Méditerranée.",
+      overview_p2: "Ce voyage privé de 8 jours combine les grands classiques du Caire — Citadelle, Khan El Khalili, Quartier Copte — avec des expériences rares : sable, cascades et fossiles de baleines vieux de 40 millions d'années, loin des foules.",
+      cta_heading: "Prêt pour l'Égypte <em>Hors des Sentiers Battus ?</em>",
+      day_titles: [
+        "Le Caire — Arrivée",
+        "Le Caire — Sakkarah & Plateau de Gizeh",
+        "Le Caire / Oasis du Fayoum — Vallée des Baleines",
+        "Le Caire — Grand Musée Égyptien & Citadelle",
+        "Le Caire / Alexandrie",
+        "Le Caire — Quartier Copte & Caire Islamique",
+        "Le Caire — Journée Libre",
+        "Le Caire — Départ Final"
+      ],
+      day_descs: [
+        "Arrivée au Caire, accueil à l'aéroport du Caire et transfert à l'hôtel. Dîner libre. Nuit à l'hôtel.",
+        "Après le petit-déjeuner, départ à 08h30 avec le guide francophone pour la visite de la nécropole de Sakkarah : la célèbre pyramide à degrés du roi Djoser, les textes des pyramides funéraires royaux, les mastabas. Déjeuner inclus. L'après-midi, visite du Plateau de Gizeh : les Pyramides, Temple de la Vallée et le Sphinx. Retour à l'hôtel vers 17h. Dîner libre. Nuit à l'hôtel.",
+        "Après le petit-déjeuner, départ à 07h00 en van privé pour l'Oasis du Fayoum (90 km du Caire). Départ en jeep 4x4 pour la visite de la zone protégée de Wadi Hittan (Vallée des Baleines), classée au patrimoine mondial de l'UNESCO, abritant des squelettes de baleines vieux de 40 millions d'années. Déjeuner barbecue dans un village bédouin. Puis visite du Magic Lake, safari en jeep et sand-board. Découverte de Wadi El Rayan, zone protégée depuis 1989, avec ses cascades et la Montagne Modawara. Retour au Caire vers 20h. Dîner libre. Nuit à l'hôtel.",
+        "Après le petit-déjeuner, départ à 08h30 pour la visite du GEM — Grand Musée Égyptien des Antiquités : trésor de Toutankhamon, Barque Solaire et salles des monuments égyptiens. Déjeuner inclus. L'après-midi, visite de la Mosquée de Mohamed Ali dans l'enceinte de la Citadelle de Saladin. Retour à l'hôtel vers 17h. Dîner libre. Nuit à l'hôtel.",
+        "Petit-déjeuner. Départ à 07h30 en voiture privée pour Alexandrie (arrivée vers 10h). Visite du Fort Qaytbay et du Théâtre Romain. Déjeuner inclus. L'après-midi, visite de la Nouvelle Bibliothèque d'Alexandrie et des célèbres catacombes. Retour au Caire vers 20h. Dîner libre. Nuit à l'hôtel.",
+        "Après le petit-déjeuner, visite du Quartier Copte : Église Suspendue et Église des Saints Serge. Déjeuner inclus. L'après-midi, visite de la Mosquée Sultan Hassan, découverte des souks couverts de Khan El Khalili, balade dans la rue El Moez et visite du Complexe de Kalaoûn. Retour à l'hôtel. Dîner. Nuit à l'hôtel.",
+        "Petit-déjeuner. Journée libre au Caire. Dîner libre. Nuit à l'hôtel.",
+        "Petit-déjeuner. Selon l'horaire de vol, transfert à l'aéroport du Caire pour le départ final."
+      ],
+      included: [
+        "7 nuits au Caire à l'Hôtel Grand Pyramids Hotel au quartier des Pyramides avec petit-déjeuner",
+        "3 jours de visites au Caire selon l'itinéraire avec guide francophone privé, voiture climatisée, billets d'entrée et déjeuners inclus",
+        "1 jour de visite à Alexandrie avec guide francophone privé, voiture climatisée, billets d'entrée et déjeuner inclus",
+        "1 jour de visite à l'Oasis du Fayoum avec guide francophone privé, jeep 4x4, billets d'entrée et déjeuner barbecue bédouin inclus",
+        "Assistance à l'aéroport du Caire et transfert à l'hôtel",
+        "Toutes taxes incluses",
+        "Tous services privés"
+      ],
+      excluded: [
+        "Vol international",
+        "Visa d'entrée (émis sur place)",
+        "Pourboires",
+        "Boissons",
+        "Dépenses personnelles",
+        "Excursions facultatives"
+      ]
+    },
     faq_page: {
       hero_title: "Questions <em>Fréquentes</em>",
       label: "Tout Savoir",
@@ -778,6 +1075,150 @@
       excluded: [
         "Internationaler Flug",
         "Einreisevisum Ägypten",
+        "Trinkgelder",
+        "Getränke",
+        "Persönliche Ausgaben",
+        "Optionale Ausflüge"
+      ]
+    },
+    pkg10: {
+      overview_heading: "Nilkreuzfahrt & <span>Rotes Meer</span> Auszeit",
+      overview_p1: "Sieben Nächte an Bord einer 5-Sterne-Nilkreuzfahrt von Luxor nach Assuan und zurück, mit Besuchen im Tal der Könige, in Edfu, Kom Ombo und den kolossalen Tempeln von Abu Simbel, gefolgt von sieben Nächten All-Inclusive-Entspannung am Roten Meer in Hurghada.",
+      overview_p2: "Diese 15-tägige private Reise verbindet antike Wunder mit purer Entspannung — Ihr privater französischsprachiger Guide begleitet jeden Tempelbesuch, bevor Sie eine volle Woche Sonne, Meer und All-Inclusive-Komfort genießen.",
+      cta_heading: "Bereit für <em>Nil & Rotes Meer?</em>",
+      day_titles: [
+        "Luxor — Ankunft",
+        "Luxor / Esna / Edfu",
+        "Edfu / Kom Ombo / Assuan",
+        "Assuan",
+        "Assuan / Abu Simbel",
+        "Assuan / Kom Ombo / Edfu",
+        "Edfu / Esna / Luxor",
+        "Luxor / Hurghada — Rotes Meer",
+        "Hurghada — Rotes Meer",
+        "Hurghada — Rotes Meer",
+        "Hurghada — Rotes Meer",
+        "Hurghada — Rotes Meer",
+        "Hurghada — Rotes Meer",
+        "Hurghada — Rotes Meer",
+        "Hurghada / Abreise"
+      ],
+      day_descs: [
+        "Ankunft in Luxor, Empfang am Flughafen. Transfer und Einschiffung auf das Nilkreuzfahrtschiff. Abendessen und Übernachtung an Bord.",
+        "Frühstück an Bord. Besichtigung der thebanischen Nekropole: Tal der Könige und Hatschepsut-Tempel. Stopp bei den Memnonkolossen. Mittagessen an Bord. Fahrt zur Esna-Schleuse. Navigation nach Edfu. Abendessen und Übernachtung an Bord.",
+        "Morgens Besichtigung des Horus-Tempels in Edfu. Fahrt nach Kom Ombo. Mittagessen an Bord. Nachmittags Besichtigung des beleuchteten Tempels von Kom Ombo. Fahrt nach Assuan. Abendessen und Übernachtung an Bord.",
+        "Frühstück. Bootsfahrt zum Philae-Tempel. Mittagessen an Bord. Nachmittags Felukenfahrt um Elefanten-Insel und Botanischer Garten. Abendessen und Übernachtung an Bord.",
+        "Früh morgens Abfahrt im privaten Van nach Abu Simbel: Besichtigung der Tempel von Ramses II und Nefertari. Rückkehr zum Schiff. Mittagessen. Freier Nachmittag. Optional Ton-und-Licht-Show. Abendessen und Übernachtung an Bord.",
+        "Frühstück. Freier Vormittag. Mittagessen. Navigation nach Kom Ombo und Edfu. Abendessen und Übernachtung an Bord.",
+        "Frühstück. Navigation nach Esna. Weiter nach Luxor. Mittagessen. Ankunft Luxor nachmittags. Karnak-Tempel und Luxor-Tempel. Abendessen und Übernachtung an Bord.",
+        "Nach dem Frühstück privates Auto nach Hurghada (ca. 4 Std.). Ankunft und Transfer zum Hotel. Mittag- und Abendessen im Hotel. Übernachtung.",
+        "Frühstück. Freier Tag am Roten Meer. Mittag- und Abendessen im Hotel. Übernachtung.",
+        "Frühstück. Freier Tag am Roten Meer. Mittag- und Abendessen im Hotel. Übernachtung.",
+        "Frühstück. Freier Tag am Roten Meer. Mittag- und Abendessen im Hotel. Übernachtung.",
+        "Frühstück. Freier Tag am Roten Meer. Mittag- und Abendessen im Hotel. Übernachtung.",
+        "Frühstück. Freier Tag am Roten Meer. Mittag- und Abendessen im Hotel. Übernachtung.",
+        "Frühstück. Freier Tag am Roten Meer. Mittag- und Abendessen im Hotel. Übernachtung.",
+        "Frühstück. Transfer zum Flughafen Hurghada. Abreise."
+      ],
+      included: [
+        "7 Nächte Nilkreuzfahrt MS Magic oder ähnlich (5 Sterne) Vollpension",
+        "7 Nächte Hurghada Jasmine Palace oder ähnlich (5 Sterne) All-Inclusive",
+        "Alle Ausflüge laut Programm mit privatem französischsprachigem Reiseführer, klimatisiertem Auto und Eintrittsgeldern",
+        "Abu Simbel Besichtigung mit Guide und Tickets",
+        "Transfer Luxor/Hurghada Privatauto",
+        "Alle Transfers klimatisiert",
+        "Flughafenbetreuung Luxor",
+        "Alle Steuern",
+        "Alle Leistungen privat"
+      ],
+      excluded: [
+        "Internationaler Flug",
+        "Einreisevisum",
+        "Trinkgelder",
+        "Getränke",
+        "Persönliche Ausgaben",
+        "Optionale Ausflüge"
+      ]
+    },
+    pkg11: {
+      overview_heading: "Sieben Nächte auf dem <span>Alten Nil</span>",
+      overview_p1: "Eine reine Nilkreuzfahrt-Erfahrung: sieben Nächte zwischen Luxor und Assuan an Bord eines 5-Sterne-Schiffs, mit Besuchen im Tal der Könige, in Edfu, Kom Ombo, am Philae-Tempel und den kolossalen Tempeln von Abu Simbel.",
+      overview_p2: "Diese 8-tägige private Reise eignet sich ideal für Reisende, die die wichtigsten Tempel Oberägyptens erleben möchten, ohne die Reise zu verlängern — jeder Besuch wird privat auf Französisch geführt, alle Transfers und Eintrittsgelder sind inklusive.",
+      cta_heading: "Bereit für die <em>Nilkreuzfahrt ab Luxor?</em>",
+      day_titles: [
+        "Luxor — Ankunft",
+        "Luxor / Esna / Edfu",
+        "Edfu / Kom Ombo / Assuan",
+        "Assuan",
+        "Assuan / Abu Simbel",
+        "Assuan / Kom Ombo / Edfu",
+        "Edfu / Esna / Luxor",
+        "Luxor / Abreise"
+      ],
+      day_descs: [
+        "Ankunft in Luxor, Empfang am Flughafen. Transfer und Einschiffung. Abendessen und Übernachtung an Bord.",
+        "Frühstück. Besichtigung der thebanischen Nekropole: Tal der Könige und Hatschepsut-Tempel. Memnonkolosse. Mittagessen an Bord. Fahrt nach Esna und Edfu. Abendessen und Übernachtung an Bord.",
+        "Horus-Tempel Edfu. Fahrt nach Kom Ombo. Mittagessen. Kom Ombo Tempel. Fahrt nach Assuan. Abendessen und Übernachtung an Bord.",
+        "Frühstück. Bootsfahrt zum Philae-Tempel. Mittagessen. Felukenfahrt um Elefanten-Insel. Abendessen und Übernachtung an Bord.",
+        "Früh morgens Abu Simbel. Mittagessen. Freier Nachmittag. Optional Ton-und-Licht-Show. Abendessen und Übernachtung an Bord.",
+        "Frühstück. Freier Vormittag. Navigation nach Kom Ombo und Edfu. Abendessen und Übernachtung an Bord.",
+        "Frühstück. Navigation nach Luxor. Karnak-Tempel und Luxor-Tempel. Abendessen und Übernachtung an Bord.",
+        "Frühstück. Transfer Flughafen Luxor. Abreise."
+      ],
+      included: [
+        "7 Nächte Nilkreuzfahrt MS Magic (5 Sterne) Vollpension",
+        "Alle Ausflüge mit Guide und Tickets",
+        "Abu Simbel",
+        "Alle Transfers",
+        "Alle Steuern",
+        "Alle Leistungen privat"
+      ],
+      excluded: [
+        "Flug",
+        "Visum",
+        "Trinkgelder",
+        "Getränke",
+        "Persönliche Ausgaben",
+        "Optionale Ausflüge"
+      ]
+    },
+    pkg12: {
+      overview_heading: "Kairo Abseits der Pyramiden: <span>Fayum, Fossile Wale</span> & Alexandria",
+      overview_p1: "Eine einzigartige Tour, die weit über die Pyramiden hinausgeht: die Nekropole von Sakkara und das Ägyptische Museum in Kairo, eine Jeep-4x4-Safari durch das UNESCO-gelistete Tal der Wale und die Fayum-Oase, dann ein Tag in Alexandria am Mittelmeer.",
+      overview_p2: "Diese 8-tägige private Reise verbindet die großen Klassiker Kairos — Zitadelle, Khan El Khalili, koptisches Viertel — mit seltenen Erlebnissen: Sand, Wasserfälle und 40 Millionen Jahre alte Walfossilien, fernab der Menschenmassen.",
+      cta_heading: "Bereit für <em>Ägypten abseits der Touristenpfade?</em>",
+      day_titles: [
+        "Kairo — Ankunft",
+        "Kairo — Sakkara & Gizeh-Plateau",
+        "Kairo / Fayum-Oase — Tal der Wale",
+        "Kairo — Ägyptisches Museum & Zitadelle",
+        "Kairo / Alexandria",
+        "Kairo — Koptisches Viertel & Islamisches Kairo",
+        "Kairo — Freier Tag",
+        "Kairo — Abreise"
+      ],
+      day_descs: [
+        "Ankunft, Empfang Flughafen Kairo, Transfer Hotel. Abendessen frei. Übernachtung.",
+        "Frühstück. 8:30 Uhr Abfahrt mit privatem Guide zur Nekropole von Sakkara: Stufenpyramide Djoser, Grabpyramidentexte, Mastabas. Mittagessen inkl. Nachmittags Gizeh-Plateau: Pyramiden, Taltempel, Sphinx. Rückkehr 17 Uhr. Abendessen frei. Übernachtung.",
+        "Frühstück. 7 Uhr Abfahrt im privaten Van zur Fayum-Oase (90 km). Jeep-4x4 Ausflug zum UNESCO-Welterbe Wadi Hitan (Tal der Wale) mit 40 Millionen Jahre alten Walskeletten. Beduinen-Grillmittagessen. Magic Lake, Jeep-Safari und Sandboarding. Wadi El Rayan mit Wasserfällen und Modawara-Berg. Rückkehr nach Kairo 20 Uhr. Abendessen frei. Übernachtung.",
+        "Frühstück. GEM-Besuch: Tutanchamun-Schatz, Sonnenbarke. Mittagessen inkl. Mohamed-Ali-Moschee und Zitadelle. Rückkehr 17 Uhr. Abendessen frei. Übernachtung.",
+        "Frühstück. 7:30 Uhr Abfahrt nach Alexandria. Fort Qaitbay und Römisches Theater. Mittagessen inkl. Neue Bibliothek Alexandria und Katakomben. Rückkehr 20 Uhr. Abendessen frei. Übernachtung.",
+        "Frühstück. Koptisches Viertel: Hängende Kirche und Kirche der Heiligen Sergius. Mittagessen inkl. Sultan-Hassan-Moschee, Khan El Khalili, El-Moez-Straße und Kalawoun-Komplex. Abendessen. Übernachtung.",
+        "Frühstück. Freier Tag. Abendessen frei. Übernachtung.",
+        "Frühstück. Transfer Flughafen Kairo. Abreise."
+      ],
+      included: [
+        "7 Nächte Kairo Grand Pyramids Hotel (Frühstück)",
+        "3 Tage Kairo mit Guide Eintrittsgeldern Mittagessen",
+        "1 Tag Alexandria Guide Tickets Mittagessen",
+        "1 Tag Fayum-Oase Guide Jeep Tickets Beduinen-Grill",
+        "Flughafenbetreuung Kairo",
+        "Alle Steuern",
+        "Alle Leistungen privat"
+      ],
+      excluded: [
+        "Flug",
+        "Visum",
         "Trinkgelder",
         "Getränke",
         "Persönliche Ausgaben",
@@ -1081,6 +1522,150 @@
         "Excursiones opcionales"
       ]
     },
+    pkg10: {
+      overview_heading: "Crucero por el Nilo y <span>Escapada al Mar Rojo</span>",
+      overview_p1: "Siete noches a bordo de un crucero de cinco estrellas por el Nilo, navegando de Luxor a Asuán y de vuelta, visitando el Valle de los Reyes, Edfu, Kom Ombo y los colosales templos de Abu Simbel, seguidas de siete noches de relax todo incluido en las orillas del Mar Rojo en Hurghada.",
+      overview_p2: "Este viaje privado de 15 días combina maravillas antiguas con relax total — su guía privado francófono le acompaña en cada visita a los templos, para después dejarle disfrutar de una semana entera de sol, mar y confort todo incluido.",
+      cta_heading: "¿Listo para el <em>Nilo y el Mar Rojo?</em>",
+      day_titles: [
+        "Luxor — Llegada",
+        "Luxor / Esna / Edfu",
+        "Edfu / Kom Ombo / Asuán",
+        "Asuán",
+        "Asuán / Abu Simbel",
+        "Asuán / Kom Ombo / Edfu",
+        "Edfu / Esna / Luxor",
+        "Luxor / Hurghada — Mar Rojo",
+        "Hurghada — Mar Rojo",
+        "Hurghada — Mar Rojo",
+        "Hurghada — Mar Rojo",
+        "Hurghada — Mar Rojo",
+        "Hurghada — Mar Rojo",
+        "Hurghada — Mar Rojo",
+        "Hurghada / Salida Final"
+      ],
+      day_descs: [
+        "Llegada a Luxor, recepción en el aeropuerto. Traslado e instalación en el barco de crucero por el Nilo. Cena y noche a bordo.",
+        "Desayuno a bordo. Visita a la necrópolis tebana: Valle de los Reyes y Templo de Hatshepsut. Parada en los Colosos de Memnón. Almuerzo a bordo. Navegación hacia Esna. Navegación hacia Edfu. Cena y noche a bordo.",
+        "Mañana visita al Templo de Horus en Edfu. Navegación hacia Kom Ombo. Almuerzo a bordo. Tarde visita al iluminado Templo de Kom Ombo. Navegación hacia Asuán. Cena y noche a bordo.",
+        "Desayuno. Paseo en barca hasta el Templo de Philae. Almuerzo a bordo. Tarde paseo en feluca por la isla Elefantina y Jardín Botánico. Cena y noche a bordo.",
+        "Muy temprano salida en van privada a Abu Simbel: visita a los templos de Ramsés II y Nefertari. Regreso al barco. Almuerzo. Tarde libre. Espectáculo Luz y Sonido opcional. Cena y noche a bordo.",
+        "Desayuno. Mañana libre. Almuerzo. Navegación hacia Kom Ombo y Edfu. Cena y noche a bordo.",
+        "Desayuno. Navegación hacia Esna. Continuar hacia Luxor. Almuerzo. Llegada a Luxor por la tarde. Visita al Templo de Karnak y Templo de Luxor. Cena y noche a bordo.",
+        "Después del desayuno, coche privado a Hurghada (aprox 4 horas). Llegada y traslado al hotel. Almuerzo y cena en el hotel. Noche en el hotel.",
+        "Desayuno. Día libre junto al Mar Rojo. Almuerzo y cena en el hotel. Noche en el hotel.",
+        "Desayuno. Día libre junto al Mar Rojo. Almuerzo y cena en el hotel. Noche en el hotel.",
+        "Desayuno. Día libre junto al Mar Rojo. Almuerzo y cena en el hotel. Noche en el hotel.",
+        "Desayuno. Día libre junto al Mar Rojo. Almuerzo y cena en el hotel. Noche en el hotel.",
+        "Desayuno. Día libre junto al Mar Rojo. Almuerzo y cena en el hotel. Noche en el hotel.",
+        "Desayuno. Día libre junto al Mar Rojo. Almuerzo y cena en el hotel. Noche en el hotel.",
+        "Desayuno. Traslado al aeropuerto de Hurghada. Salida final."
+      ],
+      included: [
+        "7 noches crucero Nilo MS Magic o similar (5 estrellas) pensión completa",
+        "7 noches Hurghada Jasmine Palace o similar (5 estrellas) todo incluido",
+        "Todas las visitas según itinerario con guía privado francófono, coche climatizado y entradas",
+        "Visita Abu Simbel con guía y entradas",
+        "Traslado Luxor/Hurghada coche privado",
+        "Todos traslados climatizados",
+        "Asistencia aeropuerto Luxor",
+        "Todos impuestos",
+        "Todos servicios privados"
+      ],
+      excluded: [
+        "Vuelo internacional",
+        "Visado entrada Egipto",
+        "Propinas",
+        "Bebidas",
+        "Gastos personales",
+        "Excursiones opcionales"
+      ]
+    },
+    pkg11: {
+      overview_heading: "Siete Noches en el <span>Nilo Antiguo</span>",
+      overview_p1: "Una experiencia pura de crucero por el Nilo: siete noches navegando entre Luxor y Asuán a bordo de un barco de cinco estrellas, visitando el Valle de los Reyes, Edfu, Kom Ombo, el Templo de Philae y los colosales templos de Abu Simbel.",
+      overview_p2: "Este viaje privado de 8 días es ideal para quienes desean vivir los templos esenciales del Alto Egipto sin prolongar su viaje — cada visita cuenta con guía privado en francés, con todos los traslados y entradas incluidos.",
+      cta_heading: "¿Listo para navegar el <em>Nilo desde Luxor?</em>",
+      day_titles: [
+        "Luxor — Llegada",
+        "Luxor / Esna / Edfu",
+        "Edfu / Kom Ombo / Asuán",
+        "Asuán",
+        "Asuán / Abu Simbel",
+        "Asuán / Kom Ombo / Edfu",
+        "Edfu / Esna / Luxor",
+        "Luxor / Salida"
+      ],
+      day_descs: [
+        "Llegada, recepción aeropuerto. Traslado e instalación en el crucero. Cena y noche a bordo.",
+        "Desayuno. Necrópolis tebana: Valle de los Reyes y Templo Hatshepsut. Colosos de Memnón. Almuerzo. Navegación Esna y Edfu. Cena y noche a bordo.",
+        "Templo de Horus Edfu. Almuerzo. Templo Kom Ombo. Navegación Asuán. Cena y noche a bordo.",
+        "Desayuno. Templo Philae. Almuerzo. Isla Elefantina. Cena y noche a bordo.",
+        "Templos Ramsés II y Nefertari. Almuerzo. Tarde libre. Cena y noche a bordo.",
+        "Desayuno. Mañana libre. Navegación Kom Ombo y Edfu. Cena y noche a bordo.",
+        "Desayuno. Navegación Luxor. Karnak y Templo de Luxor. Cena y noche a bordo.",
+        "Desayuno. Aeropuerto Luxor. Salida final."
+      ],
+      included: [
+        "7 noches crucero Nilo MS Magic (5 estrellas) pensión completa",
+        "Todas las visitas con guía francófono y entradas",
+        "Abu Simbel",
+        "Todos traslados",
+        "Todos impuestos",
+        "Todos servicios privados"
+      ],
+      excluded: [
+        "Vuelo",
+        "Visado",
+        "Propinas",
+        "Bebidas",
+        "Gastos personales",
+        "Excursiones opcionales"
+      ]
+    },
+    pkg12: {
+      overview_heading: "El Cairo Más Allá de las Pirámides: <span>Fayum, Ballenas Fósiles</span> y Alejandría",
+      overview_p1: "Un tour único que va mucho más allá de las Pirámides: la necrópolis de Saqqara y el Gran Museo Egipcio en El Cairo, un safari en jeep 4x4 por el Valle de las Ballenas declarado Patrimonio UNESCO y el Oasis de Fayum, después un día en Alejandría junto al Mediterráneo.",
+      overview_p2: "Este viaje privado de 8 días combina los grandes clásicos de El Cairo — la Ciudadela, Khan El Khalili, el Barrio Copto — con experiencias poco comunes: arena, cascadas y fósiles de ballenas de 40 millones de años, lejos de las multitudes.",
+      cta_heading: "¿Listo para el <em>Egipto Fuera de lo Común?</em>",
+      day_titles: [
+        "El Cairo — Llegada",
+        "El Cairo — Saqqara y Meseta de Guiza",
+        "El Cairo / Oasis de Fayum — Valle de las Ballenas",
+        "El Cairo — Gran Museo Egipcio y Ciudadela",
+        "El Cairo / Alejandría",
+        "El Cairo — Barrio Copto y El Cairo Islámico",
+        "El Cairo — Día Libre",
+        "El Cairo — Salida Final"
+      ],
+      day_descs: [
+        "Llegada, recepción aeropuerto El Cairo, traslado hotel. Cena libre. Noche hotel.",
+        "Desayuno. 8:30h salida con guía privado a la necrópolis de Saqqara: pirámide escalonada Djoser, textos pirámides, mastabas. Almuerzo incl. Tarde Meseta de Guiza: Pirámides, Templo del Valle, Esfinge. Regreso 17h. Cena libre. Noche hotel.",
+        "Desayuno. 7h salida en van privada al Oasis de Fayum (90 km). Excursión en jeep 4x4 al Patrimonio Mundial UNESCO Wadi Hitan (Valle de las Ballenas) con esqueletos de ballenas de 40 millones de años. Almuerzo barbacoa beduino. Magic Lake, safari en jeep y sandboard. Wadi El Rayan con cascadas y Monte Modawara. Regreso El Cairo 20h. Cena libre. Noche hotel.",
+        "Desayuno. Visita GEM: tesoro Tutankamón, Barca Solar. Almuerzo incl. Mezquita Mohamed Alí y Ciudadela. Regreso 17h. Cena libre. Noche hotel.",
+        "Desayuno. 7:30h coche privado Alejandría. Fort Qaitbay y Teatro Romano. Almuerzo incl. Nueva Biblioteca Alejandría y Catacumbas. Regreso 20h. Cena libre. Noche hotel.",
+        "Desayuno. Barrio Copto: Iglesia Colgante y Santos Sergio. Almuerzo incl. Mezquita Sultan Hassan, Khan El Khalili, calle El Moez y Complejo Kalawoun. Cena. Noche hotel.",
+        "Desayuno. Día libre. Cena libre. Noche hotel.",
+        "Desayuno. Aeropuerto El Cairo. Salida final."
+      ],
+      included: [
+        "7 noches El Cairo Grand Pyramids Hotel (desayuno)",
+        "3 días El Cairo guía privado entradas almuerzos",
+        "1 día Alejandría guía tickets almuerzo",
+        "1 día Oasis Fayum guía jeep tickets almuerzo barbacoa beduino",
+        "Asistencia aeropuerto El Cairo",
+        "Todos impuestos",
+        "Todos servicios privados"
+      ],
+      excluded: [
+        "Vuelo",
+        "Visado",
+        "Propinas",
+        "Bebidas",
+        "Gastos personales",
+        "Excursiones opcionales"
+      ]
+    },
     faq_page: {
       hero_title: "Preguntas <em>Frecuentes</em>",
       label: "Todo lo que Debe Saber",
@@ -1372,6 +1957,150 @@
       excluded: [
         "Volo internazionale",
         "Visto ingresso Egitto",
+        "Mance",
+        "Bevande",
+        "Spese personali",
+        "Escursioni facoltative"
+      ]
+    },
+    pkg10: {
+      overview_heading: "Crociera sul Nilo e <span>Fuga al Mar Rosso</span>",
+      overview_p1: "Sette notti a bordo di una crociera cinque stelle sul Nilo, navigando da Luxor ad Assuan e ritorno, visitando la Valle dei Re, Edfu, Kom Ombo e i colossali templi di Abu Simbel, seguite da sette notti di relax all inclusive sulle rive del Mar Rosso a Hurghada.",
+      overview_p2: "Questo viaggio privato di 15 giorni unisce meraviglie antiche a puro relax — la vostra guida privata francofona vi accompagna in ogni visita ai templi, per poi lasciarvi godere una settimana intera di sole, mare e comfort all inclusive.",
+      cta_heading: "Pronti per <em>Nilo e Mar Rosso?</em>",
+      day_titles: [
+        "Luxor — Arrivo",
+        "Luxor / Esna / Edfu",
+        "Edfu / Kom Ombo / Assuan",
+        "Assuan",
+        "Assuan / Abu Simbel",
+        "Assuan / Kom Ombo / Edfu",
+        "Edfu / Esna / Luxor",
+        "Luxor / Hurghada — Mar Rosso",
+        "Hurghada — Mar Rosso",
+        "Hurghada — Mar Rosso",
+        "Hurghada — Mar Rosso",
+        "Hurghada — Mar Rosso",
+        "Hurghada — Mar Rosso",
+        "Hurghada — Mar Rosso",
+        "Hurghada / Partenza Finale"
+      ],
+      day_descs: [
+        "Arrivo a Luxor, accoglienza all'aeroporto. Trasferimento e sistemazione sulla nave da crociera sul Nilo. Cena e pernottamento a bordo.",
+        "Colazione a bordo. Visita alla necropoli tebana: Valle dei Re e Tempio di Hatshepsut. Sosta ai Colossi di Memnone. Pranzo a bordo. Navigazione verso Esna. Navigazione verso Edfu. Cena e pernottamento a bordo.",
+        "Mattina visita al Tempio di Horus a Edfu. Navigazione verso Kom Ombo. Pranzo a bordo. Pomeriggio visita al illuminato Tempio di Kom Ombo. Navigazione verso Assuan. Cena e pernottamento a bordo.",
+        "Colazione. Gita in barca al Tempio di Philae. Pranzo a bordo. Pomeriggio giro in feluca intorno all'isola Elefantina e Giardino Botanico. Cena e pernottamento a bordo.",
+        "Presto mattina partenza in van privato per Abu Simbel: visita ai templi di Ramses II e Nefertari. Ritorno alla nave. Pranzo. Pomeriggio libero. Spettacolo Suoni e Luci opzionale. Cena e pernottamento a bordo.",
+        "Colazione. Mattinata libera. Pranzo. Navigazione verso Kom Ombo e Edfu. Cena e pernottamento a bordo.",
+        "Colazione. Navigazione verso Esna. Continua verso Luxor. Pranzo. Arrivo a Luxor nel pomeriggio. Visita al Tempio di Karnak e Tempio di Luxor. Cena e pernottamento a bordo.",
+        "Dopo colazione, auto privata verso Hurghada (circa 4 ore). Arrivo e trasferimento in hotel. Pranzo e cena in hotel. Pernottamento.",
+        "Colazione. Giornata libera sul Mar Rosso. Pranzo e cena in hotel. Pernottamento.",
+        "Colazione. Giornata libera sul Mar Rosso. Pranzo e cena in hotel. Pernottamento.",
+        "Colazione. Giornata libera sul Mar Rosso. Pranzo e cena in hotel. Pernottamento.",
+        "Colazione. Giornata libera sul Mar Rosso. Pranzo e cena in hotel. Pernottamento.",
+        "Colazione. Giornata libera sul Mar Rosso. Pranzo e cena in hotel. Pernottamento.",
+        "Colazione. Giornata libera sul Mar Rosso. Pranzo e cena in hotel. Pernottamento.",
+        "Colazione. Trasferimento all'aeroporto di Hurghada. Partenza finale."
+      ],
+      included: [
+        "7 notti crociera Nilo MS Magic o simile (5 stelle) pensione completa",
+        "7 notti Hurghada Jasmine Palace o simile (5 stelle) all inclusive",
+        "Tutte le visite secondo itinerario con guida privata francofona, auto climatizzata e biglietti d'ingresso",
+        "Visita Abu Simbel con guida e biglietti",
+        "Trasferimento Luxor/Hurghada auto privata",
+        "Tutti i trasferimenti climatizzati",
+        "Assistenza aeroporto Luxor",
+        "Tutte le tasse",
+        "Tutti i servizi privati"
+      ],
+      excluded: [
+        "Volo internazionale",
+        "Visto ingresso Egitto",
+        "Mance",
+        "Bevande",
+        "Spese personali",
+        "Escursioni facoltative"
+      ]
+    },
+    pkg11: {
+      overview_heading: "Sette Notti sul <span>Nilo Antico</span>",
+      overview_p1: "Un'esperienza pura di crociera sul Nilo: sette notti navigando tra Luxor e Assuan a bordo di una nave a cinque stelle, visitando la Valle dei Re, Edfu, Kom Ombo, il Tempio di Philae e i colossali templi di Abu Simbel.",
+      overview_p2: "Questo viaggio privato di 8 giorni è ideale per chi desidera vivere i templi essenziali dell'Alto Egitto senza prolungare il viaggio — ogni visita è guidata privatamente in francese, con tutti i trasferimenti e biglietti d'ingresso inclusi.",
+      cta_heading: "Pronti a navigare il <em>Nilo da Luxor?</em>",
+      day_titles: [
+        "Luxor — Arrivo",
+        "Luxor / Esna / Edfu",
+        "Edfu / Kom Ombo / Assuan",
+        "Assuan",
+        "Assuan / Abu Simbel",
+        "Assuan / Kom Ombo / Edfu",
+        "Edfu / Esna / Luxor",
+        "Luxor / Partenza"
+      ],
+      day_descs: [
+        "Arrivo, accoglienza aeroporto. Trasferimento e imbarco. Cena e pernottamento a bordo.",
+        "Colazione. Necropoli tebana: Valle dei Re e Tempio Hatshepsut. Colossi di Memnone. Pranzo. Navigazione Esna e Edfu. Cena e pernottamento a bordo.",
+        "Tempio Horus Edfu. Pranzo. Tempio Kom Ombo. Navigazione Assuan. Cena e pernottamento a bordo.",
+        "Colazione. Tempio Philae. Pranzo. Isola Elefantina. Cena e pernottamento a bordo.",
+        "Templi Ramses II e Nefertari. Pranzo. Pomeriggio libero. Cena e pernottamento a bordo.",
+        "Colazione. Mattinata libera. Navigazione Kom Ombo e Edfu. Cena e pernottamento a bordo.",
+        "Colazione. Navigazione Luxor. Karnak e Tempio di Luxor. Cena e pernottamento a bordo.",
+        "Colazione. Aeroporto Luxor. Partenza finale."
+      ],
+      included: [
+        "7 notti crociera Nilo MS Magic (5 stelle) pensione completa",
+        "Tutte le visite con guida francofona e biglietti",
+        "Abu Simbel",
+        "Tutti i trasferimenti",
+        "Tutte le tasse",
+        "Tutti i servizi privati"
+      ],
+      excluded: [
+        "Volo",
+        "Visto",
+        "Mance",
+        "Bevande",
+        "Spese personali",
+        "Escursioni facoltative"
+      ]
+    },
+    pkg12: {
+      overview_heading: "Il Cairo Oltre le Piramidi: <span>Fayum, Balene Fossili</span> e Alessandria",
+      overview_p1: "Un tour unico che va ben oltre le Piramidi: la necropoli di Saqqara e il Museo Egizio al Cairo, un safari in jeep 4x4 nella Valle delle Balene, patrimonio UNESCO, e l'Oasi di Fayum, poi una giornata ad Alessandria sul Mediterraneo.",
+      overview_p2: "Questo viaggio privato di 8 giorni unisce i grandi classici del Cairo — Cittadella, Khan El Khalili, Quartiere Copto — a esperienze rare: sabbia, cascate e fossili di balene di 40 milioni di anni, lontano dalla folla.",
+      cta_heading: "Pronti per l'<em>Egitto Fuori dai Sentieri Battuti?</em>",
+      day_titles: [
+        "Il Cairo — Arrivo",
+        "Il Cairo — Saqqara e Altopiano di Giza",
+        "Il Cairo / Oasi di Fayum — Valle delle Balene",
+        "Il Cairo — Museo Egizio e Cittadella",
+        "Il Cairo / Alessandria",
+        "Il Cairo — Quartiere Copto e Cairo Islamica",
+        "Il Cairo — Giornata Libera",
+        "Il Cairo — Partenza Finale"
+      ],
+      day_descs: [
+        "Arrivo, accoglienza aeroporto Il Cairo, trasferimento hotel. Cena libera. Pernottamento.",
+        "Colazione. 8:30 partenza con guida privata alla necropoli di Saqqara: piramide a gradoni Djoser, testi delle piramidi, mastabe. Pranzo incl. Pomeriggio Altopiano di Giza: Piramidi, Tempio della Valle, Sfinge. Rientro 17h. Cena libera. Pernottamento.",
+        "Colazione. 7h partenza in van privato per l'Oasi di Fayum (90 km). Escursione in jeep 4x4 al sito UNESCO Wadi Hitan (Valle delle Balene) con scheletri di balene di 40 milioni di anni. Pranzo barbecue beduino. Magic Lake, safari in jeep e sandboard. Wadi El Rayan con cascate e Monte Modawara. Rientro Il Cairo 20h. Cena libera. Pernottamento.",
+        "Colazione. Visita GEM: tesoro Tutankhamon, Barca Solare. Pranzo incl. Moschea Mohamed Ali e Cittadella. Rientro 17h. Cena libera. Pernottamento.",
+        "Colazione. 7:30 auto privata Alessandria. Fort Qaitbay e Teatro Romano. Pranzo incl. Nuova Biblioteca Alessandria e Catacombe. Rientro 20h. Cena libera. Pernottamento.",
+        "Colazione. Quartiere Copto: Chiesa Sospesa e Santi Sergio. Pranzo incl. Moschea Sultan Hassan, Khan El Khalili, via El Moez e Complesso Kalawoun. Cena. Pernottamento.",
+        "Colazione. Giornata libera. Cena libera. Pernottamento.",
+        "Colazione. Aeroporto Il Cairo. Partenza finale."
+      ],
+      included: [
+        "7 notti Il Cairo Grand Pyramids Hotel (colazione)",
+        "3 giorni Il Cairo guida privata biglietti pranzi",
+        "1 giorno Alessandria guida tickets pranzo",
+        "1 giorno Oasi Fayum guida jeep tickets pranzo barbecue beduino",
+        "Assistenza aeroporto Il Cairo",
+        "Tutte le tasse",
+        "Tutti i servizi privati"
+      ],
+      excluded: [
+        "Volo",
+        "Visto",
         "Mance",
         "Bevande",
         "Spese personali",
