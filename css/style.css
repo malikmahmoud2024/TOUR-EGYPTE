@@ -1657,6 +1657,34 @@ p:last-child { margin-bottom: 0; }
   .whatsapp-btn span { display: none; }
 }
 
+/* ── Tour page back-to-listing button ───────────────────────── */
+.pkg-back-btn {
+  position: fixed;
+  top: calc(var(--nav-height) + 1rem);
+  left: 1.5rem;
+  z-index: 950;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--gold);
+  color: #1A1208;
+  font-size: 1.25rem;
+  line-height: 1;
+  text-decoration: none;
+  box-shadow: 0 4px 18px rgba(201,168,76,0.45), 0 1px 6px rgba(201,168,76,0.25);
+  transition: filter 0.25s ease, transform 0.25s ease;
+}
+.pkg-back-btn:hover {
+  filter: brightness(1.15);
+  transform: translateY(-2px);
+}
+@media (max-width: 768px) {
+  .pkg-back-btn { top: 1rem; width: 40px; height: 40px; font-size: 1.1rem; }
+}
+
 /* ── Mobile bottom icon navigation bar ──────────────────────── */
 .navbar__icons {
   display: none;
