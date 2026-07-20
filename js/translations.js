@@ -2973,10 +2973,17 @@ const TRANSLATIONS = {
   },
 };
 
-/* Current language state */
+/* Current language state.
+   The page's own <html lang="..."> is authoritative (it matches the
+   folder the file was served from), so it always wins over a stale
+   localStorage value left behind from browsing a different language
+   folder. localStorage is still written so the switcher's state persists
+   for subsequent same-language navigation. */
 let currentLang = 'fr';
 try {
-  currentLang = localStorage.getItem('tour-egypte-lang') || 'fr';
+  const pageLang = document.documentElement.lang;
+  currentLang = pageLang || localStorage.getItem('tour-egypte-lang') || 'fr';
+  localStorage.setItem('tour-egypte-lang', currentLang);
 } catch (e) { /* localStorage may be blocked on file:// or in private mode */ }
 
 /* Apply translations to the DOM */
@@ -3030,6 +3037,21 @@ function applyTranslations(lang) {
 
   /* Update html lang attribute */
   document.documentElement.lang = lang;
+
+  /* Keep every WhatsApp link's pre-filled message in sync with the
+     selected language, regardless of which page/folder it was served
+     from (the switcher only swaps displayed text, it doesn't navigate). */
+  const waMessages = {
+    fr: 'Bonjour%2C%20je%20souhaite%20obtenir%20des%20informations%20sur%20vos%20tours%20priv%C3%A9s%20en%20%C3%89gypte.',
+    en: 'Hello%2C%20I%20would%20like%20to%20get%20information%20about%20your%20private%20tours%20in%20Egypt.',
+    de: 'Hallo%2C%20ich%20m%C3%B6chte%20Informationen%20%C3%BCber%20Ihre%20privaten%20Touren%20in%20%C3%84gypten%20erhalten.',
+    es: 'Hola%2C%20me%20gustar%C3%ADa%20obtener%20informaci%C3%B3n%20sobre%20sus%20tours%20privados%20en%20Egipto.',
+    it: 'Salve%2C%20vorrei%20ricevere%20informazioni%20sui%20vostri%20tour%20privati%20in%20Egitto.',
+  };
+  const waText = waMessages[lang] || waMessages.fr;
+  document.querySelectorAll('a[href*="wa.me"]').forEach(a => {
+    a.href = a.href.replace(/([?&]text=)[^&]*/, `$1${waText}`);
+  });
 
   /* Dynamic lists: rebuild <ul data-i18n-list="pkg1.included"> etc. */
   document.querySelectorAll('[data-i18n-list]').forEach(ul => {
