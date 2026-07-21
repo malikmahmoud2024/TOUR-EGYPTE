@@ -129,7 +129,28 @@
     .itinerary-day__desc { font-family:'Cormorant Garamond',serif; font-size:1.05rem; line-height:1.7; color:#4A3728; font-weight:400; }
     .itinerary-day__highlights { margin-top:0.5rem; display:flex; flex-wrap:wrap; gap:0.4rem; }
     .itinerary-highlight { display:inline-block; background:rgba(201,168,76,0.1); border:1px solid rgba(201,168,76,0.25); color:#8B6A1E; font-family:'Cormorant Garamond',serif; font-size:0.8rem; letter-spacing:0.5px; padding:0.2rem 0.6rem; border-radius:2px; }
-    .inclusions-section { background:#FBF8F1; padding:5rem 0; }
+        /* Day-by-day photo layout */
+    .itinerary-list::before { display: none; }
+    .itinerary-day {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    .itinerary-day__photo {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+      border-radius: 8px;
+      display: block;
+    }
+    @media (min-width: 768px) {
+      .itinerary-day { grid-template-columns: 1fr 1fr; align-items: start; }
+      .itinerary-day__content { order: 1; }
+      .itinerary-day__photo-wrap { order: 2; }
+      .itinerary-day:nth-child(even) .itinerary-day__content { order: 2; }
+      .itinerary-day:nth-child(even) .itinerary-day__photo-wrap { order: 1; }
+    }
+.inclusions-section { background:#FBF8F1; padding:5rem 0; }
     .inclusions-grid { display:grid; grid-template-columns:1fr 1fr; gap:3rem; margin-top:3rem; }
     @media(max-width:640px){ .inclusions-grid{ grid-template-columns:1fr; } }
     .inclusions-block h3 { font-family:'Playfair Display',serif; font-size:1.3rem; color:#1A1208; margin-bottom:1.25rem; padding-bottom:0.75rem; border-bottom:2px solid rgba(201,168,76,0.3); }
@@ -352,16 +373,21 @@
       <div class="itinerary-list">
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>1</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>1</span></div>
+
             <h3 class="itinerary-day__title">Il Cairo</h3>
             <p class="itinerary-day__desc">Arrivo al Cairo, accoglienza all'aeroporto del Cairo e trasferimento in hotel. Cena libera. Notte in hotel.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/pyramids-aerial.jpg" alt="Aerial view of the Pyramids of Giza" loading="lazy">
           </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>2</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>2</span></div>
+
             <h3 class="itinerary-day__title">Il Cairo</h3>
             <p class="itinerary-day__desc">Dopo colazione, partenza per visitare la Necropoli di Saqqara: la famosa piramide a gradoni del re Djoser, le Piramidi Reali, i testi funerari, le mastabe... Pranzo durante le visite. Nel pomeriggio, visita della piana di Giza: le Piramidi e la sfinge. Ritorno in hotel. Qualita' del servizio: trasferimento in auto privata, guida privata di lingua francese, pranzo durante il tour del Cairo, biglietti d'ingresso ai siti inclusi. Opzione: Spettacolo di luci e suoni alle Piramidi. Cena libera. Notte in hotel.</p>
             <div class="itinerary-day__highlights">
@@ -371,25 +397,33 @@
               <span class="itinerary-highlight">Saqqara Necropolis</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/sphinx-pyramids.jpg" alt="Great Sphinx with the Pyramids of Giza" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>3</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>3</span></div>
+
             <h3 class="itinerary-day__title">Il Cairo</h3>
-            <p class="itinerary-day__desc">Dopo colazione, partenza per visitare il Museo delle Antichita' Egizie. Pranzo durante le visite. Nel pomeriggio, visita della Moschea di Mohamed Ali all'interno della Cittadella di Saladino e scoperta dei suq coperti di Khan el-Khalili. Ritorno in hotel. Qualita' del servizio: trasferimento in auto privata, guida privata di lingua francese, pranzo durante il tour del Cairo, biglietti d'ingresso ai siti inclusi. Opzione Facoltativa: Serata orientale a bordo di una nave ristorante sul Nilo. Notte in hotel.</p>
+            <p class="itinerary-day__desc">Dopo colazione, partenza per visitare al GEM — Grand Egyptian Museum: il tesoro di Tutankhamon, la Barca Solare e le diverse sale dei monumenti egizi. Pranzo durante le visite. Nel pomeriggio, visita della Moschea di Mohamed Ali all'interno della Cittadella di Saladino e scoperta dei suq coperti di Khan el-Khalili. Ritorno in hotel. Qualita' del servizio: trasferimento in auto privata, guida privata di lingua francese, pranzo durante il tour del Cairo, biglietti d'ingresso ai siti inclusi. Opzione Facoltativa: Serata orientale a bordo di una nave ristorante sul Nilo. Notte in hotel.</p>
             <div class="itinerary-day__highlights">
-              <span class="itinerary-highlight">Egyptian Museum</span>
+              <span class="itinerary-highlight">Grand Egyptian Museum</span>
               <span class="itinerary-highlight">Mosque of Mohamed Ali</span>
               <span class="itinerary-highlight">Citadel of Saladin</span>
               <span class="itinerary-highlight">Khan El Khalili</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/grand-egyptian-museum.jpg" alt="Grand Egyptian Museum exhibition hall" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>4</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>4</span></div>
+
             <h3 class="itinerary-day__title">Il Cairo / Alessandria</h3>
             <p class="itinerary-day__desc">Colazione. Partenza in auto privata verso Alessandria. Arrivo verso le 11:00. Visita di Alessandria (fondata da Alessandro Magno): Visita del Forte di Qaitbay e del Teatro Romano. Pranzo durante le visite. Trasferimento in hotel ad Alessandria. Pomeriggio libero ad Alessandria. Cena libera. Notte in hotel.</p>
             <div class="itinerary-day__highlights">
@@ -398,11 +432,15 @@
               <span class="itinerary-highlight">Mediterranean Coast</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/tours/qaitbay-citadel.jpg" alt="Qaitbay Citadel on the Alexandria coastline" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>5</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>5</span></div>
+
             <h3 class="itinerary-day__title">Alessandria / Il Cairo</h3>
             <p class="itinerary-day__desc">Colazione. Mattinata libera ad Alessandria. Nel pomeriggio; proseguimento delle visite ad Alessandria: visita alla Nuova Biblioteca di Alessandria, degna erede dell'antica biblioteca, e visita alle famose catacombe. Pranzo durante le visite. A fine giornata, ritorno al Cairo. Arrivo e trasferimento in hotel al Cairo. Cena libera. Notte in hotel.</p>
             <div class="itinerary-day__highlights">
@@ -410,13 +448,20 @@
               <span class="itinerary-highlight">Catacombs</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/tours/alexandria-library.jpg" alt="Bibliotheca Alexandrina library building" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>6</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>6</span></div>
+
             <h3 class="itinerary-day__title">Il Cairo / Partenza finale</h3>
             <p class="itinerary-day__desc">Colazione. In base all'orario del volo, trasferimento all'aeroporto, volo per l'Europa.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/nile-cairo.jpg" alt="Nile River view in Cairo" loading="lazy">
           </div>
         </div>
 
@@ -462,41 +507,6 @@
     </div>
   </section>
 
-  <!-- GALLERY -->
-  <section class="pkg-gallery">
-    <div class="container">
-      <div class="reveal">
-        <span class="section-label">Galleria</span>
-        <h2 class="section-heading">Impressioni del <span>Viaggio</span></h2>
-      </div>
-      <div class="pkg-gallery__grid reveal reveal-delay-1">
-        <div class="pkg-gallery__item">
-          <img src="../images/gallery-pyramids.jpg" alt="The Pyramids of Giza" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/gallery-cairo.jpg" alt="Cairo cityscape" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/pkg-alexandria.jpg" alt="Alexandria waterfront" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/alexandria-library.jpg" alt="Biblioteca di Alessandria" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/qaitbay-citadel.jpg" alt="Cittadella di Qaitbay" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/alexandria-boats-harbor.jpg" alt="Porto di Alessandria al crepuscolo" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/alexandria-coastal-road.jpg" alt="Corniche di Alessandria" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/alexandria-city-view.jpg" alt="Lungomare mediterraneo di Alessandria" loading="lazy">
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- BOOKING CTA -->
   <section class="pkg-book-cta">

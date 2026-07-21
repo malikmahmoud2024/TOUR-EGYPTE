@@ -282,6 +282,27 @@
       padding: 0.2rem 0.6rem;
       border-radius: 2px;
     }
+        /* Day-by-day photo layout */
+    .itinerary-list::before { display: none; }
+    .itinerary-day {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    .itinerary-day__photo {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+      border-radius: 8px;
+      display: block;
+    }
+    @media (min-width: 768px) {
+      .itinerary-day { grid-template-columns: 1fr 1fr; align-items: start; }
+      .itinerary-day__content { order: 1; }
+      .itinerary-day__photo-wrap { order: 2; }
+      .itinerary-day:nth-child(even) .itinerary-day__content { order: 2; }
+      .itinerary-day:nth-child(even) .itinerary-day__photo-wrap { order: 1; }
+    }
     .inclusions-section {
       background: #FBF8F1;
       padding: 5rem 0;
@@ -525,7 +546,7 @@
           <span class="section-label">Overview</span>
           <h2 class="section-heading" style="margin-bottom:1.5rem;">Cairo's <span>Essential Wonders</span></h2>
           <p>Cairo is a city of contrasts — ancient pyramids rising above a modern metropolis, medieval minarets beside Coptic churches, vibrant bazaars steps away from world-class museums. In four private days, you will experience the highlights at your own pace, with a knowledgeable multilingual guide dedicated entirely to you.</p>
-          <p>The Pyramids of Giza need no introduction — they are the only surviving wonder of the ancient world, and standing at their base is an experience that changes you. But this tour goes deeper: the Egyptian Museum's golden treasures, the spiritual weight of Coptic Cairo, and the sensory magic of Khan El Khalili bazaar all combine to give you a complete portrait of this extraordinary city.</p>
+          <p>The Pyramids of Giza need no introduction — they are the only surviving wonder of the ancient world, and standing at their base is an experience that changes you. But this tour goes deeper: the GEM's golden treasures, the spiritual weight of Coptic Cairo, and the sensory magic of Khan El Khalili bazaar all combine to give you a complete portrait of this extraordinary city.</p>
         </div>
         <div class="reveal reveal-delay-2">
           <div class="pkg-sidebar">
@@ -574,29 +595,35 @@
       <div class="itinerary-list">
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>1</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>1</span></div>
             <h3 class="itinerary-day__title">Arrival in Cairo</h3>
             <p class="itinerary-day__desc">Private airport transfer to your hotel. Welcome briefing with your guide. Evening stroll along the Nile Corniche — your first encounter with this legendary river.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/nile-cairo.jpg" alt="The Nile River in Cairo" loading="lazy">
           </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>2</span></div>
           <div class="itinerary-day__content">
-            <h3 class="itinerary-day__title">Giza &amp; the Egyptian Museum</h3>
-            <p class="itinerary-day__desc">The Pyramids of Giza (Great Pyramid, Pyramid of Khafre, Pyramid of Menkaure), the Great Sphinx, and the Solar Boat Museum. Afternoon: the Egyptian Museum of Antiquities — the Hall of Mummies, and Tutankhamun's golden mask and treasures.</p>
+            <div class="itinerary-day__number"><span>2</span></div>
+            <h3 class="itinerary-day__title">Giza &amp; the GEM</h3>
+            <p class="itinerary-day__desc">The Pyramids of Giza (Great Pyramid, Pyramid of Khafre, Pyramid of Menkaure), the Great Sphinx, and the Solar Boat Museum. Afternoon: visit to the GEM — Grand Egyptian Museum: the treasure of Tutankhamun, the Solar Boat and the various halls of Egyptian monuments.</p>
             <div class="itinerary-day__highlights">
               <span class="itinerary-highlight">Pyramids of Giza</span>
               <span class="itinerary-highlight">Great Sphinx</span>
               <span class="itinerary-highlight">Tutankhamun's Mask</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/sphinx-pyramids.jpg" alt="The Great Sphinx and Pyramids of Giza" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>3</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>3</span></div>
             <h3 class="itinerary-day__title">Islamic &amp; Coptic Cairo</h3>
             <p class="itinerary-day__desc">Morning: the Citadel of Saladin, the Mohammed Ali Mosque (Alabaster Mosque) with panoramic views across Cairo. Afternoon: Khan El Khalili bazaar and Al-Azhar Mosque. Evening: Old Coptic Cairo — the Hanging Church, Church of St. Sergius, Ben Ezra Synagogue.</p>
             <div class="itinerary-day__highlights">
@@ -606,13 +633,19 @@
               <span class="itinerary-highlight">Hanging Church</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/tours/khan-el-khalili-bazaar.jpg" alt="Khan El Khalili bazaar in Cairo" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>4</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>4</span></div>
             <h3 class="itinerary-day__title">Departure</h3>
             <p class="itinerary-day__desc">Optional visit to the National Museum of Egyptian Civilization (NMEC) if time permits before your flight. Private transfer to Cairo International Airport. End of tour.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/grand-egyptian-museum.jpg" alt="Grand Egyptian Museum" loading="lazy">
           </div>
         </div>
 
@@ -654,42 +687,7 @@
     </div>
   </section>
 
-  <!-- GALLERY -->
-  <section class="pkg-gallery">
-    <div class="container">
-      <div class="reveal">
-        <span class="section-label">Gallery</span>
-        <h2 class="section-heading">Journey <span>Impressions</span></h2>
-      </div>
-      <div class="pkg-gallery__grid reveal reveal-delay-1">
-        <div class="pkg-gallery__item">
-          <img src="../images/sphinx-pyramids.jpg" alt="Sphinx and Pyramids at Giza" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/gallery-museum.jpg" alt="Egyptian Museum treasures" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/gallery-khan-khalili.jpg" alt="Old Cairo mosques" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/cairo-cityscape-pyramids.jpg" alt="Cairo skyline at sunset with the Giza pyramids on the horizon" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/egyptian-museum-hall.jpg" alt="Colossal statue at the Grand Egyptian Museum" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/khan-el-khalili-bazaar.jpg" alt="Alleyway of the Khan el-Khalili bazaar" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/sphinx-giza-view.jpg" alt="The Great Sphinx of Giza" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/giza-pyramids-camel.jpg" alt="Camel in front of the Giza pyramid" loading="lazy">
-        </div>
-      </div>
-    </div>
-  </section>
-
+  
   <!-- BOOKING CTA -->
   <section class="pkg-book-cta">
     <div class="container">

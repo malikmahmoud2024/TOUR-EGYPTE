@@ -27,7 +27,7 @@ const TRANSLATIONS = {
     hero: {
       label:    'Since 2000 · Over 10,000 Travelers',
       title:    'Tour Egypte — Your Private Egypt Travel Agency Since 2000',
-      subtitle: 'Private guided tours across Egypt — Cairo, Luxor, Aswan, Nile cruises and Red Sea. French-speaking guides. Licensed by the Egyptian Ministry of Tourism.',
+      subtitle: 'Private guided tours across Egypt — Cairo, Luxor, Aswan, Nile cruises and Red Sea. Private guides speaking French, English, German, Spanish and Italian. Licensed by the Egyptian Ministry of Tourism.',
       cta:      'Explore Our Tours',
       cta2:     'Contact Us',
       scroll:   'Scroll',
@@ -132,16 +132,16 @@ const TRANSLATIONS = {
     ],
     pkg_descs: [
       'Sail the legendary Nile on a private Dahabiya boat with your family or friends. From Cairo\'s iconic Pyramids to the temples of Luxor, Edfu, and Aswan — a voyage like no other.',
-      'Discover Cairo\'s greatest treasures in just four days. Pyramids, Sphinx, the Egyptian Museum, Islamic Cairo — a perfect introduction to ancient Egypt.',
+      'Discover Cairo\'s greatest treasures in just four days. Pyramids, Sphinx, the GEM (Grand Egyptian Museum), Islamic Cairo — a perfect introduction to ancient Egypt.',
       'The classic Egypt experience: Cairo\'s ancient wonders combined with a magical five-star Nile cruise from Luxor to Aswan, past temples and tombs.',
       'From the timeless Pyramids of Cairo to the Mediterranean charm of Alexandria — explore two of Egypt\'s most iconic cities in one unforgettable journey.',
       'The ultimate Egypt adventure — ancient wonders, Nile cruise, sacred Mount Sinai at sunrise, St. Catherine\'s Monastery, and Red Sea beaches in Sharm El Sheikh.',
       'Ancient Egypt meets Red Sea paradise. Cairo, a five-star Nile cruise from Aswan to Luxor, and relaxation on the golden shores of Hurghada.',
-      'From Saqqara to the Nubian temples of Abu Simbel, then aboard an authentic Dahabiya to Luxor — a grand journey through eternal Egypt with a private French-speaking guide.',
+      'From Saqqara to the Nubian temples of Abu Simbel, then aboard an authentic Dahabiya to Luxor — a grand journey through eternal Egypt with a private guide speaking French, English, German, Spanish and Italian.',
       'Cairo in 2 days — pyramids, GEM and Tutankhamun\'s treasure — then 5 nights all-inclusive by the Red Sea in Hurghada.',
       'Cairo, the Valley of the Kings in Luxor by night train, then relaxation in Hurghada by the Red Sea — three iconic destinations in 8 days.',
       'Cultural 7-night Nile cruise from Luxor to Aswan, Abu Simbel, then 7 nights all-inclusive in Hurghada on the Red Sea.',
-      'Private 7-night Nile cruise Luxor/Luxor with Valley of the Kings, Abu Simbel, Edfu, Kom Ombo and Aswan. Private French-speaking guide included.',
+      'Private 7-night Nile cruise Luxor/Luxor with Valley of the Kings, Abu Simbel, Edfu, Kom Ombo and Aswan. Private guide speaking French, English, German, Spanish and Italian included.',
       'Unique tour in Cairo, jeep safari in the UNESCO Valley of the Whales, Fayoum Oasis and Alexandria. Off-the-beaten-path Egypt.',
     ],
     about_page: {
@@ -186,7 +186,7 @@ const TRANSLATIONS = {
       factbox_contact: 'Contact:',
       factbox_speciality_value: 'Private tours in Egypt',
       factbox_languages_value: 'French, English, German, Spanish, Italian',
-      factbox_destinations_value: 'Cairo, Giza, Luxor, Aswan, Hurghada, Alexandria, Abu Simbel',
+      factbox_destinations_value: 'Cairo, Giza, Luxor, Aswan, Alexandria, Abu Simbel, Hurghada, Marsa Alam, Sharm El Sheikh, Dahab, Fayoum Oasis, Siwa Oasis, White Desert, Middle Egypt Al Minya. All Egyptian destinations.',
       factbox_license_value: 'Egyptian Ministry of Tourism No. 1200',
     },
     contact_page: {
@@ -351,17 +351,17 @@ const TRANSLATIONS = {
       route: 'Starts & Ends: Cairo',
       overview_heading: 'Cairo\'s <span>Essential Wonders</span>',
       overview_p1: 'Cairo is a city of contrasts — ancient pyramids rising above a modern metropolis, medieval minarets beside Coptic churches, vibrant bazaars steps away from world-class museums. In four private days, you will experience the highlights at your own pace, with a knowledgeable multilingual guide dedicated entirely to you.',
-      overview_p2: 'The Pyramids of Giza need no introduction — they are the only surviving wonder of the ancient world, and standing at their base is an experience that changes you. But this tour goes deeper: the Egyptian Museum\'s golden treasures, the spiritual weight of Coptic Cairo, and the sensory magic of Khan El Khalili bazaar all combine to give you a complete portrait of this extraordinary city.',
+      overview_p2: 'The Pyramids of Giza need no introduction — they are the only surviving wonder of the ancient world, and standing at their base is an experience that changes you. But this tour goes deeper: the GEM\'s golden treasures, the spiritual weight of Coptic Cairo, and the sensory magic of Khan El Khalili bazaar all combine to give you a complete portrait of this extraordinary city.',
       cta_heading: 'Discover <em>Cairo Privately</em>',
       day_titles: [
         'Arrival in Cairo',
-        'Giza & the Egyptian Museum',
+        'Giza & the GEM',
         'Islamic & Coptic Cairo',
         'Departure',
       ],
       day_descs: [
         'Private airport transfer to your hotel. Welcome briefing with your guide. Evening stroll along the Nile Corniche — your first encounter with this legendary river.',
-        'The Pyramids of Giza (Great Pyramid, Pyramid of Khafre, Pyramid of Menkaure), the Great Sphinx, and the Solar Boat Museum. Afternoon: the Egyptian Museum of Antiquities — the Hall of Mummies, and Tutankhamun\'s golden mask and treasures.',
+        'The Pyramids of Giza (Great Pyramid, Pyramid of Khafre, Pyramid of Menkaure), the Great Sphinx, and the Solar Boat Museum. Afternoon: visit to the GEM — Grand Egyptian Museum: the treasure of Tutankhamun, the Solar Boat and the various halls of Egyptian monuments.',
         'Morning: the Citadel of Saladin, the Mohammed Ali Mosque (Alabaster Mosque) with panoramic views across Cairo. Afternoon: Khan El Khalili bazaar and Al-Azhar Mosque. Evening: Old Coptic Cairo — the Hanging Church, Church of St. Sergius, Ben Ezra Synagogue.',
         'Optional visit to the National Museum of Egyptian Civilization (NMEC) if time permits before your flight. Private transfer to Cairo International Airport. End of tour.',
       ],
@@ -401,7 +401,7 @@ const TRANSLATIONS = {
       day_descs: [
         'Airport transfer, hotel check-in, welcome briefing with your private guide.',
         'Pyramids of Giza, the Great Sphinx, and the Solar Boat Museum. Camel ride option available at the plateau.',
-        'The Egyptian Museum — Tutankhamun treasures and the Royal Mummies Room. Afternoon: Khan El Khalili bazaar and a walk through Islamic Cairo. Evening flight to Luxor.',
+        'Visit to the GEM — Grand Egyptian Museum: the treasure of Tutankhamun, the Solar Boat and the various halls of Egyptian monuments. Afternoon: Khan El Khalili bazaar and a walk through Islamic Cairo. Evening flight to Luxor.',
         'Valley of the Kings (3 tombs), the mortuary Temple of Hatshepsut carved into the cliffs, and the silent Colossi of Memnon. Board your five-star cruise ship at Luxor.',
         'The Karnak Temple complex — the Great Hypostyle Hall, Sacred Lake, and towering obelisks of Hatshepsut. Afternoon: Luxor Temple and its recently revealed Avenue of Sphinxes.',
         'Morning: pass through the historic Esna Lock by ship. Edfu — the Temple of Horus, the finest and most completely preserved temple in Egypt. Afternoon sailing south.',
@@ -431,13 +431,13 @@ const TRANSLATIONS = {
     pkg4: {
       route: 'Cairo → Alexandria → Cairo',
       overview_heading: 'From the <span>Pyramids</span> to the Mediterranean',
-      overview_p1: 'From the timeless Pyramids of Cairo to the Mediterranean charm of Alexandria — explore two of Egypt\'s most iconic cities in one unforgettable journey. This 6-day private tour begins with the ancient wonders of the Giza Plateau and the treasures of the Egyptian Museum, before taking you north to Alexandria, founded by Alexander the Great and once the cultural capital of the ancient world.',
+      overview_p1: 'From the timeless Pyramids of Cairo to the Mediterranean charm of Alexandria — explore two of Egypt\'s most iconic cities in one unforgettable journey. This 6-day private tour begins with the ancient wonders of the Giza Plateau and the treasures of the GEM (Grand Egyptian Museum), before taking you north to Alexandria, founded by Alexander the Great and once the cultural capital of the ancient world.',
       overview_p2: 'Every moment is tailored entirely for you. Your private multilingual guide accompanies you throughout, bringing each site\'s history to life with passion and expertise — from the Step Pyramid of Saqqara to the legendary Library of Alexandria and the medieval Fort of Qayt Bay overlooking the sea.',
       cta_heading: 'Ready to Explore <em>Cairo & Alexandria?</em>',
       day_titles: [
         'Cairo — Arrival',
         'Cairo — Saqqara & The Giza Plateau',
-        'Cairo — Museum & Islamic Quarter',
+        'Cairo — Grand Egyptian Museum & Islamic Quarter',
         'Cairo to Alexandria — The Mediterranean City',
         'Alexandria — Library & Catacombs',
         'Cairo — Final Departure',
@@ -445,7 +445,7 @@ const TRANSLATIONS = {
       day_descs: [
         'Arrival in Cairo, reception at Cairo airport and transfer to the hotel. Free dinner. Night at the hotel.',
         'After breakfast, departure for a visit to the Necropolis of Saqqara: the famous Step Pyramid of King Djoser, the Royal Pyramids, the funerary texts, the mastabas. Lunch during visits. In the afternoon, visit the Giza Plateau: the Pyramids and the Sphinx. Back to the hotel. Quality of service: transfer by private car, private guide, lunch, entrance tickets included. Optional: Sound and Light show at the Pyramids. Free dinner. Night at the hotel.',
-        'After breakfast, departure for a visit to the Egyptian Antiques Museum (founded in 1857 by the French Egyptologist Auguste Mariette). Lunch during visits. In the afternoon, visit of the Mosque of Mohamed Ali in the enclosure of the Citadel of Saladin and discovery of the covered souks of Khan El Khalili. Back to the hotel. Quality of service: transfer by private car, private guide, lunch, entrance tickets included. Optional: Oriental evening on board a Nile cruise restaurant. Night at the hotel.',
+        'After breakfast, departure for a visit to the GEM — Grand Egyptian Museum: the treasure of Tutankhamun, the Solar Boat and the various halls of Egyptian monuments. Lunch during visits. In the afternoon, visit of the Mosque of Mohamed Ali in the enclosure of the Citadel of Saladin and discovery of the covered souks of Khan El Khalili. Back to the hotel. Quality of service: transfer by private car, private guide, lunch, entrance tickets included. Optional: Oriental evening on board a Nile cruise restaurant. Night at the hotel.',
         'Breakfast. Departure by private car to Alexandria. Arrival around 11AM. Visit Alexandria (founded by Alexander the Great, now a large cosmopolitan city, cultural capital of Egypt): Visit of Fort Qayt Bay and the Roman Theatre. Lunch during visits. Transfer to the hotel in Alexandria. Free afternoon. Free dinner. Night at the hotel.',
         'Breakfast. Free morning in Alexandria. In the afternoon, continue visits to Alexandria: visit the New Library of Alexandria (worthy heir to the old library) and visit the famous catacombs. Lunch during visits. At the end of the day, return to Cairo. Arrival and transfer to hotel. Free dinner. Night at the hotel.',
         'Breakfast. According to the flight schedule, transfer to the airport.',
@@ -618,7 +618,7 @@ const TRANSLATIONS = {
     hero: {
       label:    'Depuis 2000 · Plus de 10 000 Voyageurs',
       title:    'Tour Egypte — Votre Agence de Voyages Privés en Égypte depuis 2000',
-      subtitle: 'Tours privés au Caire, Louxor, Assouan, croisière sur le Nil et Mer Rouge. Guide francophone privé. Agréé Ministère du Tourisme — Licence N° 1200.',
+      subtitle: 'Tours privés au Caire, Louxor, Assouan, croisière sur le Nil et Mer Rouge. Guides privés francophones, anglophones, germanophones, hispanophones et italophones. Agréé Ministère du Tourisme — Licence N° 1200.',
       cta:      'Découvrir Nos Tours',
       cta2:     'Contactez-Nous',
       scroll:   'Défiler',
@@ -723,16 +723,16 @@ const TRANSLATIONS = {
     ],
     pkg_descs: [
       'Naviguez sur le légendaire Nil à bord d\'un bateau Dahabiya privé avec votre famille ou vos amis. Des Pyramides du Caire aux temples de Louxor, Edfou et Assouan — un voyage unique.',
-      'Découvrez les plus grands trésors du Caire en quatre jours. Pyramides, Sphinx, Musée Égyptien, Le Caire islamique — une introduction parfaite à l\'Égypte antique.',
+      'Découvrez les plus grands trésors du Caire en quatre jours. Pyramides, Sphinx, GEM (Grand Musée Égyptien), Le Caire islamique — une introduction parfaite à l\'Égypte antique.',
       'L\'expérience classique de l\'Égypte : les merveilles antiques du Caire combinées à une croisière 5 étoiles sur le Nil de Louxor à Assouan, entre temples et tombeaux.',
       'Des Pyramides intemporelles du Caire au charme méditerranéen d\'Alexandrie — explorez deux des villes les plus emblématiques d\'Égypte en un voyage inoubliable.',
       'L\'aventure ultime en Égypte — merveilles antiques, croisière sur le Nil, le Mont Sinaï sacré au lever du soleil, monastère Sainte-Catherine et plages de Charm el-Cheikh.',
       'L\'Égypte antique rencontre le paradis de la Mer Rouge. Le Caire, croisière 5 étoiles sur le Nil d\'Assouan à Louxor, et détente sur les rives dorées de Hurghada.',
-      'De Sakkarah aux temples nubiens d\'Abou Simbel, puis à bord d\'un authentique Dahabiya jusqu\'à Louxor — un grand voyage dans l\'Égypte éternelle avec guide francophone privé.',
+      'De Sakkarah aux temples nubiens d\'Abou Simbel, puis à bord d\'un authentique Dahabiya jusqu\'à Louxor — un grand voyage dans l\'Égypte éternelle avec guide privé francophone, anglophone, germanophone, hispanophone et italophone.',
       'Le Caire en 2 jours — pyramides, GEM et trésor de Toutankhamon — puis 5 nuits en all-inclusive au bord de la Mer Rouge à Hurghada.',
       'Le Caire, la Vallée des Rois à Louxor en train de nuit, puis détente à Hurghada au bord de la Mer Rouge — trois destinations emblématiques en 8 jours.',
       'Croisière culturelle 7 nuits sur le Nil de Louxor à Assouan, Abou Simbel, puis 7 nuits en all-inclusive à Hurghada sur la Mer Rouge.',
-      'Croisière privée 7 nuits sur le Nil Louxor/Louxor avec Vallée des Rois, Abou Simbel, Edfou, Kom Ombo et Assouan. Guide francophone privé inclus.',
+      'Croisière privée 7 nuits sur le Nil Louxor/Louxor avec Vallée des Rois, Abou Simbel, Edfou, Kom Ombo et Assouan. Guide privé francophone, anglophone, germanophone, hispanophone et italophone inclus.',
       'Circuit unique au Caire, safari en jeep dans la Vallée des Baleines (UNESCO), Oasis du Fayoum et Alexandrie. L\'Égypte hors des sentiers battus.',
     ],
     about_page: {
@@ -777,7 +777,7 @@ const TRANSLATIONS = {
       factbox_contact: 'Contact :',
       factbox_speciality_value: 'Voyages privés en Égypte',
       factbox_languages_value: 'Français, Anglais, Allemand, Espagnol, Italien',
-      factbox_destinations_value: 'Le Caire, Gizeh, Louxor, Assouan, Hurghada, Alexandrie, Abou Simbel',
+      factbox_destinations_value: 'Le Caire, Gizeh, Louxor, Assouan, Alexandrie, Abou Simbel, Hurghada, Marsa Alam, Sharm El Sheikh, Dahab, Oasis du Fayoum, Oasis de Siwa, Désert Blanc, Moyenne Égypte Al Minya. Toutes les destinations égyptiennes.',
       factbox_license_value: 'Ministère du Tourisme égyptien N° 1200',
     },
     contact_page: {
@@ -888,7 +888,7 @@ const TRANSLATIONS = {
       cta_heading: 'Prêt à Naviguer sur le <em>Nil Antique ?</em>',
       day_titles: [
         'Le Caire',
-        'Le Caire — Pyramides de Guizeh et Musée Égyptien',
+        'Le Caire — Pyramides de Guizeh et GEM',
         'Le Caire / Louxor — Memphis, Saqqarah et Dahchour',
         'Louxor — Habou, Nobles et Temple de Louxor',
         'Louxor / Bateau Dahabiya — Esna, El Hegz',
@@ -902,7 +902,7 @@ const TRANSLATIONS = {
       ],
       day_descs: [
         'Arrivée au Caire, accueil à l\'aéroport du Caire et transfert à l\'hôtel. Diner libre. Nuit à l\'hôtel.',
-        'Après le petit déjeuner à 8 Heures : départ pour la visite des Pyramides de Gizeh (Kheops, Khephren et Mykerinos), le temple de la vallée, et le Sphinx. Le déjeuner dans un restaurant typique. Après-midi ; Départ pour la visite du Musée des Antiquités Égyptiennes (fondé en 1857 par l\'égyptologue français Auguste Mariette). Retour à l\'hôtel. Diner et nuit à l\'hôtel au Caire. Option Facultative; Spectacle de son et lumière aux Pyramides; Soirée culturelle avec le Sphinx. + Diner dans une restaurant en face de Pyramides apres le son et Lumiere',
+        'Après le petit déjeuner à 8 Heures : départ pour la visite des Pyramides de Gizeh (Kheops, Khephren et Mykerinos), le temple de la vallée, et le Sphinx. Le déjeuner dans un restaurant typique. Après-midi ; Départ pour la visite du GEM — Grand Musée Égyptien des Antiquités : le trésor de Toutankhamon, la Barque Solaire et les différentes salles des monuments égyptiens. Retour à l\'hôtel. Diner et nuit à l\'hôtel au Caire. Option Facultative; Spectacle de son et lumière aux Pyramides; Soirée culturelle avec le Sphinx. + Diner dans une restaurant en face de Pyramides apres le son et Lumiere',
         'Après le petit déjeuner à 8 Heures : Depart pour la visite de l\'ancienne capitale de l\'Egypte Memphis, la visite se poursuivra par Saqqarah, la pyramide de Téti et le complexe funéraire du roi Djéser où nous pourrons visiter 2 mastabas et la pyramide à degrés. Le déjeuner dans un restaurant typique. Des visites des pyramides de Dahchour (la pyramide Rouge et la pyramide Rhomboïdale). En fin de la journee ; transfert a la station du train ; trajet Le Caire / Louxor par train de couchette le Caire / Louxor, train de part à 20H00. Train de couchette (train départ le soir pour arriver le matin, passer la nuit abord du train, train wagons-lits, chaque cabine pour 2 personnes, en demi-pension (diner et petit-déjeuner sont inclus). **Il y a la possibilitee de faire ce trajet par vol interieure et passer la nuit dans un hôtel a Louxor.',
         'Vers 06H00 Arrivée par le train à Louxor après le petit déjeuner) accueil à la station du train. Départ pour la visite des temples de la nécropole de Thèbes : Puis ; départ pour la visite du TEMPLE DE MEDINET HABOU, temple funéraire de Ramsès III. La visiter à proximité quelques tombes de la VALLÉE DES NOBLES, par exemple celles de Sennefer, Rekhmirê, Ramosedes. Déjeuner au restaurent ; puis transfert à l\'hôtel. L\'après-midi, Départ pour la visite visite du Temple de Louxor. Retour à l\'hôtel. Option Facultative; spectacle «Son et Lumière» aux Temples de Karnak. Diner et nuit à l\'hôtel à Louxor.',
         'Petit-dejeuner ; Rendez-vous avec le guide pour la visite du Temple de Karnak réputé pour l\'immensité de sa salle hypostyle (134 colonnes alignées sur 16 rangées, alternant des chapiteaux papyriformes ouverts et fermés, de plus de 7 mètres de diamètre). Traversé du Nil en bateau à moteur vers la Rive Gauche pour la Visite de la Vallée des Rois, la pièce maîtresse des sites de la rive gauche. Ensemble de plusieurs dizaines de tombes dispersé au pied d\'une montagne rocailleuse. Ce site fut choisi parce que la montagne la plus haute à la forme d\'une pyramide. Puis nous partons en car pour 30 minutes de route vers Esna, port d\'attache «Dahabiya», élégant bateau à double voile latine, réplique moderne des barques sacrées des Pharaons. Accueillis à bord par l\'équipage, en signe de bienvenue un verre de carcadé frais (infusion de fleurs d\'hibiscus, une spécialité égyptienne) ou jus de citron pressé, que nous dégustons sur le pont ombragé, installés dans des chaises longues ou allongés à l\'orientale sur des coussins, à l\'ombre de toiles tendues, pour profiter du paysage des rivages du Nil. Nous découvrons le bateau, ses cabines, leur confort (fenêtres, salle d\'eau avec lavabo, douche, wc privés), et la décoration soignée apportée à chacune. Enfin, à l\'avant, le salon bibliothèque et ses banquettes agrémentées de coussins en abondance, les tapis et les objets décoratifs lui donnent un charme oriental, véritable invitation à une confortable «méditation». Installation dans nos cabines avant notre premier Déjeuner à bord. Notre navigation commence… L\'après midi est à la détente et à la contemplation. Nous parvenons à El-Hegz, pour un mouillage au bord des champs de cannes à Sucre. Sur le pont supérieur, nous sommes conviés à un dîner égyptien concocté par notre chef cuisinier. 1ère nuit à bord du bateau dahabiya sur le Nil.',
@@ -949,7 +949,7 @@ const TRANSLATIONS = {
       route: 'Départ et retour : Le Caire',
       overview_heading: 'Les <span>Merveilles Essentielles</span> du Caire',
       overview_p1: 'Le Caire est une ville de contrastes — des pyramides antiques s\'élevant au-dessus d\'une métropole moderne, des minarets médiévaux côtoyant des églises coptes, des bazars vibrants à quelques pas de musées de classe mondiale. En quatre jours privés, vous vivrez les moments forts à votre propre rythme, avec un guide multilingue dédié entièrement à vous.',
-      overview_p2: 'Les Pyramides de Gizeh n\'ont pas besoin de présentation — elles sont la seule merveille survivante du monde antique, et se tenir à leurs pieds est une expérience qui vous transforme. Mais ce tour va plus loin : les trésors dorés du Musée Égyptien, le poids spirituel du Caire copte et la magie sensorielle du bazar de Khan El Khalili se combinent pour vous offrir un portrait complet de cette ville extraordinaire.',
+      overview_p2: 'Les Pyramides de Gizeh n\'ont pas besoin de présentation — elles sont la seule merveille survivante du monde antique, et se tenir à leurs pieds est une expérience qui vous transforme. Mais ce tour va plus loin : les trésors dorés du GEM (Grand Musée Égyptien), le poids spirituel du Caire copte et la magie sensorielle du bazar de Khan El Khalili se combinent pour vous offrir un portrait complet de cette ville extraordinaire.',
       cta_heading: 'Découvrez <em>Le Caire en Privé</em>',
       day_titles: [
         'Le Caire',
@@ -960,7 +960,7 @@ const TRANSLATIONS = {
       day_descs: [
         'Arrivée au Caire, accueil à l\'aéroport du Caire et transfert à l\'hôtel. Diner libre. Nuit à l\'hôtel.',
         'Après le petit-déjeuner, départ pour la visite de la Nécropole de Sakkarah: la célèbre pyramide à degrés du roi Djoser, les Pyramides royales, les textes funéraires, les mastabas… Déjeuner en cours de visites au restaurent. L\'après-midi, visite du Plateau de Guizèh : les Pyramides et le sphinx. Retour à l\'hôtel. Qualité de service. transfert en voiture privée, guide francophone privé, repas de midi durant le tour au Caire, billets d\'entrée aux sites inclus. Option Facultative; Spectacle de son et lumière aux Pyramides; Soirée culturelle avec le Sphinx. Diner libre. Nuit à l\'hôtel.',
-        'Après le petit-déjeuner, départ pour la visite du Musée des Antiquités Égyptiennes (fondé en 1857 par l\'égyptologue français Auguste Mariette). Déjeuner en cours de visites au restaurent. L\'après-midi, visite de la Mosquée de Mohamed Ali dans l\'enceinte de la Citadelle de Saladin et découverte des Souks couverts de Khan El Khalili. Retour à l\'hôtel. Qualité de service. transfert en voiture privée, guide francophone privé, repas de midi durant le tour au Caire, billets d\'entrée aux sites inclus. Option Facultative; Soirée orientale à bord du restaurant croisière sur le Nil: repas en buffet avec animation oriental (une belle croisière sur le Nil au Caire). Nuit à l\'hôtel.',
+        'Après le petit-déjeuner, départ pour la visite du GEM — Grand Musée Égyptien des Antiquités : le trésor de Toutankhamon, la Barque Solaire et les différentes salles des monuments égyptiens. Déjeuner en cours de visites au restaurent. L\'après-midi, visite de la Mosquée de Mohamed Ali dans l\'enceinte de la Citadelle de Saladin et découverte des Souks couverts de Khan El Khalili. Retour à l\'hôtel. Qualité de service. transfert en voiture privée, guide francophone privé, repas de midi durant le tour au Caire, billets d\'entrée aux sites inclus. Option Facultative; Soirée orientale à bord du restaurant croisière sur le Nil: repas en buffet avec animation oriental (une belle croisière sur le Nil au Caire). Nuit à l\'hôtel.',
         'Petit déjeuner. Selon l\'horaire de vol, transfert à l\'aéroport du Caire pour le depart final.',
       ],
       included: [
@@ -1001,7 +1001,7 @@ const TRANSLATIONS = {
       day_descs: [
         'Arrivée au Caire, accueil à l\'aéroport du Caire. Transfert a l\'hotel. Dîner libre. Nuit à l\'hotel au Caire.',
         'Après le petit-déjeuner, départ pour la visite de la Nécropole de Sakkarah: la célèbre pyramide à degrés du roi Djoser, les pyramides royales, les textes funéraires, les mastabas… Déjeuner en cours de visites. L\'après-midi, visite du Plateau de Guizèh : les Pyramides et le Sphinx. Retour a l\'hotel. En soirée, vous pourrez admirer le spectacle «Son et Lumière» aux Pyramides (facultatif). Diner libre. Nuit à l\'hôtel au Caire.',
-        'Après le petit-déjeuner, départ pour la visite du Musée des Antiquités Égyptiennes (fondé en 1857 par l\'égyptologue français Auguste Mariette). Déjeuner en cours de visites. L\'après-midi, visite de la Mosquée de Mohamed Ali dans l\'enceinte de la Citadelle de Saladin et découverte des souks couverts de Khan El Khalili. Transfer a la station du train, depart par le Train de Couchette Wagon-Lits Le Caire / Louxor en demi-pension. Diner et nuit à bord du train.',
+        'Après le petit-déjeuner, départ pour la visite du GEM — Grand Musée Égyptien des Antiquités : le trésor de Toutankhamon, la Barque Solaire et les différentes salles des monuments égyptiens. Déjeuner en cours de visites. L\'après-midi, visite de la Mosquée de Mohamed Ali dans l\'enceinte de la Citadelle de Saladin et découverte des souks couverts de Khan El Khalili. Transfer a la station du train, depart par le Train de Couchette Wagon-Lits Le Caire / Louxor en demi-pension. Diner et nuit à bord du train.',
         'Après le petit-déjeuner, Arrivée a Louxor, accueil à la station du train a Louxor. Depart pour la visite de l\'impressionnant ensemble des Temples de Karnak. Puis visite du Temple de Louxor. Transfert et installation sur le bateau de croisière sur le NIL. Déjeuner à bord. Apres-midi libre a bord du bateau. En soirée, vous pourrez admirer le spectacle «Son et Lumière» aux temples de Karnak (facultatif). Dîner et nuit à bord.',
         'Petit déjeuner à bord, depart pour la visite des temples de la nécropole de Thèbes : la Vallée des Rois, et le Temple à terrasses de Deir El Bahari (temple dédié à Hatshepsout). Arrêt devant les colosses de Memnon, témoin de la grandeur du roi Aménophis III. Retour au Bateau. Déjeuner à bord. Puis navigation vers Esna pour le passage de l\'écluse. Navigation vers Edfou. Dîner et nuit à bord.',
         'Le matin, Edfou : visite du Temple dédié au dieu Horus à tête de faucon. Puis navigation vers Kom Ombo. Déjeuner à bord. En fin d\'après-midi, visite du Temple illuminé de Kom Ombo dédié aux Dieux Haroéris et Sobek. Appareillage vers Assouan dans la soirée. Dîner et nuit à bord. Arrivée à Assouan dans la nuit.',
@@ -1029,7 +1029,7 @@ const TRANSLATIONS = {
     pkg4: {
       route: 'Le Caire → Alexandrie → Le Caire',
       overview_heading: 'Des <span>Pyramides</span> à la Méditerranée',
-      overview_p1: 'Des Pyramides intemporelles du Caire au charme méditerranéen d\'Alexandrie — explorez deux des villes les plus emblématiques d\'Égypte en un voyage inoubliable. Ce tour privé de 6 jours commence avec les merveilles antiques du Plateau de Gizeh et les trésors du Musée Égyptien, avant de vous emmener au nord vers Alexandrie, fondée par Alexandre le Grand et autrefois capitale culturelle du monde antique.',
+      overview_p1: 'Des Pyramides intemporelles du Caire au charme méditerranéen d\'Alexandrie — explorez deux des villes les plus emblématiques d\'Égypte en un voyage inoubliable. Ce tour privé de 6 jours commence avec les merveilles antiques du Plateau de Gizeh et les trésors du GEM (Grand Musée Égyptien), avant de vous emmener au nord vers Alexandrie, fondée par Alexandre le Grand et autrefois capitale culturelle du monde antique.',
       overview_p2: 'Chaque moment est conçu entièrement pour vous. Votre guide privé multilingue vous accompagne tout au long du parcours, donnant vie à l\'histoire de chaque site avec passion et expertise — de la Pyramide à Degrés de Saqqarah à la légendaire Bibliothèque d\'Alexandrie et le fort médiéval de Qayt Bay face à la mer.',
       cta_heading: 'Prêt à Explorer <em>Le Caire et Alexandrie ?</em>',
       day_titles: [
@@ -1043,7 +1043,7 @@ const TRANSLATIONS = {
       day_descs: [
         'Arrivée au Caire, accueil à l\'aéroport du Caire et transfert à l\'hôtel. Diner libre. Nuit à l\'hôtel.',
         'Après le petit-déjeuner, départ pour la visite de la Nécropole de Sakkarah: la célèbre pyramide à degrés du roi Djoser, les Pyramides royales, les textes funéraires, les mastabas… Déjeuner en cours de visites. L\'après-midi, visite du Plateau de Guizèh : les Pyramides et le sphinx. Retour à l\'hôtel. Qualité de service. transfert en voiture privée, guide francophone privé, repas de midi durant le tour au Caire, billets d\'entrée aux sites inclus. Spectacle de son et lumière aux Pyramides; Soirée culturelle avec le Sphinx. Option. Transfert Aller / Retour et tickets. Diner libre. Nuit à l\'hôtel.',
-        'Après le petit-déjeuner, départ pour la visite du Musée des Antiquités Égyptiennes (fondé en 1857 par l\'égyptologue français Auguste Mariette). Déjeuner en cours de visites. L\'après-midi, visite de la Mosquée de Mohamed Ali dans l\'enceinte de la citadelle de Saladin et découverte des souks couverts de Khan El Khalili. Retour à l\'hôtel. Qualité de service. transfert en voiture privée, guide francophone privé, repas de midi durant le tour au Caire, billets d\'entrée aux sites inclus. Option Facultative; Soirée orientale à bord du restaurant croisière sur le Nil: repas en buffet avec animation oriental (une belle croisière sur le Nil au Caire). Option. Nuit à l\'hôtel.',
+        'Après le petit-déjeuner, départ pour la visite du GEM — Grand Musée Égyptien des Antiquités : le trésor de Toutankhamon, la Barque Solaire et les différentes salles des monuments égyptiens. Déjeuner en cours de visites. L\'après-midi, visite de la Mosquée de Mohamed Ali dans l\'enceinte de la citadelle de Saladin et découverte des souks couverts de Khan El Khalili. Retour à l\'hôtel. Qualité de service. transfert en voiture privée, guide francophone privé, repas de midi durant le tour au Caire, billets d\'entrée aux sites inclus. Option Facultative; Soirée orientale à bord du restaurant croisière sur le Nil: repas en buffet avec animation oriental (une belle croisière sur le Nil au Caire). Option. Nuit à l\'hôtel.',
         'Petit déjeuner. Départ en voiture privée pour Alexandrie. Arrivée vers 11H. Visite d\'Alexandrie (fondée par Alexandre le Grand (d\'ou son nom), Alexandrie est aujourd\'hui une grande ville cosmopolite, capitale culturelle de l\'égypte): Visite de Fort Qayt Bay et le Théatre Romain. Déjeuner en cours de visites. Transfert a l\'hotel a Alexandrie. Apres-midi libre a Alexandrie. Diner libre. Nuit à l\'hôtel.',
         'Petit déjeuner. Matinée libre a Alexandrie. Dans l\'après-midi ; Poursuite les visites à Alexandrie, visite du la Nouvelle Bibliothéque d\'Alexandrie, en digne héritier de l\'ancienne bibliothéque qui a brulé 931 et visiter les célébres catacombes. Déjeuner en cours de visites. En fin de la journée retour pour le Caire. Arrivée et transfert à l\'hôtel au Caire. Diner libre. Nuit à l\'hôtel.',
         'Petit déjeuner. Selon l\'horaire de vol, transfert à l\'aéroport, envol pour l\'Europe.',
@@ -1219,7 +1219,7 @@ const TRANSLATIONS = {
     hero: {
       label:    'Seit 2000 · Über 10.000 Reisende',
       title:    'Tour Egypte — Ihre Private Ägypten Reiseagentur seit 2000',
-      subtitle: 'Private geführte Touren durch Ägypten — Kairo, Luxor, Assuan, Nilkreuzfahrten und Rotes Meer. Französischsprachige Reiseführer. Lizenziert vom ägyptischen Tourismusministerium.',
+      subtitle: 'Private geführte Touren durch Ägypten — Kairo, Luxor, Assuan, Nilkreuzfahrten und Rotes Meer. Privatführer auf Französisch, Englisch, Deutsch, Spanisch und Italienisch. Lizenziert vom ägyptischen Tourismusministerium.',
       cta:      'Touren Entdecken',
       cta2:     'Kontakt',
       scroll:   'Scrollen',
@@ -1336,7 +1336,7 @@ const TRANSLATIONS = {
       factbox_contact: 'Kontakt:',
       factbox_speciality_value: 'Private Reisen in Ägypten',
       factbox_languages_value: 'Französisch, Englisch, Deutsch, Spanisch, Italienisch',
-      factbox_destinations_value: 'Kairo, Gizeh, Luxor, Assuan, Hurghada, Alexandria, Abu Simbel',
+      factbox_destinations_value: 'Kairo, Gizeh, Luxor, Assuan, Alexandria, Abu Simbel, Hurghada, Marsa Alam, Sharm El Sheikh, Dahab, Fayum-Oase, Siwa-Oase, Weißes Wüste, Mittelägypten Al Minya. Alle ägyptischen Reiseziele.',
       factbox_license_value: 'Ägyptisches Ministerium für Tourismus Nr. 1200',
     },
     contact_page: {
@@ -1469,12 +1469,12 @@ const TRANSLATIONS = {
     ],
     pkg_descs: [
       'Private Fahrt an Bord eines Dahabiya-Segelschiffs auf dem Nil, für Ihre Familie oder Freunde. Reise nach Kairo und Nilkreuzfahrt auf dem Dahabiya-Segelschiff.',
-      'Entdecken Sie Kairos größte Schätze in nur vier Tagen: Pyramiden, Sphinx, Ägyptisches Museum und Islamisches Kairo.',
+      'Entdecken Sie Kairos größte Schätze in nur vier Tagen: Pyramiden, Sphinx, GEM (Grand Egyptian Museum) und Islamisches Kairo.',
       'Das klassische Ägypten-Erlebnis: antike Wunder in Kairo kombiniert mit einer 5-Sterne-Nilkreuzfahrt von Luxor nach Assuan.',
       'Von den zeitlosen Pyramiden Kairos zum mediterranen Charme Alexandrias — erkunden Sie zwei der ikonischsten Städte Ägyptens.',
       'Das ultimative Abenteuer — antike Wunder, Nilkreuzfahrt, der heilige Sinai bei Sonnenaufgang, Katharinenkloster und Strände von Sharm El Sheikh.',
       'Altes Ägypten trifft Rotes-Meer-Paradies — Kairo, 5-Sterne-Nilkreuzfahrt und Entspannung am goldenen Strand von Hurghada.',
-      'Von Sakkara zu den nubischen Tempeln von Abu Simbel, dann an Bord einer authentischen Dahabija nach Luxor — eine große Reise durch das ewige Ägypten mit privatem französischsprachigem Guide.',
+      'Von Sakkara zu den nubischen Tempeln von Abu Simbel, dann an Bord einer authentischen Dahabija nach Luxor — eine große Reise durch das ewige Ägypten mit privatem Guide auf Französisch, Englisch, Deutsch, Spanisch und Italienisch.',
       'Kairo in 2 Tagen — Pyramiden, GEM und Tutanchamuns Schatz — dann 5 Nächte All-Inclusive am Roten Meer in Hurghada.',
       'Kairo, das Tal der Könige in Luxor mit dem Nachtzug, dann Entspannung in Hurghada am Roten Meer — drei ikonische Ziele in 8 Tagen.',
       'Kulturelle 7-Nächte-Nilkreuzfahrt von Luxor nach Assuan, Abu Simbel, dann 7 Nächte All-Inclusive in Hurghada am Roten Meer.',
@@ -1503,7 +1503,7 @@ const TRANSLATIONS = {
       ],
       day_descs: [
         'Ankunft in Kairo, Empfang und Unterstützung am Flughafen Kairo, Transfer zum Hotel. Abendessen zur freien Verfügung. Übernachtung im Hotel.',
-        'Frühstück im Hotel um 8:00 Uhr. Ganztägige Besichtigung von Kairo: Besuch der Pyramiden von Gizeh: Cheops, Chephren, Mykerinos sowie der Taltempel und die Sphinx. Traditionelles Mittagessen in einem Restaurant. Am Nachmittag Besichtigung des Ägyptischen Museums für Altertümer. Rückkehr zum Hotel. Optionale Option: Am Abend können Sie die "Licht- und Tonshow" bei den Pyramiden bewundern. Abendessen zur freien Verfügung. Übernachtung im Hotel.',
+        'Frühstück im Hotel um 8:00 Uhr. Ganztägige Besichtigung von Kairo: Besuch der Pyramiden von Gizeh: Cheops, Chephren, Mykerinos sowie der Taltempel und die Sphinx. Traditionelles Mittagessen in einem Restaurant. Am Nachmittag Besichtigung des GEM — Grand Egyptian Museum: der Schatz des Tutanchamun, die Sonnenbarke und die verschiedenen Säle der ägyptischen Monumente. Rückkehr zum Hotel. Optionale Option: Am Abend können Sie die "Licht- und Tonshow" bei den Pyramiden bewundern. Abendessen zur freien Verfügung. Übernachtung im Hotel.',
         'Frühstück im Hotel. Abfahrt zur Besichtigung der Nekropole der alten Hauptstadt Memphis, der Teti-Pyramide und der berühmten Stufenpyramide des Königs Djoser in Sakkara. Mittagessen in einem Restaurant. Nach dem Mittagessen Besichtigung der Pyramiden von Dahschur. Am späten Nachmittag Rückkehr nach Kairo zum Abendessen. Um 20:00 Uhr Transfer zum Bahnhof, Schlafwagenzug von Kairo nach Luxor. Abendessen und Nacht an Bord des Zuges.',
         'Ankunft am Morgen und Transfer zum Hotel. Besuch des Tempels von Habu (Medinet Habu), des großen Tempels von Ramses III., dem am besten erhaltenen der thebanischen Nekropole, und der Gräber der Adligen (Sennefer, Ramose). Mittagessen in einem Restaurant. Am Nachmittag Besichtigung des Luxor-Tempels. Übernachtung im Hotel.',
         'Frühstück im Hotel. Besichtigung des beeindruckenden Karnak-Tempels und Besuch des Tals der Könige am Westufer. Transfer nach Esna (ca. 60 km — 1 Stunde). Einschiffung auf der Dahabiya, Begrüßungsgetränk. Beginn der Fahrt in Richtung El Hegz. Übernachtung an Bord in El Hegz.',
@@ -1543,7 +1543,7 @@ const TRANSLATIONS = {
       route: 'Start & Ende: Kairo',
       overview_heading: 'Kairos <span>Wesentliche Wunder</span>',
       overview_p1: 'Kairo ist eine Stadt der Kontraste — antike Pyramiden, die sich über einer modernen Metropole erheben, mittelalterliche Minarette neben koptischen Kirchen, lebhafte Basare nur wenige Schritte von erstklassigen Museen entfernt. In vier privaten Tagen erleben Sie die Höhepunkte in Ihrem eigenen Tempo, mit einem mehrsprachigen Reiseführer, der ganz Ihnen gewidmet ist.',
-      overview_p2: 'Die Pyramiden von Gizeh brauchen keine Einführung — sie sind das einzige noch erhaltene Weltwunder der Antike, und an ihrem Fuß zu stehen ist ein Erlebnis, das Sie verändert. Aber diese Tour geht tiefer: die goldenen Schätze des Ägyptischen Museums, das spirituelle Gewicht des koptischen Kairo und die sinnliche Magie des Khan-el-Khalili-Basars ergeben zusammen ein vollständiges Porträt dieser außergewöhnlichen Stadt.',
+      overview_p2: 'Die Pyramiden von Gizeh brauchen keine Einführung — sie sind das einzige noch erhaltene Weltwunder der Antike, und an ihrem Fuß zu stehen ist ein Erlebnis, das Sie verändert. Aber diese Tour geht tiefer: die goldenen Schätze des GEM (Grand Egyptian Museum), das spirituelle Gewicht des koptischen Kairo und die sinnliche Magie des Khan-el-Khalili-Basars ergeben zusammen ein vollständiges Porträt dieser außergewöhnlichen Stadt.',
       cta_heading: 'Entdecken Sie <em>Kairo Privat</em>',
       day_titles: [
         'Kairo',
@@ -1554,7 +1554,7 @@ const TRANSLATIONS = {
       day_descs: [
         'Ankunft in Kairo, Empfang am Flughafen Kairo und Transfer zum Hotel. Abendessen zur freien Verfügung. Übernachtung im Hotel.',
         'Nach dem Frühstück Abfahrt zur Besichtigung der Nekropole von Sakkara: die berühmte Stufenpyramide des Königs Djoser, die königlichen Pyramiden, Grabtexte, Mastabas... Mittagessen während der Besichtigungen. Am Nachmittag Besuch des Gizeh-Plateaus: die Pyramiden und die Sphinx. Rückkehr zum Hotel. Servicequalität: Transfer im privaten Auto, privater französischsprachiger Reiseleiter, Mittagessen während der Kairo-Tour, Eintrittsgelder für die Sehenswürdigkeiten inklusive. Option: Licht- und Tonshow bei den Pyramiden; Kulturabend mit der Sphinx. (Inklusive Hin- und Rücktransfer und Eintrittsgelder). Abendessen zur freien Verfügung. Übernachtung im Hotel.',
-        'Nach dem Frühstück Abfahrt zur Besichtigung des Ägyptischen Museums für Altertümer (1857 vom französischen Ägyptologen Auguste Mariette gegründet). Mittagessen während der Besichtigungen. Am Nachmittag Besuch der Mohammed-Ali-Moschee in der Zitadelle von Saladin und Entdeckung der überdachten Souks von Khan el-Khalili. Rückkehr zum Hotel. Servicequalität: Transfer im privaten Auto, privater französischsprachiger Reiseleiter, Mittagessen während der Kairo-Tour, Eintrittsgelder für die Sehenswürdigkeiten inklusive. Option: Orientalischer Abend an Bord eines Restaurant-Kreuzfahrtschiffs auf dem Nil: Buffet-Abendessen mit orientalischer Unterhaltung (eine wunderschöne Nilkreuzfahrt in Kairo). Übernachtung im Hotel.',
+        'Nach dem Frühstück Abfahrt zur Besichtigung des GEM — Grand Egyptian Museum: der Schatz des Tutanchamun, die Sonnenbarke und die verschiedenen Säle der ägyptischen Monumente. Mittagessen während der Besichtigungen. Am Nachmittag Besuch der Mohammed-Ali-Moschee in der Zitadelle von Saladin und Entdeckung der überdachten Souks von Khan el-Khalili. Rückkehr zum Hotel. Servicequalität: Transfer im privaten Auto, privater französischsprachiger Reiseleiter, Mittagessen während der Kairo-Tour, Eintrittsgelder für die Sehenswürdigkeiten inklusive. Option: Orientalischer Abend an Bord eines Restaurant-Kreuzfahrtschiffs auf dem Nil: Buffet-Abendessen mit orientalischer Unterhaltung (eine wunderschöne Nilkreuzfahrt in Kairo). Übernachtung im Hotel.',
         'Frühstück. Je nach Flugplan Transfer zum Flughafen Kairo, Flug nach Europa.',
       ],
       included: [
@@ -1624,7 +1624,7 @@ const TRANSLATIONS = {
     pkg4: {
       route: 'Kairo → Alexandria → Kairo',
       overview_heading: 'Von den <span>Pyramiden</span> zum Mittelmeer',
-      overview_p1: 'Von den zeitlosen Pyramiden Kairos zum mediterranen Charme Alexandrias — erkunden Sie zwei der ikonischsten Städte Ägyptens in einer unvergesslichen Reise. Diese 6-tägige Privatreise beginnt mit den antiken Wundern des Gizeh-Plateaus und den Schätzen des Ägyptischen Museums, bevor es nordwärts nach Alexandria geht, gegründet von Alexander dem Großen und einst Kulturhauptstadt der antiken Welt.',
+      overview_p1: 'Von den zeitlosen Pyramiden Kairos zum mediterranen Charme Alexandrias — erkunden Sie zwei der ikonischsten Städte Ägyptens in einer unvergesslichen Reise. Diese 6-tägige Privatreise beginnt mit den antiken Wundern des Gizeh-Plateaus und den Schätzen des GEM (Grand Egyptian Museum), bevor es nordwärts nach Alexandria geht, gegründet von Alexander dem Großen und einst Kulturhauptstadt der antiken Welt.',
       overview_p2: 'Jeder Moment ist ganz auf Sie zugeschnitten. Ihr privater mehrsprachiger Reiseführer begleitet Sie durchgehend und erweckt die Geschichte jeder Stätte mit Leidenschaft und Expertise zum Leben — von der Stufenpyramide von Sakkara bis zur legendären Bibliothek von Alexandria und der mittelalterlichen Festung Qaitbay am Meer.',
       cta_heading: 'Bereit, <em>Kairo & Alexandria</em> zu Erkunden?',
       day_titles: [
@@ -1638,7 +1638,7 @@ const TRANSLATIONS = {
       day_descs: [
         'Ankunft in Kairo, Empfang am Flughafen Kairo und Transfer zum Hotel. Abendessen zur freien Verfügung. Übernachtung im Hotel.',
         'Nach dem Frühstück Abfahrt zur Besichtigung der Nekropole von Sakkara: die berühmte Stufenpyramide des Königs Djoser, die königlichen Pyramiden, Grabtexte, Mastabas... Mittagessen während der Besichtigungen. Am Nachmittag Besuch des Gizeh-Plateaus: die Pyramiden und die Sphinx. Rückkehr zum Hotel. Servicequalität: Transfer im privaten Auto, privater französischsprachiger Reiseleiter, Mittagessen während der Kairo-Tour, Eintrittsgelder inklusive. Option: Licht- und Tonshow bei den Pyramiden. Abendessen zur freien Verfügung. Übernachtung im Hotel.',
-        'Nach dem Frühstück Abfahrt zur Besichtigung des Ägyptischen Museums für Altertümer. Mittagessen während der Besichtigungen. Am Nachmittag Besuch der Mohammed-Ali-Moschee in der Zitadelle von Saladin und Entdeckung der überdachten Souks von Khan el-Khalili. Rückkehr zum Hotel. Servicequalität: Transfer im privaten Auto, privater französischsprachiger Reiseleiter, Mittagessen während der Kairo-Tour, Eintrittsgelder inklusive. Optionale Option: Orientalischer Abend an Bord eines Nil-Restaurantkreuzfahrtschiffs. Übernachtung im Hotel.',
+        'Nach dem Frühstück Abfahrt zur Besichtigung des GEM — Grand Egyptian Museum: der Schatz des Tutanchamun, die Sonnenbarke und die verschiedenen Säle der ägyptischen Monumente. Mittagessen während der Besichtigungen. Am Nachmittag Besuch der Mohammed-Ali-Moschee in der Zitadelle von Saladin und Entdeckung der überdachten Souks von Khan el-Khalili. Rückkehr zum Hotel. Servicequalität: Transfer im privaten Auto, privater französischsprachiger Reiseleiter, Mittagessen während der Kairo-Tour, Eintrittsgelder inklusive. Optionale Option: Orientalischer Abend an Bord eines Nil-Restaurantkreuzfahrtschiffs. Übernachtung im Hotel.',
         'Frühstück. Abfahrt mit dem privaten Auto nach Alexandria. Ankunft gegen 11:00 Uhr. Besichtigung von Alexandria (gegründet von Alexander dem Großen): Besuch der Festung Qaitbay und des Römischen Theaters. Mittagessen während der Besichtigungen. Transfer zum Hotel in Alexandria. Freier Nachmittag in Alexandria. Abendessen zur freien Verfügung. Übernachtung im Hotel.',
         'Frühstück. Vormittag zur freien Verfügung in Alexandria. Am Nachmittag Fortsetzung der Besichtigungen in Alexandria: Besuch der Neuen Bibliothek von Alexandria, der würdigen Erbin der antiken Bibliothek, und Besuch der berühmten Katakomben. Mittagessen während der Besichtigungen. Am Ende des Tages Rückkehr nach Kairo. Ankunft und Transfer zum Hotel in Kairo. Abendessen zur freien Verfügung. Übernachtung im Hotel.',
         'Frühstück. Je nach Flugplan Transfer zum Flughafen, Flug nach Europa.',
@@ -1811,7 +1811,7 @@ const TRANSLATIONS = {
     hero: {
       label:    'Desde 2000 · Más de 10.000 Viajeros',
       title:    'Tour Egypte — Su Agencia de Viajes Privados en Egipto desde 2000',
-      subtitle: 'Tours privados guiados por Egipto — El Cairo, Luxor, Asuán, cruceros por el Nilo y Mar Rojo. Guías de habla francesa. Autorizado por el Ministerio de Turismo de Egipto.',
+      subtitle: 'Tours privados guiados por Egipto — El Cairo, Luxor, Asuán, cruceros por el Nilo y Mar Rojo. Guías privados en francés, inglés, alemán, español e italiano. Autorizado por el Ministerio de Turismo de Egipto.',
       cta:      'Explorar Nuestros Tours',
       cta2:     'Contáctanos',
       scroll:   'Desplázate',
@@ -1928,7 +1928,7 @@ const TRANSLATIONS = {
       factbox_contact: 'Contacto:',
       factbox_speciality_value: 'Viajes privados en Egipto',
       factbox_languages_value: 'Francés, Inglés, Alemán, Español, Italiano',
-      factbox_destinations_value: 'El Cairo, Guiza, Luxor, Asuán, Hurghada, Alejandría, Abu Simbel',
+      factbox_destinations_value: 'El Cairo, Guiza, Luxor, Asuán, Alejandría, Abu Simbel, Hurghada, Marsa Alam, Sharm El Sheikh, Dahab, Oasis de Fayum, Oasis de Siwa, Desierto Blanco, Egipto Medio Al Minya. Todos los destinos egipcios.',
       factbox_license_value: 'Ministerio de Turismo de Egipto N° 1200',
     },
     contact_page: {
@@ -2028,16 +2028,16 @@ const TRANSLATIONS = {
     ],
     pkg_descs: [
       'Navega por el legendario Nilo en un barco Dahabiya privado con tu familia o amigos. Desde las Pirámides del Cairo hasta los templos de Luxor, Edfu y Asuán.',
-      'Descubre los mayores tesoros de El Cairo en cuatro días: Pirámides, Esfinge, el Museo Egipcio y el Cairo Islámico.',
+      'Descubre los mayores tesoros de El Cairo en cuatro días: Pirámides, Esfinge, el GEM (Grand Egyptian Museum) y el Cairo Islámico.',
       'La experiencia clásica de Egipto: las maravillas antiguas del Cairo combinadas con un crucero de cinco estrellas por el Nilo de Luxor a Asuán.',
       'Desde las atemporales Pirámides de El Cairo al encanto mediterráneo de Alejandría — explora dos de las ciudades más icónicas de Egipto.',
       'La aventura definitiva — maravillas antiguas, crucero por el Nilo, el sagrado Monte Sinaí al amanecer, monasterio de Santa Catalina y playas de Sharm El Sheikh.',
       'El Egipto antiguo se encuentra con el paraíso del Mar Rojo — El Cairo, crucero de cinco estrellas y relajación en las costas doradas de Hurghada.',
-      'Desde Saqqara hasta los templos nubios de Abu Simbel, luego a bordo de un auténtico Dahabiya hasta Luxor — un gran viaje por el Egipto eterno con guía privado francófono.',
+      'Desde Saqqara hasta los templos nubios de Abu Simbel, luego a bordo de un auténtico Dahabiya hasta Luxor — un gran viaje por el Egipto eterno con guía privado en francés, inglés, alemán, español e italiano.',
       'El Cairo en 2 días — pirámides, GEM y el tesoro de Tutankamón — luego 5 noches en todo incluido junto al Mar Rojo en Hurghada.',
       'El Cairo, el Valle de los Reyes en Luxor en tren nocturno, luego descanso en Hurghada junto al Mar Rojo — tres destinos emblemáticos en 8 días.',
       'Crucero cultural 7 noches por el Nilo de Luxor a Asuán, Abu Simbel, luego 7 noches todo incluido en Hurghada en el Mar Rojo.',
-      'Crucero privado 7 noches Nilo Luxor/Luxor con Valle de los Reyes, Abu Simbel, Edfu, Kom Ombo y Asuán. Guía privado francófono incluido.',
+      'Crucero privado 7 noches Nilo Luxor/Luxor con Valle de los Reyes, Abu Simbel, Edfu, Kom Ombo y Asuán. Guía privado en francés, inglés, alemán, español e italiano incluido.',
       'Tour único en El Cairo, safari en jeep en el Valle de las Ballenas UNESCO, Oasis de Fayum y Alejandría. Egipto fuera de lo común.',
     ],
     pkg_detail: {
@@ -2095,7 +2095,7 @@ const TRANSLATIONS = {
       ],
       day_descs: [
         'Llegada a El Cairo, recepcion y asistencia en el Aeropuerto de El Cairo, traslado al hotel. Cena libre. Alojamiento en el hotel.',
-        'Desayuno en el hotel a las 8:00 AM. Visita de un dia completo a El Cairo: la visita de las Piramides de Giza: Keops, Kefren, Micerinos y el Templo del Valle y la esfinge. Almuerzo tradicional en restaurante. Por la tarde, la visita del Museo Egipcio de Antiguedades. Regreso al hotel. Opcion Opcional: Por la noche, puede admirar el espectaculo de "Luz y Sonido" en las Piramides. Cena libre. Alojamiento en el hotel.',
+        'Desayuno en el hotel a las 8:00 AM. Visita de un dia completo a El Cairo: la visita de las Piramides de Giza: Keops, Kefren, Micerinos y el Templo del Valle y la esfinge. Almuerzo tradicional en restaurante. Por la tarde, visita al GEM — Grand Egyptian Museum: el tesoro de Tutankamón, la Barca Solar y las diferentes salas de monumentos egipcios. Regreso al hotel. Opcion Opcional: Por la noche, puede admirar el espectaculo de "Luz y Sonido" en las Piramides. Cena libre. Alojamiento en el hotel.',
         'Desayuno en el hotel. Salida para la visita de la necropolis de la antigua capital Menfis, la Piramide de Teti y la famosa piramide escalonada del Rey Zoser en Saqqara. Almuerzo en restaurante. Despues del almuerzo; la visita a las piramides de Dahshur. Al final de la tarde, regreso al Cairo para tomar la cena. A las 20:00, traslado a la estacion de tren, tren coche-cama de El Cairo hacia Luxor. Cena y noche a bordo del tren.',
         'Llegada por la mañana y traslado al hotel. Visita al Templo de Habu (Medinet Habu), el gran Templo de Ramses III, el mejor conservado de la necropolis de Tebas, y las Tumbas de los Nobles (Sennefer, Ramose). Almuerzo en restaurante. Por la tarde, la visita del Templo de Luxor. Noche en el hotel.',
         'Desayuno en el hotel. Visita al impresionante Templo de Karnak y visita al Valle de los Reyes en Cisjordania. Traslado a Esna (Aprox. 60 Km - 1 hora). Embarque en el Dahabiya, bebida de bienvenida. Comienzo de la navegacion hacia El Hegz. Noche a bordo en El Hegz.',
@@ -2135,7 +2135,7 @@ const TRANSLATIONS = {
       route: 'Inicio y fin: El Cairo',
       overview_heading: 'Las <span>Maravillas Esenciales</span> de El Cairo',
       overview_p1: 'El Cairo es una ciudad de contrastes — piramides antiguas que se alzan sobre una metropolis moderna, minaretes medievales junto a iglesias coptas, bazares vibrantes a pasos de museos de clase mundial. En cuatro dias privados, experimentara lo mas destacado a su propio ritmo, con un guia multilingue dedicado exclusivamente a usted.',
-      overview_p2: 'Las Piramides de Giza no necesitan presentacion — son la unica maravilla superviviente del mundo antiguo, y estar a sus pies es una experiencia que le transforma. Pero este tour va mas alla: los tesoros dorados del Museo Egipcio, el peso espiritual del Cairo Copto y la magia sensorial del bazar de Jan el-Jalili se combinan para ofrecerle un retrato completo de esta ciudad extraordinaria.',
+      overview_p2: 'Las Piramides de Giza no necesitan presentacion — son la unica maravilla superviviente del mundo antiguo, y estar a sus pies es una experiencia que le transforma. Pero este tour va mas alla: los tesoros dorados del GEM (Grand Egyptian Museum), el peso espiritual del Cairo Copto y la magia sensorial del bazar de Jan el-Jalili se combinan para ofrecerle un retrato completo de esta ciudad extraordinaria.',
       cta_heading: 'Descubra <em>El Cairo en Privado</em>',
       day_titles: [
         'El Cairo',
@@ -2146,7 +2146,7 @@ const TRANSLATIONS = {
       day_descs: [
         'Llegada a El Cairo, recepcion en el aeropuerto de El Cairo y traslado al hotel. Cena libre. Noche en el hotel.',
         'Despues del desayuno, salida para visitar la Necropolis de Saqqara: la famosa piramide escalonada del Rey Zoser, las Piramides Reales, los textos funerarios, las mastabas... Almuerzo durante las visitas. Por la tarde, visita a la meseta de Giza: las Piramides y la esfinge. Regreso al hotel. Calidad de servicio: traslado en coche privado, guia privado de habla francesa, almuerzo durante el recorrido por El Cairo, entradas a los sitios incluidas. Opcion: Espectaculo de luz y sonido en las Piramides; noche cultural con la Esfinge. (Incluye traslado de ida y vuelta y entradas). Cena libre. Noche en el hotel.',
-        'Despues del desayuno, salida para visitar el Museo de Antiguedades Egipcias (fundado en 1857 por el egiptologo frances Auguste Mariette). Almuerzo durante las visitas. Por la tarde, visita de la Mezquita de Mohamed Ali en el recinto de la ciudadela de Saladino y descubrimiento de los zocos cubiertos de Jan el-Jalili. Regreso al hotel. Calidad de servicio: traslado en coche privado, guia privado de habla francesa, almuerzo durante el recorrido por El Cairo, entradas a los sitios incluidas. Opcion: Noche oriental a bordo de un crucero restaurante por el Nilo: cena buffet con animacion oriental (un hermoso crucero por el Nilo en El Cairo). Noche en el hotel.',
+        'Despues del desayuno, salida para visitar al GEM — Grand Egyptian Museum: el tesoro de Tutankamón, la Barca Solar y las diferentes salas de monumentos egipcios. Almuerzo durante las visitas. Por la tarde, visita de la Mezquita de Mohamed Ali en el recinto de la ciudadela de Saladino y descubrimiento de los zocos cubiertos de Jan el-Jalili. Regreso al hotel. Calidad de servicio: traslado en coche privado, guia privado de habla francesa, almuerzo durante el recorrido por El Cairo, entradas a los sitios incluidas. Opcion: Noche oriental a bordo de un crucero restaurante por el Nilo: cena buffet con animacion oriental (un hermoso crucero por el Nilo en El Cairo). Noche en el hotel.',
         'Desayuno. Segun el horario del vuelo, traslado al aeropuerto de El Cairo, vuelo hacia Europa.',
       ],
       included: [
@@ -2215,7 +2215,7 @@ const TRANSLATIONS = {
     pkg4: {
       route: 'El Cairo → Alejandría → El Cairo',
       overview_heading: 'De las <span>Piramides</span> al Mediterraneo',
-      overview_p1: 'Desde las atemporales Piramides de El Cairo al encanto mediterraneo de Alejandria — explore dos de las ciudades mas iconicas de Egipto en un viaje inolvidable. Este tour privado de 6 dias comienza con las antiguas maravillas de la meseta de Giza y los tesoros del Museo Egipcio, antes de llevarle al norte hacia Alejandria, fundada por Alejandro Magno y antigua capital cultural del mundo antiguo.',
+      overview_p1: 'Desde las atemporales Piramides de El Cairo al encanto mediterraneo de Alejandria — explore dos de las ciudades mas iconicas de Egipto en un viaje inolvidable. Este tour privado de 6 dias comienza con las antiguas maravillas de la meseta de Giza y los tesoros del GEM (Grand Egyptian Museum), antes de llevarle al norte hacia Alejandria, fundada por Alejandro Magno y antigua capital cultural del mundo antiguo.',
       overview_p2: 'Cada momento esta diseñado exclusivamente para usted. Su guia privado multilingue le acompaña durante todo el recorrido, dando vida a la historia de cada sitio con pasion y experiencia — desde la Piramide Escalonada de Saqqara hasta la legendaria Biblioteca de Alejandria y el fuerte medieval de Qaitbay frente al mar.',
       cta_heading: 'Listo para Explorar <em>El Cairo y Alejandria?</em>',
       day_titles: [
@@ -2229,7 +2229,7 @@ const TRANSLATIONS = {
       day_descs: [
         'Llegada a El Cairo, recepcion en el aeropuerto de El Cairo y traslado al hotel. Cena libre. Noche en el hotel.',
         'Despues del desayuno, salida para visitar la Necropolis de Saqqara: la famosa piramide escalonada del Rey Zoser, las Piramides Reales, los textos funerarios, las mastabas... Almuerzo durante las visitas. Por la tarde, visita a la meseta de Giza: las Piramides y la esfinge. Regreso al hotel. Calidad de servicio: traslado en coche privado, guia privado de habla francesa, almuerzo durante el recorrido por El Cairo, entradas a los sitios incluidas. Opcion: Espectaculo de luz y sonido en las Piramides. Cena libre. Noche en el hotel.',
-        'Despues del desayuno, salida para visitar el Museo de Antiguedades Egipcias. Almuerzo durante las visitas. Por la tarde, visita de la Mezquita de Mohamed Ali en el recinto de la Ciudadela de Saladino y descubrimiento de los zocos cubiertos de Jan el-Jalili. Regreso al hotel. Calidad de servicio: traslado en coche privado, guia privado de habla francesa, almuerzo durante el recorrido por El Cairo, entradas a los sitios incluidas. Opcion Opcional: Noche oriental a bordo de un crucero restaurante por el Nilo. Noche en el hotel.',
+        'Despues del desayuno, salida para visitar al GEM — Grand Egyptian Museum: el tesoro de Tutankamón, la Barca Solar y las diferentes salas de monumentos egipcios. Almuerzo durante las visitas. Por la tarde, visita de la Mezquita de Mohamed Ali en el recinto de la Ciudadela de Saladino y descubrimiento de los zocos cubiertos de Jan el-Jalili. Regreso al hotel. Calidad de servicio: traslado en coche privado, guia privado de habla francesa, almuerzo durante el recorrido por El Cairo, entradas a los sitios incluidas. Opcion Opcional: Noche oriental a bordo de un crucero restaurante por el Nilo. Noche en el hotel.',
         'Desayuno. Salida en coche privado hacia Alejandria. Llegada alrededor de las 11:00 AM. Visita de Alejandria (fundada por Alejandro Magno): Visita del Fuerte de Qaitbay y el Teatro Romano. Almuerzo durante las visitas. Traslado al hotel en Alejandria. Tarde libre en Alejandria. Cena libre. Noche en el hotel.',
         'Desayuno. Mañana libre en Alejandria. Por la tarde; continuacion de las visitas en Alejandria: visita a la Nueva Biblioteca de Alejandria, digna heredera de la antigua biblioteca, y visita a las famosas catacumbas. Almuerzo durante las visitas. Al final del dia, regreso a El Cairo. Llegada y traslado al hotel en El Cairo. Cena libre. Noche en el hotel.',
         'Desayuno. Segun el horario del vuelo, traslado al aeropuerto, vuelo hacia Europa.',
@@ -2402,7 +2402,7 @@ const TRANSLATIONS = {
     hero: {
       label:    'Dal 2000 · Oltre 10.000 Viaggiatori',
       title:    'Tour Egypte — La Vostra Agenzia di Viaggi Privati in Egitto dal 2000',
-      subtitle: 'Tour privati guidati in Egitto — Il Cairo, Luxor, Assuan, crociere sul Nilo e Mar Rosso. Guide di lingua francese. Autorizzato dal Ministero del Turismo egiziano.',
+      subtitle: 'Tour privati guidati in Egitto — Il Cairo, Luxor, Assuan, crociere sul Nilo e Mar Rosso. Guide private in francese, inglese, tedesco, spagnolo e italiano. Autorizzato dal Ministero del Turismo egiziano.',
       cta:      'Esplora i Nostri Tour',
       cta2:     'Contattaci',
       scroll:   'Scorri',
@@ -2519,7 +2519,7 @@ const TRANSLATIONS = {
       factbox_contact: 'Contatto:',
       factbox_speciality_value: 'Viaggi privati in Egitto',
       factbox_languages_value: 'Francese, Inglese, Tedesco, Spagnolo, Italiano',
-      factbox_destinations_value: 'Il Cairo, Giza, Luxor, Assuan, Hurghada, Alessandria, Abu Simbel',
+      factbox_destinations_value: 'Il Cairo, Giza, Luxor, Assuan, Alessandria, Abu Simbel, Hurghada, Marsa Alam, Sharm El Sheikh, Dahab, Oasi di Fayum, Oasi di Siwa, Deserto Bianco, Medio Egitto Al Minya. Tutte le destinazioni egiziane.',
       factbox_license_value: 'Ministero del Turismo egiziano N° 1200',
     },
     contact_page: {
@@ -2652,16 +2652,16 @@ const TRANSLATIONS = {
     ],
     pkg_descs: [
       'Traversata privata a bordo di un veliero Dahabiya sul Nilo, per la famiglia o gli amici. Viaggio al Cairo e crociera sul Nilo nel veliero Dahabiya.',
-      'Scopri i più grandi tesori del Cairo in soli quattro giorni: Piramidi, Sfinge, Museo Egizio e Cairo Islamica.',
+      'Scopri i più grandi tesori del Cairo in soli quattro giorni: Piramidi, Sfinge, GEM (Grand Egyptian Museum) e Cairo Islamica.',
       'L\'esperienza classica dell\'Egitto: le meraviglie antiche del Cairo combinate con una crociera cinque stelle sul Nilo da Luxor ad Assuan.',
       'Dalle eterne Piramidi del Cairo al fascino mediterraneo di Alessandria — esplora due delle città più iconiche dell\'Egitto.',
       'L\'avventura definitiva — meraviglie antiche, crociera sul Nilo, il sacro Monte Sinai all\'alba, Monastero di Santa Caterina e spiagge di Sharm El Sheikh.',
       'L\'antico Egitto incontra il paradiso del Mar Rosso — Il Cairo, crociera cinque stelle e relax sulle rive dorate di Hurghada.',
-      'Da Saqqara ai templi nubiani di Abu Simbel, poi a bordo di un autentico Dahabiya fino a Luxor — un grande viaggio nell\'Egitto eterno con guida privata francofona.',
+      'Da Saqqara ai templi nubiani di Abu Simbel, poi a bordo di un autentico Dahabiya fino a Luxor — un grande viaggio nell\'Egitto eterno con guida privata in francese, inglese, tedesco, spagnolo e italiano.',
       'Il Cairo in 2 giorni — piramidi, GEM e il tesoro di Tutankhamon — poi 5 notti all-inclusive sul Mar Rosso a Hurghada.',
       'Il Cairo, la Valle dei Re a Luxor in treno notturno, poi relax a Hurghada sul Mar Rosso — tre destinazioni iconiche in 8 giorni.',
       'Crociera culturale 7 notti sul Nilo da Luxor ad Assuan, Abu Simbel, poi 7 notti all inclusive a Hurghada sul Mar Rosso.',
-      'Crociera privata 7 notti Nilo Luxor/Luxor con Valle dei Re, Abu Simbel, Edfu, Kom Ombo e Assuan. Guida privata francofona inclusa.',
+      'Crociera privata 7 notti Nilo Luxor/Luxor con Valle dei Re, Abu Simbel, Edfu, Kom Ombo e Assuan. Guida privata in francese, inglese, tedesco, spagnolo e italiano inclusa.',
       'Tour unico al Cairo, safari in jeep nella Valle delle Balene UNESCO, Oasi di Fayum e Alessandria. Egitto fuori dai sentieri battuti.',
     ],
     pkg1: {
@@ -2686,7 +2686,7 @@ const TRANSLATIONS = {
       ],
       day_descs: [
         'Arrivo al Cairo, accoglienza e assistenza all\'aeroporto del Cairo, trasferimento in hotel. Cena libera. Pernottamento in hotel.',
-        'Colazione in hotel alle 8:00. Visita di un\'intera giornata al Cairo: visita delle Piramidi di Giza: Cheope, Chefren, Micerino, il Tempio a Valle e la Sfinge. Pranzo tradizionale in ristorante. Nel pomeriggio, visita del Museo Egizio delle Antichita\'. Ritorno in hotel. Opzione Facoltativa: In serata, potete ammirare lo spettacolo "Luci e Suoni" alle Piramidi. Cena libera. Pernottamento in hotel.',
+        'Colazione in hotel alle 8:00. Visita di un\'intera giornata al Cairo: visita delle Piramidi di Giza: Cheope, Chefren, Micerino, il Tempio a Valle e la Sfinge. Pranzo tradizionale in ristorante. Nel pomeriggio, visita al GEM — Grand Egyptian Museum: il tesoro di Tutankhamon, la Barca Solare e le diverse sale dei monumenti egizi. Ritorno in hotel. Opzione Facoltativa: In serata, potete ammirare lo spettacolo "Luci e Suoni" alle Piramidi. Cena libera. Pernottamento in hotel.',
         'Colazione in hotel. Partenza per la visita della necropoli dell\'antica capitale Menfi, la Piramide di Teti e la famosa piramide a gradoni del re Djoser a Saqqara. Pranzo in ristorante. Dopo pranzo; visita alle piramidi di Dahshur. Nel tardo pomeriggio, ritorno al Cairo per la cena. Alle 20:00, trasferimento alla stazione ferroviaria, treno con vagoni letto dal Cairo verso Luxor. Cena e pernottamento a bordo del treno.',
         'Arrivo al mattino e trasferimento in hotel. Visita al Tempio di Habu (Medinet Habu), il grande Tempio di Ramses III, il meglio conservato della necropoli di Tebe, e le Tombe dei Nobili (Sennefer, Ramose). Pranzo in ristorante. Nel pomeriggio, visita del Tempio di Luxor. Pernottamento in hotel.',
         'Colazione in hotel. Visita all\'impressionante Tempio di Karnak e visita della Valle dei Re in Cisgiordania. Trasferimento a Esna (Circa 60 Km - 1 ora). Imbarco sulla Dahabiya, drink di benvenuto. Inizio della navigazione verso El Hegz. Pernottamento a bordo a El Hegz.',
@@ -2725,7 +2725,7 @@ const TRANSLATIONS = {
       route: 'Partenza e ritorno: Il Cairo',
       overview_heading: 'Le <span>Meraviglie Essenziali</span> del Cairo',
       overview_p1: 'Viaggio di fine settimana al Cairo. 04 Giorni / 03 Notti.',
-      overview_p2: 'Scoprite i più grandi tesori del Cairo in soli quattro giorni privati — Piramidi, Sfinge, il Museo Egizio, il Cairo Islamico e Copto — con una guida multilingue dedicata esclusivamente a voi.',
+      overview_p2: 'Scoprite i più grandi tesori del Cairo in soli quattro giorni privati — Piramidi, Sfinge, il GEM (Grand Egyptian Museum), il Cairo Islamico e Copto — con una guida multilingue dedicata esclusivamente a voi.',
       cta_heading: 'Scopri <em>Il Cairo in Privato</em>',
       day_titles: [
         'Il Cairo',
@@ -2736,7 +2736,7 @@ const TRANSLATIONS = {
       day_descs: [
         'Arrivo al Cairo, accoglienza all\'aeroporto del Cairo e trasferimento in hotel. Cena libera. Notte in hotel.',
         'Dopo colazione, partenza per visitare la Necropoli di Saqqara: la famosa piramide a gradoni del Re Djoser, le Piramidi Reali, i testi funerari, le mastabe... Pranzo durante le visite. Nel pomeriggio, visita alla piana di Giza: le Piramidi e la Sfinge. Ritorno in hotel. Qualita\' del servizio: trasferimento in auto privata, guida privata di lingua francese, pranzo durante il tour del Cairo, biglietti d\'ingresso ai siti inclusi. Opzione: Spettacolo di luci e suoni alle Piramidi; serata culturale con la Sfinge. (Include trasferimento di andata e ritorno e biglietti d\'ingresso). Cena libera. Notte in hotel.',
-        'Dopo colazione, partenza per visitare il Museo delle Antichita\' Egizie (fondato nel 1857 dall\'egittologo francese Auguste Mariette). Pranzo durante le visite. Nel pomeriggio, visita della Moschea di Mohamed Ali all\'interno della Cittadella di Saladino e scoperta dei suq coperti di Khan el-Khalili. Ritorno in hotel. Qualita\' del servizio: trasferimento in auto privata, guida privata di lingua francese, pranzo durante il tour del Cairo, biglietti d\'ingresso ai siti inclusi. Opzione: Serata orientale a bordo di una nave ristorante sul Nilo: cena a buffet con intrattenimento orientale (una bellissima crociera sul Nilo al Cairo). Notte in hotel.',
+        'Dopo colazione, partenza per visitare al GEM — Grand Egyptian Museum: il tesoro di Tutankhamon, la Barca Solare e le diverse sale dei monumenti egizi. Pranzo durante le visite. Nel pomeriggio, visita della Moschea di Mohamed Ali all\'interno della Cittadella di Saladino e scoperta dei suq coperti di Khan el-Khalili. Ritorno in hotel. Qualita\' del servizio: trasferimento in auto privata, guida privata di lingua francese, pranzo durante il tour del Cairo, biglietti d\'ingresso ai siti inclusi. Opzione: Serata orientale a bordo di una nave ristorante sul Nilo: cena a buffet con intrattenimento orientale (una bellissima crociera sul Nilo al Cairo). Notte in hotel.',
         'Colazione. In base all\'orario del volo, trasferimento all\'aeroporto del Cairo, volo per l\'Europa.',
       ],
       included: [
@@ -2820,7 +2820,7 @@ const TRANSLATIONS = {
       day_descs: [
         'Arrivo al Cairo, accoglienza all\'aeroporto del Cairo e trasferimento in hotel. Cena libera. Notte in hotel.',
         'Dopo colazione, partenza per visitare la Necropoli di Saqqara: la famosa piramide a gradoni del re Djoser, le Piramidi Reali, i testi funerari, le mastabe... Pranzo durante le visite. Nel pomeriggio, visita della piana di Giza: le Piramidi e la sfinge. Ritorno in hotel. Qualita\' del servizio: trasferimento in auto privata, guida privata di lingua francese, pranzo durante il tour del Cairo, biglietti d\'ingresso ai siti inclusi. Opzione: Spettacolo di luci e suoni alle Piramidi. Cena libera. Notte in hotel.',
-        'Dopo colazione, partenza per visitare il Museo delle Antichita\' Egizie. Pranzo durante le visite. Nel pomeriggio, visita della Moschea di Mohamed Ali all\'interno della Cittadella di Saladino e scoperta dei suq coperti di Khan el-Khalili. Ritorno in hotel. Qualita\' del servizio: trasferimento in auto privata, guida privata di lingua francese, pranzo durante il tour del Cairo, biglietti d\'ingresso ai siti inclusi. Opzione Facoltativa: Serata orientale a bordo di una nave ristorante sul Nilo. Notte in hotel.',
+        'Dopo colazione, partenza per visitare al GEM — Grand Egyptian Museum: il tesoro di Tutankhamon, la Barca Solare e le diverse sale dei monumenti egizi. Pranzo durante le visite. Nel pomeriggio, visita della Moschea di Mohamed Ali all\'interno della Cittadella di Saladino e scoperta dei suq coperti di Khan el-Khalili. Ritorno in hotel. Qualita\' del servizio: trasferimento in auto privata, guida privata di lingua francese, pranzo durante il tour del Cairo, biglietti d\'ingresso ai siti inclusi. Opzione Facoltativa: Serata orientale a bordo di una nave ristorante sul Nilo. Notte in hotel.',
         'Colazione. Partenza in auto privata verso Alessandria. Arrivo verso le 11:00. Visita di Alessandria (fondata da Alessandro Magno): Visita del Forte di Qaitbay e del Teatro Romano. Pranzo durante le visite. Trasferimento in hotel ad Alessandria. Pomeriggio libero ad Alessandria. Cena libera. Notte in hotel.',
         'Colazione. Mattinata libera ad Alessandria. Nel pomeriggio; proseguimento delle visite ad Alessandria: visita alla Nuova Biblioteca di Alessandria, degna erede dell\'antica biblioteca, e visita alle famose catacombe. Pranzo durante le visite. A fine giornata, ritorno al Cairo. Arrivo e trasferimento in hotel al Cairo. Cena libera. Notte in hotel.',
         'Colazione. In base all\'orario del volo, trasferimento all\'aeroporto, volo per l\'Europa.',

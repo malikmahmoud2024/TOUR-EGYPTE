@@ -286,6 +286,27 @@
       padding: 0.2rem 0.6rem;
       border-radius: 2px;
     }
+        /* Day-by-day photo layout */
+    .itinerary-list::before { display: none; }
+    .itinerary-day {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    .itinerary-day__photo {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+      border-radius: 8px;
+      display: block;
+    }
+    @media (min-width: 768px) {
+      .itinerary-day { grid-template-columns: 1fr 1fr; align-items: start; }
+      .itinerary-day__content { order: 1; }
+      .itinerary-day__photo-wrap { order: 2; }
+      .itinerary-day:nth-child(even) .itinerary-day__content { order: 2; }
+      .itinerary-day:nth-child(even) .itinerary-day__photo-wrap { order: 1; }
+    }
     .inclusions-section {
       background: #FBF8F1;
       padding: 5rem 0;
@@ -578,16 +599,19 @@
       <div class="itinerary-list">
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>1</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>1</span></div>
             <h3 class="itinerary-day__title">Kairo</h3>
             <p class="itinerary-day__desc">Ankunft in Kairo, Empfang am Flughafen Kairo und Transfer zum Hotel. Abendessen zur freien Verfügung. Übernachtung im Hotel.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/nile-cairo.jpg" alt="The Nile River in Cairo" loading="lazy">
           </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>2</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>2</span></div>
             <h3 class="itinerary-day__title">Kairo</h3>
             <p class="itinerary-day__desc">Nach dem Frühstück Abfahrt zur Besichtigung der Nekropole von Sakkara: die berühmte Stufenpyramide des Königs Djoser, die königlichen Pyramiden, Grabtexte, Mastabas... Mittagessen während der Besichtigungen. Am Nachmittag Besuch des Gizeh-Plateaus: die Pyramiden und die Sphinx. Rückkehr zum Hotel. Servicequalität: Transfer im privaten Auto, privater französischsprachiger Reiseleiter, Mittagessen während der Kairo-Tour, Eintrittsgelder für die Sehenswürdigkeiten inklusive. Option: Licht- und Tonshow bei den Pyramiden; Kulturabend mit der Sphinx. (Inklusive Hin- und Rücktransfer und Eintrittsgelder). Abendessen zur freien Verfügung. Übernachtung im Hotel.</p>
             <div class="itinerary-day__highlights">
@@ -596,13 +620,16 @@
               <span class="itinerary-highlight">Tutankhamun's Mask</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/sphinx-pyramids.jpg" alt="The Great Sphinx and Pyramids of Giza" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>3</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>3</span></div>
             <h3 class="itinerary-day__title">Kairo</h3>
-            <p class="itinerary-day__desc">Nach dem Frühstück Abfahrt zur Besichtigung des Ägyptischen Museums für Altertümer (1857 vom französischen Ägyptologen Auguste Mariette gegründet). Mittagessen während der Besichtigungen. Am Nachmittag Besuch der Mohammed-Ali-Moschee in der Zitadelle von Saladin und Entdeckung der überdachten Souks von Khan el-Khalili. Rückkehr zum Hotel. Servicequalität: Transfer im privaten Auto, privater französischsprachiger Reiseleiter, Mittagessen während der Kairo-Tour, Eintrittsgelder für die Sehenswürdigkeiten inklusive. Option: Orientalischer Abend an Bord eines Restaurant-Kreuzfahrtschiffs auf dem Nil: Buffet-Abendessen mit orientalischer Unterhaltung (eine wunderschöne Nilkreuzfahrt in Kairo). Übernachtung im Hotel.</p>
+            <p class="itinerary-day__desc">Nach dem Frühstück Abfahrt zur Besichtigung des GEM — Grand Egyptian Museum: der Schatz des Tutanchamun, die Sonnenbarke und die verschiedenen Säle der ägyptischen Monumente. Mittagessen während der Besichtigungen. Am Nachmittag Besuch der Mohammed-Ali-Moschee in der Zitadelle von Saladin und Entdeckung der überdachten Souks von Khan el-Khalili. Rückkehr zum Hotel. Servicequalität: Transfer im privaten Auto, privater französischsprachiger Reiseleiter, Mittagessen während der Kairo-Tour, Eintrittsgelder für die Sehenswürdigkeiten inklusive. Option: Orientalischer Abend an Bord eines Restaurant-Kreuzfahrtschiffs auf dem Nil: Buffet-Abendessen mit orientalischer Unterhaltung (eine wunderschöne Nilkreuzfahrt in Kairo). Übernachtung im Hotel.</p>
             <div class="itinerary-day__highlights">
               <span class="itinerary-highlight">Citadel of Saladin</span>
               <span class="itinerary-highlight">Mohammed Ali Mosque</span>
@@ -610,13 +637,19 @@
               <span class="itinerary-highlight">Hanging Church</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/tours/khan-el-khalili-bazaar.jpg" alt="Khan El Khalili bazaar in Cairo" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>4</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>4</span></div>
             <h3 class="itinerary-day__title">Kairo / Abreise</h3>
             <p class="itinerary-day__desc">Frühstück. Je nach Flugplan Transfer zum Flughafen Kairo, Flug nach Europa.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/grand-egyptian-museum.jpg" alt="Grand Egyptian Museum" loading="lazy">
           </div>
         </div>
 
@@ -658,42 +691,7 @@
     </div>
   </section>
 
-  <!-- GALLERY -->
-  <section class="pkg-gallery">
-    <div class="container">
-      <div class="reveal">
-        <span class="section-label">Galerie</span>
-        <h2 class="section-heading">Reise<span>eindrücke</span></h2>
-      </div>
-      <div class="pkg-gallery__grid reveal reveal-delay-1">
-        <div class="pkg-gallery__item">
-          <img src="../images/sphinx-pyramids.jpg" alt="Sphinx and Pyramids at Giza" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/gallery-museum.jpg" alt="Egyptian Museum treasures" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/gallery-khan-khalili.jpg" alt="Old Cairo mosques" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/cairo-cityscape-pyramids.jpg" alt="Kairo bei Sonnenuntergang mit den Pyramiden von Gizeh am Horizont" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/egyptian-museum-hall.jpg" alt="Kolossalstatue im Grand Egyptian Museum" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/khan-el-khalili-bazaar.jpg" alt="Gasse des Khan-el-Khalili-Basars" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/sphinx-giza-view.jpg" alt="Die Große Sphinx von Gizeh" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/giza-pyramids-camel.jpg" alt="Kamel vor der Pyramide von Gizeh" loading="lazy">
-        </div>
-      </div>
-    </div>
-  </section>
-
+  
   <!-- BOOKING CTA -->
   <section class="pkg-book-cta">
     <div class="container">

@@ -118,6 +118,27 @@
     .itinerary-day__desc { font-family:'Cormorant Garamond',serif; font-size:1.05rem; line-height:1.7; color:#4A3728; font-weight:400; }
     .itinerary-day__highlights { margin-top:0.5rem; display:flex; flex-wrap:wrap; gap:0.4rem; }
     .itinerary-highlight { display:inline-block; background:rgba(201,168,76,0.1); border:1px solid rgba(201,168,76,0.25); color:#8B6A1E; font-family:'Cormorant Garamond',serif; font-size:0.8rem; letter-spacing:0.5px; padding:0.2rem 0.6rem; border-radius:2px; }
+        /* Day-by-day photo layout */
+    .itinerary-list::before { display: none; }
+    .itinerary-day {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    .itinerary-day__photo {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+      border-radius: 8px;
+      display: block;
+    }
+    @media (min-width: 768px) {
+      .itinerary-day { grid-template-columns: 1fr 1fr; align-items: start; }
+      .itinerary-day__content { order: 1; }
+      .itinerary-day__photo-wrap { order: 2; }
+      .itinerary-day:nth-child(even) .itinerary-day__content { order: 2; }
+      .itinerary-day:nth-child(even) .itinerary-day__photo-wrap { order: 1; }
+    }
     .inclusions-section { background:#FBF8F1; padding:5rem 0; }
     .inclusions-grid { display:grid; grid-template-columns:1fr 1fr; gap:3rem; margin-top:3rem; }
     @media(max-width:640px){ .inclusions-grid{ grid-template-columns:1fr; } }
@@ -341,16 +362,19 @@
       <div class="itinerary-list">
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>1</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>1</span></div>
             <h3 class="itinerary-day__title">Cairo — Arrival</h3>
             <p class="itinerary-day__desc">Arrival in Cairo, welcome at Cairo Airport, transfer to hotel. Dinner on your own. Overnight at hotel.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/nile-cairo.jpg" alt="The Nile River in Cairo" loading="lazy">
           </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>2</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>2</span></div>
             <h3 class="itinerary-day__title">Cairo / Luxor — GEM, Giza &amp; Sleeper Train</h3>
             <p class="itinerary-day__desc">After breakfast, visit GEM: Solar Boat and Tutankhamun treasures. Lunch at restaurant. Afternoon: Giza Plateau, Pyramids, Valley Temple, Sphinx. End of day: transfer to train station, sleeper train (Wagon-Lits) double cabin to Luxor. Dinner and overnight on board.</p>
             <div class="itinerary-day__highlights">
@@ -359,11 +383,14 @@
               <span class="itinerary-highlight">Sleeper Train</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/grand-egyptian-museum.jpg" alt="Grand Egyptian Museum" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>3</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>3</span></div>
             <h3 class="itinerary-day__title">Luxor — West Bank &amp; Temples</h3>
             <p class="itinerary-day__desc">After breakfast, arrival in Luxor, welcome at train station. Visit Theban Necropolis: Valley of the Kings, Hatshepsut Temple at Deir El Bahari, Colossi of Memnon. Lunch at restaurant. Transfer to hotel. Free afternoon. Optional: Sound and Light show at Karnak Temples. Dinner on your own. Overnight at hotel.</p>
             <div class="itinerary-day__highlights">
@@ -372,11 +399,14 @@
               <span class="itinerary-highlight">Colossi of Memnon</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/tours/hatshepsut-temple.jpg" alt="Temple of Hatshepsut" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>4</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>4</span></div>
             <h3 class="itinerary-day__title">Luxor / Hurghada — Karnak, Luxor Temple &amp; Red Sea Transfer</h3>
             <p class="itinerary-day__desc">After breakfast, visit Karnak Temple then Luxor Temple. Lunch at restaurant. Depart by private van to Hurghada (approx. 4 hours). Arrival and transfer to hotel. Dinner at hotel. Overnight at hotel.</p>
             <div class="itinerary-day__highlights">
@@ -384,19 +414,25 @@
               <span class="itinerary-highlight">Luxor Temple</span>
             </div>
           </div>
-        </div>
-
-        <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>5</span></div>
-          <div class="itinerary-day__content">
-            <h3 class="itinerary-day__title">Hurghada — Red Sea</h3>
-            <p class="itinerary-day__desc">Breakfast. Free day by Red Sea. Lunch and dinner at hotel. Overnight at hotel.</p>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/karnak-columns.jpg" alt="Columns of Karnak Temple" loading="lazy">
           </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>6</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>5</span></div>
+            <h3 class="itinerary-day__title">Hurghada — Red Sea</h3>
+            <p class="itinerary-day__desc">Breakfast. Free day by Red Sea. Lunch and dinner at hotel. Overnight at hotel.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/hurghada-resort.jpg" alt="Pool at a Hurghada resort on the Red Sea" loading="lazy">
+          </div>
+        </div>
+
+        <div class="itinerary-day reveal">
+          <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>6</span></div>
             <h3 class="itinerary-day__title">Hurghada — Red Sea</h3>
             <p class="itinerary-day__desc">Breakfast. Free day by Red Sea. Lunch and dinner at hotel. Overnight at hotel. Optional: boat trip Giftun Island or Orange Bay, snorkeling.</p>
             <div class="itinerary-day__highlights">
@@ -404,21 +440,30 @@
               <span class="itinerary-highlight">Snorkeling</span>
             </div>
           </div>
-        </div>
-
-        <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>7</span></div>
-          <div class="itinerary-day__content">
-            <h3 class="itinerary-day__title">Hurghada — Red Sea</h3>
-            <p class="itinerary-day__desc">Breakfast. Free day by Red Sea. Lunch and dinner at hotel. Overnight at hotel.</p>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/tours/red-sea-coral-reef.jpg" alt="Coral reef in the Red Sea" loading="lazy">
           </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>8</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>7</span></div>
+            <h3 class="itinerary-day__title">Hurghada — Red Sea</h3>
+            <p class="itinerary-day__desc">Breakfast. Free day by Red Sea. Lunch and dinner at hotel. Overnight at hotel.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/hurghada-beach.jpg" alt="Beach at Hurghada on the Red Sea" loading="lazy">
+          </div>
+        </div>
+
+        <div class="itinerary-day reveal">
+          <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>8</span></div>
             <h3 class="itinerary-day__title">Hurghada — Final Departure</h3>
             <p class="itinerary-day__desc">Breakfast. Transfer to Hurghada Airport for final departure. Option: return by road to Cairo by private van, depart from Cairo international airport.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/hurghada-red-sea.jpg" alt="Turquoise waters of Hurghada on the Red Sea" loading="lazy">
           </div>
         </div>
 
@@ -467,45 +512,7 @@
     </div>
   </section>
 
-  <!-- GALLERY -->
-  <section class="pkg-gallery">
-    <div class="container">
-      <div class="reveal">
-        <span class="section-label">Gallery</span>
-        <h2 class="section-heading">Journey <span>Impressions</span></h2>
-      </div>
-      <div class="pkg-gallery__grid reveal reveal-delay-1">
-        <div class="pkg-gallery__item">
-          <img src="../images/karnak-columns.jpg" alt="Karnak Temple columns" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <picture>
-            <source srcset="../images/gallery-valley.webp" type="image/webp">
-            <img src="../images/gallery-valley.jpg" alt="Valley of the Kings" width="1200" height="800" loading="lazy">
-          </picture>
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/gallery-red-sea.jpg" alt="Red Sea coastline at Hurghada" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/cairo-cityscape-pyramids.jpg" alt="Cairo skyline at sunset with the Giza pyramids on the horizon" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/hatshepsut-temple.jpg" alt="Mortuary Temple of Hatshepsut at Deir el-Bahari" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/colossi-memnon.jpg" alt="Colossi of Memnon near Luxor" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/red-sea-scuba-diving.jpg" alt="Scuba diving in the Red Sea" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/hurghada-resort-aerial.jpg" alt="Aerial view of a Hurghada beach resort" loading="lazy">
-        </div>
-      </div>
-    </div>
-  </section>
-
+  
   <!-- BOOKING CTA -->
   <section class="pkg-book-cta">
     <div class="container">

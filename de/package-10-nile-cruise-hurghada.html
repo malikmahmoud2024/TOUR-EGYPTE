@@ -277,6 +277,27 @@
       padding: 0.2rem 0.6rem;
       border-radius: 2px;
     }
+    /* Day-by-day photo layout */
+    .itinerary-list::before { display: none; }
+    .itinerary-day {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    .itinerary-day__photo {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+      border-radius: 8px;
+      display: block;
+    }
+    @media (min-width: 768px) {
+      .itinerary-day { grid-template-columns: 1fr 1fr; align-items: start; }
+      .itinerary-day__content { order: 1; }
+      .itinerary-day__photo-wrap { order: 2; }
+      .itinerary-day:nth-child(even) .itinerary-day__content { order: 2; }
+      .itinerary-day:nth-child(even) .itinerary-day__photo-wrap { order: 1; }
+    }
     .inclusions-section {
       background: #FBF8F1;
       padding: 5rem 0;
@@ -578,16 +599,19 @@
       <div class="itinerary-list">
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>1</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>1</span></div>
             <h3 class="itinerary-day__title">Luxor — Ankunft</h3>
             <p class="itinerary-day__desc">Ankunft in Luxor, Empfang am Flughafen. Transfer und Einschiffung auf das Nilkreuzfahrtschiff. Abendessen und Übernachtung an Bord.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/nile-cruise-ship.jpg" alt="Nile river cruise ship sailing" loading="lazy">
           </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>2</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>2</span></div>
             <h3 class="itinerary-day__title">Luxor / Esna / Edfu</h3>
             <p class="itinerary-day__desc">Frühstück an Bord. Besichtigung der thebanischen Nekropole: Tal der Könige und Hatschepsut-Tempel. Stopp bei den Memnonkolossen. Mittagessen an Bord. Fahrt zur Esna-Schleuse. Navigation nach Edfu. Abendessen und Übernachtung an Bord.</p>
             <div class="itinerary-day__highlights">
@@ -596,11 +620,14 @@
               <span class="itinerary-highlight">Colossi of Memnon</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/tours/hatshepsut-temple.jpg" alt="Hatshepsut Temple at Deir el-Bahari" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>3</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>3</span></div>
             <h3 class="itinerary-day__title">Edfu / Kom Ombo / Assuan</h3>
             <p class="itinerary-day__desc">Morgens Besichtigung des Horus-Tempels in Edfu. Fahrt nach Kom Ombo. Mittagessen an Bord. Nachmittags Besichtigung des beleuchteten Tempels von Kom Ombo. Fahrt nach Assuan. Abendessen und Übernachtung an Bord.</p>
             <div class="itinerary-day__highlights">
@@ -608,11 +635,14 @@
               <span class="itinerary-highlight">Kom Ombo Temple</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/edfu-temple.jpg" alt="Temple of Horus at Edfu" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>4</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>4</span></div>
             <h3 class="itinerary-day__title">Assuan</h3>
             <p class="itinerary-day__desc">Frühstück. Bootsfahrt zum Philae-Tempel. Mittagessen an Bord. Nachmittags Felukenfahrt um Elefanten-Insel und Botanischer Garten. Abendessen und Übernachtung an Bord.</p>
             <div class="itinerary-day__highlights">
@@ -620,11 +650,14 @@
               <span class="itinerary-highlight">Elephantine Island</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/philae-temple.jpg" alt="Philae Temple on the Nile" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>5</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>5</span></div>
             <h3 class="itinerary-day__title">Assuan / Abu Simbel</h3>
             <p class="itinerary-day__desc">Früh morgens Abfahrt im privaten Van nach Abu Simbel: Besichtigung der Tempel von Ramses II und Nefertari. Rückkehr zum Schiff. Mittagessen. Freier Nachmittag. Optional Ton-und-Licht-Show. Abendessen und Übernachtung an Bord.</p>
             <div class="itinerary-day__highlights">
@@ -633,19 +666,25 @@
               <span class="itinerary-highlight">UNESCO World Heritage Site</span>
             </div>
           </div>
-        </div>
-
-        <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>6</span></div>
-          <div class="itinerary-day__content">
-            <h3 class="itinerary-day__title">Assuan / Kom Ombo / Edfu</h3>
-            <p class="itinerary-day__desc">Frühstück. Freier Vormittag. Mittagessen. Navigation nach Kom Ombo und Edfu. Abendessen und Übernachtung an Bord.</p>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/abu-simbel.jpg" alt="Abu Simbel temple facade" loading="lazy">
           </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>7</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>6</span></div>
+            <h3 class="itinerary-day__title">Assuan / Kom Ombo / Edfu</h3>
+            <p class="itinerary-day__desc">Frühstück. Freier Vormittag. Mittagessen. Navigation nach Kom Ombo und Edfu. Abendessen und Übernachtung an Bord.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/nile-green.jpg" alt="Nile River sailing between Aswan and Edfu" loading="lazy">
+          </div>
+        </div>
+
+        <div class="itinerary-day reveal">
+          <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>7</span></div>
             <h3 class="itinerary-day__title">Edfu / Esna / Luxor</h3>
             <p class="itinerary-day__desc">Frühstück. Navigation nach Esna. Weiter nach Luxor. Mittagessen. Ankunft Luxor nachmittags. Karnak-Tempel und Luxor-Tempel. Abendessen und Übernachtung an Bord.</p>
             <div class="itinerary-day__highlights">
@@ -653,69 +692,96 @@
               <span class="itinerary-highlight">Luxor Temple</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/karnak-columns.jpg" alt="Columns of Karnak Temple" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>8</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>8</span></div>
             <h3 class="itinerary-day__title">Luxor / Hurghada — Rotes Meer</h3>
             <p class="itinerary-day__desc">Nach dem Frühstück privates Auto nach Hurghada (ca. 4 Std.). Ankunft und Transfer zum Hotel. Mittag- und Abendessen im Hotel. Übernachtung.</p>
           </div>
-        </div>
-
-        <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>9</span></div>
-          <div class="itinerary-day__content">
-            <h3 class="itinerary-day__title">Hurghada — Rotes Meer</h3>
-            <p class="itinerary-day__desc">Frühstück. Freier Tag am Roten Meer. Mittag- und Abendessen im Hotel. Übernachtung.</p>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/tours/hurghada-resort-aerial.jpg" alt="Aerial view of Hurghada Red Sea resort" loading="lazy">
           </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>10</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>9</span></div>
             <h3 class="itinerary-day__title">Hurghada — Rotes Meer</h3>
             <p class="itinerary-day__desc">Frühstück. Freier Tag am Roten Meer. Mittag- und Abendessen im Hotel. Übernachtung.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/hurghada-beach.jpg" alt="Hurghada beach on the Red Sea" loading="lazy">
           </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>11</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>10</span></div>
             <h3 class="itinerary-day__title">Hurghada — Rotes Meer</h3>
             <p class="itinerary-day__desc">Frühstück. Freier Tag am Roten Meer. Mittag- und Abendessen im Hotel. Übernachtung.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/tours/red-sea-coral-reef.jpg" alt="Red Sea coral reef" loading="lazy">
           </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>12</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>11</span></div>
             <h3 class="itinerary-day__title">Hurghada — Rotes Meer</h3>
             <p class="itinerary-day__desc">Frühstück. Freier Tag am Roten Meer. Mittag- und Abendessen im Hotel. Übernachtung.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/red-sea-diving.jpg" alt="Diving in the Red Sea" loading="lazy">
           </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>13</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>12</span></div>
             <h3 class="itinerary-day__title">Hurghada — Rotes Meer</h3>
             <p class="itinerary-day__desc">Frühstück. Freier Tag am Roten Meer. Mittag- und Abendessen im Hotel. Übernachtung.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/tours/red-sea-scuba-diving.jpg" alt="Scuba diving in the Red Sea" loading="lazy">
           </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>14</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>13</span></div>
             <h3 class="itinerary-day__title">Hurghada — Rotes Meer</h3>
             <p class="itinerary-day__desc">Frühstück. Freier Tag am Roten Meer. Mittag- und Abendessen im Hotel. Übernachtung.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/gallery-red-sea.jpg" alt="Red Sea coastline view" loading="lazy">
           </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>15</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>14</span></div>
+            <h3 class="itinerary-day__title">Hurghada — Rotes Meer</h3>
+            <p class="itinerary-day__desc">Frühstück. Freier Tag am Roten Meer. Mittag- und Abendessen im Hotel. Übernachtung.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/hurghada-red-sea.jpg" alt="Hurghada Red Sea coast" loading="lazy">
+          </div>
+        </div>
+
+        <div class="itinerary-day reveal">
+          <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>15</span></div>
             <h3 class="itinerary-day__title">Hurghada / Abreise</h3>
             <p class="itinerary-day__desc">Frühstück. Transfer zum Flughafen Hurghada. Abreise.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/hurghada-resort.jpg" alt="Hurghada beach resort" loading="lazy">
           </div>
         </div>
 
@@ -755,51 +821,6 @@
             <li>Persönliche Ausgaben</li>
             <li>Optionale Ausflüge</li>
           </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- GALLERY -->
-  <section class="pkg-gallery">
-    <div class="container">
-      <div class="reveal">
-        <span class="section-label">Galerie</span>
-        <h2 class="section-heading">Reise<span>eindrücke</span></h2>
-      </div>
-      <div class="pkg-gallery__grid reveal reveal-delay-1">
-        <div class="pkg-gallery__item">
-          <picture>
-            <source srcset="../images/nile-cruise-ship.webp" type="image/webp">
-            <img src="../images/nile-cruise-ship.jpg" alt="Nile cruise ship sailing at sunset" loading="lazy" />
-          </picture>
-        </div>
-        <div class="pkg-gallery__item">
-          <picture>
-            <source srcset="../images/luxor-temple-night.webp" type="image/webp">
-            <img src="../images/luxor-temple-night.jpg" alt="Luxor Temple illuminated at night" loading="lazy" />
-          </picture>
-        </div>
-        <div class="pkg-gallery__item">
-          <picture>
-            <source srcset="../images/hurghada-beach.webp" type="image/webp">
-            <img src="../images/hurghada-beach.jpg" alt="Hurghada beach on the Red Sea" loading="lazy" />
-          </picture>
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/karnak-hypostyle-columns.jpg" alt="Große Hypostylhalle des Karnak-Tempels" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/hatshepsut-temple.jpg" alt="Totentempel der Hatschepsut in Deir el-Bahari" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/aswan-town-nile.jpg" alt="Nubisches Dorf am Nil bei Assuan" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/felucca-nile-sunset.jpg" alt="Feluke auf dem Nil bei Sonnenuntergang" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/red-sea-scuba-diving.jpg" alt="Tauchen im Roten Meer" loading="lazy" />
         </div>
       </div>
     </div>

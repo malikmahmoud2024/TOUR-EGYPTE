@@ -162,7 +162,28 @@
     .itinerary-day__desc { font-family:'Cormorant Garamond',serif; font-size:1.05rem; line-height:1.7; color:#4A3728; font-weight:400; }
     .itinerary-day__highlights { margin-top:0.5rem; display:flex; flex-wrap:wrap; gap:0.4rem; }
     .itinerary-highlight { display:inline-block; background:rgba(201,168,76,0.1); border:1px solid rgba(201,168,76,0.25); color:#8B6A1E; font-family:'Cormorant Garamond',serif; font-size:0.8rem; letter-spacing:0.5px; padding:0.2rem 0.6rem; border-radius:2px; }
-    .inclusions-section { background:#FBF8F1; padding:5rem 0; }
+        /* Day-by-day photo layout */
+    .itinerary-list::before { display: none; }
+    .itinerary-day {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    .itinerary-day__photo {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+      border-radius: 8px;
+      display: block;
+    }
+    @media (min-width: 768px) {
+      .itinerary-day { grid-template-columns: 1fr 1fr; align-items: start; }
+      .itinerary-day__content { order: 1; }
+      .itinerary-day__photo-wrap { order: 2; }
+      .itinerary-day:nth-child(even) .itinerary-day__content { order: 2; }
+      .itinerary-day:nth-child(even) .itinerary-day__photo-wrap { order: 1; }
+    }
+.inclusions-section { background:#FBF8F1; padding:5rem 0; }
     .inclusions-grid { display:grid; grid-template-columns:1fr 1fr; gap:3rem; margin-top:3rem; }
     @media(max-width:640px){ .inclusions-grid{ grid-template-columns:1fr; } }
     .inclusions-block h3 { font-family:'Playfair Display',serif; font-size:1.3rem; color:#1A1208; margin-bottom:1.25rem; padding-bottom:0.75rem; border-bottom:2px solid rgba(201,168,76,0.3); }
@@ -385,16 +406,21 @@
       <div class="itinerary-list">
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>1</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>1</span></div>
+
             <h3 class="itinerary-day__title">Kairo</h3>
             <p class="itinerary-day__desc">Ankunft in Kairo. Empfang am Flughafen Kairo und Transfer zum Hotel. Abendessen zur freien Verfügung. Übernachtung im Hotel.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/pyramids-aerial.jpg" alt="Aerial view of the Pyramids of Giza" loading="lazy">
           </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>2</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>2</span></div>
+
             <h3 class="itinerary-day__title">Kairo / Alexandria</h3>
             <p class="itinerary-day__desc">Frühstück. Abfahrt im privaten Van nach Alexandria. Besuch der Festung Qaitbay und des Römischen Theaters. Mittagessen während der Besichtigungen. Am Nachmittag Besuch der Neuen Bibliothek von Alexandria und der Katakomben. Rückkehr nach Kairo. Option: Licht und Ton bei den Pyramiden. Abendessen zur freien Verfügung. Übernachtung im Hotel.</p>
             <div class="itinerary-day__highlights">
@@ -404,11 +430,15 @@
               <span class="itinerary-highlight">Catacombs</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/tours/qaitbay-citadel.jpg" alt="Qaitbay Citadel on the Alexandria coastline" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>3</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>3</span></div>
+
             <h3 class="itinerary-day__title">Kairo / Assuan</h3>
             <p class="itinerary-day__desc">Nach dem Frühstück Besichtigung der Nekropole von Sakkara und der Pyramiden von Gizeh. Mittagessen im Restaurant. Am Ende des Tages Transfer zum Bahnhof, Schlafwagenzug von Kairo nach Assuan. Abendessen und Nacht an Bord.</p>
             <div class="itinerary-day__highlights">
@@ -419,11 +449,15 @@
               <span class="itinerary-highlight">Sleeper Train</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/sphinx-pyramids.jpg" alt="Great Sphinx with the Pyramids of Giza" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>4</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>4</span></div>
+
             <h3 class="itinerary-day__title">Assuan / Nilkreuzfahrt</h3>
             <p class="itinerary-day__desc">Ankunft in Assuan, Empfang und Transfer zur Besichtigung des Philae-Tempels. Einschiffung auf dem Schiff. Mittagessen an Bord. Fahrt mit der Feluke um die Insel Elephantine und den Botanischen Garten. Abendessen und Übernachtung an Bord.</p>
             <div class="itinerary-day__highlights">
@@ -433,11 +467,15 @@
               <span class="itinerary-highlight">Felucca Ride</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/philae-temple.jpg" alt="Temple of Philae on the Nile" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>5</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>5</span></div>
+
             <h3 class="itinerary-day__title">Assuan / Abu Simbel / Kom Ombo</h3>
             <p class="itinerary-day__desc">Sehr früh am Morgen Abfahrt im privaten Van zur Besichtigung von Abu Simbel (Ramses II. und Nefertari). Rückkehr nach Assuan zum Schiff. Mittagessen an Bord. Fahrt nach Kom Ombo. Besichtigung des beleuchteten Tempels von Kom Ombo. Fahrt nach EDFU. Abendessen und Übernachtung an Bord.</p>
             <div class="itinerary-day__highlights">
@@ -447,11 +485,15 @@
               <span class="itinerary-highlight">Kom Ombo Temple</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/tours/abu-simbel-facade-wide.jpg" alt="Facade of the Abu Simbel temple" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>6</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>6</span></div>
+
             <h3 class="itinerary-day__title">Edfu / Esna / Luxor</h3>
             <p class="itinerary-day__desc">Frühstück. Besuch des Horus-Tempels in Edfu. Fahrt nach Esna und Luxor. Mittagessen an Bord. Besichtigung des Luxor-Tempels am Nachmittag. Abendessen und Übernachtung an Bord.</p>
             <div class="itinerary-day__highlights">
@@ -460,11 +502,15 @@
               <span class="itinerary-highlight">Temple of Luxor</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/tours/luxor-temple-entrance.jpg" alt="Entrance of Luxor Temple" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>7</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>7</span></div>
+
             <h3 class="itinerary-day__title">Luxor / Kairo</h3>
             <p class="itinerary-day__desc">Frühstück und Ausschiffung in Luxor. Besichtigung der Nekropole von Theben: Tal der Könige, Deir El Bahari und Memnonkolosse. Mittagessen im Restaurant. Am Nachmittag Karnak-Tempel. Transfer zum Bahnhof, Schlafwagenzug von Luxor nach Kairo. Abendessen und Nacht an Bord des Zuges.</p>
             <div class="itinerary-day__highlights">
@@ -475,11 +521,15 @@
               <span class="itinerary-highlight">Sleeper Train</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/tours/hatshepsut-temple.jpg" alt="Hatshepsut Temple at Deir el-Bahari" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>8</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>8</span></div>
+
             <h3 class="itinerary-day__title">Kairo</h3>
             <p class="itinerary-day__desc">Ankunft in Kairo und Aufbruch zur Besichtigung des GEM (Großes Ägyptisches Museum). Mittagessen. Am Nachmittag Mohammed-Ali-Moschee in der Zitadelle von Saladin und Souks von Khan el-Khalili. Transfer zum Hotel.</p>
             <div class="itinerary-day__highlights">
@@ -489,22 +539,30 @@
               <span class="itinerary-highlight">Khan El Khalili</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/grand-egyptian-museum.jpg" alt="Grand Egyptian Museum exhibition hall" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>9</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>9</span></div>
+
             <h3 class="itinerary-day__title">Kairo / Katharinenkloster</h3>
             <p class="itinerary-day__desc">Frühstück und Transfer im privaten Van zum Katharinenkloster (ca. 6 Stunden). Ankunft im Hotel. Abendessen im Hotel.</p>
             <div class="itinerary-day__highlights">
               <span class="itinerary-highlight">Sinai Peninsula</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/tours/sinai-mountains.jpg" alt="Mountains of the Sinai Peninsula" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>10</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>10</span></div>
+
             <h3 class="itinerary-day__title">Katharinenkloster / Sharm el Sheikh</h3>
             <p class="itinerary-day__desc">Vor Sonnenaufgang Aufstieg auf den Berg Sinai (Mosesberg), um den Sonnenaufgang zu bewundern. Entdeckung des Katharinenklosters. Abfahrt nach Sharm el Sheikh. Mittagessen zur freien Verfügung. Ankunft in Sharm und Transfer zum Hotel. Abendessen und Übernachtung.</p>
             <div class="itinerary-day__highlights">
@@ -513,11 +571,15 @@
               <span class="itinerary-highlight">Burning Bush</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/tours/st-catherine-monastery.jpg" alt="St. Catherine's Monastery in the Sinai mountains" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>11</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>11</span></div>
+
             <h3 class="itinerary-day__title">Sharm el Sheikh</h3>
             <p class="itinerary-day__desc">Frühstück. Freie Tage am Roten Meer. Mittag- und Abendessen im Hotel (All Inclusive "soft"). Übernachtungen im Hotel.</p>
             <div class="itinerary-day__highlights">
@@ -525,11 +587,15 @@
               <span class="itinerary-highlight">Beach &amp; Leisure</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/tours/sharm-el-sheikh-beach.jpg" alt="Beach at Sharm El Sheikh" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>12</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>12</span></div>
+
             <h3 class="itinerary-day__title">Sharm el Sheikh</h3>
             <p class="itinerary-day__desc">Frühstück. Freie Tage am Roten Meer. Mittag- und Abendessen im Hotel (All Inclusive "soft"). Übernachtungen im Hotel.</p>
             <div class="itinerary-day__highlights">
@@ -537,11 +603,15 @@
               <span class="itinerary-highlight">Beach &amp; Leisure</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/tours/red-sea-scuba-diving.jpg" alt="Scuba diver in the Red Sea" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>13</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>13</span></div>
+
             <h3 class="itinerary-day__title">Sharm el Sheikh</h3>
             <p class="itinerary-day__desc">Frühstück. Freie Tage am Roten Meer. Mittag- und Abendessen im Hotel (All Inclusive "soft"). Übernachtungen im Hotel.</p>
             <div class="itinerary-day__highlights">
@@ -549,13 +619,20 @@
               <span class="itinerary-highlight">Beach &amp; Leisure</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/tours/red-sea-coral-reef.jpg" alt="Coral reef in the Red Sea" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>14</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>14</span></div>
+
             <h3 class="itinerary-day__title">Sharm el Sheikh / Abreise</h3>
             <p class="itinerary-day__desc">Frühstück und Transfer zum Flughafen für den Rückflug.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/gallery-red-sea.jpg" alt="Red Sea coastline" loading="lazy">
           </div>
         </div>
 
@@ -610,41 +687,6 @@
     </div>
   </section>
 
-  <!-- GALLERY -->
-  <section class="pkg-gallery">
-    <div class="container">
-      <div class="reveal">
-        <span class="section-label">Galerie</span>
-        <h2 class="section-heading">Reise<span>eindrücke</span></h2>
-      </div>
-      <div class="pkg-gallery__grid reveal reveal-delay-1">
-        <div class="pkg-gallery__item">
-          <img src="../images/gallery-pyramids.jpg" alt="Pyramids of Giza" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/gallery-nile.jpg" alt="Nile River cruise" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/gallery-red-sea.jpg" alt="Red Sea beach in Sharm El Sheikh" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/st-catherine-monastery.jpg" alt="Katharinenkloster im Sinai" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/valley-kings-tomb-interior.jpg" alt="Wandmalereien in einem Grab im Tal der Könige" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/red-sea-coral-reef.jpg" alt="Korallenriff im Roten Meer" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/sinai-mountains.jpg" alt="Sinai-Gebirge bei Sonnenuntergang" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/sharm-el-sheikh-beach.jpg" alt="Strand von Sharm El Sheikh" loading="lazy">
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- BOOKING CTA -->
   <section class="pkg-book-cta">

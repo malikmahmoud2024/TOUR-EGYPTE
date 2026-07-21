@@ -276,6 +276,27 @@
       padding: 0.2rem 0.6rem;
       border-radius: 2px;
     }
+    /* Day-by-day photo layout */
+    .itinerary-list::before { display: none; }
+    .itinerary-day {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    .itinerary-day__photo {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+      border-radius: 8px;
+      display: block;
+    }
+    @media (min-width: 768px) {
+      .itinerary-day { grid-template-columns: 1fr 1fr; align-items: start; }
+      .itinerary-day__content { order: 1; }
+      .itinerary-day__photo-wrap { order: 2; }
+      .itinerary-day:nth-child(even) .itinerary-day__content { order: 2; }
+      .itinerary-day:nth-child(even) .itinerary-day__photo-wrap { order: 1; }
+    }
     .inclusions-section {
       background: #FBF8F1;
       padding: 5rem 0;
@@ -577,16 +598,19 @@
       <div class="itinerary-list">
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>1</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>1</span></div>
             <h3 class="itinerary-day__title" data-i18n="pkg12.day_titles.0">Le Caire — Arrivée</h3>
             <p class="itinerary-day__desc" data-i18n="pkg12.day_descs.0">Arrivée au Caire, accueil à l'aéroport du Caire et transfert à l'hôtel. Dîner libre. Nuit à l'hôtel.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="images/nile-cairo.jpg" alt="The Nile River in Cairo" loading="lazy">
           </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>2</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>2</span></div>
             <h3 class="itinerary-day__title" data-i18n="pkg12.day_titles.1">Le Caire — Sakkarah & Plateau de Gizeh</h3>
             <p class="itinerary-day__desc" data-i18n="pkg12.day_descs.1">Après le petit-déjeuner, départ à 08h30 avec le guide francophone pour la visite de la nécropole de Sakkarah : la célèbre pyramide à degrés du roi Djoser, les textes des pyramides funéraires royaux, les mastabas. Déjeuner inclus. L'après-midi, visite du Plateau de Gizeh : les Pyramides, Temple de la Vallée et le Sphinx. Retour à l'hôtel vers 17h. Dîner libre. Nuit à l'hôtel.</p>
             <div class="itinerary-day__highlights">
@@ -596,11 +620,14 @@
               <span class="itinerary-highlight">Great Sphinx</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="images/pyramids-camel.jpg" alt="Pyramids of Giza with camel" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>3</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>3</span></div>
             <h3 class="itinerary-day__title" data-i18n="pkg12.day_titles.2">Le Caire / Oasis du Fayoum — Vallée des Baleines</h3>
             <p class="itinerary-day__desc" data-i18n="pkg12.day_descs.2">Après le petit-déjeuner, départ à 07h00 en van privé pour l'Oasis du Fayoum (90 km du Caire). Départ en jeep 4x4 pour la visite de la zone protégée de Wadi Hittan (Vallée des Baleines), classée au patrimoine mondial de l'UNESCO, abritant des squelettes de baleines vieux de 40 millions d'années. Déjeuner barbecue dans un village bédouin. Puis visite du Magic Lake, safari en jeep et sand-board. Découverte de Wadi El Rayan, zone protégée depuis 1989, avec ses cascades et la Montagne Modawara. Retour au Caire vers 20h. Dîner libre. Nuit à l'hôtel.</p>
             <div class="itinerary-day__highlights">
@@ -610,11 +637,14 @@
               <span class="itinerary-highlight">Wadi El Rayan Waterfalls</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="images/valley-whales.jpg" alt="Valley of the Whales desert rock formations" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>4</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>4</span></div>
             <h3 class="itinerary-day__title" data-i18n="pkg12.day_titles.3">Le Caire — Grand Musée Égyptien & Citadelle</h3>
             <p class="itinerary-day__desc" data-i18n="pkg12.day_descs.3">Après le petit-déjeuner, départ à 08h30 pour la visite du GEM — Grand Musée Égyptien des Antiquités : trésor de Toutankhamon, Barque Solaire et salles des monuments égyptiens. Déjeuner inclus. L'après-midi, visite de la Mosquée de Mohamed Ali dans l'enceinte de la Citadelle de Saladin. Retour à l'hôtel vers 17h. Dîner libre. Nuit à l'hôtel.</p>
             <div class="itinerary-day__highlights">
@@ -623,11 +653,14 @@
               <span class="itinerary-highlight">Citadel of Saladin</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="images/grand-egyptian-museum.jpg" alt="Grand Egyptian Museum" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>5</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>5</span></div>
             <h3 class="itinerary-day__title" data-i18n="pkg12.day_titles.4">Le Caire / Alexandrie</h3>
             <p class="itinerary-day__desc" data-i18n="pkg12.day_descs.4">Petit-déjeuner. Départ à 07h30 en voiture privée pour Alexandrie (arrivée vers 10h). Visite du Fort Qaytbay et du Théâtre Romain. Déjeuner inclus. L'après-midi, visite de la Nouvelle Bibliothèque d'Alexandrie et des célèbres catacombes. Retour au Caire vers 20h. Dîner libre. Nuit à l'hôtel.</p>
             <div class="itinerary-day__highlights">
@@ -637,11 +670,14 @@
               <span class="itinerary-highlight">Catacombs</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="images/tours/qaitbay-citadel.jpg" alt="Qaitbay Citadel in Alexandria" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>6</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>6</span></div>
             <h3 class="itinerary-day__title" data-i18n="pkg12.day_titles.5">Le Caire — Quartier Copte & Caire Islamique</h3>
             <p class="itinerary-day__desc" data-i18n="pkg12.day_descs.5">Après le petit-déjeuner, visite du Quartier Copte : Église Suspendue et Église des Saints Serge. Déjeuner inclus. L'après-midi, visite de la Mosquée Sultan Hassan, découverte des souks couverts de Khan El Khalili, balade dans la rue El Moez et visite du Complexe de Kalaoûn. Retour à l'hôtel. Dîner. Nuit à l'hôtel.</p>
             <div class="itinerary-day__highlights">
@@ -651,21 +687,30 @@
               <span class="itinerary-highlight">El Moez Street</span>
             </div>
           </div>
-        </div>
-
-        <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>7</span></div>
-          <div class="itinerary-day__content">
-            <h3 class="itinerary-day__title" data-i18n="pkg12.day_titles.6">Le Caire — Journée Libre</h3>
-            <p class="itinerary-day__desc" data-i18n="pkg12.day_descs.6">Petit-déjeuner. Journée libre au Caire. Dîner libre. Nuit à l'hôtel.</p>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="images/tours/khan-el-khalili-bazaar.jpg" alt="Khan El Khalili bazaar in Cairo" loading="lazy">
           </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>8</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>7</span></div>
+            <h3 class="itinerary-day__title" data-i18n="pkg12.day_titles.6">Le Caire — Journée Libre</h3>
+            <p class="itinerary-day__desc" data-i18n="pkg12.day_descs.6">Petit-déjeuner. Journée libre au Caire. Dîner libre. Nuit à l'hôtel.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="images/tours/cairo-cityscape-pyramids.jpg" alt="Cairo cityscape with pyramids in the distance" loading="lazy">
+          </div>
+        </div>
+
+        <div class="itinerary-day reveal">
+          <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>8</span></div>
             <h3 class="itinerary-day__title" data-i18n="pkg12.day_titles.7">Le Caire — Départ Final</h3>
             <p class="itinerary-day__desc" data-i18n="pkg12.day_descs.7">Petit-déjeuner. Selon l'horaire de vol, transfert à l'aéroport du Caire pour le départ final.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="images/pyramids-aerial2.jpg" alt="Aerial view of the Pyramids of Giza at sunset" loading="lazy">
           </div>
         </div>
 
@@ -703,51 +748,6 @@
             <li data-i18n="pkg12.excluded.4">Dépenses personnelles</li>
             <li data-i18n="pkg12.excluded.5">Excursions facultatives</li>
           </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- GALLERY -->
-  <section class="pkg-gallery">
-    <div class="container">
-      <div class="reveal">
-        <span class="section-label" data-i18n="pkg_detail.gallery_label">Galerie</span>
-        <h2 class="section-heading" data-i18n="pkg_detail.gallery_heading">Impressions de <span>Voyage</span></h2>
-      </div>
-      <div class="pkg-gallery__grid reveal reveal-delay-1">
-        <div class="pkg-gallery__item">
-          <picture>
-            <source srcset="images/fayoum-oasis.webp" type="image/webp">
-            <img src="images/fayoum-oasis.jpg" alt="Fayoum Oasis desert landscape" loading="lazy" />
-          </picture>
-        </div>
-        <div class="pkg-gallery__item">
-          <picture>
-            <source srcset="images/valley-whales.webp" type="image/webp">
-            <img src="images/valley-whales.jpg" alt="Valley of the Whales desert rock formations" loading="lazy" />
-          </picture>
-        </div>
-        <div class="pkg-gallery__item">
-          <picture>
-            <source srcset="images/alexandria-egypt.webp" type="image/webp">
-            <img src="images/alexandria-egypt.jpg" alt="Alexandria Mediterranean coastline" loading="lazy" />
-          </picture>
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="images/tours/white-desert-rocks.jpg" alt="Formations rocheuses du Désert Blanc" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="images/tours/desert-camp-tents.jpg" alt="Camp de tentes dans le Désert Blanc" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="images/tours/desert-stars-night.jpg" alt="Ciel étoilé sur les dunes du désert" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="images/tours/qaitbay-citadel.jpg" alt="Citadelle de Qaitbay" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="images/tours/alexandria-library.jpg" alt="Bibliothèque d'Alexandrie" loading="lazy" />
         </div>
       </div>
     </div>

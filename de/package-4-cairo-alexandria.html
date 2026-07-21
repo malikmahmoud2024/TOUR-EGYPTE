@@ -127,7 +127,28 @@
     .itinerary-day__desc { font-family:'Cormorant Garamond',serif; font-size:1.05rem; line-height:1.7; color:#4A3728; font-weight:400; }
     .itinerary-day__highlights { margin-top:0.5rem; display:flex; flex-wrap:wrap; gap:0.4rem; }
     .itinerary-highlight { display:inline-block; background:rgba(201,168,76,0.1); border:1px solid rgba(201,168,76,0.25); color:#8B6A1E; font-family:'Cormorant Garamond',serif; font-size:0.8rem; letter-spacing:0.5px; padding:0.2rem 0.6rem; border-radius:2px; }
-    .inclusions-section { background:#FBF8F1; padding:5rem 0; }
+        /* Day-by-day photo layout */
+    .itinerary-list::before { display: none; }
+    .itinerary-day {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    .itinerary-day__photo {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+      border-radius: 8px;
+      display: block;
+    }
+    @media (min-width: 768px) {
+      .itinerary-day { grid-template-columns: 1fr 1fr; align-items: start; }
+      .itinerary-day__content { order: 1; }
+      .itinerary-day__photo-wrap { order: 2; }
+      .itinerary-day:nth-child(even) .itinerary-day__content { order: 2; }
+      .itinerary-day:nth-child(even) .itinerary-day__photo-wrap { order: 1; }
+    }
+.inclusions-section { background:#FBF8F1; padding:5rem 0; }
     .inclusions-grid { display:grid; grid-template-columns:1fr 1fr; gap:3rem; margin-top:3rem; }
     @media(max-width:640px){ .inclusions-grid{ grid-template-columns:1fr; } }
     .inclusions-block h3 { font-family:'Playfair Display',serif; font-size:1.3rem; color:#1A1208; margin-bottom:1.25rem; padding-bottom:0.75rem; border-bottom:2px solid rgba(201,168,76,0.3); }
@@ -296,7 +317,7 @@
         <div class="pkg-overview__intro reveal">
           <span class="section-label">Überblick</span>
           <h2 class="section-heading" style="margin-bottom:1.5rem;">Von den <span>Pyramiden</span> zum Mittelmeer</h2>
-          <p>Von den zeitlosen Pyramiden Kairos zum mediterranen Charme Alexandrias — erkunden Sie zwei der ikonischsten Städte Ägyptens in einer unvergesslichen Reise. Diese 6-tägige Privatreise beginnt mit den antiken Wundern des Gizeh-Plateaus und den Schätzen des Ägyptischen Museums, bevor es nordwärts nach Alexandria geht, gegründet von Alexander dem Großen und einst Kulturhauptstadt der antiken Welt.</p>
+          <p>Von den zeitlosen Pyramiden Kairos zum mediterranen Charme Alexandrias — erkunden Sie zwei der ikonischsten Städte Ägyptens in einer unvergesslichen Reise. Diese 6-tägige Privatreise beginnt mit den antiken Wundern des Gizeh-Plateaus und den Schätzen des GEM (Grand Egyptian Museum), bevor es nordwärts nach Alexandria geht, gegründet von Alexander dem Großen und einst Kulturhauptstadt der antiken Welt.</p>
           <p>Jeder Moment ist ganz auf Sie zugeschnitten. Ihr privater mehrsprachiger Reiseführer begleitet Sie durchgehend und erweckt die Geschichte jeder Stätte mit Leidenschaft und Expertise zum Leben — von der Stufenpyramide von Sakkara bis zur legendären Bibliothek von Alexandria und der mittelalterlichen Festung Qaitbay am Meer.</p>
         </div>
         <div class="reveal reveal-delay-2">
@@ -350,16 +371,21 @@
       <div class="itinerary-list">
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>1</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>1</span></div>
+
             <h3 class="itinerary-day__title">Kairo</h3>
             <p class="itinerary-day__desc">Ankunft in Kairo, Empfang am Flughafen Kairo und Transfer zum Hotel. Abendessen zur freien Verfügung. Übernachtung im Hotel.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/pyramids-aerial.jpg" alt="Aerial view of the Pyramids of Giza" loading="lazy">
           </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>2</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>2</span></div>
+
             <h3 class="itinerary-day__title">Kairo</h3>
             <p class="itinerary-day__desc">Nach dem Frühstück Abfahrt zur Besichtigung der Nekropole von Sakkara: die berühmte Stufenpyramide des Königs Djoser, die königlichen Pyramiden, Grabtexte, Mastabas... Mittagessen während der Besichtigungen. Am Nachmittag Besuch des Gizeh-Plateaus: die Pyramiden und die Sphinx. Rückkehr zum Hotel. Servicequalität: Transfer im privaten Auto, privater französischsprachiger Reiseleiter, Mittagessen während der Kairo-Tour, Eintrittsgelder inklusive. Option: Licht- und Tonshow bei den Pyramiden. Abendessen zur freien Verfügung. Übernachtung im Hotel.</p>
             <div class="itinerary-day__highlights">
@@ -369,25 +395,33 @@
               <span class="itinerary-highlight">Saqqara Necropolis</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/sphinx-pyramids.jpg" alt="Great Sphinx with the Pyramids of Giza" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>3</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>3</span></div>
+
             <h3 class="itinerary-day__title">Kairo</h3>
-            <p class="itinerary-day__desc">Nach dem Frühstück Abfahrt zur Besichtigung des Ägyptischen Museums für Altertümer. Mittagessen während der Besichtigungen. Am Nachmittag Besuch der Mohammed-Ali-Moschee in der Zitadelle von Saladin und Entdeckung der überdachten Souks von Khan el-Khalili. Rückkehr zum Hotel. Servicequalität: Transfer im privaten Auto, privater französischsprachiger Reiseleiter, Mittagessen während der Kairo-Tour, Eintrittsgelder inklusive. Optionale Option: Orientalischer Abend an Bord eines Nil-Restaurantkreuzfahrtschiffs. Übernachtung im Hotel.</p>
+            <p class="itinerary-day__desc">Nach dem Frühstück Abfahrt zur Besichtigung des GEM — Grand Egyptian Museum: der Schatz des Tutanchamun, die Sonnenbarke und die verschiedenen Säle der ägyptischen Monumente. Mittagessen während der Besichtigungen. Am Nachmittag Besuch der Mohammed-Ali-Moschee in der Zitadelle von Saladin und Entdeckung der überdachten Souks von Khan el-Khalili. Rückkehr zum Hotel. Servicequalität: Transfer im privaten Auto, privater französischsprachiger Reiseleiter, Mittagessen während der Kairo-Tour, Eintrittsgelder inklusive. Optionale Option: Orientalischer Abend an Bord eines Nil-Restaurantkreuzfahrtschiffs. Übernachtung im Hotel.</p>
             <div class="itinerary-day__highlights">
-              <span class="itinerary-highlight">Egyptian Museum</span>
+              <span class="itinerary-highlight">Grand Egyptian Museum</span>
               <span class="itinerary-highlight">Mosque of Mohamed Ali</span>
               <span class="itinerary-highlight">Citadel of Saladin</span>
               <span class="itinerary-highlight">Khan El Khalili</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/grand-egyptian-museum.jpg" alt="Grand Egyptian Museum exhibition hall" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>4</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>4</span></div>
+
             <h3 class="itinerary-day__title">Kairo / Alexandria</h3>
             <p class="itinerary-day__desc">Frühstück. Abfahrt mit dem privaten Auto nach Alexandria. Ankunft gegen 11:00 Uhr. Besichtigung von Alexandria (gegründet von Alexander dem Großen): Besuch der Festung Qaitbay und des Römischen Theaters. Mittagessen während der Besichtigungen. Transfer zum Hotel in Alexandria. Freier Nachmittag in Alexandria. Abendessen zur freien Verfügung. Übernachtung im Hotel.</p>
             <div class="itinerary-day__highlights">
@@ -396,11 +430,15 @@
               <span class="itinerary-highlight">Mediterranean Coast</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/tours/qaitbay-citadel.jpg" alt="Qaitbay Citadel on the Alexandria coastline" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>5</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>5</span></div>
+
             <h3 class="itinerary-day__title">Alexandria / Kairo</h3>
             <p class="itinerary-day__desc">Frühstück. Vormittag zur freien Verfügung in Alexandria. Am Nachmittag Fortsetzung der Besichtigungen in Alexandria: Besuch der Neuen Bibliothek von Alexandria, der würdigen Erbin der antiken Bibliothek, und Besuch der berühmten Katakomben. Mittagessen während der Besichtigungen. Am Ende des Tages Rückkehr nach Kairo. Ankunft und Transfer zum Hotel in Kairo. Abendessen zur freien Verfügung. Übernachtung im Hotel.</p>
             <div class="itinerary-day__highlights">
@@ -408,13 +446,20 @@
               <span class="itinerary-highlight">Catacombs</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/tours/alexandria-library.jpg" alt="Bibliotheca Alexandrina library building" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>6</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>6</span></div>
+
             <h3 class="itinerary-day__title">Kairo / Abreise</h3>
             <p class="itinerary-day__desc">Frühstück. Je nach Flugplan Transfer zum Flughafen, Flug nach Europa.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/nile-cairo.jpg" alt="Nile River view in Cairo" loading="lazy">
           </div>
         </div>
 
@@ -460,41 +505,6 @@
     </div>
   </section>
 
-  <!-- GALLERY -->
-  <section class="pkg-gallery">
-    <div class="container">
-      <div class="reveal">
-        <span class="section-label">Galerie</span>
-        <h2 class="section-heading">Reise<span>eindrücke</span></h2>
-      </div>
-      <div class="pkg-gallery__grid reveal reveal-delay-1">
-        <div class="pkg-gallery__item">
-          <img src="../images/gallery-pyramids.jpg" alt="The Pyramids of Giza" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/gallery-cairo.jpg" alt="Cairo cityscape" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/pkg-alexandria.jpg" alt="Alexandria waterfront" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/alexandria-library.jpg" alt="Bibliotheca Alexandrina" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/qaitbay-citadel.jpg" alt="Zitadelle von Qaitbay" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/alexandria-boats-harbor.jpg" alt="Hafen von Alexandria in der Abenddämmerung" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/alexandria-coastal-road.jpg" alt="Corniche von Alexandria" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/alexandria-city-view.jpg" alt="Mittelmeer-Uferpromenade von Alexandria" loading="lazy">
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- BOOKING CTA -->
   <section class="pkg-book-cta">

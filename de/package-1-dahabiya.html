@@ -311,6 +311,27 @@
       padding: 0.2rem 0.6rem;
       border-radius: 2px;
     }
+    /* Day-by-day photo layout */
+    .itinerary-list::before { display: none; }
+    .itinerary-day {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    .itinerary-day__photo {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+      border-radius: 8px;
+      display: block;
+    }
+    @media (min-width: 768px) {
+      .itinerary-day { grid-template-columns: 1fr 1fr; align-items: start; }
+      .itinerary-day__content { order: 1; }
+      .itinerary-day__photo-wrap { order: 2; }
+      .itinerary-day:nth-child(even) .itinerary-day__content { order: 2; }
+      .itinerary-day:nth-child(even) .itinerary-day__photo-wrap { order: 1; }
+    }
     .inclusions-section {
       background: #FBF8F1;
       padding: 5rem 0;
@@ -612,18 +633,21 @@
       <div class="itinerary-list">
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>1</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>1</span></div>
             <h3 class="itinerary-day__title">Kairo</h3>
             <p class="itinerary-day__desc">Ankunft in Kairo, Empfang und Unterstützung am Flughafen Kairo, Transfer zum Hotel. Abendessen zur freien Verfügung. Übernachtung im Hotel.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/pyramids-aerial.jpg" alt="Aerial view of the Pyramids of Giza" loading="lazy">
           </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>2</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>2</span></div>
             <h3 class="itinerary-day__title">Kairo</h3>
-            <p class="itinerary-day__desc">Frühstück im Hotel um 8:00 Uhr. Ganztägige Besichtigung von Kairo: Besuch der Pyramiden von Gizeh: Cheops, Chephren, Mykerinos sowie der Taltempel und die Sphinx. Traditionelles Mittagessen in einem Restaurant. Am Nachmittag Besichtigung des Ägyptischen Museums für Altertümer. Rückkehr zum Hotel. Optionale Option: Am Abend können Sie die "Licht- und Tonshow" bei den Pyramiden bewundern. Abendessen zur freien Verfügung. Übernachtung im Hotel.</p>
+            <p class="itinerary-day__desc">Frühstück im Hotel um 8:00 Uhr. Ganztägige Besichtigung von Kairo: Besuch der Pyramiden von Gizeh: Cheops, Chephren, Mykerinos sowie der Taltempel und die Sphinx. Traditionelles Mittagessen in einem Restaurant. Am Nachmittag Besichtigung des GEM — Grand Egyptian Museum: der Schatz des Tutanchamun, die Sonnenbarke und die verschiedenen Säle der ägyptischen Monumente. Rückkehr zum Hotel. Optionale Option: Am Abend können Sie die "Licht- und Tonshow" bei den Pyramiden bewundern. Abendessen zur freien Verfügung. Übernachtung im Hotel.</p>
             <div class="itinerary-day__highlights">
               <span class="itinerary-highlight">Step Pyramid of Djoser</span>
               <span class="itinerary-highlight">Saqqara Necropolis</span>
@@ -631,11 +655,14 @@
               <span class="itinerary-highlight">Great Sphinx</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/sphinx-pyramids.jpg" alt="The Great Sphinx and Pyramids of Giza" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>3</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>3</span></div>
             <h3 class="itinerary-day__title">Kairo / Luxor</h3>
             <p class="itinerary-day__desc">Frühstück im Hotel. Abfahrt zur Besichtigung der Nekropole der alten Hauptstadt Memphis, der Teti-Pyramide und der berühmten Stufenpyramide des Königs Djoser in Sakkara. Mittagessen in einem Restaurant. Nach dem Mittagessen Besichtigung der Pyramiden von Dahschur. Am späten Nachmittag Rückkehr nach Kairo zum Abendessen. Um 20:00 Uhr Transfer zum Bahnhof, Schlafwagenzug von Kairo nach Luxor. Abendessen und Nacht an Bord des Zuges.</p>
             <div class="itinerary-day__highlights">
@@ -646,11 +673,14 @@
               <span class="itinerary-highlight">Khan El Khalili</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/grand-egyptian-museum.jpg" alt="Grand Egyptian Museum" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>4</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>4</span></div>
             <h3 class="itinerary-day__title">Luxor</h3>
             <p class="itinerary-day__desc">Ankunft am Morgen und Transfer zum Hotel. Besuch des Tempels von Habu (Medinet Habu), des großen Tempels von Ramses III., dem am besten erhaltenen der thebanischen Nekropole, und der Gräber der Adligen (Sennefer, Ramose). Mittagessen in einem Restaurant. Am Nachmittag Besichtigung des Luxor-Tempels. Übernachtung im Hotel.</p>
             <div class="itinerary-day__highlights">
@@ -658,11 +688,14 @@
               <span class="itinerary-highlight">Dahabiya Embarkation</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/dahabiya-real.jpg" alt="Traditional dahabiya sailing boat on the Nile" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>5</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>5</span></div>
             <h3 class="itinerary-day__title">Luxor / Esna — Einschiffung auf der Dahabiya</h3>
             <p class="itinerary-day__desc">Frühstück im Hotel. Besichtigung des beeindruckenden Karnak-Tempels und Besuch des Tals der Könige am Westufer. Transfer nach Esna (ca. 60 km — 1 Stunde). Einschiffung auf der Dahabiya, Begrüßungsgetränk. Beginn der Fahrt in Richtung El Hegz. Übernachtung an Bord in El Hegz.</p>
             <div class="itinerary-day__highlights">
@@ -671,11 +704,14 @@
               <span class="itinerary-highlight">Colossi of Memnon</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/karnak-columns.jpg" alt="Columns of Karnak Temple" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>6</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>6</span></div>
             <h3 class="itinerary-day__title">El Hegz / El Kaab / Edfu / Fawaza</h3>
             <p class="itinerary-day__desc">Fahrt nach El Kaab. Frühstück an Bord während der Fahrt. Ankunft in El Kaab. Besuch der Gräber mit ihren wunderbaren Malereien über die ersten Bauern am Nil. Weiterfahrt nach Edfu und Mittagessen an Bord. Besuch des Tempels von Edfu (mit der Kutsche). Rückkehr zur Dahabiya und Fahrt zur Insel Fawaza. Besonderes Abendessen am Nilufer: Barbecue im traditionellen Stil mit lokaler Musik. Übernachtung an Bord in Fawaza.</p>
             <div class="itinerary-day__highlights">
@@ -684,11 +720,14 @@
               <span class="itinerary-highlight">Esna Lock</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/edfu-temple.jpg" alt="Temple of Horus at Edfu" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>7</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>7</span></div>
             <h3 class="itinerary-day__title">Basaw / Gebel Silsila / Horemheb / Beshir</h3>
             <p class="itinerary-day__desc">Frühstück an Bord und Fahrt zum Dorf Basaw, einer schönen Insel zum Spazierengehen und Treffen mit Einheimischen, Besuch der Schule und vielleicht einem Tee. Fahrt nach Gebel Silsila, Mittagessen während der Fahrt. Ankunft in Gebel Silsila, wo sich der Fluss verengt. Halt zur Besichtigung der alten Steinbrüche des Tempels von Horemheb. Weiterfahrt zur Insel Beshir. Traditionelles ägyptisches Abendessen. Übernachtung an Bord.</p>
             <div class="itinerary-day__highlights">
@@ -696,11 +735,14 @@
               <span class="itinerary-highlight">Nile Navigation</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/nile-green.jpg" alt="Lush green banks of the Nile" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>8</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>8</span></div>
             <h3 class="itinerary-day__title">Beshir / Kom Ombo / Assuan</h3>
             <p class="itinerary-day__desc">Frühstück während der Fahrt nach Kom Ombo. Besuch des Tempels von Kom Ombo, einem wunderschönen Tempel aus der ptolemäischen Zeit. Mittagessen an Bord und Fahrt nach Assuan. Ankunft in Assuan; Besichtigung des wunderschönen Philae-Tempels (UNESCO-Weltkulturerbe). Abschiedsabendessen an Bord zum Abschluss dieser schönen Reise (lokale Unterhaltung oder Musik). Übernachtung an Bord der Dahabiya in Assuan.</p>
             <div class="itinerary-day__highlights">
@@ -709,11 +751,14 @@
               <span class="itinerary-highlight">Aswan Spice Market</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/kom-ombo.jpg" alt="Kom Ombo Temple on the Nile" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>9</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>9</span></div>
             <h3 class="itinerary-day__title">Assuan (Abu Simbel)</h3>
             <p class="itinerary-day__desc">Privater Ausflug nach Abu Simbel auf dem Landweg (Inklusive). Abfahrt mit Frühstückspaket gegen 5:00 Uhr morgens nach Abu Simbel, Besichtigung der wunderbaren Tempel von König Ramses II. und seiner Königin Nefertari. Rückkehr nach Assuan am Mittag. Freier Nachmittag. Übernachtung im Hotel.</p>
             <div class="itinerary-day__highlights">
@@ -723,11 +768,14 @@
               <span class="itinerary-highlight">Nubian Village</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/abu-simbel.jpg" alt="Colossal statues of Abu Simbel temple" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>10</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>10</span></div>
             <h3 class="itinerary-day__title">Assuan / Kairo</h3>
             <p class="itinerary-day__desc">Frühstück im Hotel. Bootsfahrt zur Besichtigung des Kalabscha-Tempels. Fahrt mit der Feluke zur Besichtigung der Inseln Elephantine und Kitchener. Besuch des unvollendeten Obelisken. Am Abend (gegen 20:00 Uhr) Schlafwagenzug von Assuan nach Kairo. Abendessen und Übernachtung an Bord.</p>
             <div class="itinerary-day__highlights">
@@ -736,11 +784,14 @@
               <span class="itinerary-highlight">UNESCO World Heritage Site</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/tours/aswan-nile-view.jpg" alt="Nile view at Aswan" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>11</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>11</span></div>
             <h3 class="itinerary-day__title">Kairo</h3>
             <p class="itinerary-day__desc">Frühstück im Zug. Besichtigung des alten Kairo, seiner Gassen und der Hängenden Kirche (gegründet im 4. Jahrhundert). Besuch der Mohammed-Ali-Moschee in der Zitadelle von Saladin und Entdeckung der überdachten Souks von Khan el-Khalili. Rückkehr zum Hotel.</p>
             <div class="itinerary-day__highlights">
@@ -749,13 +800,19 @@
               <span class="itinerary-highlight">Farewell Dinner</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/tours/khan-el-khalili-bazaar.jpg" alt="Khan El Khalili bazaar in Cairo" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>12</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>12</span></div>
             <h3 class="itinerary-day__title">Kairo / Abreise</h3>
             <p class="itinerary-day__desc">Frühstück. Je nach Flugplan Transfer zum Flughafen, Flug nach Europa.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/nile-cairo.jpg" alt="The Nile River in Cairo" loading="lazy">
           </div>
         </div>
 
@@ -807,43 +864,6 @@
             <li>Licht- und Tonshows (optional)</li>
           <li>Optionale Ausflüge außerhalb der Reiseroute</li></ul>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- GALLERY -->
-  <section class="pkg-gallery">
-    <div class="container">
-      <div class="reveal">
-        <span class="section-label">Galerie</span>
-        <h2 class="section-heading">Reise<span>eindrücke</span></h2>
-      </div>
-      <div class="pkg-gallery__grid reveal reveal-delay-1">
-        <div class="pkg-gallery__item">
-          <img src="../images/dahabiya-real.jpg" alt="Dahabija-Boot auf dem Nil" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/dahabiya-cabin.jpg" alt="Kabine an Bord der Nil-Dahabiya" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/dahabiya-deck.jpg" alt="Deck der Dahabiya bei Sonnenuntergang" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/dahabiya-sunset.jpg" alt="Sonnenuntergang über dem Nil von der Dahabiya aus" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/karnak-columns.jpg" alt="Säulen des Karnak-Tempels" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/luxor-temple-entrance.jpg" alt="Säulenhalle des Luxor-Tempels" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/aswan-nile-view.jpg" alt="Philae-Tempel in Assuan" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/felucca-nile-sunset.jpg" alt="Feluke auf dem Nil bei Sonnenuntergang" loading="lazy" />
-        </div>
-
       </div>
     </div>
   </section>

@@ -138,6 +138,27 @@
     .itinerary-day__desc { font-family:'Cormorant Garamond',serif; font-size:1.05rem; line-height:1.7; color:#4A3728; font-weight:400; }
     .itinerary-day__highlights { margin-top:0.5rem; display:flex; flex-wrap:wrap; gap:0.4rem; }
     .itinerary-highlight { display:inline-block; background:rgba(201,168,76,0.1); border:1px solid rgba(201,168,76,0.25); color:#8B6A1E; font-family:'Cormorant Garamond',serif; font-size:0.8rem; letter-spacing:0.5px; padding:0.2rem 0.6rem; border-radius:2px; }
+        /* Day-by-day photo layout */
+    .itinerary-list::before { display: none; }
+    .itinerary-day {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    .itinerary-day__photo {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+      border-radius: 8px;
+      display: block;
+    }
+    @media (min-width: 768px) {
+      .itinerary-day { grid-template-columns: 1fr 1fr; align-items: start; }
+      .itinerary-day__content { order: 1; }
+      .itinerary-day__photo-wrap { order: 2; }
+      .itinerary-day:nth-child(even) .itinerary-day__content { order: 2; }
+      .itinerary-day:nth-child(even) .itinerary-day__photo-wrap { order: 1; }
+    }
     .inclusions-section { background:#FBF8F1; padding:5rem 0; }
     .inclusions-grid { display:grid; grid-template-columns:1fr 1fr; gap:3rem; margin-top:3rem; }
     @media(max-width:640px){ .inclusions-grid{ grid-template-columns:1fr; } }
@@ -329,81 +350,111 @@
       </div>
       <div class="itinerary-list">
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>1</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>1</span></div>
             <h3 class="itinerary-day__title">Arrival in Cairo</h3>
             <p class="itinerary-day__desc">Airport transfer, hotel check-in, welcome briefing with your private guide.</p>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/nile-cairo.jpg" alt="The Nile River in Cairo" loading="lazy">
+          </div>
         </div>
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>2</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>2</span></div>
             <h3 class="itinerary-day__title">Giza Plateau</h3>
             <p class="itinerary-day__desc">Pyramids of Giza, the Great Sphinx, and the Solar Boat Museum. Camel ride option available at the plateau.</p>
             <div class="itinerary-day__highlights"><span class="itinerary-highlight">Pyramids of Giza</span><span class="itinerary-highlight">Great Sphinx</span></div>
           </div>
-        </div>
-        <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>3</span></div>
-          <div class="itinerary-day__content">
-            <h3 class="itinerary-day__title">Cairo Museums &amp; Evening Flight to Luxor</h3>
-            <p class="itinerary-day__desc">The Egyptian Museum — Tutankhamun treasures and the Royal Mummies Room. Afternoon: Khan El Khalili bazaar and a walk through Islamic Cairo. Evening flight to Luxor.</p>
-            <div class="itinerary-day__highlights"><span class="itinerary-highlight">Tutankhamun Mask</span><span class="itinerary-highlight">Royal Mummies Room</span></div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/sphinx-pyramids.jpg" alt="The Great Sphinx and Pyramids of Giza" loading="lazy">
           </div>
         </div>
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>4</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>3</span></div>
+            <h3 class="itinerary-day__title">Cairo Museums &amp; Evening Flight to Luxor</h3>
+            <p class="itinerary-day__desc">Visit to the GEM — Grand Egyptian Museum: the treasure of Tutankhamun, the Solar Boat and the various halls of Egyptian monuments. Afternoon: Khan El Khalili bazaar and a walk through Islamic Cairo. Evening flight to Luxor.</p>
+            <div class="itinerary-day__highlights"><span class="itinerary-highlight">Tutankhamun Mask</span><span class="itinerary-highlight">Royal Mummies Room</span></div>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/grand-egyptian-museum.jpg" alt="Grand Egyptian Museum" loading="lazy">
+          </div>
+        </div>
+        <div class="itinerary-day reveal">
+          <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>4</span></div>
             <h3 class="itinerary-day__title">Luxor West Bank — Board Your Cruise</h3>
             <p class="itinerary-day__desc">Valley of the Kings (3 tombs), the mortuary Temple of Hatshepsut carved into the cliffs, and the silent Colossi of Memnon. Board your five-star cruise ship at Luxor.</p>
             <div class="itinerary-day__highlights"><span class="itinerary-highlight">Valley of the Kings</span><span class="itinerary-highlight">Hatshepsut Temple</span></div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/karnak-columns.jpg" alt="Columns of Karnak Temple" loading="lazy">
+          </div>
         </div>
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>5</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>5</span></div>
             <h3 class="itinerary-day__title">Luxor East Bank — Karnak &amp; Luxor Temple</h3>
             <p class="itinerary-day__desc">The Karnak Temple complex — the Great Hypostyle Hall, Sacred Lake, and towering obelisks of Hatshepsut. Afternoon: Luxor Temple and its recently revealed Avenue of Sphinxes.</p>
             <div class="itinerary-day__highlights"><span class="itinerary-highlight">Karnak Hypostyle Hall</span><span class="itinerary-highlight">Avenue of Sphinxes</span></div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/tours/hatshepsut-temple.jpg" alt="Temple of Hatshepsut" loading="lazy">
+          </div>
         </div>
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>6</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>6</span></div>
             <h3 class="itinerary-day__title">Esna Lock &amp; Temple of Horus at Edfu</h3>
             <p class="itinerary-day__desc">Morning: pass through the historic Esna Lock by ship. Edfu — the Temple of Horus, the finest and most completely preserved temple in Egypt. Afternoon sailing south.</p>
             <div class="itinerary-day__highlights"><span class="itinerary-highlight">Temple of Horus</span><span class="itinerary-highlight">Esna Lock</span></div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/edfu-temple.jpg" alt="Temple of Horus at Edfu" loading="lazy">
+          </div>
         </div>
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>7</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>7</span></div>
             <h3 class="itinerary-day__title">Kom Ombo &amp; Arrive Aswan</h3>
             <p class="itinerary-day__desc">Kom Ombo double temple and its fascinating crocodile museum. Arrive in Aswan — the jewel of the Upper Nile.</p>
             <div class="itinerary-day__highlights"><span class="itinerary-highlight">Kom Ombo Temple</span><span class="itinerary-highlight">Crocodile Mummies</span></div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/philae-temple.jpg" alt="Philae Temple in Aswan" loading="lazy">
+          </div>
         </div>
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>8</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>8</span></div>
             <h3 class="itinerary-day__title">Aswan</h3>
             <p class="itinerary-day__desc">Philae Temple on its island sanctuary (by motorboat), the Unfinished Obelisk in its ancient quarry, the High Dam, and a traditional motorboat trip to a Nubian village.</p>
             <div class="itinerary-day__highlights"><span class="itinerary-highlight">Philae Island</span><span class="itinerary-highlight">Unfinished Obelisk</span></div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/tours/aswan-nile-view.jpg" alt="Nile view at Aswan" loading="lazy">
+          </div>
         </div>
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>9</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>9</span></div>
             <h3 class="itinerary-day__title">Abu Simbel Full Day Excursion</h3>
             <p class="itinerary-day__desc">A full day dedicated to the twin rock-cut temples of Abu Simbel — the Great Temple of Ramses II and the smaller Temple of Queen Nefertari. A UNESCO World Heritage Site of breathtaking scale. Farewell dinner onboard.</p>
             <div class="itinerary-day__highlights"><span class="itinerary-highlight">Abu Simbel — UNESCO World Heritage Site</span></div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/abu-simbel.jpg" alt="Colossal statues of Abu Simbel temple" loading="lazy">
+          </div>
         </div>
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>10</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>10</span></div>
             <h3 class="itinerary-day__title">Return to Cairo &amp; Departure</h3>
             <p class="itinerary-day__desc">Flight from Aswan to Cairo. Private transfer to Cairo International Airport for your onward journey home.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/pyramids-aerial2.jpg" alt="Aerial view of the Pyramids of Giza" loading="lazy">
           </div>
         </div>
       </div>
@@ -442,25 +493,7 @@
     </div>
   </section>
 
-  <section class="pkg-gallery">
-    <div class="container">
-      <div class="reveal">
-        <span class="section-label">Gallery</span>
-        <h2 class="section-heading">Journey <span>Impressions</span></h2>
-      </div>
-      <div class="pkg-gallery__grid reveal reveal-delay-1">
-        <div class="pkg-gallery__item"><img src="../images/gallery-pyramids.jpg" alt="Pyramids of Giza" loading="lazy"></div>
-        <div class="pkg-gallery__item"><picture><source srcset="../images/gallery-valley.webp" type="image/webp"><img src="../images/gallery-valley.jpg" alt="Valley of the Kings" width="1200" height="800" loading="lazy"></picture></div>
-        <div class="pkg-gallery__item"><img src="../images/gallery-aswan.jpg" alt="Aswan and Philae" loading="lazy"></div>
-        <div class="pkg-gallery__item"><img src="../images/tours/karnak-hypostyle-columns.jpg" alt="Great Hypostyle Hall of Karnak Temple" loading="lazy"></div>
-        <div class="pkg-gallery__item"><img src="../images/tours/hatshepsut-temple.jpg" alt="Mortuary Temple of Hatshepsut at Deir el-Bahari" loading="lazy"></div>
-        <div class="pkg-gallery__item"><img src="../images/tours/colossi-memnon.jpg" alt="Colossi of Memnon near Luxor" loading="lazy"></div>
-        <div class="pkg-gallery__item"><img src="../images/tours/aswan-town-nile.jpg" alt="Nubian village on the Nile at Aswan" loading="lazy"></div>
-        <div class="pkg-gallery__item"><img src="../images/tours/aswan-nile-view.jpg" alt="Philae Temple in Aswan" loading="lazy"></div>
-      </div>
-    </div>
-  </section>
-
+  
   <section class="pkg-book-cta">
     <div class="container">
       <div class="pkg-book-cta__inner reveal">

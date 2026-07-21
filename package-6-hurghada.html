@@ -109,6 +109,27 @@
     .itinerary-day__desc { font-family:'Cormorant Garamond',serif; font-size:1.05rem; line-height:1.7; color:#4A3728; font-weight:400; }
     .itinerary-day__highlights { margin-top:0.5rem; display:flex; flex-wrap:wrap; gap:0.4rem; }
     .itinerary-highlight { display:inline-block; background:rgba(201,168,76,0.1); border:1px solid rgba(201,168,76,0.25); color:#8B6A1E; font-family:'Cormorant Garamond',serif; font-size:0.8rem; letter-spacing:0.5px; padding:0.2rem 0.6rem; border-radius:2px; }
+    /* Day-by-day photo layout */
+    .itinerary-list::before { display: none; }
+    .itinerary-day {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    .itinerary-day__photo {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+      border-radius: 8px;
+      display: block;
+    }
+    @media (min-width: 768px) {
+      .itinerary-day { grid-template-columns: 1fr 1fr; align-items: start; }
+      .itinerary-day__content { order: 1; }
+      .itinerary-day__photo-wrap { order: 2; }
+      .itinerary-day:nth-child(even) .itinerary-day__content { order: 2; }
+      .itinerary-day:nth-child(even) .itinerary-day__photo-wrap { order: 1; }
+    }
     .inclusions-section { background:#FBF8F1; padding:5rem 0; }
     .inclusions-grid { display:grid; grid-template-columns:1fr 1fr; gap:3rem; margin-top:3rem; }
     @media(max-width:640px){ .inclusions-grid{ grid-template-columns:1fr; } }
@@ -332,16 +353,19 @@
       <div class="itinerary-list">
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>1</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>1</span></div>
             <h3 class="itinerary-day__title" data-i18n="pkg6.day_titles.0">Le Caire</h3>
             <p class="itinerary-day__desc" data-i18n="pkg6.day_descs.0">Arrivée au Caire, accueil à l'aéroport du Caire et transfert à l'hôtel. Dîner libre. Nuit à l'hôtel.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="images/nile-cairo.jpg" alt="The Nile River in Cairo" loading="lazy">
           </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>2</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>2</span></div>
             <h3 class="itinerary-day__title" data-i18n="pkg6.day_titles.1">Le Caire</h3>
             <p class="itinerary-day__desc" data-i18n="pkg6.day_descs.1">Après le petit-déjeuner, Départ pour la visite de la nécropole de Sakkarah: la célébre pyramide à degrés du roi Djoser, les textes des pyramides funéraires royaux, les mastabas ... Déjeuner dans une restaurent. L'après-midi, la visite du Plateau de Guizèh : les Pyramides et le Sphinx. Retour pour l'hôtel. Option Facultative Dans la soirée, vous pourrez admirer spectacle «Son et Lumière» aux Pyramides. Dîner libre. Nuit à l'hôtel.</p>
             <div class="itinerary-day__highlights">
@@ -351,11 +375,14 @@
               <span class="itinerary-highlight">Great Sphinx</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="images/sphinx-pyramids.jpg" alt="Great Sphinx with the Pyramids of Giza" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>3</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>3</span></div>
             <h3 class="itinerary-day__title" data-i18n="pkg6.day_titles.2">Le Caire / Assouan</h3>
             <p class="itinerary-day__desc" data-i18n="pkg6.day_descs.2">Après le petit-déjeuner, Départ pour la visite du GEM ; Le Nouveau Grand Égyptiennes Musée des Antiquités. Déjeuner dans une restaurent. L'après-midi, visite de la Mosquée de Mohamed Ali dans l'enceinte de la Citadelle de Saladin, et découverte des Souks couverts de Khan El Khalili. Retour pour l'hôtel. Dîner libre. Nuit à l'hôtel. La possibility en fin de la journee, transfer a la station du train, train de couchette (wagon-Lits) Cabine Double / chaque cabine pour 2 personnes ... pour Assouan. Dîner et nuit à bord du train.</p>
             <div class="itinerary-day__highlights">
@@ -365,11 +392,14 @@
               <span class="itinerary-highlight">Khan El Khalili</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="images/grand-egyptian-museum.jpg" alt="Grand Egyptian Museum exhibition hall" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>4</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>4</span></div>
             <h3 class="itinerary-day__title" data-i18n="pkg6.day_titles.3">Le Caire / Assouan / Croisière sur le Nil</h3>
             <p class="itinerary-day__desc" data-i18n="pkg6.day_descs.3">Après le petit-déjeuner, transfert pour aéroport du Caire, vol intérieure le Caire/Assouan. Arrivée à Assouan, accueil et transfert pour promenade en barque jusqu'au Temple de Philae, dédié à la déesse Isis et visite du site. Transfert pour installation sur le bateau de croisière sur le NIL. Déjeuner à bord. Dans l'après-midi, Agréable promenade en felouque autour de l'île éléphantine et visite le Jardins Botanique. Dans la soirée, vous pourrez admirer spectacle «Son et Lumière» à Philae (Option Facultative). Dîner et nuit à bord.</p>
             <div class="itinerary-day__highlights">
@@ -379,11 +409,14 @@
               <span class="itinerary-highlight">Felucca Ride</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="images/philae-temple.jpg" alt="Temple of Philae on the Nile" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>5</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>5</span></div>
             <h3 class="itinerary-day__title" data-i18n="pkg6.day_titles.4">Assouan / Kom Ombo</h3>
             <p class="itinerary-day__desc" data-i18n="pkg6.day_descs.4">Le petit-déjeuner, matinée libre. Déjeuner à bord. Navigation vers Kom Ombo. La visite du Temple illuminé de Kom Ombo dédié aux Dieux Haroris et Sobek. Navigation vers EDFOU. Dîner et nuit à bord.</p>
             <div class="itinerary-day__highlights">
@@ -391,11 +424,14 @@
               <span class="itinerary-highlight">Nile Navigation</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="images/kom-ombo.jpg" alt="Kom Ombo Temple on the Nile" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>6</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>6</span></div>
             <h3 class="itinerary-day__title" data-i18n="pkg6.day_titles.5">Edfou / Esna / Louxor</h3>
             <p class="itinerary-day__desc" data-i18n="pkg6.day_descs.5">Petit déjeuner à bord, au matin ; la visite du Temple dédié au dieu Horus à tête de faucon a Edfou. Navigation vers Esna pour le passage de l'écluse. Continue navigation pour Louxor. Déjeuner à bord. Arrivée à Louxor dans l'après-midi. Après-midi visite de l'impressionnant Temple de Karnak. Puis visite du Temple de Louxor. Dîner et nuit à bord.</p>
             <div class="itinerary-day__highlights">
@@ -405,11 +441,14 @@
               <span class="itinerary-highlight">Temple of Luxor</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="images/karnak-columns.jpg" alt="Columns of Karnak Temple" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>7</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>7</span></div>
             <h3 class="itinerary-day__title" data-i18n="pkg6.day_titles.6">Louxor / Hurghada (Mer Rouge)</h3>
             <p class="itinerary-day__desc" data-i18n="pkg6.day_descs.6">Après le petit-déjeuner, Débarquement du bateau à Louxor. Dans le matinée, départ pour la visite des temples de la nécropole de Thébes: la Vallée des Rois, le temple de terrasses de Deir El Bahari, s'arretant à deux de Memnon, témoin de la grandeur du roi Aménophis III. Départ en voiture van privée pour Hurghada (vers 4 heures de la route) arrivée et transfert à l'hôtel. Dîner à l'hôtel. Nuit à l'hôtel.</p>
             <div class="itinerary-day__highlights">
@@ -418,11 +457,14 @@
               <span class="itinerary-highlight">Colossi of Memnon</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="images/tours/hatshepsut-temple.jpg" alt="Temple of Hatshepsut at Deir el-Bahari" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>8</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>8</span></div>
             <h3 class="itinerary-day__title" data-i18n="pkg6.day_titles.7">Hurghada (Mer Rouge)</h3>
             <p class="itinerary-day__desc" data-i18n="pkg6.day_descs.7">Petit déjeuner. Journée libre au bord de la Mer Rouge. Déjeuner, dîner à l'hôtel. Nuit à l'hôtel. Option ; Sortie en bateau pour Ile Giftoun ou Orange Bay ; possibilité de faire snorkling et profité la mer et plage.</p>
             <div class="itinerary-day__highlights">
@@ -431,11 +473,14 @@
               <span class="itinerary-highlight">Snorkelling</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="images/tours/red-sea-coral-reef.jpg" alt="Coral reef in the Red Sea" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>9</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>9</span></div>
             <h3 class="itinerary-day__title" data-i18n="pkg6.day_titles.8">Hurghada (Mer Rouge)</h3>
             <p class="itinerary-day__desc" data-i18n="pkg6.day_descs.8">Petit déjeuner. Journée libre au bord de la Mer Rouge. Déjeuner, dîner à l'hôtel. Nuit à l'hôtel.</p>
             <div class="itinerary-day__highlights">
@@ -443,11 +488,14 @@
               <span class="itinerary-highlight">Beach &amp; Leisure</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="images/hurghada-resort.jpg" alt="Hurghada Red Sea resort pool" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>10</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>10</span></div>
             <h3 class="itinerary-day__title" data-i18n="pkg6.day_titles.9">Hurghada (Mer Rouge)</h3>
             <p class="itinerary-day__desc" data-i18n="pkg6.day_descs.9">Petit déjeuner. Journée libre au bord de la Mer Rouge. Déjeuner, dîner à l'hôtel. Nuit à l'hôtel.</p>
             <div class="itinerary-day__highlights">
@@ -455,21 +503,30 @@
               <span class="itinerary-highlight">Beach &amp; Leisure</span>
             </div>
           </div>
-        </div>
-
-        <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>11</span></div>
-          <div class="itinerary-day__content">
-            <h3 class="itinerary-day__title" data-i18n="pkg6.day_titles.10">Hurghada / Le Caire</h3>
-            <p class="itinerary-day__desc" data-i18n="pkg6.day_descs.10">Petit déjeuner. Dans le matinée, retour en voiture van Privée bien climatisée pour le Caire. Arrivée au Caire. Transfert à l'hôtel. Dîner libre. Nuit à l'hôtel au Caire.</p>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="images/tours/hurghada-resort-aerial.jpg" alt="Aerial view of a Hurghada Red Sea resort" loading="lazy">
           </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>12</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>11</span></div>
+            <h3 class="itinerary-day__title" data-i18n="pkg6.day_titles.10">Hurghada / Le Caire</h3>
+            <p class="itinerary-day__desc" data-i18n="pkg6.day_descs.10">Petit déjeuner. Dans le matinée, retour en voiture van Privée bien climatisée pour le Caire. Arrivée au Caire. Transfert à l'hôtel. Dîner libre. Nuit à l'hôtel au Caire.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="images/hurghada-red-sea.jpg" alt="Red Sea coastline at Hurghada" loading="lazy">
+          </div>
+        </div>
+
+        <div class="itinerary-day reveal">
+          <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>12</span></div>
             <h3 class="itinerary-day__title" data-i18n="pkg6.day_titles.11">Le Caire / Départ Final</h3>
             <p class="itinerary-day__desc" data-i18n="pkg6.day_descs.11">Petit déjeuner. Matinée libre. Selon l'horaire de vol, transfert à l'aéroport du Caire, envol pour départ final.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="images/gallery-cairo.jpg" alt="Cairo cityscape" loading="lazy">
           </div>
         </div>
 
@@ -514,42 +571,6 @@
             <li data-i18n="pkg6.excluded.4">Dépenses personnelles.</li>
             <li data-i18n="pkg6.excluded.5">Excursions facultatives.</li>
           </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- GALLERY -->
-  <section class="pkg-gallery">
-    <div class="container">
-      <div class="reveal">
-        <span class="section-label" data-i18n="pkg_detail.gallery_label">Galerie</span>
-        <h2 class="section-heading" data-i18n="pkg_detail.gallery_heading">Impressions de <span>Voyage</span></h2>
-      </div>
-      <div class="pkg-gallery__grid reveal reveal-delay-1">
-        <div class="pkg-gallery__item">
-          <img src="images/gallery-pyramids.jpg" alt="Pyramids of Giza" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="images/gallery-luxor.jpg" alt="Luxor temples" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="images/pkg-hurghada.jpg" alt="Hurghada Red Sea beach" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="images/tours/karnak-hypostyle-columns.jpg" alt="Grande Salle Hypostyle du Temple de Karnak" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="images/tours/felucca-nile-sunset.jpg" alt="Felouque sur le Nil au coucher du soleil" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="images/tours/aswan-town-nile.jpg" alt="Village nubien au bord du Nil à Assouan" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="images/tours/red-sea-scuba-diving.jpg" alt="Plongée sous-marine en Mer Rouge" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="images/tours/hurghada-resort-aerial.jpg" alt="Vue aérienne d'un complexe balnéaire à Hurghada" loading="lazy" />
         </div>
       </div>
     </div>

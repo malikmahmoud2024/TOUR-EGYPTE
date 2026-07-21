@@ -1714,12 +1714,13 @@ p:last-child { margin-bottom: 0; }
   transition: color 0.2s ease;
 }
 .navbar__icons-item svg {
-  width: 18px;
-  height: 18px;
+  width: 28px;
+  height: 28px;
   flex-shrink: 0;
 }
 .navbar__icons-item span {
-  font-size: 12px;
+  font-size: 11px;
+  font-weight: 600;
   line-height: 1.05;
   letter-spacing: 0;
   white-space: nowrap;
@@ -1768,7 +1769,7 @@ p:last-child { margin-bottom: 0; }
   body { padding-bottom: 64px; }
   .whatsapp-btn { bottom: 72px; }
   .booknow-btn { bottom: 144px; }
-  .navbar__icons { display: flex; }
+  .navbar__icons { display: flex; min-height: 64px; }
 
   /* Logo smaller on mobile */
   .navbar__logo .logo-svg { height: 36px; }
@@ -1887,4 +1888,51 @@ p:last-child { margin-bottom: 0; }
 
 .form-success-actions__whatsapp {
   margin-top: 0;
+}
+
+/* ── Contact form label emphasis ────────────────────────────── */
+.contact-form label,
+.form__label,
+form label {
+  font-weight: 700;
+}
+
+/* ── Itinerary day-by-day photo layout ──────────────────────── */
+.itinerary-day {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+.itinerary-day__photo {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+  .itinerary-day {
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+
+  .itinerary-day__content {
+    order: 1;
+  }
+
+  .itinerary-day__photo-wrap {
+    order: 2;
+  }
+
+  .itinerary-day:nth-child(even) .itinerary-day__content {
+    order: 2;
+  }
+
+  .itinerary-day:nth-child(even) .itinerary-day__photo-wrap {
+    order: 1;
+  }
 }

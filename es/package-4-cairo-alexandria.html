@@ -129,7 +129,28 @@
     .itinerary-day__desc { font-family:'Cormorant Garamond',serif; font-size:1.05rem; line-height:1.7; color:#4A3728; font-weight:400; }
     .itinerary-day__highlights { margin-top:0.5rem; display:flex; flex-wrap:wrap; gap:0.4rem; }
     .itinerary-highlight { display:inline-block; background:rgba(201,168,76,0.1); border:1px solid rgba(201,168,76,0.25); color:#8B6A1E; font-family:'Cormorant Garamond',serif; font-size:0.8rem; letter-spacing:0.5px; padding:0.2rem 0.6rem; border-radius:2px; }
-    .inclusions-section { background:#FBF8F1; padding:5rem 0; }
+        /* Day-by-day photo layout */
+    .itinerary-list::before { display: none; }
+    .itinerary-day {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    .itinerary-day__photo {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+      border-radius: 8px;
+      display: block;
+    }
+    @media (min-width: 768px) {
+      .itinerary-day { grid-template-columns: 1fr 1fr; align-items: start; }
+      .itinerary-day__content { order: 1; }
+      .itinerary-day__photo-wrap { order: 2; }
+      .itinerary-day:nth-child(even) .itinerary-day__content { order: 2; }
+      .itinerary-day:nth-child(even) .itinerary-day__photo-wrap { order: 1; }
+    }
+.inclusions-section { background:#FBF8F1; padding:5rem 0; }
     .inclusions-grid { display:grid; grid-template-columns:1fr 1fr; gap:3rem; margin-top:3rem; }
     @media(max-width:640px){ .inclusions-grid{ grid-template-columns:1fr; } }
     .inclusions-block h3 { font-family:'Playfair Display',serif; font-size:1.3rem; color:#1A1208; margin-bottom:1.25rem; padding-bottom:0.75rem; border-bottom:2px solid rgba(201,168,76,0.3); }
@@ -298,7 +319,7 @@
         <div class="pkg-overview__intro reveal">
           <span class="section-label">Vista General</span>
           <h2 class="section-heading" style="margin-bottom:1.5rem;">De las <span>Piramides</span> al Mediterraneo</h2>
-          <p>Desde las atemporales Piramides de El Cairo al encanto mediterraneo de Alejandria — explore dos de las ciudades mas iconicas de Egipto en un viaje inolvidable. Este tour privado de 6 dias comienza con las antiguas maravillas de la meseta de Giza y los tesoros del Museo Egipcio, antes de llevarle al norte hacia Alejandria, fundada por Alejandro Magno y antigua capital cultural del mundo antiguo.</p>
+          <p>Desde las atemporales Piramides de El Cairo al encanto mediterraneo de Alejandria — explore dos de las ciudades mas iconicas de Egipto en un viaje inolvidable. Este tour privado de 6 dias comienza con las antiguas maravillas de la meseta de Giza y los tesoros del GEM (Grand Egyptian Museum), antes de llevarle al norte hacia Alejandria, fundada por Alejandro Magno y antigua capital cultural del mundo antiguo.</p>
           <p>Cada momento esta diseñado exclusivamente para usted. Su guia privado multilingue le acompaña durante todo el recorrido, dando vida a la historia de cada sitio con pasion y experiencia — desde la Piramide Escalonada de Saqqara hasta la legendaria Biblioteca de Alejandria y el fuerte medieval de Qaitbay frente al mar.</p>
         </div>
         <div class="reveal reveal-delay-2">
@@ -352,16 +373,21 @@
       <div class="itinerary-list">
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>1</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>1</span></div>
+
             <h3 class="itinerary-day__title">El Cairo</h3>
             <p class="itinerary-day__desc">Llegada a El Cairo, recepcion en el aeropuerto de El Cairo y traslado al hotel. Cena libre. Noche en el hotel.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/pyramids-aerial.jpg" alt="Aerial view of the Pyramids of Giza" loading="lazy">
           </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>2</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>2</span></div>
+
             <h3 class="itinerary-day__title">El Cairo</h3>
             <p class="itinerary-day__desc">Despues del desayuno, salida para visitar la Necropolis de Saqqara: la famosa piramide escalonada del Rey Zoser, las Piramides Reales, los textos funerarios, las mastabas... Almuerzo durante las visitas. Por la tarde, visita a la meseta de Giza: las Piramides y la esfinge. Regreso al hotel. Calidad de servicio: traslado en coche privado, guia privado de habla francesa, almuerzo durante el recorrido por El Cairo, entradas a los sitios incluidas. Opcion: Espectaculo de luz y sonido en las Piramides. Cena libre. Noche en el hotel.</p>
             <div class="itinerary-day__highlights">
@@ -371,25 +397,33 @@
               <span class="itinerary-highlight">Saqqara Necropolis</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/sphinx-pyramids.jpg" alt="Great Sphinx with the Pyramids of Giza" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>3</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>3</span></div>
+
             <h3 class="itinerary-day__title">El Cairo</h3>
-            <p class="itinerary-day__desc">Despues del desayuno, salida para visitar el Museo de Antiguedades Egipcias. Almuerzo durante las visitas. Por la tarde, visita de la Mezquita de Mohamed Ali en el recinto de la Ciudadela de Saladino y descubrimiento de los zocos cubiertos de Jan el-Jalili. Regreso al hotel. Calidad de servicio: traslado en coche privado, guia privado de habla francesa, almuerzo durante el recorrido por El Cairo, entradas a los sitios incluidas. Opcion Opcional: Noche oriental a bordo de un crucero restaurante por el Nilo. Noche en el hotel.</p>
+            <p class="itinerary-day__desc">Despues del desayuno, salida para visitar al GEM — Grand Egyptian Museum: el tesoro de Tutankamón, la Barca Solar y las diferentes salas de monumentos egipcios. Almuerzo durante las visitas. Por la tarde, visita de la Mezquita de Mohamed Ali en el recinto de la Ciudadela de Saladino y descubrimiento de los zocos cubiertos de Jan el-Jalili. Regreso al hotel. Calidad de servicio: traslado en coche privado, guia privado de habla francesa, almuerzo durante el recorrido por El Cairo, entradas a los sitios incluidas. Opcion Opcional: Noche oriental a bordo de un crucero restaurante por el Nilo. Noche en el hotel.</p>
             <div class="itinerary-day__highlights">
-              <span class="itinerary-highlight">Egyptian Museum</span>
+              <span class="itinerary-highlight">Grand Egyptian Museum</span>
               <span class="itinerary-highlight">Mosque of Mohamed Ali</span>
               <span class="itinerary-highlight">Citadel of Saladin</span>
               <span class="itinerary-highlight">Khan El Khalili</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/grand-egyptian-museum.jpg" alt="Grand Egyptian Museum exhibition hall" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>4</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>4</span></div>
+
             <h3 class="itinerary-day__title">El Cairo / Alejandria</h3>
             <p class="itinerary-day__desc">Desayuno. Salida en coche privado hacia Alejandria. Llegada alrededor de las 11:00 AM. Visita de Alejandria (fundada por Alejandro Magno): Visita del Fuerte de Qaitbay y el Teatro Romano. Almuerzo durante las visitas. Traslado al hotel en Alejandria. Tarde libre en Alejandria. Cena libre. Noche en el hotel.</p>
             <div class="itinerary-day__highlights">
@@ -398,11 +432,15 @@
               <span class="itinerary-highlight">Mediterranean Coast</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/tours/qaitbay-citadel.jpg" alt="Qaitbay Citadel on the Alexandria coastline" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>5</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>5</span></div>
+
             <h3 class="itinerary-day__title">Alejandria / El Cairo</h3>
             <p class="itinerary-day__desc">Desayuno. Mañana libre en Alejandria. Por la tarde; continuacion de las visitas en Alejandria: visita a la Nueva Biblioteca de Alejandria, digna heredera de la antigua biblioteca, y visita a las famosas catacumbas. Almuerzo durante las visitas. Al final del dia, regreso a El Cairo. Llegada y traslado al hotel en El Cairo. Cena libre. Noche en el hotel.</p>
             <div class="itinerary-day__highlights">
@@ -410,13 +448,20 @@
               <span class="itinerary-highlight">Catacombs</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/tours/alexandria-library.jpg" alt="Bibliotheca Alexandrina library building" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>6</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>6</span></div>
+
             <h3 class="itinerary-day__title">El Cairo / salida final</h3>
             <p class="itinerary-day__desc">Desayuno. Segun el horario del vuelo, traslado al aeropuerto, vuelo hacia Europa.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/nile-cairo.jpg" alt="Nile River view in Cairo" loading="lazy">
           </div>
         </div>
 
@@ -462,41 +507,6 @@
     </div>
   </section>
 
-  <!-- GALLERY -->
-  <section class="pkg-gallery">
-    <div class="container">
-      <div class="reveal">
-        <span class="section-label">Galeria</span>
-        <h2 class="section-heading">Impresiones del <span>Viaje</span></h2>
-      </div>
-      <div class="pkg-gallery__grid reveal reveal-delay-1">
-        <div class="pkg-gallery__item">
-          <img src="../images/gallery-pyramids.jpg" alt="The Pyramids of Giza" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/gallery-cairo.jpg" alt="Cairo cityscape" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/pkg-alexandria.jpg" alt="Alexandria waterfront" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/alexandria-library.jpg" alt="Biblioteca de Alejandría" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/qaitbay-citadel.jpg" alt="Ciudadela de Qaitbay" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/alexandria-boats-harbor.jpg" alt="Puerto de Alejandría al atardecer" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/alexandria-coastal-road.jpg" alt="Corniche de Alejandría" loading="lazy">
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/alexandria-city-view.jpg" alt="Frente marítimo mediterráneo de Alejandría" loading="lazy">
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- BOOKING CTA -->
   <section class="pkg-book-cta">

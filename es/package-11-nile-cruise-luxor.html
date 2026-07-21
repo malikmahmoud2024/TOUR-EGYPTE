@@ -276,6 +276,27 @@
       padding: 0.2rem 0.6rem;
       border-radius: 2px;
     }
+    /* Day-by-day photo layout */
+    .itinerary-list::before { display: none; }
+    .itinerary-day {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    .itinerary-day__photo {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+      border-radius: 8px;
+      display: block;
+    }
+    @media (min-width: 768px) {
+      .itinerary-day { grid-template-columns: 1fr 1fr; align-items: start; }
+      .itinerary-day__content { order: 1; }
+      .itinerary-day__photo-wrap { order: 2; }
+      .itinerary-day:nth-child(even) .itinerary-day__content { order: 2; }
+      .itinerary-day:nth-child(even) .itinerary-day__photo-wrap { order: 1; }
+    }
     .inclusions-section {
       background: #FBF8F1;
       padding: 5rem 0;
@@ -577,16 +598,19 @@
       <div class="itinerary-list">
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>1</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>1</span></div>
             <h3 class="itinerary-day__title">Luxor — Llegada</h3>
             <p class="itinerary-day__desc">Llegada, recepción aeropuerto. Traslado e instalación en el crucero. Cena y noche a bordo.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/nile-cruise-ship.jpg" alt="Nile river cruise ship sailing" loading="lazy">
           </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>2</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>2</span></div>
             <h3 class="itinerary-day__title">Luxor / Esna / Edfu</h3>
             <p class="itinerary-day__desc">Desayuno. Necrópolis tebana: Valle de los Reyes y Templo Hatshepsut. Colosos de Memnón. Almuerzo. Navegación Esna y Edfu. Cena y noche a bordo.</p>
             <div class="itinerary-day__highlights">
@@ -595,11 +619,14 @@
               <span class="itinerary-highlight">Colossi of Memnon</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/tours/hatshepsut-temple.jpg" alt="Hatshepsut Temple at Deir el-Bahari" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>3</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>3</span></div>
             <h3 class="itinerary-day__title">Edfu / Kom Ombo / Asuán</h3>
             <p class="itinerary-day__desc">Templo de Horus Edfu. Almuerzo. Templo Kom Ombo. Navegación Asuán. Cena y noche a bordo.</p>
             <div class="itinerary-day__highlights">
@@ -607,11 +634,14 @@
               <span class="itinerary-highlight">Kom Ombo Temple</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/edfu-temple.jpg" alt="Temple of Horus at Edfu" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>4</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>4</span></div>
             <h3 class="itinerary-day__title">Asuán</h3>
             <p class="itinerary-day__desc">Desayuno. Templo Philae. Almuerzo. Isla Elefantina. Cena y noche a bordo.</p>
             <div class="itinerary-day__highlights">
@@ -619,11 +649,14 @@
               <span class="itinerary-highlight">Elephantine Island</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/philae-temple.jpg" alt="Philae Temple on the Nile" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>5</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>5</span></div>
             <h3 class="itinerary-day__title">Asuán / Abu Simbel</h3>
             <p class="itinerary-day__desc">Templos Ramsés II y Nefertari. Almuerzo. Tarde libre. Cena y noche a bordo.</p>
             <div class="itinerary-day__highlights">
@@ -632,19 +665,25 @@
               <span class="itinerary-highlight">UNESCO World Heritage Site</span>
             </div>
           </div>
-        </div>
-
-        <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>6</span></div>
-          <div class="itinerary-day__content">
-            <h3 class="itinerary-day__title">Asuán / Kom Ombo / Edfu</h3>
-            <p class="itinerary-day__desc">Desayuno. Mañana libre. Navegación Kom Ombo y Edfu. Cena y noche a bordo.</p>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/abu-simbel.jpg" alt="Abu Simbel temple facade" loading="lazy">
           </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>7</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>6</span></div>
+            <h3 class="itinerary-day__title">Asuán / Kom Ombo / Edfu</h3>
+            <p class="itinerary-day__desc">Desayuno. Mañana libre. Navegación Kom Ombo y Edfu. Cena y noche a bordo.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/nile-green.jpg" alt="Nile River sailing between Aswan and Edfu" loading="lazy">
+          </div>
+        </div>
+
+        <div class="itinerary-day reveal">
+          <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>7</span></div>
             <h3 class="itinerary-day__title">Edfu / Esna / Luxor</h3>
             <p class="itinerary-day__desc">Desayuno. Navegación Luxor. Karnak y Templo de Luxor. Cena y noche a bordo.</p>
             <div class="itinerary-day__highlights">
@@ -652,13 +691,19 @@
               <span class="itinerary-highlight">Luxor Temple</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/karnak-columns.jpg" alt="Columns of Karnak Temple" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>8</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>8</span></div>
             <h3 class="itinerary-day__title">Luxor / Salida</h3>
             <p class="itinerary-day__desc">Desayuno. Aeropuerto Luxor. Salida final.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="../images/nile-luxor.jpg" alt="Nile River view at Luxor" loading="lazy">
           </div>
         </div>
 
@@ -695,48 +740,6 @@
             <li>Gastos personales</li>
             <li>Excursiones opcionales</li>
           </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- GALLERY -->
-  <section class="pkg-gallery">
-    <div class="container">
-      <div class="reveal">
-        <span class="section-label">Galería</span>
-        <h2 class="section-heading">Impresiones del <span>Viaje</span></h2>
-      </div>
-      <div class="pkg-gallery__grid reveal reveal-delay-1">
-        <div class="pkg-gallery__item">
-          <picture>
-            <source srcset="../images/luxor-temple-night.webp" type="image/webp">
-            <img src="../images/luxor-temple-night.jpg" alt="Luxor Temple illuminated at night" loading="lazy" />
-          </picture>
-        </div>
-        <div class="pkg-gallery__item">
-          <picture>
-            <source srcset="../images/nile-cruise-ship.webp" type="image/webp">
-            <img src="../images/nile-cruise-ship.jpg" alt="Nile cruise ship sailing at sunset" loading="lazy" />
-          </picture>
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/karnak-hall.jpg" alt="Karnak Hypostyle Hall" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/hatshepsut-temple.jpg" alt="Templo funerario de Hatshepsut en Deir el-Bahari" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/colossi-memnon.jpg" alt="Colosos de Memnón cerca de Luxor" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/aswan-nile-view.jpg" alt="Templo de Filae en Asuán" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/aswan-town-nile.jpg" alt="Pueblo nubio junto al Nilo en Asuán" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="../images/tours/felucca-nile-sunset.jpg" alt="Faluca en el Nilo al atardecer" loading="lazy" />
         </div>
       </div>
     </div>

@@ -276,6 +276,27 @@
       padding: 0.2rem 0.6rem;
       border-radius: 2px;
     }
+    /* Day-by-day photo layout */
+    .itinerary-list::before { display: none; }
+    .itinerary-day {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    .itinerary-day__photo {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+      border-radius: 8px;
+      display: block;
+    }
+    @media (min-width: 768px) {
+      .itinerary-day { grid-template-columns: 1fr 1fr; align-items: start; }
+      .itinerary-day__content { order: 1; }
+      .itinerary-day__photo-wrap { order: 2; }
+      .itinerary-day:nth-child(even) .itinerary-day__content { order: 2; }
+      .itinerary-day:nth-child(even) .itinerary-day__photo-wrap { order: 1; }
+    }
     .inclusions-section {
       background: #FBF8F1;
       padding: 5rem 0;
@@ -577,16 +598,19 @@
       <div class="itinerary-list">
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>1</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>1</span></div>
             <h3 class="itinerary-day__title" data-i18n="pkg11.day_titles.0">Louxor — Arrivée</h3>
             <p class="itinerary-day__desc" data-i18n="pkg11.day_descs.0">Arrivée à Louxor, accueil à l'aéroport de Louxor. Transfert et installation sur le bateau de croisière sur le Nil. Dîner et nuit à bord.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="images/nile-cruise-ship.jpg" alt="Nile river cruise ship sailing" loading="lazy">
           </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>2</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>2</span></div>
             <h3 class="itinerary-day__title" data-i18n="pkg11.day_titles.1">Louxor / Esna / Edfou</h3>
             <p class="itinerary-day__desc" data-i18n="pkg11.day_descs.1">Petit-déjeuner à bord. Visite des temples de la nécropole de Thèbes : Vallée des Rois et Temple d'Hatchepsout à Deir El Bahari. Arrêt aux Colosses de Memnon. Retour au bateau. Déjeuner à bord. Navigation vers Esna pour le passage de l'écluse. Navigation vers Edfou. Dîner et nuit à bord.</p>
             <div class="itinerary-day__highlights">
@@ -595,11 +619,14 @@
               <span class="itinerary-highlight">Colossi of Memnon</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="images/tours/hatshepsut-temple.jpg" alt="Hatshepsut Temple at Deir el-Bahari" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>3</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>3</span></div>
             <h3 class="itinerary-day__title" data-i18n="pkg11.day_titles.2">Edfou / Kom Ombo / Assouan</h3>
             <p class="itinerary-day__desc" data-i18n="pkg11.day_descs.2">Visite du Temple d'Horus à tête de faucon à Edfou. Navigation vers Kom Ombo. Déjeuner à bord. Visite du Temple illuminé de Kom Ombo dédié aux dieux Haroeris et Sobek. Navigation vers Assouan. Dîner et nuit à bord.</p>
             <div class="itinerary-day__highlights">
@@ -607,11 +634,14 @@
               <span class="itinerary-highlight">Kom Ombo Temple</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="images/edfu-temple.jpg" alt="Temple of Horus at Edfu" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>4</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>4</span></div>
             <h3 class="itinerary-day__title" data-i18n="pkg11.day_titles.3">Assouan</h3>
             <p class="itinerary-day__desc" data-i18n="pkg11.day_descs.3">Petit-déjeuner. Promenade en barque jusqu'au Temple de Philae. Déjeuner à bord. Promenade en felouque autour de l'île Éléphantine et visite des Jardins Botaniques. Dîner et nuit à bord.</p>
             <div class="itinerary-day__highlights">
@@ -619,11 +649,14 @@
               <span class="itinerary-highlight">Elephantine Island</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="images/philae-temple.jpg" alt="Philae Temple on the Nile" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>5</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>5</span></div>
             <h3 class="itinerary-day__title" data-i18n="pkg11.day_titles.4">Assouan / Abou Simbel</h3>
             <p class="itinerary-day__desc" data-i18n="pkg11.day_descs.4">Tôt le matin, départ en van privé pour Abou Simbel : visite des temples grandioses de Ramsès II et Néfertari. Retour au bateau. Déjeuner à bord. Après-midi libre. Spectacle Son et Lumière à Philae (facultatif). Dîner et nuit à bord.</p>
             <div class="itinerary-day__highlights">
@@ -632,19 +665,25 @@
               <span class="itinerary-highlight">UNESCO World Heritage Site</span>
             </div>
           </div>
-        </div>
-
-        <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>6</span></div>
-          <div class="itinerary-day__content">
-            <h3 class="itinerary-day__title" data-i18n="pkg11.day_titles.5">Assouan / Kom Ombo / Edfou</h3>
-            <p class="itinerary-day__desc" data-i18n="pkg11.day_descs.5">Petit-déjeuner. Matinée libre. Déjeuner à bord. Navigation vers Kom Ombo puis vers Edfou. Dîner et nuit à bord.</p>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="images/abu-simbel.jpg" alt="Abu Simbel temple facade" loading="lazy">
           </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>7</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>6</span></div>
+            <h3 class="itinerary-day__title" data-i18n="pkg11.day_titles.5">Assouan / Kom Ombo / Edfou</h3>
+            <p class="itinerary-day__desc" data-i18n="pkg11.day_descs.5">Petit-déjeuner. Matinée libre. Déjeuner à bord. Navigation vers Kom Ombo puis vers Edfou. Dîner et nuit à bord.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="images/nile-green.jpg" alt="Nile River sailing between Aswan and Edfu" loading="lazy">
+          </div>
+        </div>
+
+        <div class="itinerary-day reveal">
+          <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>7</span></div>
             <h3 class="itinerary-day__title" data-i18n="pkg11.day_titles.6">Edfou / Esna / Louxor</h3>
             <p class="itinerary-day__desc" data-i18n="pkg11.day_descs.6">Petit-déjeuner à bord. Navigation vers Esna puis vers Louxor. Déjeuner à bord. Arrivée à Louxor dans l'après-midi. Visite du Temple de Karnak puis du Temple de Louxor. Dîner et nuit à bord.</p>
             <div class="itinerary-day__highlights">
@@ -652,13 +691,19 @@
               <span class="itinerary-highlight">Luxor Temple</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="images/karnak-columns.jpg" alt="Columns of Karnak Temple" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>8</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>8</span></div>
             <h3 class="itinerary-day__title" data-i18n="pkg11.day_titles.7">Louxor / Départ Final</h3>
             <p class="itinerary-day__desc" data-i18n="pkg11.day_descs.7">Petit-déjeuner. Selon l'horaire de vol, transfert à l'aéroport de Louxor pour le départ final.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="images/nile-luxor.jpg" alt="Nile River view at Luxor" loading="lazy">
           </div>
         </div>
 
@@ -698,48 +743,6 @@
             <li data-i18n="pkg11.excluded.4">Dépenses personnelles</li>
             <li data-i18n="pkg11.excluded.5">Excursions facultatives (Son et Lumière, Abou Simbel)</li>
           </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- GALLERY -->
-  <section class="pkg-gallery">
-    <div class="container">
-      <div class="reveal">
-        <span class="section-label" data-i18n="pkg_detail.gallery_label">Galerie</span>
-        <h2 class="section-heading" data-i18n="pkg_detail.gallery_heading">Impressions de <span>Voyage</span></h2>
-      </div>
-      <div class="pkg-gallery__grid reveal reveal-delay-1">
-        <div class="pkg-gallery__item">
-          <picture>
-            <source srcset="images/luxor-temple-night.webp" type="image/webp">
-            <img src="images/luxor-temple-night.jpg" alt="Luxor Temple illuminated at night" loading="lazy" />
-          </picture>
-        </div>
-        <div class="pkg-gallery__item">
-          <picture>
-            <source srcset="images/nile-cruise-ship.webp" type="image/webp">
-            <img src="images/nile-cruise-ship.jpg" alt="Nile cruise ship sailing at sunset" loading="lazy" />
-          </picture>
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="images/karnak-hall.jpg" alt="Karnak Hypostyle Hall" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="images/tours/hatshepsut-temple.jpg" alt="Temple mortuaire d'Hatchepsout à Deir el-Bahari" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="images/tours/colossi-memnon.jpg" alt="Colosses de Memnon près de Louxor" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="images/tours/aswan-nile-view.jpg" alt="Temple de Philae à Assouan" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="images/tours/aswan-town-nile.jpg" alt="Village nubien au bord du Nil à Assouan" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="images/tours/felucca-nile-sunset.jpg" alt="Felouque sur le Nil au coucher du soleil" loading="lazy" />
         </div>
       </div>
     </div>

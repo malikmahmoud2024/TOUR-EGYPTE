@@ -53,7 +53,7 @@
     "@context": "https://schema.org",
     "@type": "TouristTrip",
     "name": "Week-end au Caire",
-    "description": "Circuit privé de 4 jours au Caire : Pyramides de Gizeh, Sphinx, Musée Égyptien, Caire islamique et copte, avec guide francophone privé.",
+    "description": "Circuit privé de 4 jours au Caire : Pyramides de Gizeh, Sphinx, Grand Musée Égyptien (GEM), Caire islamique et copte, avec guide francophone privé.",
     "provider": { "@type": "TravelAgency", "name": "Tour Egypte", "url": "https://touregypte.fr" },
     "touristType": "Francophone European travelers",
     "itinerary": {
@@ -271,6 +271,27 @@
       letter-spacing: 0.5px;
       padding: 0.2rem 0.6rem;
       border-radius: 2px;
+    }
+        /* Day-by-day photo layout */
+    .itinerary-list::before { display: none; }
+    .itinerary-day {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    .itinerary-day__photo {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+      border-radius: 8px;
+      display: block;
+    }
+    @media (min-width: 768px) {
+      .itinerary-day { grid-template-columns: 1fr 1fr; align-items: start; }
+      .itinerary-day__content { order: 1; }
+      .itinerary-day__photo-wrap { order: 2; }
+      .itinerary-day:nth-child(even) .itinerary-day__content { order: 2; }
+      .itinerary-day:nth-child(even) .itinerary-day__photo-wrap { order: 1; }
     }
     .inclusions-section {
       background: #FBF8F1;
@@ -564,16 +585,19 @@
       <div class="itinerary-list">
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>1</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>1</span></div>
             <h3 class="itinerary-day__title" data-i18n="pkg2.day_titles.0">Le Caire</h3>
             <p class="itinerary-day__desc" data-i18n="pkg2.day_descs.0">Arrivée au Caire, accueil à l'aéroport du Caire et transfert à l'hôtel. Diner libre. Nuit à l'hôtel.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="images/nile-cairo.jpg" alt="The Nile River in Cairo" loading="lazy">
           </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>2</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>2</span></div>
             <h3 class="itinerary-day__title" data-i18n="pkg2.day_titles.1">Le Caire</h3>
             <p class="itinerary-day__desc" data-i18n="pkg2.day_descs.1">Après le petit-déjeuner, départ pour la visite de la Nécropole de Sakkarah: la célèbre pyramide à degrés du roi Djoser, les Pyramides royales, les textes funéraires, les mastabas… Déjeuner en cours de visites au restaurent. L'après-midi, visite du Plateau de Guizèh : les Pyramides et le sphinx. Retour à l'hôtel. Qualité de service. transfert en voiture privée, guide francophone privé, repas de midi durant le tour au Caire, billets d'entrée aux sites inclus. Option Facultative; Spectacle de son et lumière aux Pyramides; Soirée culturelle avec le Sphinx. Diner libre. Nuit à l'hôtel.</p>
             <div class="itinerary-day__highlights">
@@ -582,13 +606,16 @@
               <span class="itinerary-highlight">Tutankhamun's Mask</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="images/sphinx-pyramids.jpg" alt="The Great Sphinx and Pyramids of Giza" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>3</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>3</span></div>
             <h3 class="itinerary-day__title" data-i18n="pkg2.day_titles.2">Le Caire</h3>
-            <p class="itinerary-day__desc" data-i18n="pkg2.day_descs.2">Après le petit-déjeuner, départ pour la visite du Musée des Antiquités Égyptiennes (fondé en 1857 par l'égyptologue français Auguste Mariette). Déjeuner en cours de visites au restaurent. L'après-midi, visite de la Mosquée de Mohamed Ali dans l'enceinte de la Citadelle de Saladin et découverte des Souks couverts de Khan El Khalili. Retour à l'hôtel. Qualité de service. transfert en voiture privée, guide francophone privé, repas de midi durant le tour au Caire, billets d'entrée aux sites inclus. Option Facultative; Soirée orientale à bord du restaurant croisière sur le Nil: repas en buffet avec animation oriental (une belle croisière sur le Nil au Caire). Nuit à l'hôtel.</p>
+            <p class="itinerary-day__desc" data-i18n="pkg2.day_descs.2">Après le petit-déjeuner, départ pour la visite du GEM — Grand Musée Égyptien des Antiquités : le trésor de Toutankhamon, la Barque Solaire et les différentes salles des monuments égyptiens. Déjeuner en cours de visites au restaurent. L'après-midi, visite de la Mosquée de Mohamed Ali dans l'enceinte de la Citadelle de Saladin et découverte des Souks couverts de Khan El Khalili. Retour à l'hôtel. Qualité de service. transfert en voiture privée, guide francophone privé, repas de midi durant le tour au Caire, billets d'entrée aux sites inclus. Option Facultative; Soirée orientale à bord du restaurant croisière sur le Nil: repas en buffet avec animation oriental (une belle croisière sur le Nil au Caire). Nuit à l'hôtel.</p>
             <div class="itinerary-day__highlights">
               <span class="itinerary-highlight">Citadel of Saladin</span>
               <span class="itinerary-highlight">Mohammed Ali Mosque</span>
@@ -596,13 +623,19 @@
               <span class="itinerary-highlight">Hanging Church</span>
             </div>
           </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="images/tours/khan-el-khalili-bazaar.jpg" alt="Khan El Khalili bazaar in Cairo" loading="lazy">
+          </div>
         </div>
 
         <div class="itinerary-day reveal">
-          <div class="itinerary-day__number"><span>4</span></div>
           <div class="itinerary-day__content">
+            <div class="itinerary-day__number"><span>4</span></div>
             <h3 class="itinerary-day__title" data-i18n="pkg2.day_titles.3">Le Caire / Départ</h3>
             <p class="itinerary-day__desc" data-i18n="pkg2.day_descs.3">Petit déjeuner. Selon l'horaire de vol, transfert à l'aéroport du Caire pour le depart final.</p>
+          </div>
+          <div class="itinerary-day__photo-wrap">
+            <img class="itinerary-day__photo" src="images/grand-egyptian-museum.jpg" alt="Grand Egyptian Museum" loading="lazy">
           </div>
         </div>
 
@@ -644,42 +677,7 @@
     </div>
   </section>
 
-  <!-- GALLERY -->
-  <section class="pkg-gallery">
-    <div class="container">
-      <div class="reveal">
-        <span class="section-label" data-i18n="pkg_detail.gallery_label">Galerie</span>
-        <h2 class="section-heading" data-i18n="pkg_detail.gallery_heading">Impressions de <span>Voyage</span></h2>
-      </div>
-      <div class="pkg-gallery__grid reveal reveal-delay-1">
-        <div class="pkg-gallery__item">
-          <img src="images/sphinx-pyramids.jpg" alt="Sphinx and Pyramids at Giza" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="images/gallery-museum.jpg" alt="Egyptian Museum treasures" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="images/gallery-khan-khalili.jpg" alt="Old Cairo mosques" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="images/tours/cairo-cityscape-pyramids.jpg" alt="Le Caire au coucher du soleil avec les pyramides de Gizeh à l'horizon" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="images/tours/egyptian-museum-hall.jpg" alt="Statue colossale au Grand Musée Égyptien" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="images/tours/khan-el-khalili-bazaar.jpg" alt="Ruelle du bazar de Khan el-Khalili" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="images/tours/sphinx-giza-view.jpg" alt="Le Grand Sphinx de Gizeh" loading="lazy" />
-        </div>
-        <div class="pkg-gallery__item">
-          <img src="images/tours/giza-pyramids-camel.jpg" alt="Chameau devant la pyramide de Gizeh" loading="lazy" />
-        </div>
-      </div>
-    </div>
-  </section>
-
+  
   <!-- BOOKING CTA -->
   <section class="pkg-book-cta">
     <div class="container">
