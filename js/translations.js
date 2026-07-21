@@ -2974,15 +2974,27 @@ const TRANSLATIONS = {
 };
 
 /* Current language state.
-   The page's own <html lang="..."> is authoritative (it matches the
-   folder the file was served from), so it always wins over a stale
-   localStorage value left behind from browsing a different language
-   folder. localStorage is still written so the switcher's state persists
-   for subsequent same-language navigation. */
+   Two kinds of pages exist:
+   - Static translated pages (/en/, /de/, /es/, /it/ folders): their text
+     is hardcoded in the correct language and they contain no [data-i18n]
+     elements, so the page's own <html lang="..."> must win — it's the
+     only source of truth and there's nothing for applyTranslations() to
+     safely swap.
+   - Root pages (French by default, <html lang="fr">): these carry
+     [data-i18n] elements and are the ones the switcher live-swaps. On
+     these, a saved preference from localStorage must win over the
+     hardcoded "fr" default, otherwise navigating to a new root page
+     after switching language resets the site back to French (the
+     switcher only ever updates the DOM in place, it never persists
+     across a real page navigation on its own).
+   localStorage is written in both cases so the switcher's state persists
+   for subsequent navigation. */
 let currentLang = 'fr';
 try {
   const pageLang = document.documentElement.lang;
-  currentLang = pageLang || localStorage.getItem('tour-egypte-lang') || 'fr';
+  const isSwitchablePage = document.querySelector('[data-i18n]') !== null;
+  const storedLang = localStorage.getItem('tour-egypte-lang');
+  currentLang = (isSwitchablePage && storedLang) || pageLang || storedLang || 'fr';
   localStorage.setItem('tour-egypte-lang', currentLang);
 } catch (e) { /* localStorage may be blocked on file:// or in private mode */ }
 
