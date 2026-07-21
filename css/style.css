@@ -132,7 +132,7 @@ p:last-child { margin-bottom: 0; }
   font-weight: 600;
   letter-spacing: 4px;
   text-transform: uppercase;
-  color: var(--gold-text);
+  color: #000000;
   margin-bottom: 1rem;
 }
 
@@ -1007,7 +1007,7 @@ p:last-child { margin-bottom: 0; }
   font-size: 0.82rem;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: var(--gold-text);
+  color: #000000;
   margin-bottom: 0.6rem;
 }
 
@@ -1020,7 +1020,7 @@ p:last-child { margin-bottom: 0; }
 }
 
 .package-card__desc {
-  font-size: 0.98rem;
+  font-size: 1.225rem;
   color: var(--text-light);
   line-height: 1.7;
   margin-bottom: 1.5rem;

@@ -428,7 +428,7 @@
       intro_heading: "Our <span>Practical Tips</span>",
       cta_label: "Ready to Go?",
       cta_heading: "Let Us <span>Organise Your Trip</span>",
-      cta_text: "Our French-speaking guides and our team take care of every detail — all you have to do is enjoy the journey.",
+      cta_text: "Our guides and our team take care of every detail — all you have to do is enjoy the journey.",
       cta_btn: "Contact Us",
       section1_heading: "When to Visit Egypt?",
       section1_items: [
@@ -440,16 +440,15 @@
       section2_heading: "Documents and Formalities",
       section2_items: [
         "Passport valid for at least 6 months after the return date.",
-        "Visa mandatory for French nationals: available on arrival (around 25 USD) or online at egyptonline.visa.gov.eg.",
-        "Travel insurance recommended, covering medical expenses, repatriation and cancellation.",
-        "No mandatory vaccination, but hepatitis A and typhoid recommended — consult a doctor 4 weeks before departure."
+        "Visa mandatory for French nationals: available on arrival (around 30 USD) or online at egyptonline.visa.gov.eg.",
+        "Travel insurance recommended, covering medical expenses, repatriation and cancellation."
       ],
       section3_heading: "Money and Budget",
       section3_items: [
         "Local currency: Egyptian pound (EGP). Bring dollars or euros to exchange locally.",
         "ATMs are available in hotels and city centres.",
         "Carry small denominations in Egyptian pounds for tips (drivers, guides, porters).",
-        "Tipping is an important part of local culture — plan around 50 to 100 EGP per service.",
+        "Tipping is an important part of local culture.",
         "Bank cards are accepted in major hotels, but cash remains king in souks and small restaurants."
       ],
       section4_heading: "Health and Safety",
@@ -874,7 +873,7 @@
       intro_heading: "Nos <span>Conseils Pratiques</span>",
       cta_label: "Prêt à Partir ?",
       cta_heading: "Laissez-Nous <span>Organiser Votre Voyage</span>",
-      cta_text: "Nos guides francophones et notre équipe s'occupent de chaque détail — vous n'avez qu'à profiter du voyage.",
+      cta_text: "Nos guides et notre équipe s'occupent de chaque détail — vous n'avez qu'à profiter du voyage.",
       cta_btn: "Contactez-Nous",
       section1_heading: "Quand partir en Égypte ?",
       section1_items: [
@@ -886,16 +885,15 @@
       section2_heading: "Documents et formalités",
       section2_items: [
         "Passeport valide au moins 6 mois après la date de retour.",
-        "Visa obligatoire pour les ressortissants français : disponible à l'arrivée (25 USD environ) ou en ligne sur egyptonline.visa.gov.eg.",
-        "Assurance voyage recommandée couvrant frais médicaux, rapatriement et annulation.",
-        "Aucun vaccin obligatoire, mais hépatite A et typhoïde recommandés — consulter un médecin 4 semaines avant."
+        "Visa obligatoire pour les ressortissants français : disponible à l'arrivée (30 USD environ) ou en ligne sur egyptonline.visa.gov.eg.",
+        "Assurance voyage recommandée couvrant frais médicaux, rapatriement et annulation."
       ],
       section3_heading: "Argent et budget",
       section3_items: [
         "Devise locale : livre égyptienne (EGP). Emportez des dollars ou euros à changer sur place.",
         "Les distributeurs automatiques sont disponibles dans les hôtels et centres-villes.",
         "Prévoir des petites coupures en livres égyptiennes pour les pourboires (chauffeurs, guides, porteurs).",
-        "Les pourboires sont une part importante de la culture locale — prévoir environ 50 à 100 EGP par prestation.",
+        "Les pourboires sont une part importante de la culture locale.",
         "Les cartes bancaires sont acceptées dans les grands hôtels, mais le cash reste roi dans les souks et petits restaurants."
       ],
       section4_heading: "Santé et sécurité",
@@ -1315,7 +1313,7 @@
       intro_heading: "Unsere <span>Praktischen Tipps</span>",
       cta_label: "Bereit Zur Abreise?",
       cta_heading: "Lassen Sie Uns <span>Ihre Reise Organisieren</span>",
-      cta_text: "Unsere französischsprachigen Guides und unser Team kümmern sich um jedes Detail — Sie müssen nur die Reise genießen.",
+      cta_text: "Unsere Guides und unser Team kümmern sich um jedes Detail — Sie müssen nur die Reise genießen.",
       cta_btn: "Kontaktieren Sie Uns",
       section1_heading: "Wann nach Ägypten reisen?",
       section1_items: [
@@ -1327,16 +1325,15 @@
       section2_heading: "Dokumente und Formalitäten",
       section2_items: [
         "Reisepass mindestens 6 Monate nach dem Rückreisedatum gültig.",
-        "Visum für französische Staatsbürger obligatorisch: erhältlich bei der Ankunft (ca. 25 USD) oder online auf egyptonline.visa.gov.eg.",
-        "Reiseversicherung empfohlen, die Arztkosten, Rückführung und Stornierung abdeckt.",
-        "Keine Impfung vorgeschrieben, aber Hepatitis A und Typhus empfohlen — 4 Wochen vor der Abreise einen Arzt konsultieren."
+        "Visum für französische Staatsbürger obligatorisch: erhältlich bei der Ankunft (ca. 30 USD) oder online auf egyptonline.visa.gov.eg.",
+        "Reiseversicherung empfohlen, die Arztkosten, Rückführung und Stornierung abdeckt."
       ],
       section3_heading: "Geld und Budget",
       section3_items: [
         "Landeswährung: ägyptisches Pfund (EGP). Bringen Sie Dollar oder Euro zum Umtausch vor Ort mit.",
         "Geldautomaten sind in Hotels und Stadtzentren verfügbar.",
         "Kleine Scheine in ägyptischen Pfund für Trinkgelder (Fahrer, Guides, Gepäckträger) bereithalten.",
-        "Trinkgeld ist ein wichtiger Teil der lokalen Kultur — planen Sie etwa 50 bis 100 EGP pro Leistung ein.",
+        "Trinkgeld ist ein wichtiger Teil der lokalen Kultur.",
         "Bankkarten werden in großen Hotels akzeptiert, aber Bargeld ist in Souks und kleinen Restaurants weiterhin unerlässlich."
       ],
       section4_heading: "Gesundheit und Sicherheit",
@@ -1756,7 +1753,7 @@
       intro_heading: "Nuestros <span>Consejos Prácticos</span>",
       cta_label: "¿Listo Para Partir?",
       cta_heading: "Déjenos <span>Organizar Su Viaje</span>",
-      cta_text: "Nuestros guías francófonos y nuestro equipo se encargan de cada detalle — usted solo tiene que disfrutar del viaje.",
+      cta_text: "Nuestros guías y nuestro equipo se encargan de cada detalle — usted solo tiene que disfrutar del viaje.",
       cta_btn: "Contáctenos",
       section1_heading: "¿Cuándo visitar Egipto?",
       section1_items: [
@@ -1768,16 +1765,15 @@
       section2_heading: "Documentos y formalidades",
       section2_items: [
         "Pasaporte válido al menos 6 meses después de la fecha de regreso.",
-        "Visado obligatorio para ciudadanos franceses: disponible a la llegada (unos 25 USD) o en línea en egyptonline.visa.gov.eg.",
-        "Se recomienda un seguro de viaje que cubra gastos médicos, repatriación y cancelación.",
-        "No hay vacunas obligatorias, pero se recomiendan hepatitis A y tifoidea — consulte a un médico 4 semanas antes de la salida."
+        "Visado obligatorio para ciudadanos franceses: disponible a la llegada (unos 30 USD) o en línea en egyptonline.visa.gov.eg.",
+        "Se recomienda un seguro de viaje que cubra gastos médicos, repatriación y cancelación."
       ],
       section3_heading: "Dinero y presupuesto",
       section3_items: [
         "Moneda local: libra egipcia (EGP). Lleve dólares o euros para cambiar sobre el terreno.",
         "Hay cajeros automáticos disponibles en hoteles y centros urbanos.",
         "Lleve billetes pequeños en libras egipcias para las propinas (conductores, guías, mozos).",
-        "Las propinas son una parte importante de la cultura local — prevea entre 50 y 100 EGP por servicio.",
+        "Las propinas son una parte importante de la cultura local.",
         "Las tarjetas bancarias se aceptan en los grandes hoteles, pero el efectivo sigue siendo el rey en los zocos y pequeños restaurantes."
       ],
       section4_heading: "Salud y seguridad",
@@ -2197,7 +2193,7 @@
       intro_heading: "I Nostri <span>Consigli Pratici</span>",
       cta_label: "Pronti a Partire?",
       cta_heading: "Lasciateci <span>Organizzare Il Vostro Viaggio</span>",
-      cta_text: "Le nostre guide francofone e il nostro team si occupano di ogni dettaglio — voi dovete solo goderVi il viaggio.",
+      cta_text: "Le nostre guide e il nostro team si occupano di ogni dettaglio — voi dovete solo goderVi il viaggio.",
       cta_btn: "Contattateci",
       section1_heading: "Quando visitare l'Egitto?",
       section1_items: [
@@ -2209,16 +2205,15 @@
       section2_heading: "Documenti e formalità",
       section2_items: [
         "Passaporto valido almeno 6 mesi dopo la data di ritorno.",
-        "Visto obbligatorio per i cittadini francesi: disponibile all'arrivo (circa 25 USD) o online su egyptonline.visa.gov.eg.",
-        "Si consiglia un'assicurazione di viaggio che copra spese mediche, rimpatrio e cancellazione.",
-        "Nessun vaccino obbligatorio, ma si raccomandano epatite A e tifo — consultare un medico 4 settimane prima della partenza."
+        "Visto obbligatorio per i cittadini francesi: disponibile all'arrivo (circa 30 USD) o online su egyptonline.visa.gov.eg.",
+        "Si consiglia un'assicurazione di viaggio che copra spese mediche, rimpatrio e cancellazione."
       ],
       section3_heading: "Denaro e budget",
       section3_items: [
         "Valuta locale: sterlina egiziana (EGP). Portate dollari o euro da cambiare sul posto.",
         "I bancomat sono disponibili negli hotel e nei centri città.",
         "Tenete banconote di piccolo taglio in sterline egiziane per le mance (autisti, guide, facchini).",
-        "Le mance sono una parte importante della cultura locale — prevedete circa 50-100 EGP per servizio.",
+        "Le mance sono una parte importante della cultura locale.",
         "Le carte bancarie sono accettate nei grandi hotel, ma il contante resta sovrano nei souk e nei piccoli ristoranti."
       ],
       section4_heading: "Salute e sicurezza",
