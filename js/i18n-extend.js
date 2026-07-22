@@ -440,7 +440,7 @@
       section2_heading: "Documents and Formalities",
       section2_items: [
         "Passport valid for at least 6 months after the return date.",
-        "Visa mandatory for French nationals: available on arrival (around 30 USD) or online at egyptonline.visa.gov.eg.",
+        "Visa mandatory for most nationalities: available on arrival (around 30 USD) or online at egyptonline.visa.gov.eg.",
         "Travel insurance recommended, covering medical expenses, repatriation and cancellation."
       ],
       section3_heading: "Money and Budget",
@@ -1325,7 +1325,7 @@
       section2_heading: "Dokumente und Formalitäten",
       section2_items: [
         "Reisepass mindestens 6 Monate nach dem Rückreisedatum gültig.",
-        "Visum für französische Staatsbürger obligatorisch: erhältlich bei der Ankunft (ca. 30 USD) oder online auf egyptonline.visa.gov.eg.",
+        "Visum für die meisten Staatsangehörigen obligatorisch: erhältlich bei der Ankunft (ca. 30 USD) oder online auf egyptonline.visa.gov.eg.",
         "Reiseversicherung empfohlen, die Arztkosten, Rückführung und Stornierung abdeckt."
       ],
       section3_heading: "Geld und Budget",
@@ -1765,7 +1765,7 @@
       section2_heading: "Documentos y formalidades",
       section2_items: [
         "Pasaporte válido al menos 6 meses después de la fecha de regreso.",
-        "Visado obligatorio para ciudadanos franceses: disponible a la llegada (unos 30 USD) o en línea en egyptonline.visa.gov.eg.",
+        "Visado obligatorio para la mayoría de nacionalidades: disponible a la llegada (unos 30 USD) o en línea en egyptonline.visa.gov.eg.",
         "Se recomienda un seguro de viaje que cubra gastos médicos, repatriación y cancelación."
       ],
       section3_heading: "Dinero y presupuesto",
@@ -2205,7 +2205,7 @@
       section2_heading: "Documenti e formalità",
       section2_items: [
         "Passaporto valido almeno 6 mesi dopo la data di ritorno.",
-        "Visto obbligatorio per i cittadini francesi: disponibile all'arrivo (circa 30 USD) o online su egyptonline.visa.gov.eg.",
+        "Visto obbligatorio per la maggior parte delle nazionalità: disponibile all'arrivo (circa 30 USD) o online su egyptonline.visa.gov.eg.",
         "Si consiglia un'assicurazione di viaggio che copra spese mediche, rimpatrio e cancellazione."
       ],
       section3_heading: "Denaro e budget",
