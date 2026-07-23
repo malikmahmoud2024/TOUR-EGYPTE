@@ -80,9 +80,9 @@
         "3 nights Luxor Aracan Etab Hotel half board Nile view",
         "Domestic flight Luxor/Cairo economy",
         "1 night Cairo President Zamalek Hotel (breakfast)",
-        "2 days Cairo sightseeing private French-speaking guide air-conditioned car entrance tickets lunches",
-        "Lake Nasser cruise sightseeing French-speaking guide entrance tickets",
-        "Dahabiya sightseeing French-speaking guide entrance tickets",
+        "2 days Cairo sightseeing private multilingual guide (French, English, Spanish, Italian, German) air-conditioned car entrance tickets lunches",
+        "Lake Nasser cruise sightseeing Multilingual guide (French, English, Spanish, Italian, German) entrance tickets",
+        "Dahabiya sightseeing Multilingual guide (French, English, Spanish, Italian, German) entrance tickets",
         "Transfer Abu Simbel/Aswan and Esna/Luxor private car",
         "All transfers private air-conditioned car",
         "Cairo Airport assistance",
@@ -121,19 +121,19 @@
         "Breakfast. Free day by the Red Sea. Lunch and dinner at hotel. Overnight at hotel. Optional: boat trip to Giftun Island or Orange Bay, snorkeling.",
         "Breakfast. Free day by the Red Sea. Lunch and dinner at hotel. Overnight at hotel.",
         "Breakfast. Free day by the Red Sea. Lunch and dinner at hotel. Overnight at hotel.",
-        "Breakfast. Free morning. Transfer to Hurghada Airport for final departure. Option: return by road to Cairo by private van and depart from Cairo international airport."
+        "Breakfast. Free morning. Depending on your flight schedule, transfer to Hurghada Airport for final departure. Option: return by road to Cairo by private van and depart from Cairo international airport."
       ],
       included: [
         "2 nights Cairo Grand Pyramids Hotel (breakfast)",
         "5 nights Hurghada Jasmine Palace Hotel All Inclusive",
-        "1 day Cairo sightseeing private French-speaking guide air-conditioned van entrance tickets lunch",
+        "1 day Cairo sightseeing private multilingual guide (French, English, Spanish, Italian, German) air-conditioned van entrance tickets lunch",
         "Transfer Cairo/Hurghada private air-conditioned van",
         "All transfers air-conditioned vehicle",
-        "Cairo Airport assistance and hotel transfer",
+        "Cairo Airport assistance and hotel transfer, and return transfer to Hurghada",
         "Transfers Cairo and Hurghada private van",
-        "Private French-speaking guide Cairo",
+        "Private multilingual guide (French, English, Spanish, Italian, German) Cairo",
         "All taxes",
-        "All services private"
+        "All services private, without joining other clients"
       ],
       excluded: [
         "International flights",
@@ -174,13 +174,13 @@
         "1 night sleeper train Cairo/Luxor half board",
         "1 night Luxor Aracan Etab Hotel (breakfast)",
         "4 nights Hurghada Blend Paradise or Jasmine Palace Hotel All Inclusive",
-        "1 day Cairo sightseeing private French-speaking guide air-conditioned van entrance tickets lunch",
-        "2 days Luxor sightseeing private French-speaking guide air-conditioned van entrance tickets lunches",
+        "1 day Cairo sightseeing private multilingual guide (French, English, Spanish, Italian, German) air-conditioned van entrance tickets lunch",
+        "2 days Luxor sightseeing private multilingual guide (French, English, Spanish, Italian, German) air-conditioned van entrance tickets lunches",
         "Transfer Luxor/Hurghada private air-conditioned van",
         "All transfers air-conditioned vehicle",
         "Cairo Airport assistance",
         "Transfers Cairo, Luxor, Hurghada private van",
-        "Private French-speaking guide Cairo and Luxor",
+        "Private multilingual guide (French, English, Spanish, Italian, German) Cairo and Luxor",
         "All taxes",
         "All services private"
       ],
@@ -196,7 +196,7 @@
     pkg10: {
       overview_heading: "Nile Cruise & <span>Red Sea</span> Escape",
       overview_p1: "Seven nights aboard a five-star Nile cruise sailing from Luxor to Aswan and back, visiting the Valley of the Kings, Edfu, Kom Ombo and the colossal temples of Abu Simbel, followed by seven nights of all-inclusive relaxation on the shores of the Red Sea in Hurghada.",
-      overview_p2: "This 15-day private journey pairs ancient wonders with total relaxation — your private French-speaking guide leads every temple visit, then hands you over to sun, sea and all-inclusive comfort for a full week.",
+      overview_p2: "This 15-day private journey pairs ancient wonders with total relaxation — your private multilingual guide (French, English, Spanish, Italian, German) leads every temple visit, then hands you over to sun, sea and all-inclusive comfort for a full week.",
       cta_heading: "Ready for the <em>Nile & the Red Sea?</em>",
       day_titles: [
         "Luxor — Arrival",
@@ -235,7 +235,7 @@
       included: [
         "7 nights aboard Nile Cruise MS Magic or similar (5 stars) Luxor/Luxor full board",
         "7 nights Hurghada Jasmine Palace or similar (5 stars) All Inclusive",
-        "All cruise itinerary visits with private French-speaking guide, air-conditioned car and entrance tickets",
+        "All cruise itinerary visits with private multilingual guide (French, English, Spanish, Italian, German), air-conditioned car and entrance tickets",
         "Abu Simbel visit with private guide and tickets",
         "Transfer Luxor/Hurghada private car",
         "All transfers private air-conditioned car",
@@ -279,7 +279,7 @@
       ],
       included: [
         "7 nights Nile Cruise MS Magic or similar (5 stars) Luxor/Luxor full board",
-        "All visits with private French-speaking guide, air-conditioned car and entrance tickets",
+        "All visits with private multilingual guide (French, English, Spanish, Italian, German), air-conditioned car and entrance tickets",
         "Abu Simbel visit with guide and tickets",
         "All transfers private air-conditioned car",
         "Airport assistance Luxor",
@@ -312,7 +312,7 @@
       ],
       day_descs: [
         "Arrival in Cairo, welcome at Cairo Airport and transfer to hotel. Free dinner. Overnight at hotel.",
-        "After breakfast, 8:30am departure with private French-speaking guide to visit the Saqqara Necropolis: King Djoser's Step Pyramid, royal funerary texts, mastabas. Lunch included. Afternoon visit to the Giza Plateau: Pyramids, Valley Temple and Sphinx. Return to hotel around 5pm. Free dinner. Overnight at hotel.",
+        "After breakfast, 8:30am departure with private multilingual guide (French, English, Spanish, Italian, German) to visit the Saqqara Necropolis: King Djoser's Step Pyramid, royal funerary texts, mastabas. Lunch included. Afternoon visit to the Giza Plateau: Pyramids, Valley Temple and Sphinx. Return to hotel around 5pm. Free dinner. Overnight at hotel.",
         "After breakfast, 7am departure by private van to Fayoum Oasis (90km from Cairo). 4x4 jeep excursion to the UNESCO World Heritage Site of Wadi Hitan (Valley of the Whales), home to 40-million-year-old whale skeletons. Bedouin barbecue lunch. Visit Magic Lake, jeep safari and sandboarding. Discover Wadi El Rayan protected area with its waterfalls and Modawara Mountain. Return to Cairo around 8pm. Free dinner. Overnight at hotel.",
         "After breakfast, 8:30am departure to visit the GEM — Grand Egyptian Museum: Tutankhamun's treasure, Solar Boat, Egyptian monument halls. Lunch included. Afternoon visit to the Mohamed Ali Mosque inside the Citadel of Saladin. Return to hotel around 5pm. Free dinner. Overnight at hotel.",
         "Breakfast. 7:30am private car to Alexandria (arriving around 10am). Visit Fort Qaitbay and the Roman Theatre. Lunch included. Afternoon visit to the New Alexandria Library and famous Catacombs. Return to Cairo around 8pm. Free dinner. Overnight at hotel.",
@@ -322,7 +322,7 @@
       ],
       included: [
         "7 nights Cairo Grand Pyramids Hotel (breakfast)",
-        "3 days Cairo sightseeing private French-speaking guide air-conditioned car entrance tickets lunches",
+        "3 days Cairo sightseeing private multilingual guide (French, English, Spanish, Italian, German) air-conditioned car entrance tickets lunches",
         "1 day Alexandria private guide car tickets lunch",
         "1 day Fayoum Oasis private guide 4x4 jeep tickets Bedouin barbecue lunch",
         "Airport assistance Cairo",
@@ -350,7 +350,7 @@
       q5: "What currency is used in Egypt and where can I exchange money?",
       a5: "The local currency is the Egyptian pound (EGP). The best rate is obtained at official exchange offices or local banks. ATMs are available in all major hotels and city centres. It is advisable to carry small denominations in Egyptian pounds for tips.",
       q6: "Do I need to speak Arabic to travel in Egypt?",
-      a6: "No. With a private French-speaking guide, you have no language barrier throughout your trip. In hotels and tourist sites, French and English are widely understood. Your guide handles all local interactions.",
+      a6: "No. With a private multilingual guide (French, English, Spanish, Italian, German), you have no language barrier throughout your trip. In hotels and tourist sites, French and English are widely understood. Your guide handles all local interactions.",
       q7: "What vaccinations are recommended before travelling to Egypt?",
       a7: "No vaccination is mandatory to enter Egypt from France. However, it is recommended to be up to date on routine vaccines (hepatitis A, typhoid, tetanus). Consult your doctor or an international vaccination centre at least 4 weeks before departure.",
       q8: "Can you drink tap water in Egypt?",
@@ -361,8 +361,8 @@
       a10: "The main risk is traveller's diarrhoea (digestive upset) linked to food or water. Avoid raw food bought on the street and drink only bottled water. The sun is intense — bring high-protection sunscreen, a hat and stay hydrated. No serious tropical disease is present in tourist areas.",
       q11: "What is the difference between a private trip and a group tour in Egypt?",
       a11: "On a group tour, you share the bus, the guide and the schedule with strangers whose pace and interests may differ from yours. On a private trip, the guide, the car and the entire programme are exclusively dedicated to you. You choose your own schedule, stop wherever you want and ask as many questions as you like without group constraints.",
-      q12: "Why choose a private French-speaking guide rather than a local English-speaking guide?",
-      a12: "A French-speaking guide explains Egyptian history, mythology and architecture in your native language, with all the cultural nuances. Understanding is incomparably deeper than with an approximate translation. For sites as rich as Karnak or the Valley of the Kings, the quality of the guide determines the quality of the experience.",
+      q12: "Why choose a private multilingual guide (French, English, Spanish, Italian, German) rather than a local English-speaking guide?",
+      a12: "A Multilingual guide (French, English, Spanish, Italian, German) explains Egyptian history, mythology and architecture in your native language, with all the cultural nuances. Understanding is incomparably deeper than with an approximate translation. For sites as rich as Karnak or the Valley of the Kings, the quality of the guide determines the quality of the experience.",
       q13: "How many days should I plan to visit Egypt properly?",
       a13: "For an essential discovery (Cairo + Luxor), allow at least 6 to 7 days. To include Aswan, a Nile cruise and possibly the Red Sea, plan for 10 to 14 days. A stay that is too short risks turning the trip into a race against the clock — Egypt deserves to be visited at a relaxed pace.",
       q14: "Can I visit Egypt with young children?",
@@ -966,9 +966,9 @@
         "3 Nächte Luxor Aracan Etab Hotel Halbpension Nilblick",
         "Inlandsflug Luxor/Kairo Economy",
         "1 Nacht Kairo Président Zamalek Hotel (Frühstück)",
-        "2 Tage Kairo Besichtigungen privater französischsprachiger Guide klimatisiertes Auto Eintrittsgelder Mittagessen",
-        "Nassersee-Kreuzfahrt Besichtigungen französischsprachiger Guide Eintrittsgelder",
-        "Dahabija Besichtigungen französischsprachiger Guide Eintrittsgelder",
+        "2 Tage Kairo Besichtigungen privater mehrsprachiger Guide (Französisch, Englisch, Spanisch, Italienisch, Deutsch) klimatisiertes Auto Eintrittsgelder Mittagessen",
+        "Nassersee-Kreuzfahrt Besichtigungen mehrsprachiger Guide (Französisch, Englisch, Spanisch, Italienisch, Deutsch) Eintrittsgelder",
+        "Dahabija Besichtigungen mehrsprachiger Guide (Französisch, Englisch, Spanisch, Italienisch, Deutsch) Eintrittsgelder",
         "Transfer Abu Simbel/Assuan und Esna/Luxor Privatauto",
         "Alle Transfers Privatauto klimatisiert",
         "Flughafenbetreuung Kairo",
@@ -977,17 +977,17 @@
       ],
       excluded: [
         "Internationaler Flug",
-        "Einreisevisum Ägypten",
+        "Einreisevisum Ägypten (vor Ort ausgestellt, französischer Reisepass)",
         "Trinkgelder",
         "Getränke",
         "Persönliche Ausgaben",
-        "Optionale Ausflüge"
+        "Optionale Ausflüge (Ton- und Lichtshow, Abu Simbel falls optional)"
       ]
     },
     pkg8: {
       overview_heading: "Pyramiden am Tag, <span>Rotes Meer</span> am Abend",
       overview_p1: "Zwei Tage voller antiker Wunder in Kairo, gefolgt von fünf vollen Tagen Sonne, Meer und völliger Entspannung an den Ufern von Hurghada. Diese 8-tägige Privatreise ist die perfekte Balance für Reisende, die die Pyramiden und das Grand Egyptian Museum erleben möchten, ohne auf Strandzeit zu verzichten.",
-      overview_p2: "Ihr privater französischsprachiger Guide führt Sie durch Gizeh und das GEM, dann bringt Sie ein komfortabler privater Van zum Roten Meer, wo All-Inclusive-Komfort und türkisfarbenes Wasser auf Sie warten. Schnorcheln, Bootsausflüge und entspannte Tage am Pool runden Ihre ägyptische Auszeit ab.",
+      overview_p2: "Ihr privater mehrsprachiger Guide (Französisch, Englisch, Spanisch, Italienisch, Deutsch) führt Sie durch Gizeh und das GEM, dann bringt Sie ein komfortabler privater Van zum Roten Meer, wo All-Inclusive-Komfort und türkisfarbenes Wasser auf Sie warten. Schnorcheln, Bootsausflüge und entspannte Tage am Pool runden Ihre ägyptische Auszeit ab.",
       cta_heading: "Bereit für <em>Pyramiden & Rotes Meer?</em>",
       day_titles: [
         "Kairo — Ankunft",
@@ -1007,19 +1007,19 @@
         "Frühstück. Freier Tag. Mittag- und Abendessen Hotel. Übernachtung. Optional: Bootsausflug Giftun-Insel oder Orange Bay, Schnorcheln.",
         "Frühstück. Freier Tag. Mittag- und Abendessen Hotel. Übernachtung.",
         "Frühstück. Freier Tag. Mittag- und Abendessen Hotel. Übernachtung.",
-        "Frühstück. Freier Vormittag. Transfer Flughafen Hurghada, Abreise. Option: Rückfahrt Hurghada/Kairo privatem Van, Abflug Kairo."
+        "Frühstück. Freier Vormittag. Je nach Flugplan Transfer Flughafen Hurghada, Abreise. Option: Rückfahrt Hurghada/Kairo privatem Van, Abflug Kairo."
       ],
       included: [
         "2 Nächte Kairo Grand Pyramids Hotel (Frühstück)",
         "5 Nächte Hurghada Jasmine Palace Hotel All-Inclusive",
-        "1 Tag Kairo Besichtigungen privater französischsprachiger Guide klimatisierter Van Eintrittsgelder Mittagessen",
+        "1 Tag Kairo Besichtigungen privater mehrsprachiger Guide (Französisch, Englisch, Spanisch, Italienisch, Deutsch) klimatisierter Van Eintrittsgelder Mittagessen",
         "Transfer Kairo/Hurghada privater klimatisierter Van",
         "Alle Transfers klimatisiertes Fahrzeug",
-        "Flughafenbetreuung Kairo",
+        "Flughafenbetreuung Kairo, Transfer zum Hotel und Rückfahrt nach Hurghada",
         "Transfers Kairo und Hurghada privater Van",
-        "Privater französischsprachiger Guide Kairo",
+        "Privater mehrsprachiger Guide (Französisch, Englisch, Spanisch, Italienisch, Deutsch) Kairo",
         "Alle Steuern",
-        "Alle Leistungen privat"
+        "Alle Leistungen privat, ohne mit anderen Kunden zusammengelegt zu werden"
       ],
       excluded: [
         "Internationaler Flug",
@@ -1033,7 +1033,7 @@
     pkg9: {
       overview_heading: "Pyramiden, <span>Antike Tempel</span> und die Küste des Roten Meeres",
       overview_p1: "Das Beste Ägyptens in 8 privaten Tagen: die Pyramiden von Gizeh und das Grand Egyptian Museum in Kairo, eine Nacht im Schlafwagenzug nach Luxor für das Tal der Könige und die Tempel von Karnak und Luxor, und schließlich vier Tage Sonne und Meer an der Küste des Roten Meeres in Hurghada.",
-      overview_p2: "Diese Reise ist zügig, aber nie gehetzt — Ihr privater französischsprachiger Guide kümmert sich um jedes Detail, von der Schlafwagenkabine bis zu den Tempeltoren, sodass Sie sich nur auf fünfunddreißig Jahrhunderte Geschichte einlassen müssen, bevor Sie Ihre Wanderschuhe gegen Flip-Flops tauschen.",
+      overview_p2: "Diese Reise ist zügig, aber nie gehetzt — Ihr privater mehrsprachiger Guide (Französisch, Englisch, Spanisch, Italienisch, Deutsch) kümmert sich um jedes Detail, von der Schlafwagenkabine bis zu den Tempeltoren, sodass Sie sich nur auf fünfunddreißig Jahrhunderte Geschichte einlassen müssen, bevor Sie Ihre Wanderschuhe gegen Flip-Flops tauschen.",
       cta_heading: "Bereit für <em>Kairo, Luxor & Rotes Meer?</em>",
       day_titles: [
         "Kairo — Ankunft",
@@ -1060,13 +1060,13 @@
         "1 Nacht Schlafwagenzug Kairo/Luxor Halbpension",
         "1 Nacht Luxor Aracan Etab Hotel (Frühstück)",
         "4 Nächte Hurghada Blend Paradise oder Jasmine Palace Hotel All-Inclusive",
-        "1 Tag Kairo Besichtigungen privater französischsprachiger Guide Van Eintrittsgelder Mittagessen",
-        "2 Tage Luxor Besichtigungen privater französischsprachiger Guide Van Eintrittsgelder Mittagessen",
+        "1 Tag Kairo Besichtigungen privater mehrsprachiger Guide (Französisch, Englisch, Spanisch, Italienisch, Deutsch) Van Eintrittsgelder Mittagessen",
+        "2 Tage Luxor Besichtigungen privater mehrsprachiger Guide (Französisch, Englisch, Spanisch, Italienisch, Deutsch) Van Eintrittsgelder Mittagessen",
         "Transfer Luxor/Hurghada privater Van",
         "Alle Transfers klimatisiert",
         "Flughafenbetreuung Kairo",
         "Transfers Kairo, Luxor, Hurghada privater Van",
-        "Privater französischsprachiger Guide Kairo und Luxor",
+        "Privater mehrsprachiger Guide (Französisch, Englisch, Spanisch, Italienisch, Deutsch) Kairo und Luxor",
         "Alle Steuern",
         "Alle Leistungen privat"
       ],
@@ -1082,7 +1082,7 @@
     pkg10: {
       overview_heading: "Nilkreuzfahrt & <span>Rotes Meer</span> Auszeit",
       overview_p1: "Sieben Nächte an Bord einer 5-Sterne-Nilkreuzfahrt von Luxor nach Assuan und zurück, mit Besuchen im Tal der Könige, in Edfu, Kom Ombo und den kolossalen Tempeln von Abu Simbel, gefolgt von sieben Nächten All-Inclusive-Entspannung am Roten Meer in Hurghada.",
-      overview_p2: "Diese 15-tägige private Reise verbindet antike Wunder mit purer Entspannung — Ihr privater französischsprachiger Guide begleitet jeden Tempelbesuch, bevor Sie eine volle Woche Sonne, Meer und All-Inclusive-Komfort genießen.",
+      overview_p2: "Diese 15-tägige private Reise verbindet antike Wunder mit purer Entspannung — Ihr privater mehrsprachiger Guide (Französisch, Englisch, Spanisch, Italienisch, Deutsch) begleitet jeden Tempelbesuch, bevor Sie eine volle Woche Sonne, Meer und All-Inclusive-Komfort genießen.",
       cta_heading: "Bereit für <em>Nil & Rotes Meer?</em>",
       day_titles: [
         "Luxor — Ankunft",
@@ -1121,7 +1121,7 @@
       included: [
         "7 Nächte Nilkreuzfahrt MS Magic oder ähnlich (5 Sterne) Vollpension",
         "7 Nächte Hurghada Jasmine Palace oder ähnlich (5 Sterne) All-Inclusive",
-        "Alle Ausflüge laut Programm mit privatem französischsprachigem Reiseführer, klimatisiertem Auto und Eintrittsgeldern",
+        "Alle Ausflüge laut Programm mit privatem mehrsprachigem Reiseführer (Französisch, Englisch, Spanisch, Italienisch, Deutsch), klimatisiertem Auto und Eintrittsgeldern",
         "Abu Simbel Besichtigung mit Guide und Tickets",
         "Transfer Luxor/Hurghada Privatauto",
         "Alle Transfers klimatisiert",
@@ -1235,7 +1235,7 @@
       q5: "Welche Währung wird in Ägypten verwendet und wo kann ich Geld wechseln?",
       a5: "Die Landeswährung ist das ägyptische Pfund (EGP). Den besten Kurs erhalten Sie in offiziellen Wechselstuben oder Banken vor Ort. Geldautomaten sind in allen großen Hotels und Stadtzentren verfügbar. Es empfiehlt sich, kleine Scheine in ägyptischen Pfund für Trinkgelder mitzuführen.",
       q6: "Muss ich Arabisch sprechen, um in Ägypten zu reisen?",
-      a6: "Nein. Mit einem privaten französischsprachigen Guide haben Sie während Ihrer gesamten Reise keine Sprachbarriere. In Hotels und an touristischen Orten werden Französisch und Englisch weitgehend verstanden. Ihr Guide kümmert sich um alle örtlichen Angelegenheiten.",
+      a6: "Nein. Mit einem privaten mehrsprachigen Guide (Französisch, Englisch, Spanisch, Italienisch, Deutsch) haben Sie während Ihrer gesamten Reise keine Sprachbarriere. In Hotels und an touristischen Orten werden Französisch und Englisch weitgehend verstanden. Ihr Guide kümmert sich um alle örtlichen Angelegenheiten.",
       q7: "Welche Impfungen werden vor der Abreise nach Ägypten empfohlen?",
       a7: "Für die Einreise nach Ägypten aus Frankreich ist keine Impfung vorgeschrieben. Es wird jedoch empfohlen, die üblichen Impfungen (Hepatitis A, Typhus, Tetanus) aufzufrischen. Konsultieren Sie Ihren Arzt oder ein internationales Impfzentrum mindestens 4 Wochen vor der Abreise.",
       q8: "Kann man in Ägypten Leitungswasser trinken?",
@@ -1246,8 +1246,8 @@
       a10: "Das Hauptrisiko ist Reisedurchfall (Verdauungsbeschwerden) durch Essen oder Wasser. Vermeiden Sie rohe, auf der Straße gekaufte Lebensmittel und trinken Sie nur Flaschenwasser. Die Sonne ist intensiv — nehmen Sie Sonnencreme mit hohem Schutzfaktor, einen Hut mit und trinken Sie ausreichend. In touristischen Gebieten gibt es keine ernsthaften Tropenkrankheiten.",
       q11: "Was ist der Unterschied zwischen einer Privatreise und einer Gruppenreise in Ägypten?",
       a11: "Bei einer Gruppenreise teilen Sie sich Bus, Guide und Programm mit Fremden, deren Tempo und Interessen von Ihren abweichen können. Bei einer Privatreise sind Guide, Auto und das gesamte Programm ausschließlich für Sie bestimmt. Sie wählen Ihre eigenen Zeiten, halten an, wo Sie möchten, und stellen so viele Fragen, wie Sie möchten, ohne Gruppenzwang.",
-      q12: "Warum einen privaten französischsprachigen Guide statt eines englischsprachigen lokalen Guides wählen?",
-      a12: "Ein französischsprachiger Guide erklärt Ihnen die ägyptische Geschichte, Mythologie und Architektur in Ihrer Muttersprache, mit allen kulturellen Nuancen. Das Verständnis ist unvergleichlich tiefer als bei einer ungenauen Übersetzung. Bei so reichhaltigen Stätten wie Karnak oder dem Tal der Könige bestimmt die Qualität des Guides die Qualität des Erlebnisses.",
+      q12: "Warum einen privaten mehrsprachigen Guide (Französisch, Englisch, Spanisch, Italienisch, Deutsch) statt eines englischsprachigen lokalen Guides wählen?",
+      a12: "Ein mehrsprachiger Guide (Französisch, Englisch, Spanisch, Italienisch, Deutsch) erklärt Ihnen die ägyptische Geschichte, Mythologie und Architektur in Ihrer Muttersprache, mit allen kulturellen Nuancen. Das Verständnis ist unvergleichlich tiefer als bei einer ungenauen Übersetzung. Bei so reichhaltigen Stätten wie Karnak oder dem Tal der Könige bestimmt die Qualität des Guides die Qualität des Erlebnisses.",
       q13: "Wie viele Tage sollte man für einen angemessenen Ägyptenbesuch einplanen?",
       a13: "Für eine wesentliche Entdeckungsreise (Kairo + Luxor) sollten Sie mindestens 6 bis 7 Tage einplanen. Um Assuan, eine Nilkreuzfahrt und eventuell das Rote Meer einzuschließen, planen Sie 10 bis 14 Tage ein. Ein zu kurzer Aufenthalt riskiert, die Reise in einen Wettlauf gegen die Zeit zu verwandeln — Ägypten verdient es, in Ruhe besichtigt zu werden.",
       q14: "Kann man Ägypten mit kleinen Kindern besuchen?",
@@ -1406,9 +1406,9 @@
         "3 noches Luxor Aracan Etab Hotel media pensión vista Nilo",
         "Vuelo interno Luxor/El Cairo económico",
         "1 noche El Cairo Président Zamalek Hotel (desayuno)",
-        "2 días visitas El Cairo guía privado francófono coche climatizado entradas almuerzos",
-        "Crucero Lago Nasser visitas guía francófono entradas",
-        "Dahabiya visitas guía francófono entradas",
+        "2 días visitas El Cairo guía privado multilingüe (francés, inglés, español, italiano, alemán) coche climatizado entradas almuerzos",
+        "Crucero Lago Nasser visitas guía multilingüe (francés, inglés, español, italiano, alemán) entradas",
+        "Dahabiya visitas guía multilingüe (francés, inglés, español, italiano, alemán) entradas",
         "Traslado Abu Simbel/Asuán y Esna/Luxor coche privado",
         "Todos traslados coche privado climatizado",
         "Asistencia aeropuerto El Cairo",
@@ -1417,17 +1417,17 @@
       ],
       excluded: [
         "Vuelo internacional",
-        "Visado entrada Egipto",
+        "Visado de entrada a Egipto (emitido a la llegada, pasaporte francés)",
         "Propinas",
         "Bebidas",
         "Gastos personales",
-        "Excursiones opcionales"
+        "Excursiones opcionales (Luz y Sonido, Abu Simbel si es opcional)"
       ]
     },
     pkg8: {
       overview_heading: "Pirámides de Día, <span>Mar Rojo</span> al Anochecer",
       overview_p1: "Dos días de maravillas antiguas en El Cairo, seguidos de cinco días completos de sol, mar y relajación total en las orillas de Hurghada. Este viaje privado de 8 días es el equilibrio perfecto para viajeros que desean ver las Pirámides y el Gran Museo Egipcio sin renunciar a la playa.",
-      overview_p2: "Su guía privado francófono le acompaña por Guiza y el GEM, y luego una cómoda furgoneta privada le lleva hasta el Mar Rojo, donde le esperan el confort Todo Incluido y las aguas turquesas. Snorkel, excursiones en barco y días tranquilos junto a la piscina completan su escapada egipcia.",
+      overview_p2: "Su guía privado multilingüe (francés, inglés, español, italiano, alemán) le acompaña por Guiza y el GEM, y luego una cómoda furgoneta privada le lleva hasta el Mar Rojo, donde le esperan el confort Todo Incluido y las aguas turquesas. Snorkel, excursiones en barco y días tranquilos junto a la piscina completan su escapada egipcia.",
       cta_heading: "¿Listo para <em>Pirámides y Mar Rojo?</em>",
       day_titles: [
         "El Cairo — Llegada",
@@ -1452,12 +1452,12 @@
       included: [
         "2 noches El Cairo Grand Pyramids Hotel (desayuno)",
         "5 noches Hurghada Jasmine Palace Hotel Todo Incluido",
-        "1 día visitas El Cairo guía privado francófono van climatizada entradas almuerzo",
+        "1 día visitas El Cairo guía privado multilingüe (francés, inglés, español, italiano, alemán) van climatizada entradas almuerzo",
         "Traslado El Cairo/Hurghada van privada climatizada",
         "Todos traslados vehículo climatizado",
         "Asistencia aeropuerto El Cairo",
         "Traslados El Cairo y Hurghada van privada",
-        "Guía privado francófono El Cairo",
+        "Guía privado multilingüe (francés, inglés, español, italiano, alemán) El Cairo",
         "Todos impuestos",
         "Todos servicios privados"
       ],
@@ -1473,7 +1473,7 @@
     pkg9: {
       overview_heading: "Pirámides, <span>Templos Antiguos</span> y Costas del Mar Rojo",
       overview_p1: "Lo mejor de Egipto en 8 días privados: las Pirámides de Guiza y el Gran Museo Egipcio en El Cairo, una noche en tren cama rumbo a Luxor para visitar el Valle de los Reyes y los templos de Karnak y Luxor, y finalmente cuatro días de sol y mar en la costa del Mar Rojo en Hurghada.",
-      overview_p2: "Este viaje avanza rápido pero nunca se siente apresurado — su guía privado francófono se encarga de cada detalle, desde la cabina del tren nocturno hasta las puertas de los templos, para que usted solo tenga que disfrutar de treinta y cinco siglos de historia antes de cambiar sus zapatos de caminar por chanclas.",
+      overview_p2: "Este viaje avanza rápido pero nunca se siente apresurado — su guía privado multilingüe (francés, inglés, español, italiano, alemán) se encarga de cada detalle, desde la cabina del tren nocturno hasta las puertas de los templos, para que usted solo tenga que disfrutar de treinta y cinco siglos de historia antes de cambiar sus zapatos de caminar por chanclas.",
       cta_heading: "¿Listo para <em>El Cairo, Luxor y el Mar Rojo?</em>",
       day_titles: [
         "El Cairo — Llegada",
@@ -1500,13 +1500,13 @@
         "1 noche tren coche-cama El Cairo/Luxor media pensión",
         "1 noche Luxor Aracan Etab Hotel (desayuno)",
         "4 noches Hurghada Blend Paradise o Jasmine Palace Hotel Todo Incluido",
-        "1 día visitas El Cairo guía privado francófono van climatizada entradas almuerzo",
-        "2 días visitas Luxor guía privado francófono van climatizada entradas almuerzos",
+        "1 día visitas El Cairo guía privado multilingüe (francés, inglés, español, italiano, alemán) van climatizada entradas almuerzo",
+        "2 días visitas Luxor guía privado multilingüe (francés, inglés, español, italiano, alemán) van climatizada entradas almuerzos",
         "Traslado Luxor/Hurghada van privada",
         "Todos traslados climatizados",
         "Asistencia aeropuerto El Cairo",
         "Traslados El Cairo, Luxor, Hurghada van privada",
-        "Guía privado francófono El Cairo y Luxor",
+        "Guía privado multilingüe (francés, inglés, español, italiano, alemán) El Cairo y Luxor",
         "Todos impuestos",
         "Todos servicios privados"
       ],
@@ -1522,7 +1522,7 @@
     pkg10: {
       overview_heading: "Crucero por el Nilo y <span>Escapada al Mar Rojo</span>",
       overview_p1: "Siete noches a bordo de un crucero de cinco estrellas por el Nilo, navegando de Luxor a Asuán y de vuelta, visitando el Valle de los Reyes, Edfu, Kom Ombo y los colosales templos de Abu Simbel, seguidas de siete noches de relax todo incluido en las orillas del Mar Rojo en Hurghada.",
-      overview_p2: "Este viaje privado de 15 días combina maravillas antiguas con relax total — su guía privado francófono le acompaña en cada visita a los templos, para después dejarle disfrutar de una semana entera de sol, mar y confort todo incluido.",
+      overview_p2: "Este viaje privado de 15 días combina maravillas antiguas con relax total — su guía privado multilingüe (francés, inglés, español, italiano, alemán) le acompaña en cada visita a los templos, para después dejarle disfrutar de una semana entera de sol, mar y confort todo incluido.",
       cta_heading: "¿Listo para el <em>Nilo y el Mar Rojo?</em>",
       day_titles: [
         "Luxor — Llegada",
@@ -1561,7 +1561,7 @@
       included: [
         "7 noches crucero Nilo MS Magic o similar (5 estrellas) pensión completa",
         "7 noches Hurghada Jasmine Palace o similar (5 estrellas) todo incluido",
-        "Todas las visitas según itinerario con guía privado francófono, coche climatizado y entradas",
+        "Todas las visitas según itinerario con guía privado multilingüe (francés, inglés, español, italiano, alemán), coche climatizado y entradas",
         "Visita Abu Simbel con guía y entradas",
         "Traslado Luxor/Hurghada coche privado",
         "Todos traslados climatizados",
@@ -1605,7 +1605,7 @@
       ],
       included: [
         "7 noches crucero Nilo MS Magic (5 estrellas) pensión completa",
-        "Todas las visitas con guía francófono y entradas",
+        "Todas las visitas con guía multilingüe (francés, inglés, español, italiano, alemán) y entradas",
         "Abu Simbel",
         "Todos traslados",
         "Todos impuestos",
@@ -1675,7 +1675,7 @@
       q5: "¿Qué moneda se usa en Egipto y dónde cambiar dinero?",
       a5: "La moneda local es la libra egipcia (EGP). El mejor tipo de cambio se obtiene en las oficinas de cambio oficiales o en los bancos locales. Hay cajeros automáticos disponibles en todos los grandes hoteles y centros urbanos. Se recomienda llevar billetes pequeños en libras egipcias para las propinas.",
       q6: "¿Es necesario hablar árabe para viajar por Egipto?",
-      a6: "No. Con un guía privado francófono, no tendrá ninguna barrera lingüística durante todo su viaje. En hoteles y sitios turísticos, el francés y el inglés se entienden ampliamente. Su guía se encarga de todas las interacciones locales.",
+      a6: "No. Con un guía privado multilingüe (francés, inglés, español, italiano, alemán), no tendrá ninguna barrera lingüística durante todo su viaje. En hoteles y sitios turísticos, el francés y el inglés se entienden ampliamente. Su guía se encarga de todas las interacciones locales.",
       q7: "¿Qué vacunas se recomiendan antes de viajar a Egipto?",
       a7: "No es obligatoria ninguna vacuna para entrar en Egipto desde Francia. Sin embargo, se recomienda estar al día con las vacunas habituales (hepatitis A, tifoidea, tétanos). Consulte a su médico o a un centro de vacunación internacional al menos 4 semanas antes de la salida.",
       q8: "¿Se puede beber agua del grifo en Egipto?",
@@ -1686,8 +1686,8 @@
       a10: "El principal riesgo es la diarrea del viajero (trastornos digestivos) relacionada con la comida o el agua. Evite los alimentos crudos comprados en la calle y beba solo agua embotellada. El sol es intenso — lleve protector solar de alta protección, un sombrero y manténgase hidratado. No hay enfermedades tropicales graves en las zonas turísticas.",
       q11: "¿Cuál es la diferencia entre un viaje privado y un viaje en grupo en Egipto?",
       a11: "En un viaje en grupo, comparte el autobús, el guía y el programa con desconocidos cuyo ritmo e intereses pueden diferir de los suyos. En un viaje privado, el guía, el coche y todo el programa están exclusivamente dedicados a usted. Usted elige sus horarios, se detiene donde quiera y hace tantas preguntas como desee sin restricciones de grupo.",
-      q12: "¿Por qué elegir un guía privado francófono en lugar de un guía local en inglés?",
-      a12: "Un guía francófono le explica la historia, la mitología y la arquitectura egipcia en su lengua materna, con todos los matices culturales. La comprensión es incomparablemente más profunda que con una traducción aproximada. Para sitios tan ricos como Karnak o el Valle de los Reyes, la calidad del guía determina la calidad de la experiencia.",
+      q12: "¿Por qué elegir un guía privado multilingüe (francés, inglés, español, italiano, alemán) en lugar de un guía local en inglés?",
+      a12: "Un guía multilingüe (francés, inglés, español, italiano, alemán) le explica la historia, la mitología y la arquitectura egipcia en su lengua materna, con todos los matices culturales. La comprensión es incomparablemente más profunda que con una traducción aproximada. Para sitios tan ricos como Karnak o el Valle de los Reyes, la calidad del guía determina la calidad de la experiencia.",
       q13: "¿Cuántos días hay que planear para visitar Egipto correctamente?",
       a13: "Para un descubrimiento esencial (El Cairo + Luxor), cuente con un mínimo de 6 a 7 días. Para incluir Asuán, un crucero por el Nilo y posiblemente el Mar Rojo, prevea de 10 a 14 días. Una estancia demasiado corta corre el riesgo de convertir el viaje en una carrera contra el reloj — Egipto merece ser visitado con calma.",
       q14: "¿Se puede visitar Egipto en familia con niños pequeños?",
@@ -1846,9 +1846,9 @@
         "3 notti Luxor Aracan Etab Hotel mezza pensione vista Nilo",
         "Volo interno Luxor/Cairo economica",
         "1 notte Cairo Président Zamalek Hotel (colazione)",
-        "2 giorni visite Cairo guida privata francofona auto climatizzata biglietti ingresso pranzi",
-        "Crociera Lago Nasser visite guida francofona biglietti ingresso",
-        "Dahabiya visite guida francofona biglietti ingresso",
+        "2 giorni visite Cairo guida privata multilingue (francese, inglese, spagnolo, italiano, tedesco) auto climatizzata biglietti ingresso pranzi",
+        "Crociera Lago Nasser visite guida multilingue (francese, inglese, spagnolo, italiano, tedesco) biglietti ingresso",
+        "Dahabiya visite guida multilingue (francese, inglese, spagnolo, italiano, tedesco) biglietti ingresso",
         "Trasferimento Abu Simbel/Assuan e Esna/Luxor auto privata",
         "Tutti trasferimenti auto privata climatizzata",
         "Assistenza aeroporto Cairo",
@@ -1857,17 +1857,17 @@
       ],
       excluded: [
         "Volo internazionale",
-        "Visto ingresso Egitto",
+        "Visto d'ingresso per l'Egitto (rilasciato all'arrivo, passaporto francese)",
         "Mance",
         "Bevande",
         "Spese personali",
-        "Escursioni facoltative"
+        "Escursioni facoltative (Suoni e Luci, Abu Simbel se opzionale)"
       ]
     },
     pkg8: {
       overview_heading: "Piramidi di Giorno, <span>Mar Rosso</span> di Sera",
       overview_p1: "Due giorni di meraviglie antiche al Cairo, seguiti da cinque giorni interi di sole, mare e relax totale sulle rive di Hurghada. Questo viaggio privato di 8 giorni è l'equilibrio perfetto per i viaggiatori che desiderano vedere le Piramidi e il Grand Egyptian Museum senza rinunciare al mare.",
-      overview_p2: "La vostra guida privata francofona vi accompagna a Giza e al GEM, poi un comodo van privato vi conduce al Mar Rosso, dove vi attendono il comfort All Inclusive e le acque turchesi. Snorkeling, gite in barca e giornate rilassanti in piscina completano la vostra fuga egiziana.",
+      overview_p2: "La vostra guida privata multilingue (francese, inglese, spagnolo, italiano, tedesco) vi accompagna a Giza e al GEM, poi un comodo van privato vi conduce al Mar Rosso, dove vi attendono il comfort All Inclusive e le acque turchesi. Snorkeling, gite in barca e giornate rilassanti in piscina completano la vostra fuga egiziana.",
       cta_heading: "Pronti per <em>Piramidi e Mar Rosso?</em>",
       day_titles: [
         "Il Cairo — Arrivo",
@@ -1892,12 +1892,12 @@
       included: [
         "2 notti Cairo Grand Pyramids Hotel (colazione)",
         "5 notti Hurghada Jasmine Palace Hotel All Inclusive",
-        "1 giorno visite Cairo guida privata francofona van climatizzato biglietti ingresso pranzo",
+        "1 giorno visite Cairo guida privata multilingue (francese, inglese, spagnolo, italiano, tedesco) van climatizzato biglietti ingresso pranzo",
         "Trasferimento Cairo/Hurghada van privato climatizzato",
         "Tutti trasferimenti veicolo climatizzato",
         "Assistenza aeroporto Cairo",
         "Trasferimenti Cairo e Hurghada van privato",
-        "Guida privata francofona Cairo",
+        "Guida privata multilingue (francese, inglese, spagnolo, italiano, tedesco) Cairo",
         "Tutte le tasse",
         "Tutti servizi privati"
       ],
@@ -1913,7 +1913,7 @@
     pkg9: {
       overview_heading: "Piramidi, <span>Templi Antichi</span> e Coste del Mar Rosso",
       overview_p1: "Il meglio dell'Egitto in 8 giorni privati: le Piramidi di Giza e il Grand Egyptian Museum al Cairo, una notte in treno con vagone letto verso Luxor per la Valle dei Re e i templi di Karnak e Luxor, e infine quattro giorni di sole e mare sulla costa del Mar Rosso a Hurghada.",
-      overview_p2: "Questo viaggio procede spedito ma non è mai frettoloso — la vostra guida privata francofona si occupa di ogni dettaglio, dalla cabina del treno notturno fino alle porte dei templi, così che dobbiate solo godervi trentacinque secoli di storia prima di scambiare le scarpe da trekking con le infradito.",
+      overview_p2: "Questo viaggio procede spedito ma non è mai frettoloso — la vostra guida privata multilingue (francese, inglese, spagnolo, italiano, tedesco) si occupa di ogni dettaglio, dalla cabina del treno notturno fino alle porte dei templi, così che dobbiate solo godervi trentacinque secoli di storia prima di scambiare le scarpe da trekking con le infradito.",
       cta_heading: "Pronti per <em>Cairo, Luxor e Mar Rosso?</em>",
       day_titles: [
         "Il Cairo — Arrivo",
@@ -1940,13 +1940,13 @@
         "1 notte treno vagone letto Cairo/Luxor mezza pensione",
         "1 notte Luxor Aracan Etab Hotel (colazione)",
         "4 notti Hurghada Blend Paradise o Jasmine Palace Hotel All Inclusive",
-        "1 giorno visite Cairo guida privata francofona van climatizzato biglietti ingresso pranzo",
-        "2 giorni visite Luxor guida privata francofona van climatizzato biglietti ingresso pranzi",
+        "1 giorno visite Cairo guida privata multilingue (francese, inglese, spagnolo, italiano, tedesco) van climatizzato biglietti ingresso pranzo",
+        "2 giorni visite Luxor guida privata multilingue (francese, inglese, spagnolo, italiano, tedesco) van climatizzato biglietti ingresso pranzi",
         "Trasferimento Luxor/Hurghada van privato",
         "Tutti trasferimenti climatizzati",
         "Assistenza aeroporto Cairo",
         "Trasferimenti Cairo, Luxor, Hurghada van privato",
-        "Guida privata francofona Cairo e Luxor",
+        "Guida privata multilingue (francese, inglese, spagnolo, italiano, tedesco) Cairo e Luxor",
         "Tutte le tasse",
         "Tutti servizi privati"
       ],
@@ -1962,7 +1962,7 @@
     pkg10: {
       overview_heading: "Crociera sul Nilo e <span>Fuga al Mar Rosso</span>",
       overview_p1: "Sette notti a bordo di una crociera cinque stelle sul Nilo, navigando da Luxor ad Assuan e ritorno, visitando la Valle dei Re, Edfu, Kom Ombo e i colossali templi di Abu Simbel, seguite da sette notti di relax all inclusive sulle rive del Mar Rosso a Hurghada.",
-      overview_p2: "Questo viaggio privato di 15 giorni unisce meraviglie antiche a puro relax — la vostra guida privata francofona vi accompagna in ogni visita ai templi, per poi lasciarvi godere una settimana intera di sole, mare e comfort all inclusive.",
+      overview_p2: "Questo viaggio privato di 15 giorni unisce meraviglie antiche a puro relax — la vostra guida privata multilingue (francese, inglese, spagnolo, italiano, tedesco) vi accompagna in ogni visita ai templi, per poi lasciarvi godere una settimana intera di sole, mare e comfort all inclusive.",
       cta_heading: "Pronti per <em>Nilo e Mar Rosso?</em>",
       day_titles: [
         "Luxor — Arrivo",
@@ -2001,7 +2001,7 @@
       included: [
         "7 notti crociera Nilo MS Magic o simile (5 stelle) pensione completa",
         "7 notti Hurghada Jasmine Palace o simile (5 stelle) all inclusive",
-        "Tutte le visite secondo itinerario con guida privata francofona, auto climatizzata e biglietti d'ingresso",
+        "Tutte le visite secondo itinerario con guida privata multilingue (francese, inglese, spagnolo, italiano, tedesco), auto climatizzata e biglietti d'ingresso",
         "Visita Abu Simbel con guida e biglietti",
         "Trasferimento Luxor/Hurghada auto privata",
         "Tutti i trasferimenti climatizzati",
@@ -2045,7 +2045,7 @@
       ],
       included: [
         "7 notti crociera Nilo MS Magic (5 stelle) pensione completa",
-        "Tutte le visite con guida francofona e biglietti",
+        "Tutte le visite con guida multilingue (francese, inglese, spagnolo, italiano, tedesco) e biglietti",
         "Abu Simbel",
         "Tutti i trasferimenti",
         "Tutte le tasse",
@@ -2115,7 +2115,7 @@
       q5: "Quale valuta si usa in Egitto e dove cambiare denaro?",
       a5: "La valuta locale è la sterlina egiziana (EGP). Il miglior tasso di cambio si ottiene presso gli uffici di cambio ufficiali o le banche locali. I bancomat sono disponibili in tutti i grandi hotel e centri città. Si consiglia di avere banconote di piccolo taglio in sterline egiziane per le mance.",
       q6: "Bisogna parlare arabo per viaggiare in Egitto?",
-      a6: "No. Con una guida privata francofona, non avrete alcuna barriera linguistica durante tutto il viaggio. Negli hotel e nei siti turistici, il francese e l'inglese sono ampiamente compresi. La vostra guida si occupa di tutte le interazioni locali.",
+      a6: "No. Con una guida privata multilingue (francese, inglese, spagnolo, italiano, tedesco), non avrete alcuna barriera linguistica durante tutto il viaggio. Negli hotel e nei siti turistici, il francese e l'inglese sono ampiamente compresi. La vostra guida si occupa di tutte le interazioni locali.",
       q7: "Quali vaccini sono raccomandati prima di partire per l'Egitto?",
       a7: "Nessun vaccino è obbligatorio per entrare in Egitto dalla Francia. Si consiglia tuttavia di essere in regola con i vaccini di routine (epatite A, tifo, tetano). Consultate il vostro medico o un centro di vaccinazione internazionale almeno 4 settimane prima della partenza.",
       q8: "Si può bere l'acqua del rubinetto in Egitto?",
@@ -2126,8 +2126,8 @@
       a10: "Il rischio principale è la turista (disturbi digestivi) legata al cibo o all'acqua. Evitate alimenti crudi acquistati per strada e bevete solo acqua in bottiglia. Il sole è intenso — portate una crema solare ad alta protezione, un cappello e restate idratati. Nessuna malattia tropicale grave è presente nelle zone turistiche.",
       q11: "Qual è la differenza tra un viaggio privato e un viaggio di gruppo in Egitto?",
       a11: "In un viaggio di gruppo, condividete il bus, la guida e il programma con estranei il cui ritmo e interessi possono differire dai vostri. In un viaggio privato, la guida, l'auto e l'intero programma sono esclusivamente dedicati a voi. Scegliete i vostri orari, vi fermate dove volete e fate tutte le domande che desiderate senza vincoli di gruppo.",
-      q12: "Perché scegliere una guida privata francofona piuttosto che una guida locale in inglese?",
-      a12: "Una guida francofona vi spiega la storia, la mitologia e l'architettura egiziana nella vostra lingua madre, con tutte le sfumature culturali. La comprensione è incomparabilmente più profonda rispetto a una traduzione approssimativa. Per siti ricchi come Karnak o la Valle dei Re, la qualità della guida determina la qualità dell'esperienza.",
+      q12: "Perché scegliere una guida privata multilingue (francese, inglese, spagnolo, italiano, tedesco) piuttosto che una guida locale in inglese?",
+      a12: "Una guida multilingue (francese, inglese, spagnolo, italiano, tedesco) vi spiega la storia, la mitologia e l'architettura egiziana nella vostra lingua madre, con tutte le sfumature culturali. La comprensione è incomparabilmente più profonda rispetto a una traduzione approssimativa. Per siti ricchi come Karnak o la Valle dei Re, la qualità della guida determina la qualità dell'esperienza.",
       q13: "Quanti giorni bisogna prevedere per visitare l'Egitto correttamente?",
       a13: "Per una scoperta essenziale (Il Cairo + Luxor), contate almeno 6-7 giorni. Per includere Assuan, una crociera sul Nilo ed eventualmente il Mar Rosso, prevedete 10-14 giorni. Un soggiorno troppo breve rischia di trasformare il viaggio in una corsa contro il tempo — l'Egitto merita di essere visitato con calma.",
       q14: "Si può visitare l'Egitto in famiglia con bambini piccoli?",
