@@ -1011,6 +1011,44 @@ p:last-child { margin-bottom: 0; }
   margin-bottom: 0.6rem;
 }
 
+.tour-price {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--gold);
+  margin: 0.4rem 0 0.6rem;
+}
+.tour-price span {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: var(--text-light);
+}
+
+.pkg-price-section {
+  padding: 3rem 0 1rem;
+}
+.pkg-price-notice {
+  padding: 2rem 2.5rem;
+  background: linear-gradient(135deg, rgba(201,168,76,0.08) 0%, rgba(201,168,76,0.04) 100%);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto;
+}
+.pkg-price-notice p {
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  color: var(--text-medium);
+  margin: 0;
+  line-height: 1.7;
+}
+.pkg-price-notice strong {
+  color: var(--gold);
+  font-size: 1.15rem;
+}
+
 .package-card__title {
   font-family: var(--font-heading);
   font-size: 1.25rem;
