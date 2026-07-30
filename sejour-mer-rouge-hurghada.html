@@ -317,7 +317,7 @@
             <p class="itinerary-day__desc">Arrivée à Hurghada, accueil à l'aéroport et transfert à l'hôtel. Dîner et nuit à l'hôtel.</p>
           </div>
           <div class="itinerary-day__photo-wrap">
-            <img class="itinerary-day__photo" src="images/hurghada-red-sea.jpg" alt="Turquoise waters of Hurghada on the Red Sea" loading="lazy">
+            <img class="itinerary-day__photo" src="images/tours/hurghada-coastal-aerial.jpg" alt="Aerial view of the turquoise Red Sea coastline" loading="lazy">
           </div>
         </div>
 
@@ -328,7 +328,7 @@
             <p class="itinerary-day__desc">Petit-déjeuner. Journée libre au bord de la Mer Rouge. Déjeuner et dîner à l'hôtel. Nuit à l'hôtel.</p>
           </div>
           <div class="itinerary-day__photo-wrap">
-            <img class="itinerary-day__photo" src="images/hurghada-resort.jpg" alt="Pool at a Hurghada resort on the Red Sea" loading="lazy">
+            <img class="itinerary-day__photo" src="images/tours/hurghada-luxury-pool.jpg" alt="Luxury resort swimming pool surrounded by palm trees" loading="lazy">
           </div>
         </div>
 
@@ -351,7 +351,7 @@
             <p class="itinerary-day__desc">Petit-déjeuner. Journée libre au bord de la Mer Rouge. Déjeuner et dîner à l'hôtel. Nuit à l'hôtel.</p>
           </div>
           <div class="itinerary-day__photo-wrap">
-            <img class="itinerary-day__photo" src="images/hurghada-beach.jpg" alt="Beach at Hurghada on the Red Sea" loading="lazy">
+            <img class="itinerary-day__photo" src="images/tours/hurghada-beach-loungers.jpg" alt="Premium beach loungers and umbrellas by the Red Sea" loading="lazy">
           </div>
         </div>
 
@@ -397,7 +397,7 @@
             <p class="itinerary-day__desc">Petit-déjeuner. Selon l'horaire de vol, transfert à l'aéroport de Hurghada, envol pour le départ final.</p>
           </div>
           <div class="itinerary-day__photo-wrap">
-            <img class="itinerary-day__photo" src="images/hurghada-beach.jpg" alt="Beach at Hurghada on the Red Sea" loading="lazy">
+            <img class="itinerary-day__photo" src="images/tours/red-sea-sunset-dock.jpg" alt="Sunset over a dock on the Red Sea" loading="lazy">
           </div>
         </div>
 
@@ -600,6 +600,7 @@
   document.addEventListener('DOMContentLoaded', function () {
     if (typeof applyTranslations === 'function') { applyTranslations('fr'); }
     var currentPage = location.pathname.split('/').pop() || 'index.html';
+    if (currentPage && currentPage.indexOf('.') === -1) { currentPage += '.html'; }
     var redirectPrefix = { en: '/en', de: '/de', es: '/es', it: '/it' };
     document.querySelectorAll('[data-lang]').forEach(function (btn) {
       btn.addEventListener('click', function () {
