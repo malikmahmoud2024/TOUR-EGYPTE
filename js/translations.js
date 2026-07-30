@@ -42,7 +42,7 @@ const TRANSLATIONS = {
       stat1_lbl:'Years of Experience',
       stat2_num:'10,000+',
       stat2_lbl:'Happy Travellers',
-      stat3_num:'12',
+      stat3_num:'15',
       stat3_lbl:'Private Tours',
       stat4_num:'100%',
       stat4_lbl:'Private Tours',
@@ -207,7 +207,7 @@ const TRANSLATIONS = {
       label_email: 'Email Address',
       label_phone: 'Phone / WhatsApp',
       label_nationality: 'Nationality',
-      label_package: 'Preferred Package',
+      label_package: 'Tour',
       label_travellers: 'Number of Travellers',
       label_date: 'Preferred Departure Date',
       label_message: 'Message / Special Requests',
@@ -217,7 +217,7 @@ const TRANSLATIONS = {
       ph_nationality: 'e.g. French, German\u2026',
       ph_travellers: 'e.g. 2',
       ph_message: 'Tell us about your dream Egypt journey \u2014 interests, accessibility needs, special occasions, or anything you\'d like us to know\u2026',
-      select_default: 'Select a package (or custom)\u2026',
+      select_default: 'Select a tour (or custom)\u2026',
       opt_pkg1: 'Private Dahabiya Nile Cruise \u2014 12 Days / 11 Nights',
       opt_pkg2: 'Weekend Cairo \u2014 4 Days / 3 Nights',
       opt_pkg3: 'Cairo & Nile Cruise \u2014 10 Days / 9 Nights',
@@ -641,7 +641,7 @@ const TRANSLATIONS = {
       stat1_lbl:'Ans d\'Expérience',
       stat2_num:'10 000+',
       stat2_lbl:'Voyageurs Satisfaits',
-      stat3_num:'12',
+      stat3_num:'15',
       stat3_lbl:'Tours Privés',
       stat4_num:'100%',
       stat4_lbl:'Tours Privés',
@@ -806,7 +806,7 @@ const TRANSLATIONS = {
       label_email: 'Adresse E-mail',
       label_phone: 'Téléphone / WhatsApp',
       label_nationality: 'Nationalité',
-      label_package: 'Forfait Préféré',
+      label_package: 'Tour',
       label_travellers: 'Nombre de Voyageurs',
       label_date: 'Date de Départ Souhaitée',
       label_message: 'Message / Demandes Spéciales',
@@ -816,7 +816,7 @@ const TRANSLATIONS = {
       ph_nationality: 'ex. Français, Allemand\u2026',
       ph_travellers: 'ex. 2',
       ph_message: 'Parlez-nous de votre voyage de rêve en Égypte \u2014 centres d\'intérêt, besoins d\'accessibilité, occasions spéciales, ou tout ce que vous aimeriez nous faire savoir\u2026',
-      select_default: 'Sélectionnez un forfait (ou personnalisé)\u2026',
+      select_default: 'Sélectionnez un tour (ou personnalisé)\u2026',
       opt_pkg1: 'Croisière Privée Dahabiya sur le Nil \u2014 12 Jours / 11 Nuits',
       opt_pkg2: 'Week-end au Caire \u2014 4 Jours / 3 Nuits',
       opt_pkg3: 'Le Caire & Croisière sur le Nil \u2014 10 Jours / 9 Nuits',
@@ -1248,7 +1248,7 @@ const TRANSLATIONS = {
       stat1_lbl:'Jahre Erfahrung',
       stat2_num:'10.000+',
       stat2_lbl:'Zufriedene Reisende',
-      stat3_num:'12',
+      stat3_num:'15',
       stat3_lbl:'Private Touren',
       stat4_num:'100%',
       stat4_lbl:'Private Touren',
@@ -1371,7 +1371,7 @@ const TRANSLATIONS = {
       label_email: 'E-Mail-Adresse',
       label_phone: 'Telefon / WhatsApp',
       label_nationality: 'Nationalität',
-      label_package: 'Bevorzugtes Paket',
+      label_package: 'Tour',
       label_travellers: 'Anzahl der Reisenden',
       label_date: 'Gewünschtes Abreisedatum',
       label_message: 'Nachricht / Besondere Wünsche',
@@ -1381,7 +1381,7 @@ const TRANSLATIONS = {
       ph_nationality: 'z.B. Deutsch, Österreichisch\u2026',
       ph_travellers: 'z.B. 2',
       ph_message: 'Erzählen Sie uns von Ihrer Traumreise nach Ägypten \u2014 Interessen, Barrierefreiheit, besondere Anlässe oder alles, was Sie uns mitteilen möchten\u2026',
-      select_default: 'Paket auswählen (oder individuell)\u2026',
+      select_default: 'Tour auswählen (oder individuell)\u2026',
       opt_pkg1: 'Private Dahabiya-Nilkreuzfahrt \u2014 12 Tage / 11 Nächte',
       opt_pkg2: 'Wochenende in Kairo \u2014 4 Tage / 3 Nächte',
       opt_pkg3: 'Kairo & Nilkreuzfahrt \u2014 10 Tage / 9 Nächte',
@@ -1849,7 +1849,7 @@ const TRANSLATIONS = {
       stat1_lbl:'Años de Experiencia',
       stat2_num:'10.000+',
       stat2_lbl:'Viajeros Felices',
-      stat3_num:'12',
+      stat3_num:'15',
       stat3_lbl:'Tours Privados',
       stat4_num:'100%',
       stat4_lbl:'Tours Privados',
@@ -1972,7 +1972,7 @@ const TRANSLATIONS = {
       label_email: 'Correo Electrónico',
       label_phone: 'Teléfono / WhatsApp',
       label_nationality: 'Nacionalidad',
-      label_package: 'Paquete Preferido',
+      label_package: 'Tour',
       label_travellers: 'Número de Viajeros',
       label_date: 'Fecha de Salida Preferida',
       label_message: 'Mensaje / Solicitudes Especiales',
@@ -1982,7 +1982,7 @@ const TRANSLATIONS = {
       ph_nationality: 'p. ej. Francesa, Alemana\u2026',
       ph_travellers: 'p. ej. 2',
       ph_message: 'Cuéntenos sobre su viaje soñado a Egipto — intereses, necesidades de accesibilidad, ocasiones especiales, o cualquier cosa que desee que sepamos\u2026',
-      select_default: 'Seleccione un paquete (o personalizado)\u2026',
+      select_default: 'Seleccione un tour (o personalizado)\u2026',
       opt_pkg1: 'Crucero Privado en Dahabiya por el Nilo \u2014 12 Días / 11 Noches',
       opt_pkg2: 'Fin de Semana en El Cairo \u2014 4 Días / 3 Noches',
       opt_pkg3: 'El Cairo y Crucero por el Nilo \u2014 10 Días / 9 Noches',
@@ -2448,7 +2448,7 @@ const TRANSLATIONS = {
       stat1_lbl:'Anni di Esperienza',
       stat2_num:'10.000+',
       stat2_lbl:'Viaggiatori Soddisfatti',
-      stat3_num:'12',
+      stat3_num:'15',
       stat3_lbl:'Tour Privati',
       stat4_num:'100%',
       stat4_lbl:'Tour Privati',
@@ -2571,7 +2571,7 @@ const TRANSLATIONS = {
       label_email: 'Indirizzo Email',
       label_phone: 'Telefono / WhatsApp',
       label_nationality: 'Nazionalità',
-      label_package: 'Pacchetto Preferito',
+      label_package: 'Tour',
       label_travellers: 'Numero di Viaggiatori',
       label_date: 'Data di Partenza Preferita',
       label_message: 'Messaggio / Richieste Speciali',
@@ -2581,7 +2581,7 @@ const TRANSLATIONS = {
       ph_nationality: 'es. Italiano, Francese\u2026',
       ph_travellers: 'es. 2',
       ph_message: 'Raccontaci del tuo viaggio da sogno in Egitto \u2014 interessi, esigenze di accessibilità, occasioni speciali, o qualsiasi cosa vorresti farci sapere\u2026',
-      select_default: 'Seleziona un pacchetto (o personalizzato)\u2026',
+      select_default: 'Seleziona un tour (o personalizzato)\u2026',
       opt_pkg1: 'Crociera Privata sul Nilo in Dahabiya \u2014 12 Giorni / 11 Notti',
       opt_pkg2: 'Weekend al Cairo \u2014 4 Giorni / 3 Notti',
       opt_pkg3: 'Il Cairo e Crociera sul Nilo \u2014 10 Giorni / 9 Notti',
@@ -3015,13 +3015,19 @@ const TRANSLATIONS = {
 /* Current language state.
    Two kinds of pages exist:
    - Static translated pages (/en/, /de/, /es/, /it/ folders): their text
-     is hardcoded in the correct language and they contain no [data-i18n]
-     elements, so the page's own <html lang="..."> must win — it's the
-     only source of truth and there's nothing for applyTranslations() to
-     safely swap.
-   - Root pages (French by default, <html lang="fr">): these carry
-     [data-i18n] elements and are the ones the switcher live-swaps. On
-     these, a saved preference from localStorage must win over the
+     is hardcoded in the correct language. They DO contain some
+     [data-i18n] elements (e.g. tour <h1> titles via pkg_names), so the
+     old assumption that only French root pages carry [data-i18n] no
+     longer holds — but the page's own <html lang="..."> must still
+     always win here. It's the only source of truth for these pages;
+     never let a stored preference from a previously-viewed French page
+     override it (that was the bug: browse any French page once, and
+     every other-language page visited afterward in the same browser
+     session would have its data-i18n elements silently reverted to
+     French, including tour names).
+   - Root pages (French by default, <html lang="fr">): these are the ones
+     the live language switcher swaps in place without navigating. On
+     these, a saved preference from localStorage must still win over the
      hardcoded "fr" default, otherwise navigating to a new root page
      after switching language resets the site back to French (the
      switcher only ever updates the DOM in place, it never persists
@@ -3033,7 +3039,11 @@ try {
   const pageLang = document.documentElement.lang;
   const isSwitchablePage = document.querySelector('[data-i18n]') !== null;
   const storedLang = localStorage.getItem('tour-egypte-lang');
-  currentLang = (isSwitchablePage && storedLang) || pageLang || storedLang || 'fr';
+  currentLang = (pageLang && pageLang !== 'fr' && pageLang)
+    || (isSwitchablePage && storedLang)
+    || pageLang
+    || storedLang
+    || 'fr';
   localStorage.setItem('tour-egypte-lang', currentLang);
 } catch (e) { /* localStorage may be blocked on file:// or in private mode */ }
 
