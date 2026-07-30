@@ -11,3 +11,6 @@ trans-spanish.md
 translations-content.md
 spanish
 node_modules/
+
+.vercel
+.env*
