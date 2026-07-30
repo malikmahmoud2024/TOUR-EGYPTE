@@ -605,7 +605,7 @@
         var lang = btn.getAttribute('data-lang');
         if (lang === 'fr') return;
         if (!(lang in redirectMap)) return;
-        window.location.href = 'https://touregypte.fr' + redirectMap[lang];
+        window.location.href = location.origin + redirectMap[lang];
       });
     });
   });

@@ -602,7 +602,7 @@
       btn.addEventListener('click', function () {
         var lang = btn.getAttribute('data-lang');
         if (!(lang in redirectMap)) return;
-        window.location.href = 'https://touregypte.fr' + redirectMap[lang];
+        window.location.href = location.origin + redirectMap[lang];
       });
     });
   });

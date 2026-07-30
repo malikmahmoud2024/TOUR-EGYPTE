@@ -64,18 +64,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
     langSwitcher.querySelectorAll('[data-lang]').forEach(btn => {
       btn.addEventListener('click', () => {
-        applyTranslations(btn.dataset.lang);
         langSwitcher.classList.remove('open');
       });
     });
   }
 
-  /* Mobile language switcher */
+  /* Mobile language switcher — actual language change is handled by each
+     page's own redirect script; this only updates the active button state
+     while that navigation kicks in. */
   const mobileLangBtns = document.querySelectorAll('.navbar__mobile-lang-grid [data-lang]');
   mobileLangBtns.forEach(btn => {
     btn.addEventListener('click', () => {
-      applyTranslations(btn.dataset.lang);
-      /* Update active state on mobile buttons */
       mobileLangBtns.forEach(b => b.classList.toggle('active', b.dataset.lang === btn.dataset.lang));
     });
   });
