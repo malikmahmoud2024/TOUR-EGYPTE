@@ -628,13 +628,12 @@
   <script>
   document.addEventListener('DOMContentLoaded', function () {
     if (typeof applyTranslations === 'function') { applyTranslations('it'); }
-    var currentPage = location.pathname.split('/').pop() || 'index.html';
-    var redirectPrefix = { fr: '', en: '/en', de: '/de', es: '/es' };
+    var redirectMap = { fr: '/circuit-caire-croisiere-nil.html', en: '/en/cairo-nile-cruise.html', de: '/de/kairo-nilkreuzfahrt.html', es: '/es/cairo-crucero-nilo.html' };
     document.querySelectorAll('[data-lang]').forEach(function (btn) {
       btn.addEventListener('click', function () {
         var lang = btn.getAttribute('data-lang');
-        if (!(lang in redirectPrefix)) return;
-        window.location.href = 'https://touregypte.fr' + redirectPrefix[lang] + '/' + currentPage;
+        if (!(lang in redirectMap)) return;
+        window.location.href = 'https://touregypte.fr' + redirectMap[lang];
       });
     });
   });

@@ -617,15 +617,13 @@
 
   <script>
   document.addEventListener("DOMContentLoaded", function () {
-    var currentPage = location.pathname.split("/").pop() || "index.html";
-    if (currentPage && currentPage.indexOf(".") === -1) { currentPage += ".html"; }
-    var redirectPrefix = { en: "/en", de: "/de", es: "/es", it: "/it" };
+    var redirectMap = { en: "/en/cairo-nile-cruise.html", de: "/de/kairo-nilkreuzfahrt.html", es: "/es/cairo-crucero-nilo.html", it: "/it/cairo-crociera-nilo.html" };
     document.querySelectorAll("[data-lang]").forEach(function (btn) {
       btn.addEventListener("click", function () {
         var lang = btn.getAttribute("data-lang");
         if (lang === "fr") return;
-        if (!(lang in redirectPrefix)) return;
-        window.location.href = "https://touregypte.fr" + redirectPrefix[lang] + "/" + currentPage;
+        if (!(lang in redirectMap)) return;
+        window.location.href = "https://touregypte.fr" + redirectMap[lang];
       });
     });
   });

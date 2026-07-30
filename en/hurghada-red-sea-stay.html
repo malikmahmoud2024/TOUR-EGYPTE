@@ -597,13 +597,12 @@
   <script>
   document.addEventListener('DOMContentLoaded', function () {
     if (typeof applyTranslations === 'function') { applyTranslations('en'); }
-    var currentPage = location.pathname.split('/').pop() || 'index.html';
-    var redirectPrefix = { fr: '', de: '/de', es: '/es', it: '/it' };
+    var redirectMap = { fr: '/sejour-mer-rouge-hurghada.html', de: '/de/hurghada-rotes-meer-aufenthalt.html', es: '/es/hurghada-mar-rojo-estancia.html', it: '/it/hurghada-mar-rosso-soggiorno.html' };
     document.querySelectorAll('[data-lang]').forEach(function (btn) {
       btn.addEventListener('click', function () {
         var lang = btn.getAttribute('data-lang');
-        if (!(lang in redirectPrefix)) return;
-        window.location.href = 'https://touregypte.fr' + redirectPrefix[lang] + '/' + currentPage;
+        if (!(lang in redirectMap)) return;
+        window.location.href = 'https://touregypte.fr' + redirectMap[lang];
       });
     });
   });

@@ -613,15 +613,13 @@
   <script>
   document.addEventListener('DOMContentLoaded', function () {
     if (typeof applyTranslations === 'function') { applyTranslations('fr'); }
-    var currentPage = location.pathname.split('/').pop() || 'index.html';
-    if (currentPage && currentPage.indexOf('.') === -1) { currentPage += '.html'; }
-    var redirectPrefix = { en: '/en', de: '/de', es: '/es', it: '/it' };
+    var redirectMap = { en: '/en/cairo-aswan-lake-nasser-cruise.html', de: '/de/kairo-assuan-nassersee-kreuzfahrt.html', es: '/es/cairo-asuan-crucero-lago-nasser.html', it: '/it/cairo-assuan-crociera-lago-nasser.html' };
     document.querySelectorAll('[data-lang]').forEach(function (btn) {
       btn.addEventListener('click', function () {
         var lang = btn.getAttribute('data-lang');
         if (lang === 'fr') return;
-        if (!(lang in redirectPrefix)) return;
-        window.location.href = 'https://touregypte.fr' + redirectPrefix[lang] + '/' + currentPage;
+        if (!(lang in redirectMap)) return;
+        window.location.href = 'https://touregypte.fr' + redirectMap[lang];
       });
     });
   });
