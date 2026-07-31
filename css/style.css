@@ -1094,8 +1094,17 @@ p:last-child { margin-bottom: 0; }
 
 .package-card__footer {
   display: flex;
-  gap: 0.75rem;
-  flex-wrap: wrap;
+  gap: 0.5rem;
+  flex-wrap: nowrap;
+}
+
+.package-card__footer .btn {
+  flex: 1 1 0;
+  min-width: 0;
+  padding: 0.55rem 0.5rem;
+  font-size: 0.76rem;
+  white-space: nowrap;
+  text-align: center;
 }
 
 /* ── Parallax Divider ───────────────────────────────────────── */
