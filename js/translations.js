@@ -3013,37 +3013,24 @@ const TRANSLATIONS = {
 };
 
 /* Current language state.
-   Two kinds of pages exist:
-   - Static translated pages (/en/, /de/, /es/, /it/ folders): their text
-     is hardcoded in the correct language. They DO contain some
-     [data-i18n] elements (e.g. tour <h1> titles via pkg_names), so the
-     old assumption that only French root pages carry [data-i18n] no
-     longer holds — but the page's own <html lang="..."> must still
-     always win here. It's the only source of truth for these pages;
-     never let a stored preference from a previously-viewed French page
-     override it (that was the bug: browse any French page once, and
-     every other-language page visited afterward in the same browser
-     session would have its data-i18n elements silently reverted to
-     French, including tour names).
-   - Root pages (French by default, <html lang="fr">): these are the ones
-     the live language switcher swaps in place without navigating. On
-     these, a saved preference from localStorage must still win over the
-     hardcoded "fr" default, otherwise navigating to a new root page
-     after switching language resets the site back to French (the
-     switcher only ever updates the DOM in place, it never persists
-     across a real page navigation on its own).
-   localStorage is written in both cases so the switcher's state persists
-   for subsequent navigation. */
+   Every page is its own static HTML file with the correct <html lang="...">
+   already baked in server-side, and every language-switcher click does a
+   real navigation to the target page (never an in-place swap) - so the
+   page's own <html lang> attribute is always the single source of truth
+   for what language to render. localStorage must never be read to decide
+   the display language: a previously-viewed page's cached preference is
+   not relevant to what this page actually is, and letting it win was the
+   bug (browse any other-language page once, and the next page visited in
+   the same browser session - including French root pages - would have
+   its [data-i18n] elements silently reverted to the stale cached
+   language instead of its own).
+   localStorage is still written below (after reading the html tag) purely
+   so other code can read back "the language of the page most recently
+   viewed" - it must never feed back into this decision. */
 let currentLang = 'fr';
 try {
   const pageLang = document.documentElement.lang;
-  const isSwitchablePage = document.querySelector('[data-i18n]') !== null;
-  const storedLang = localStorage.getItem('tour-egypte-lang');
-  currentLang = (pageLang && pageLang !== 'fr' && pageLang)
-    || (isSwitchablePage && storedLang)
-    || pageLang
-    || storedLang
-    || 'fr';
+  currentLang = pageLang || 'fr';
   localStorage.setItem('tour-egypte-lang', currentLang);
 } catch (e) { /* localStorage may be blocked on file:// or in private mode */ }
 
