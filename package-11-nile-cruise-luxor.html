@@ -938,7 +938,7 @@
     document.querySelectorAll("[data-lang]").forEach(function (btn) {
       btn.addEventListener("click", function () {
         var lang = btn.getAttribute("data-lang");
-        if (lang === "fr") return;
+        if (lang === "fr") { window.location.href = location.origin + "/" + currentPage; return; }
         if (!(lang in redirectPrefix)) return;
         window.location.href = location.origin + redirectPrefix[lang] + "/" + currentPage;
       });

@@ -599,11 +599,10 @@
   <script>
   document.addEventListener('DOMContentLoaded', function () {
     if (typeof applyTranslations === 'function') { applyTranslations('fr'); }
-    var redirectMap = { en: '/en/hurghada-red-sea-stay.html', de: '/de/hurghada-rotes-meer-aufenthalt.html', es: '/es/hurghada-mar-rojo-estancia.html', it: '/it/hurghada-mar-rosso-soggiorno.html' };
+    var redirectMap = { fr: '/sejour-mer-rouge-hurghada.html', en: '/en/hurghada-red-sea-stay.html', de: '/de/hurghada-rotes-meer-aufenthalt.html', es: '/es/hurghada-mar-rojo-estancia.html', it: '/it/hurghada-mar-rosso-soggiorno.html' };
     document.querySelectorAll('[data-lang]').forEach(function (btn) {
       btn.addEventListener('click', function () {
         var lang = btn.getAttribute('data-lang');
-        if (lang === 'fr') return;
         if (!(lang in redirectMap)) return;
         window.location.href = location.origin + redirectMap[lang];
       });
