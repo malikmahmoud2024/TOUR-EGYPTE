@@ -614,18 +614,6 @@
   <script src="js/translations.js?v=4" defer></script>
   <script src="js/i18n-extend.js?v=2" defer></script>
   <script src="js/main.js?v=4" defer></script>
-
-  <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    var redirectMap = { fr: "/circuit-caire-croisiere-nil.html", en: "/en/cairo-nile-cruise.html", de: "/de/kairo-nilkreuzfahrt.html", es: "/es/cairo-crucero-nilo.html", it: "/it/cairo-crociera-nilo.html" };
-    document.querySelectorAll("[data-lang]").forEach(function (btn) {
-      btn.addEventListener("click", function () {
-        var lang = btn.getAttribute("data-lang");
-        if (!(lang in redirectMap)) return;
-        window.location.href = location.origin + redirectMap[lang];
-      });
-    });
-  });
-  </script>
+  <script src="js/lang-switcher.js" defer></script>
 </body>
 </html>

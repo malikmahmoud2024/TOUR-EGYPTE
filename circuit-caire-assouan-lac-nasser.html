@@ -609,18 +609,11 @@
   <script src="js/translations.js?v=4" defer></script>
   <script src="js/i18n-extend.js?v=2" defer></script>
   <script src="js/main.js?v=4" defer></script>
+  <script src="js/lang-switcher.js" defer></script>
 
   <script>
   document.addEventListener('DOMContentLoaded', function () {
     if (typeof applyTranslations === 'function') { applyTranslations('fr'); }
-    var redirectMap = { fr: '/circuit-caire-assouan-lac-nasser.html', en: '/en/cairo-aswan-lake-nasser-cruise.html', de: '/de/kairo-assuan-nassersee-kreuzfahrt.html', es: '/es/cairo-asuan-crucero-lago-nasser.html', it: '/it/cairo-assuan-crociera-lago-nasser.html' };
-    document.querySelectorAll('[data-lang]').forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        var lang = btn.getAttribute('data-lang');
-        if (!(lang in redirectMap)) return;
-        window.location.href = location.origin + redirectMap[lang];
-      });
-    });
   });
   </script>
 </body>

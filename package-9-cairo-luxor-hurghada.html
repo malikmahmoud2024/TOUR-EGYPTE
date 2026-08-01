@@ -675,21 +675,6 @@
   <script src="js/translations.js?v=4" defer></script>
   <script src="js/i18n-extend.js?v=2" defer></script>
   <script src="js/main.js?v=4" defer></script>
-
-  <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    var currentPage = location.pathname.split("/").pop() || "index.html";
-    if (currentPage && currentPage.indexOf(".") === -1) { currentPage += ".html"; }
-    var redirectPrefix = { en: "/en", de: "/de", es: "/es", it: "/it" };
-    document.querySelectorAll("[data-lang]").forEach(function (btn) {
-      btn.addEventListener("click", function () {
-        var lang = btn.getAttribute("data-lang");
-        if (lang === "fr") { window.location.href = location.origin + "/" + currentPage; return; }
-        if (!(lang in redirectPrefix)) return;
-        window.location.href = location.origin + redirectPrefix[lang] + "/" + currentPage;
-      });
-    });
-  });
-  </script>
+  <script src="js/lang-switcher.js" defer></script>
 </body>
 </html>

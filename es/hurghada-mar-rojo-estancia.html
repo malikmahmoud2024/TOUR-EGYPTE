@@ -592,20 +592,13 @@
   <script src="../js/translations.js?v=4" defer=""></script>
   <script src="../js/i18n-extend.js?v=2" defer=""></script>
   <script src="../js/main.js?v=4" defer=""></script>
+  <script src="../js/lang-switcher.js" defer></script>
 
 
 
   <script>
   document.addEventListener('DOMContentLoaded', function () {
     if (typeof applyTranslations === 'function') { applyTranslations('es'); }
-    var redirectMap = { fr: '/sejour-mer-rouge-hurghada.html', en: '/en/hurghada-red-sea-stay.html', de: '/de/hurghada-rotes-meer-aufenthalt.html', it: '/it/hurghada-mar-rosso-soggiorno.html' };
-    document.querySelectorAll('[data-lang]').forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        var lang = btn.getAttribute('data-lang');
-        if (!(lang in redirectMap)) return;
-        window.location.href = location.origin + redirectMap[lang];
-      });
-    });
   });
   </script>
 </body></html>

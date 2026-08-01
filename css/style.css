@@ -119,12 +119,6 @@ p:last-child { margin-bottom: 0; }
   padding: 0 2rem;
 }
 
-.container--sm {
-  max-width: var(--container-sm);
-  margin: 0 auto;
-  padding: 0 2rem;
-}
-
 .section-label {
   display: inline-block;
   font-family: var(--font-body);
@@ -222,16 +216,6 @@ p:last-child { margin-bottom: 0; }
   box-shadow: 0 6px 20px rgba(201,168,76,0.35);
 }
 
-.btn-white {
-  background: var(--white);
-  color: var(--text-dark);
-  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
-}
-.btn-white:hover {
-  background: var(--cream);
-  transform: translateY(-2px);
-  box-shadow: 0 8px 30px rgba(0,0,0,0.2);
-}
 
 .btn-outline-white {
   background: transparent;
@@ -296,7 +280,6 @@ p:last-child { margin-bottom: 0; }
 .reveal-delay-2 { transition-delay: 0.2s; }
 .reveal-delay-3 { transition-delay: 0.3s; }
 .reveal-delay-4 { transition-delay: 0.4s; }
-.reveal-delay-5 { transition-delay: 0.5s; }
 
 /* ── Navigation ─────────────────────────────────────────────── */
 .navbar {
@@ -1965,7 +1948,6 @@ p:last-child { margin-bottom: 0; }
 
 /* ── Contact form label emphasis ────────────────────────────── */
 .contact-form label,
-.form__label,
 form label {
   font-weight: 700;
 }
