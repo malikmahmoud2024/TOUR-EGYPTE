@@ -786,7 +786,7 @@ const TRANSLATIONS = {
       factbox_speciality_value: 'Voyages privés en Égypte',
       factbox_languages_value: 'Français, Anglais, Allemand, Espagnol, Italien',
       factbox_destinations_value: 'Le Caire, Gizeh, Louxor, Assouan, Alexandrie, Abou Simbel, Hurghada, Marsa Alam, Sharm El Sheikh, Dahab, Oasis du Fayoum, Oasis de Siwa, Désert Blanc, Moyenne Égypte Al Minya. Toutes les destinations égyptiennes.',
-      factbox_license_value: 'Ministère du Tourisme égyptien N° 1200',
+      factbox_license_value: 'Ministère égyptien du Tourisme N° 1200, Host Tours, Agence de voyage au Caire, Égypte',
     },
     contact_page: {
       hero_title: '<em>Contactez</em>-Nous',
