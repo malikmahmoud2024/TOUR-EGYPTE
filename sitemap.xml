@@ -1,663 +1,1323 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://touregypte.fr/</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/index.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/index.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/index.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/"/>
   </url>
   <url>
     <loc>https://touregypte.fr/packages.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/packages.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/packages.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/packages.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/packages.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/packages.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/packages.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/package-1-dahabiya.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-1-dahabiya.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-1-dahabiya.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-1-dahabiya.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-1-dahabiya.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-1-dahabiya.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-1-dahabiya.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/package-2-cairo-weekend.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-2-cairo-weekend.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-2-cairo-weekend.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-2-cairo-weekend.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-2-cairo-weekend.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-2-cairo-weekend.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-2-cairo-weekend.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/package-3-cairo-nile.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-3-cairo-nile.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-3-cairo-nile.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-3-cairo-nile.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-3-cairo-nile.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-3-cairo-nile.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-3-cairo-nile.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/package-4-cairo-alexandria.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-4-cairo-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-4-cairo-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-4-cairo-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-4-cairo-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-4-cairo-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-4-cairo-alexandria.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/package-5-ultimate.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-5-ultimate.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-5-ultimate.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-5-ultimate.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-5-ultimate.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-5-ultimate.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-5-ultimate.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/package-6-hurghada.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-6-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-6-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-6-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-6-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-6-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-6-hurghada.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/package-7-cairo-lac-nasser-dahabiya-luxor.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-7-cairo-lac-nasser-dahabiya-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-7-cairo-lac-nasser-dahabiya-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-7-cairo-lac-nasser-dahabiya-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-7-cairo-lac-nasser-dahabiya-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-7-cairo-lac-nasser-dahabiya-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-7-cairo-lac-nasser-dahabiya-luxor.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/package-8-cairo-hurghada.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-8-cairo-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-8-cairo-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-8-cairo-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-8-cairo-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-8-cairo-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-8-cairo-hurghada.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/package-9-cairo-luxor-hurghada.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-9-cairo-luxor-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-9-cairo-luxor-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-9-cairo-luxor-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-9-cairo-luxor-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-9-cairo-luxor-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-9-cairo-luxor-hurghada.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/package-10-nile-cruise-hurghada.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-10-nile-cruise-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-10-nile-cruise-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-10-nile-cruise-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-10-nile-cruise-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-10-nile-cruise-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-10-nile-cruise-hurghada.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/package-11-nile-cruise-luxor.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-11-nile-cruise-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-11-nile-cruise-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-11-nile-cruise-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-11-nile-cruise-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-11-nile-cruise-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-11-nile-cruise-luxor.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/package-12-cairo-fayoum-alexandria.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-12-cairo-fayoum-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-12-cairo-fayoum-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-12-cairo-fayoum-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-12-cairo-fayoum-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-12-cairo-fayoum-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-12-cairo-fayoum-alexandria.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/circuit-caire-croisiere-nil.html</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/circuit-caire-croisiere-nil.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/cairo-nile-cruise.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/kairo-nilkreuzfahrt.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/cairo-crucero-nilo.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/cairo-crociera-nilo.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/circuit-caire-croisiere-nil.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/circuit-caire-assouan-lac-nasser.html</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/circuit-caire-assouan-lac-nasser.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/cairo-aswan-lake-nasser-cruise.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/kairo-assuan-nassersee-kreuzfahrt.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/cairo-asuan-crucero-lago-nasser.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/cairo-assuan-crociera-lago-nasser.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/circuit-caire-assouan-lac-nasser.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/sejour-mer-rouge-hurghada.html</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/sejour-mer-rouge-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/hurghada-red-sea-stay.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/hurghada-rotes-meer-aufenthalt.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/hurghada-mar-rojo-estancia.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/hurghada-mar-rosso-soggiorno.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/sejour-mer-rouge-hurghada.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/about.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/about.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/about.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/about.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/about.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/contact.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/contact.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/reviews.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/reviews.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/reviews.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/reviews.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/reviews.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/reviews.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/reviews.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/faq.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/faq.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/references.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/references.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/references.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/references.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/references.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/references.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/references.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/en/index.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/index.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/index.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/index.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/"/>
   </url>
   <url>
     <loc>https://touregypte.fr/en/packages.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/packages.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/packages.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/packages.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/packages.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/packages.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/packages.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/en/package-1-dahabiya.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-1-dahabiya.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-1-dahabiya.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-1-dahabiya.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-1-dahabiya.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-1-dahabiya.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-1-dahabiya.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/en/package-2-cairo-weekend.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-2-cairo-weekend.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-2-cairo-weekend.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-2-cairo-weekend.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-2-cairo-weekend.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-2-cairo-weekend.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-2-cairo-weekend.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/en/package-3-cairo-nile.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-3-cairo-nile.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-3-cairo-nile.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-3-cairo-nile.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-3-cairo-nile.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-3-cairo-nile.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-3-cairo-nile.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/en/package-4-cairo-alexandria.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-4-cairo-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-4-cairo-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-4-cairo-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-4-cairo-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-4-cairo-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-4-cairo-alexandria.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/en/package-5-ultimate.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-5-ultimate.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-5-ultimate.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-5-ultimate.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-5-ultimate.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-5-ultimate.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-5-ultimate.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/en/package-6-hurghada.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-6-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-6-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-6-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-6-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-6-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-6-hurghada.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/en/package-7-cairo-lac-nasser-dahabiya-luxor.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-7-cairo-lac-nasser-dahabiya-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-7-cairo-lac-nasser-dahabiya-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-7-cairo-lac-nasser-dahabiya-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-7-cairo-lac-nasser-dahabiya-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-7-cairo-lac-nasser-dahabiya-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-7-cairo-lac-nasser-dahabiya-luxor.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/en/package-8-cairo-hurghada.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-8-cairo-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-8-cairo-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-8-cairo-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-8-cairo-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-8-cairo-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-8-cairo-hurghada.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/en/package-9-cairo-luxor-hurghada.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-9-cairo-luxor-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-9-cairo-luxor-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-9-cairo-luxor-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-9-cairo-luxor-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-9-cairo-luxor-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-9-cairo-luxor-hurghada.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/en/package-10-nile-cruise-hurghada.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-10-nile-cruise-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-10-nile-cruise-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-10-nile-cruise-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-10-nile-cruise-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-10-nile-cruise-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-10-nile-cruise-hurghada.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/en/package-11-nile-cruise-luxor.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-11-nile-cruise-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-11-nile-cruise-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-11-nile-cruise-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-11-nile-cruise-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-11-nile-cruise-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-11-nile-cruise-luxor.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/en/package-12-cairo-fayoum-alexandria.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-12-cairo-fayoum-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-12-cairo-fayoum-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-12-cairo-fayoum-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-12-cairo-fayoum-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-12-cairo-fayoum-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-12-cairo-fayoum-alexandria.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/en/cairo-nile-cruise.html</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/circuit-caire-croisiere-nil.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/cairo-nile-cruise.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/kairo-nilkreuzfahrt.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/cairo-crucero-nilo.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/cairo-crociera-nilo.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/circuit-caire-croisiere-nil.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/en/cairo-aswan-lake-nasser-cruise.html</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/circuit-caire-assouan-lac-nasser.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/cairo-aswan-lake-nasser-cruise.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/kairo-assuan-nassersee-kreuzfahrt.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/cairo-asuan-crucero-lago-nasser.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/cairo-assuan-crociera-lago-nasser.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/circuit-caire-assouan-lac-nasser.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/en/hurghada-red-sea-stay.html</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/sejour-mer-rouge-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/hurghada-red-sea-stay.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/hurghada-rotes-meer-aufenthalt.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/hurghada-mar-rojo-estancia.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/hurghada-mar-rosso-soggiorno.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/sejour-mer-rouge-hurghada.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/en/about.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/about.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/about.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/about.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/about.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/en/contact.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/contact.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/en/reviews.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/reviews.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/reviews.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/reviews.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/reviews.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/reviews.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/reviews.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/en/faq.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/faq.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/en/references.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/references.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/references.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/references.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/references.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/references.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/references.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/de/index.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/index.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/index.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/index.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/"/>
   </url>
   <url>
     <loc>https://touregypte.fr/de/packages.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/packages.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/packages.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/packages.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/packages.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/packages.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/packages.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/de/package-1-dahabiya.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-1-dahabiya.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-1-dahabiya.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-1-dahabiya.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-1-dahabiya.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-1-dahabiya.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-1-dahabiya.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/de/package-2-cairo-weekend.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-2-cairo-weekend.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-2-cairo-weekend.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-2-cairo-weekend.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-2-cairo-weekend.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-2-cairo-weekend.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-2-cairo-weekend.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/de/package-3-cairo-nile.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-3-cairo-nile.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-3-cairo-nile.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-3-cairo-nile.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-3-cairo-nile.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-3-cairo-nile.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-3-cairo-nile.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/de/package-4-cairo-alexandria.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-4-cairo-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-4-cairo-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-4-cairo-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-4-cairo-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-4-cairo-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-4-cairo-alexandria.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/de/package-5-ultimate.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-5-ultimate.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-5-ultimate.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-5-ultimate.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-5-ultimate.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-5-ultimate.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-5-ultimate.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/de/package-6-hurghada.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-6-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-6-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-6-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-6-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-6-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-6-hurghada.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/de/package-7-cairo-lac-nasser-dahabiya-luxor.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-7-cairo-lac-nasser-dahabiya-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-7-cairo-lac-nasser-dahabiya-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-7-cairo-lac-nasser-dahabiya-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-7-cairo-lac-nasser-dahabiya-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-7-cairo-lac-nasser-dahabiya-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-7-cairo-lac-nasser-dahabiya-luxor.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/de/package-8-cairo-hurghada.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-8-cairo-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-8-cairo-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-8-cairo-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-8-cairo-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-8-cairo-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-8-cairo-hurghada.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/de/package-9-cairo-luxor-hurghada.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-9-cairo-luxor-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-9-cairo-luxor-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-9-cairo-luxor-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-9-cairo-luxor-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-9-cairo-luxor-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-9-cairo-luxor-hurghada.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/de/package-10-nile-cruise-hurghada.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-10-nile-cruise-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-10-nile-cruise-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-10-nile-cruise-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-10-nile-cruise-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-10-nile-cruise-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-10-nile-cruise-hurghada.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/de/package-11-nile-cruise-luxor.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-11-nile-cruise-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-11-nile-cruise-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-11-nile-cruise-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-11-nile-cruise-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-11-nile-cruise-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-11-nile-cruise-luxor.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/de/package-12-cairo-fayoum-alexandria.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-12-cairo-fayoum-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-12-cairo-fayoum-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-12-cairo-fayoum-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-12-cairo-fayoum-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-12-cairo-fayoum-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-12-cairo-fayoum-alexandria.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/de/kairo-nilkreuzfahrt.html</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/circuit-caire-croisiere-nil.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/cairo-nile-cruise.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/kairo-nilkreuzfahrt.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/cairo-crucero-nilo.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/cairo-crociera-nilo.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/circuit-caire-croisiere-nil.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/de/kairo-assuan-nassersee-kreuzfahrt.html</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/circuit-caire-assouan-lac-nasser.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/cairo-aswan-lake-nasser-cruise.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/kairo-assuan-nassersee-kreuzfahrt.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/cairo-asuan-crucero-lago-nasser.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/cairo-assuan-crociera-lago-nasser.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/circuit-caire-assouan-lac-nasser.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/de/hurghada-rotes-meer-aufenthalt.html</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/sejour-mer-rouge-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/hurghada-red-sea-stay.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/hurghada-rotes-meer-aufenthalt.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/hurghada-mar-rojo-estancia.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/hurghada-mar-rosso-soggiorno.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/sejour-mer-rouge-hurghada.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/de/about.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/about.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/about.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/about.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/about.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/de/contact.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/contact.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/de/reviews.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/reviews.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/reviews.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/reviews.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/reviews.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/reviews.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/reviews.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/de/faq.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/faq.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/de/references.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/references.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/references.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/references.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/references.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/references.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/references.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/es/index.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/index.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/index.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/index.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/"/>
   </url>
   <url>
     <loc>https://touregypte.fr/es/packages.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/packages.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/packages.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/packages.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/packages.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/packages.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/packages.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/es/package-1-dahabiya.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-1-dahabiya.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-1-dahabiya.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-1-dahabiya.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-1-dahabiya.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-1-dahabiya.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-1-dahabiya.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/es/package-2-cairo-weekend.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-2-cairo-weekend.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-2-cairo-weekend.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-2-cairo-weekend.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-2-cairo-weekend.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-2-cairo-weekend.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-2-cairo-weekend.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/es/package-3-cairo-nile.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-3-cairo-nile.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-3-cairo-nile.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-3-cairo-nile.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-3-cairo-nile.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-3-cairo-nile.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-3-cairo-nile.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/es/package-4-cairo-alexandria.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-4-cairo-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-4-cairo-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-4-cairo-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-4-cairo-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-4-cairo-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-4-cairo-alexandria.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/es/package-5-ultimate.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-5-ultimate.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-5-ultimate.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-5-ultimate.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-5-ultimate.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-5-ultimate.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-5-ultimate.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/es/package-6-hurghada.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-6-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-6-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-6-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-6-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-6-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-6-hurghada.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/es/package-7-cairo-lac-nasser-dahabiya-luxor.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-7-cairo-lac-nasser-dahabiya-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-7-cairo-lac-nasser-dahabiya-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-7-cairo-lac-nasser-dahabiya-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-7-cairo-lac-nasser-dahabiya-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-7-cairo-lac-nasser-dahabiya-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-7-cairo-lac-nasser-dahabiya-luxor.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/es/package-8-cairo-hurghada.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-8-cairo-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-8-cairo-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-8-cairo-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-8-cairo-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-8-cairo-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-8-cairo-hurghada.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/es/package-9-cairo-luxor-hurghada.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-9-cairo-luxor-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-9-cairo-luxor-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-9-cairo-luxor-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-9-cairo-luxor-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-9-cairo-luxor-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-9-cairo-luxor-hurghada.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/es/package-10-nile-cruise-hurghada.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-10-nile-cruise-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-10-nile-cruise-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-10-nile-cruise-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-10-nile-cruise-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-10-nile-cruise-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-10-nile-cruise-hurghada.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/es/package-11-nile-cruise-luxor.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-11-nile-cruise-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-11-nile-cruise-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-11-nile-cruise-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-11-nile-cruise-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-11-nile-cruise-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-11-nile-cruise-luxor.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/es/package-12-cairo-fayoum-alexandria.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-12-cairo-fayoum-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-12-cairo-fayoum-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-12-cairo-fayoum-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-12-cairo-fayoum-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-12-cairo-fayoum-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-12-cairo-fayoum-alexandria.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/es/cairo-crucero-nilo.html</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/circuit-caire-croisiere-nil.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/cairo-nile-cruise.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/kairo-nilkreuzfahrt.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/cairo-crucero-nilo.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/cairo-crociera-nilo.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/circuit-caire-croisiere-nil.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/es/cairo-asuan-crucero-lago-nasser.html</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/circuit-caire-assouan-lac-nasser.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/cairo-aswan-lake-nasser-cruise.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/kairo-assuan-nassersee-kreuzfahrt.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/cairo-asuan-crucero-lago-nasser.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/cairo-assuan-crociera-lago-nasser.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/circuit-caire-assouan-lac-nasser.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/es/hurghada-mar-rojo-estancia.html</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/sejour-mer-rouge-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/hurghada-red-sea-stay.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/hurghada-rotes-meer-aufenthalt.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/hurghada-mar-rojo-estancia.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/hurghada-mar-rosso-soggiorno.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/sejour-mer-rouge-hurghada.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/es/about.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/about.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/about.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/about.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/about.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/es/contact.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/contact.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/es/reviews.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/reviews.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/reviews.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/reviews.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/reviews.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/reviews.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/reviews.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/es/faq.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/faq.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/es/references.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/references.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/references.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/references.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/references.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/references.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/references.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/it/index.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/index.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/index.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/index.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/"/>
   </url>
   <url>
     <loc>https://touregypte.fr/it/packages.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/packages.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/packages.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/packages.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/packages.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/packages.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/packages.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/it/package-1-dahabiya.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-1-dahabiya.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-1-dahabiya.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-1-dahabiya.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-1-dahabiya.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-1-dahabiya.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-1-dahabiya.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/it/package-2-cairo-weekend.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-2-cairo-weekend.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-2-cairo-weekend.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-2-cairo-weekend.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-2-cairo-weekend.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-2-cairo-weekend.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-2-cairo-weekend.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/it/package-3-cairo-nile.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-3-cairo-nile.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-3-cairo-nile.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-3-cairo-nile.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-3-cairo-nile.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-3-cairo-nile.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-3-cairo-nile.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/it/package-4-cairo-alexandria.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-4-cairo-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-4-cairo-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-4-cairo-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-4-cairo-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-4-cairo-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-4-cairo-alexandria.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/it/package-5-ultimate.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-5-ultimate.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-5-ultimate.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-5-ultimate.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-5-ultimate.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-5-ultimate.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-5-ultimate.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/it/package-6-hurghada.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-6-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-6-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-6-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-6-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-6-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-6-hurghada.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/it/package-7-cairo-lac-nasser-dahabiya-luxor.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-7-cairo-lac-nasser-dahabiya-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-7-cairo-lac-nasser-dahabiya-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-7-cairo-lac-nasser-dahabiya-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-7-cairo-lac-nasser-dahabiya-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-7-cairo-lac-nasser-dahabiya-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-7-cairo-lac-nasser-dahabiya-luxor.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/it/package-8-cairo-hurghada.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-8-cairo-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-8-cairo-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-8-cairo-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-8-cairo-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-8-cairo-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-8-cairo-hurghada.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/it/package-9-cairo-luxor-hurghada.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-9-cairo-luxor-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-9-cairo-luxor-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-9-cairo-luxor-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-9-cairo-luxor-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-9-cairo-luxor-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-9-cairo-luxor-hurghada.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/it/package-10-nile-cruise-hurghada.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-10-nile-cruise-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-10-nile-cruise-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-10-nile-cruise-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-10-nile-cruise-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-10-nile-cruise-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-10-nile-cruise-hurghada.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/it/package-11-nile-cruise-luxor.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-11-nile-cruise-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-11-nile-cruise-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-11-nile-cruise-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-11-nile-cruise-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-11-nile-cruise-luxor.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-11-nile-cruise-luxor.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/it/package-12-cairo-fayoum-alexandria.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/package-12-cairo-fayoum-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/package-12-cairo-fayoum-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/package-12-cairo-fayoum-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/package-12-cairo-fayoum-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/package-12-cairo-fayoum-alexandria.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/package-12-cairo-fayoum-alexandria.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/it/cairo-crociera-nilo.html</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/circuit-caire-croisiere-nil.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/cairo-nile-cruise.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/kairo-nilkreuzfahrt.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/cairo-crucero-nilo.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/cairo-crociera-nilo.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/circuit-caire-croisiere-nil.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/it/cairo-assuan-crociera-lago-nasser.html</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/circuit-caire-assouan-lac-nasser.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/cairo-aswan-lake-nasser-cruise.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/kairo-assuan-nassersee-kreuzfahrt.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/cairo-asuan-crucero-lago-nasser.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/cairo-assuan-crociera-lago-nasser.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/circuit-caire-assouan-lac-nasser.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/it/hurghada-mar-rosso-soggiorno.html</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/sejour-mer-rouge-hurghada.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/hurghada-red-sea-stay.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/hurghada-rotes-meer-aufenthalt.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/hurghada-mar-rojo-estancia.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/hurghada-mar-rosso-soggiorno.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/sejour-mer-rouge-hurghada.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/it/about.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/about.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/about.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/about.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/about.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/it/contact.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/contact.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/it/reviews.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/reviews.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/reviews.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/reviews.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/reviews.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/reviews.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/reviews.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/it/faq.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/faq.html"/>
   </url>
   <url>
     <loc>https://touregypte.fr/it/references.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/references.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/references.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/references.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/references.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/references.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/references.html"/>
   </url>
 </urlset>
