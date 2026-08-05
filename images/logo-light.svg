@@ -1,0 +1,6 @@
+<svg viewBox="0 0 640 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tour Egypte — Host Tours">
+  <path d="M90,30 L20,170 L114,170 Z" fill="none" stroke="#B08E52" stroke-width="3"/>
+  <path d="M90,30 L114,170 L160,170 Z" fill="#B08E52" stroke="#B08E52" stroke-width="3"/>
+  <text x="400" y="100" text-anchor="middle" font-family="'Cormorant Garamond', Georgia, serif" font-size="48" letter-spacing="0.2em" fill="#16150F">TOUR EGYPTE</text>
+  <text x="400" y="140" text-anchor="middle" font-family="'Cormorant Garamond', Georgia, serif" font-size="19" letter-spacing="0.2em" fill="#16150F">— HOST TOURS —</text>
+</svg>
