@@ -125,6 +125,209 @@
   "url": "https://touregypte.fr"
 }
 </script>
+
+  <style>
+    /* ===== Featured tours carousel + diagonal corner ribbon + stacked
+       tour-card buttons. Mirrored from packages.html so the homepage
+       tours section matches. Scoped to the tours section only. ===== */
+
+    /* Featured Tours Carousel */
+    .featured-carousel-section {
+      padding: 5rem 0 1rem;
+      background: var(--cream);
+      overflow: hidden;
+    }
+    .featured-carousel-section .packages-section__header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    .featured-carousel {
+      position: relative;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    @media (max-width: 767px) {
+      .featured-carousel,
+      .featured-carousel__dots {
+        margin-left: -2rem;
+        margin-right: -2rem;
+      }
+    }
+    .featured-carousel__viewport {
+      overflow: hidden;
+    }
+    .featured-carousel__track {
+      display: flex;
+      align-items: center;
+      transition: transform 0.7s cubic-bezier(0.65,0,0.35,1);
+      will-change: transform;
+    }
+    .featured-carousel__slide {
+      flex: 0 0 75%;
+      min-width: 0;
+      padding: 0 0.5rem;
+      box-sizing: border-box;
+      transition: transform 0.5s ease, opacity 0.5s ease;
+      opacity: 0.45;
+      transform: scale(0.88);
+    }
+    .featured-carousel__slide.is-active {
+      opacity: 1;
+      transform: scale(1);
+    }
+    .featured-carousel__slide .package-card {
+      margin: 0 auto;
+      height: 100%;
+      max-width: 380px;
+    }
+    .featured-carousel__slide .package-card__image {
+      height: 180px;
+    }
+    .featured-carousel__slide .package-card__body {
+      padding: 0.9rem 1.1rem;
+    }
+    .featured-carousel__slide .package-card__title {
+      font-size: 1.1rem;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .featured-carousel__slide .package-card__desc {
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      font-size: 0.95rem;
+      margin-bottom: 0.85rem;
+    }
+    .featured-carousel__slide .package-card {
+      max-height: min(70vh, 500px);
+      display: flex;
+      flex-direction: column;
+    }
+
+    @media (min-width: 768px) {
+      .featured-carousel__slide {
+        flex: 0 0 36%;
+      }
+      .featured-carousel__slide .package-card {
+        max-height: none;
+      }
+      .featured-carousel__slide .package-card__image {
+        height: 220px;
+      }
+      .featured-carousel__slide .package-card__title {
+        font-size: 1.25rem;
+      }
+      .featured-carousel__slide .package-card__desc {
+        -webkit-line-clamp: 3;
+        font-size: 1.1rem;
+      }
+    }
+
+    /* Diagonal corner ribbon on the featured tour cards. The band emerges
+       from the top-left corner at 45°; the image wrapper's overflow:hidden
+       clips its ends so it reads as folded into the corner. Longest label is
+       "NOTRE COUP DE CŒUR" (~124px at 10px); the band is 190px wide and its
+       centre is pushed ~82px along the corner diagonal (top/left below) so
+       the visible diagonal chord is long enough for every language's text to
+       sit on one line with margin, while the band ends still clip past the
+       image edges for the folded-corner look. */
+    .package-card__ribbon {
+      position: absolute;
+      top: 44px;
+      left: -37px;
+      width: 190px;
+      padding: 7px 0;
+      background-color: #C0392B;
+      color: #ffffff;
+      font-family: var(--font-body);
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-align: center;
+      text-transform: uppercase;
+      white-space: nowrap;
+      transform: rotate(-45deg);
+      transform-origin: center;
+      z-index: 10;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    }
+
+    .featured-carousel__arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background: var(--gold);
+      border: none;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      z-index: 3;
+      box-shadow: 0 6px 20px rgba(26,18,8,0.3);
+      transition: background 0.25s ease, transform 0.25s ease;
+      padding: 0;
+    }
+    .featured-carousel__arrow:hover {
+      background: var(--gold-text);
+      transform: translateY(-50%) scale(1.08);
+    }
+    .featured-carousel__arrow svg {
+      width: 22px;
+      height: 22px;
+      display: block;
+    }
+    .featured-carousel__arrow--prev { left: 4px; }
+    .featured-carousel__arrow--next { right: 4px; }
+    @media (min-width: 900px) {
+      .featured-carousel__arrow--prev { left: -20px; }
+      .featured-carousel__arrow--next { right: -20px; }
+    }
+    @media (max-width: 600px) {
+      .featured-carousel__arrow { width: 44px; height: 44px; }
+    }
+
+    .featured-carousel__dots {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.6rem;
+      margin-top: 1.75rem;
+    }
+    .featured-carousel__dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: rgba(201,168,76,0.35);
+      border: none;
+      padding: 0;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .featured-carousel__dot.is-active {
+      width: 14px;
+      height: 14px;
+      background: var(--gold);
+    }
+
+    /* "Discover More" / "Book Now" stacked vertically, full width, on the
+       homepage tours grid and the featured carousel. */
+    .packages-grid .package-card__footer,
+    .featured-carousel__slide .package-card__footer {
+      flex-direction: column;
+    }
+    .packages-grid .package-card__footer .btn,
+    .featured-carousel__slide .package-card__footer .btn {
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  </style>
 </head>
 <body>
   <a href="#main-content" class="skip-link">Aller au contenu principal</a>
@@ -328,6 +531,134 @@
 
 
   <!-- ════════════════════════════════════════════════════════
+       FEATURED TOURS CAROUSEL
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="featured-carousel-section" aria-label="Tours en vedette">
+    <div class="container">
+
+      <header class="packages-section__header">
+        <p class="section-label">En Vedette</p>
+        <h2 class="section-heading">Nos Tours <span>Coups de Cœur</span></h2>
+      </header>
+
+      <div class="featured-carousel" id="featured-carousel">
+        <button class="featured-carousel__arrow featured-carousel__arrow--prev" type="button" aria-label="Tour précédent">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M15 6l-6 6 6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="featured-carousel__viewport">
+          <div class="featured-carousel__track">
+            <div class="featured-carousel__slide">
+              <article class="package-card">
+                <div class="package-card__image">
+                  <img src="images/pkg-hurghada.jpg" alt="Crystal clear Red Sea waters and coral reef" loading="lazy" />
+                  <span class="package-card__ribbon">Le Plus Vendu</span>
+                  <span class="package-card__badge" data-i18n="packages.badge">Tour Privé</span>
+                </div>
+                <div class="package-card__body">
+                  <p class="package-card__duration" data-i18n="pkg_durations.5">12 Jours / 11 Nuits</p>
+                  <div class="tour-price">À partir de 1610€ <span>/ personne</span></div>
+                  <h3 class="package-card__title" data-i18n="pkg_names.5">Le Caire, Croisière sur le Nil Assouan / Louxor & Mer Rouge Hurghada</h3>
+                  <p class="package-card__desc" data-i18n="pkg_descs.5">
+              L'Égypte antique rencontre le paradis de la Mer Rouge. Le Caire, croisière 5 étoiles sur le Nil d'Assouan à Louxor, et détente sur les rives dorées de Hurghada.
+            </p>
+                  <div class="package-card__footer">
+                    <a href="package-6-hurghada.html" class="btn btn-outline btn-sm">En Savoir Plus</a>
+                    <a href="contact.html" class="btn btn-primary btn-sm">Réserver</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="featured-carousel__slide">
+              <article class="package-card">
+                <div class="package-card__image">
+                  <img src="images/dahabiya-real.jpg" alt="Bateau Dahabiya naviguant sur le Nil" width="1600" height="900" loading="lazy" />
+                  <span class="package-card__ribbon">Le Mieux Noté</span>
+                  <span class="package-card__badge" data-i18n="packages.badge">Tour Privé</span>
+                </div>
+                <div class="package-card__body">
+                  <p class="package-card__duration" data-i18n="pkg_durations.0">12 Jours / 11 Nuits</p>
+                  <div class="tour-price">À partir de 2390€ <span>/ personne</span></div>
+                  <h3 class="package-card__title" data-i18n="pkg_names.0">Cairo & Dahabiya sur le Nil Louxor / Assouan</h3>
+                  <p class="package-card__desc" data-i18n="pkg_descs.0">
+              Naviguez sur le légendaire Nil à bord d'un bateau Dahabiya privé avec votre famille ou vos amis. Des Pyramides du Caire aux temples de Louxor, Edfou et Assouan — un voyage unique.
+            </p>
+                  <div class="package-card__footer">
+                    <a href="package-1-dahabiya.html" class="btn btn-outline btn-sm">En Savoir Plus</a>
+                    <a href="contact.html" class="btn btn-primary btn-sm">Réserver</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="featured-carousel__slide">
+              <article class="package-card">
+                <div class="package-card__image">
+                  <picture>
+                <source srcset="images/fayoum-oasis.webp" type="image/webp">
+                <img src="images/fayoum-oasis.jpg" alt="Fayoum Oasis desert landscape" width="1600" height="1067" loading="lazy" />
+              </picture>
+                  <span class="package-card__ribbon">Notre Coup de Cœur</span>
+                  <span class="package-card__badge" data-i18n="packages.badge">Tour Privé</span>
+                </div>
+                <div class="package-card__body">
+                  <p class="package-card__duration" data-i18n="pkg_durations.11">8 Jours / 7 Nuits</p>
+                  <div class="tour-price">À partir de 770€ <span>/ personne</span></div>
+                  <h3 class="package-card__title" data-i18n="pkg_names.11">Le Caire, Oasis du Fayoum, Vallée des Baleines & Alexandrie</h3>
+                  <p class="package-card__desc" data-i18n="pkg_descs.11">
+              Circuit unique au Caire, safari en jeep dans la Vallée des Baleines (UNESCO), Oasis du Fayoum et Alexandrie. L'Égypte hors des sentiers battus.
+            </p>
+                  <div class="package-card__footer">
+                    <a href="package-12-cairo-fayoum-alexandria.html" class="btn btn-outline btn-sm">En Savoir Plus</a>
+                    <a href="contact.html" class="btn btn-primary btn-sm">Réserver</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="featured-carousel__slide">
+              <article class="package-card">
+                <div class="package-card__image">
+                  <picture>
+                <source srcset="images/abu-simbel.webp" type="image/webp">
+                <img src="images/abu-simbel.jpg" alt="Temples of Abu Simbel on Lake Nasser" loading="lazy" />
+              </picture>
+                  <span class="package-card__ribbon">Voyage d'Exception</span>
+                  <span class="package-card__badge" data-i18n="packages.badge">Tour Privé</span>
+                </div>
+                <div class="package-card__body">
+                  <p class="package-card__duration" data-i18n="pkg_durations.6">15 Jours / 14 Nuits</p>
+                  <div class="tour-price">À partir de 3270€ <span>/ personne</span></div>
+                  <h3 class="package-card__title" data-i18n="pkg_names.6">Le Caire, Croisière Lac Nasser & Dahabiya sur le Nil – 15 Jours</h3>
+                  <p class="package-card__desc" data-i18n="pkg_descs.6">
+              De Sakkarah aux temples nubiens d'Abou Simbel, puis à bord d'un authentique Dahabiya jusqu'à Louxor — un grand voyage dans l'Égypte éternelle avec guide privé francophone, anglophone, germanophone, hispanophone et italophone.
+            </p>
+                  <div class="package-card__footer">
+                    <a href="package-7-cairo-lac-nasser-dahabiya-luxor.html" class="btn btn-outline btn-sm">En Savoir Plus</a>
+                    <a href="contact.html" class="btn btn-primary btn-sm">Réserver</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+        <button class="featured-carousel__arrow featured-carousel__arrow--next" type="button" aria-label="Tour suivant">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+
+      <div class="featured-carousel__dots" role="tablist" aria-label="Navigation des tours en vedette">
+        <button class="featured-carousel__dot is-active" type="button" aria-label="Aller au tour 1"></button>
+        <button class="featured-carousel__dot" type="button" aria-label="Aller au tour 2"></button>
+        <button class="featured-carousel__dot" type="button" aria-label="Aller au tour 3"></button>
+        <button class="featured-carousel__dot" type="button" aria-label="Aller au tour 4"></button>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════════════════════
        PACKAGES SECTION
   ═══════════════════════════════════════════════════════════ -->
   <section class="packages-section" id="packages" aria-labelledby="packages-heading">
@@ -516,6 +847,7 @@
               <source srcset="images/fayoum-oasis.webp" type="image/webp">
               <img src="images/fayoum-oasis.jpg" alt="Fayoum Oasis palm trees and lake" width="1280" height="853" loading="lazy" />
             </picture>
+            <span class="package-card__ribbon">Notre Coup de Cœur</span>
             <span class="package-card__badge" data-i18n="packages.badge">Tour Privé</span>
           </div>
           <div class="package-card__body">
@@ -587,6 +919,7 @@
                 loading="lazy"
               />
             </picture>
+            <span class="package-card__ribbon">Le Mieux Noté</span>
             <span class="package-card__badge" data-i18n="packages.badge">Tour Privé</span>
           </div>
           <div class="package-card__body">
@@ -614,6 +947,7 @@
                 loading="lazy"
               />
             </picture>
+            <span class="package-card__ribbon">Le Plus Vendu</span>
             <span class="package-card__badge" data-i18n="packages.badge">Tour Privé</span>
           </div>
           <div class="package-card__body">
@@ -685,6 +1019,7 @@
               alt="Colossal statues of Abu Simbel temple" width="2000" height="1500"
               loading="lazy"
             />
+            <span class="package-card__ribbon">Voyage d'Exception</span>
             <span class="package-card__badge" data-i18n="packages.badge">Tour Privé</span>
           </div>
           <div class="package-card__body">
@@ -1366,5 +1701,6 @@
   <script src="js/i18n-extend.js?v=2" defer></script>
   <script src="js/main.js?v=4" defer></script>
   <script src="js/lang-switcher.js" defer></script>
+  <script src="js/featured-carousel.js" defer></script>
 </body>
 </html>
