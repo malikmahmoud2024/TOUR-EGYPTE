@@ -281,6 +281,14 @@
       color: var(--gold);
       margin-left: 2px;
     }
+    .form-field label .optional-mark {
+      color: var(--text-lighter);
+      font-size: 0.8em;
+      font-weight: 400;
+      letter-spacing: normal;
+      text-transform: none;
+      margin-left: 5px;
+    }
     .form-field input,
     .form-field select,
     .form-field textarea {
@@ -599,61 +607,70 @@
             aria-label="Contact form"
           >
 
-            <div class="form-row">
-              <div class="form-field">
-                <label for="contact-name"><span data-i18n="contact_page.label_name">Nom Complet</span> <span class="required-mark" aria-hidden="true">*</span></label>
-                <input
-                  type="text"
-                  id="contact-name"
-                  name="name"
-                  placeholder="Votre nom complet"
-                  data-i18n="contact_page.ph_name"
-                  required
-                  autocomplete="name"
-                  aria-required="true"
-                />
-              </div>
-              <div class="form-field">
-                <label for="contact-email"><span data-i18n="contact_page.label_email">Adresse E-mail</span> <span class="required-mark" aria-hidden="true">*</span></label>
-                <input
-                  type="email"
-                  id="contact-email"
-                  name="email"
-                  placeholder="votre@email.com"
-                  data-i18n="contact_page.ph_email"
-                  required
-                  autocomplete="email"
-                  aria-required="true"
-                />
-              </div>
-            </div>
-
-            <div class="form-row">
-              <div class="form-field">
-                <label for="contact-phone" data-i18n="contact_page.label_phone">Téléphone / WhatsApp</label>
-                <input
-                  type="tel"
-                  id="contact-phone"
-                  name="phone"
-                  placeholder="+33 1 23 45 67 89"
-                  data-i18n="contact_page.ph_phone"
-                  autocomplete="tel"
-                />
-              </div>
-              <div class="form-field">
-                <label for="contact-nationality" data-i18n="contact_page.label_nationality">Nationalité</label>
-                <input
-                  type="text"
-                  id="contact-nationality"
-                  name="nationality"
-                  placeholder="ex. Français, Allemand…"
-                  data-i18n="contact_page.ph_nationality"
-                />
-              </div>
+            <div class="form-field">
+              <label for="contact-name"><span data-i18n="contact_page.label_name">Nom Complet</span> <span class="required-mark" aria-hidden="true">*</span></label>
+              <input
+                type="text"
+                id="contact-name"
+                name="name"
+                placeholder="Votre nom complet"
+                data-i18n="contact_page.ph_name"
+                required
+                autocomplete="name"
+                aria-required="true"
+              />
             </div>
 
             <div class="form-field">
-              <label for="contact-package" data-i18n="contact_page.label_package">Tour</label>
+              <label for="contact-email"><span data-i18n="contact_page.label_email">Adresse E-mail</span> <span class="required-mark" aria-hidden="true">*</span></label>
+              <input
+                type="email"
+                id="contact-email"
+                name="email"
+                placeholder="votre@email.com"
+                data-i18n="contact_page.ph_email"
+                required
+                autocomplete="email"
+                aria-required="true"
+              />
+            </div>
+
+            <div class="form-field">
+              <label for="contact-phone"><span data-i18n="contact_page.label_phone">Téléphone / WhatsApp</span> <span class="required-mark" aria-hidden="true">*</span></label>
+              <input
+                type="tel"
+                id="contact-phone"
+                name="phone"
+                placeholder="+33 1 23 45 67 89"
+                data-i18n="contact_page.ph_phone"
+                autocomplete="tel"
+              />
+            </div>
+
+            <div class="form-field">
+              <label for="contact-nationality"><span data-i18n="contact_page.label_nationality">Nationalité</span> <span class="required-mark" aria-hidden="true">*</span></label>
+              <input
+                type="text"
+                id="contact-nationality"
+                name="nationality"
+                placeholder="ex. Français, Allemand…"
+                data-i18n="contact_page.ph_nationality"
+              />
+            </div>
+
+            <div class="form-field">
+              <label for="contact-message"><span data-i18n="contact_page.label_message">Message / Demandes Spéciales</span> <span class="optional-mark">(facultatif)</span></label>
+              <textarea
+                id="contact-message"
+                name="message"
+                rows="5"
+                placeholder="Parlez-nous de votre voyage de rêve en Égypte — centres d'intérêt, besoins d'accessibilité, occasions spéciales, ou tout ce que vous aimeriez nous faire savoir…"
+                data-i18n="contact_page.ph_message"
+              ></textarea>
+            </div>
+
+            <div class="form-field">
+              <label for="contact-package"><span data-i18n="contact_page.label_package">Tour</span> <span class="optional-mark">(facultatif)</span></label>
               <select id="contact-package" name="package">
                 <option value="" disabled selected data-i18n="contact_page.select_default">Sélectionnez un tour (ou personnalisé)…</option>
                 <option value="package-2-cairo-weekend">Week-end au Caire</option>
@@ -675,38 +692,26 @@
               </select>
             </div>
 
-            <div class="form-row">
-              <div class="form-field">
-                <label for="contact-travellers" data-i18n="contact_page.label_travellers">Nombre de Voyageurs</label>
-                <input
-                  type="number"
-                  id="contact-travellers"
-                  name="travellers"
-                  min="1"
-                  max="50"
-                  placeholder="ex. 2"
-                  data-i18n="contact_page.ph_travellers"
-                />
-              </div>
-              <div class="form-field">
-                <label for="contact-date" data-i18n="contact_page.label_date">Date de Départ Souhaitée</label>
-                <input
-                  type="date"
-                  id="contact-date"
-                  name="departure_date"
-                />
-              </div>
+            <div class="form-field">
+              <label for="contact-travellers"><span data-i18n="contact_page.label_travellers">Nombre de Voyageurs</span> <span class="optional-mark">(facultatif)</span></label>
+              <input
+                type="number"
+                id="contact-travellers"
+                name="travellers"
+                min="1"
+                max="50"
+                placeholder="ex. 2"
+                data-i18n="contact_page.ph_travellers"
+              />
             </div>
 
             <div class="form-field">
-              <label for="contact-message" data-i18n="contact_page.label_message">Message / Demandes Spéciales</label>
-              <textarea
-                id="contact-message"
-                name="message"
-                rows="5"
-                placeholder="Parlez-nous de votre voyage de rêve en Égypte — centres d'intérêt, besoins d'accessibilité, occasions spéciales, ou tout ce que vous aimeriez nous faire savoir…"
-                data-i18n="contact_page.ph_message"
-              ></textarea>
+              <label for="contact-date"><span data-i18n="contact_page.label_date">Date de Départ Souhaitée</span> <span class="optional-mark">(facultatif)</span></label>
+              <input
+                type="date"
+                id="contact-date"
+                name="departure_date"
+              />
             </div>
 
             <div class="form-submit-area">
