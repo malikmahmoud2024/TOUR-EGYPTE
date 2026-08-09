@@ -702,7 +702,7 @@ const TRANSLATIONS = {
     whatsapp_tooltip: 'Discuter sur WhatsApp',
     book_now_tooltip: 'Réserver',
     pkg_names: [
-      'Cairo & Dahabiya sur le Nil Louxor / Assouan',
+      'Le Caire & Dahabiya sur le Nil Louxor / Assouan',
       'Week-end au Caire',
       'Le Caire, Louxor & Assouan en Train-Couchette – 10 Jours',
       'Week-end Le Caire & Alexandrie',
