@@ -618,12 +618,12 @@
             </div>
 
             <div class="form-field">
-              <label for="contact-phone"><span>Telefon / WhatsApp</span> <span class="required-mark" aria-hidden="true">*</span></label>
+              <label for="contact-phone"><span>Telefon / WhatsApp</span> <span class="optional-mark">(optional)</span></label>
               <input type="tel" id="contact-phone" name="phone" placeholder="+49 123 456 7890" autocomplete="tel">
             </div>
 
             <div class="form-field">
-              <label for="contact-nationality"><span>Nationalität</span> <span class="required-mark" aria-hidden="true">*</span></label>
+              <label for="contact-nationality"><span>Nationalität</span> <span class="optional-mark">(optional)</span></label>
               <input type="text" id="contact-nationality" name="nationality" placeholder="z.B. Deutsch, Österreichisch…">
             </div>
 
@@ -665,6 +665,11 @@
               <input type="date" id="contact-date" name="departure_date">
             </div>
 
+            <div class="form-field" aria-hidden="true" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;">
+              <label for="contact-company">Company website</label>
+              <input type="text" id="contact-company" name="company_website" tabindex="-1" autocomplete="off" />
+            </div>
+
             <div class="form-submit-area">
               <button type="submit" class="btn btn-primary">Meine Anfrage Senden</button>
               <p class="form-note">Unverbindlich. Wir antworten mit einer personalisierten Reiseroute und einem Angebot innerhalb von 24 Stunden.</p>
@@ -675,7 +680,7 @@
               </div>
 
               <div class="form-success-actions" id="form-success-actions" style="display:none;">
-                <span class="form-success-actions__note">✉ Bestätigung per E-Mail gesendet</span>
+                <span class="form-success-actions__note">✓ Anfrage erhalten. Wir antworten innerhalb von 24 Stunden.</span>
                 <a id="success-whatsapp-link" href="https://wa.me/201223797757?text=Hallo%2C%20ich%20m%C3%B6chte%20Informationen%20%C3%BCber%20Ihre%20privaten%20Touren%20in%20%C3%84gypten%20erhalten." target="_blank" rel="noopener noreferrer" class="whatsapp-cta-btn form-success-actions__whatsapp">💬 Kontakt über WhatsApp →</a>
               </div>
             </div>
@@ -762,6 +767,7 @@
         <span>© 2026 touregypte.fr. Alle Rechte vorbehalten.</span>
         <span>Mit Leidenschaft für Ägypten gestaltet.</span>
         <span class="footer__license">Offizieller Betreiber, zugelassen vom ägyptischen Ministerium für Tourismus — Lizenz Nr. 1200</span>
+        <span class="footer__license footer__address">4 Mohamed Mazloum St, Bab al-Louq, Downtown, Kairo 11511, Ägypten</span>
       </div>
     </div>
   </footer>
@@ -796,8 +802,25 @@
     const EMAILJS_TEMPLATE_ID = 'template_gezcwlb';  // ← Replace with your Template ID from EmailJS Email Templates
     // ──────────────────────────────────────────────────────
 
-    // Initialize EmailJS with your public key
-    emailjs.init(EMAILJS_PUBLIC_KEY);
+    // Initialize EmailJS. If the script was blocked (ad-blocker, network filter) the form must say so
+    // instead of failing silently.
+    let emailjsReady = false;
+    try {
+      if (typeof emailjs !== 'undefined') { emailjs.init(EMAILJS_PUBLIC_KEY); emailjsReady = true; }
+    } catch (err) { console.error('EmailJS init error:', err); }
+    
+    // Button texts in the page language, and a small GA4 helper (counts leads and errors)
+    const PAGE_LANG = (document.documentElement.lang || 'fr').slice(0, 2).toLowerCase();
+    const LABELS = {
+      fr: { sending: 'Envoi…', sent: '✓ Envoyé !' },
+      en: { sending: 'Sending…', sent: '✓ Sent!' },
+      de: { sending: 'Wird gesendet…', sent: '✓ Gesendet!' },
+      es: { sending: 'Enviando…', sent: '✓ ¡Enviado!' },
+      it: { sending: 'Invio in corso…', sent: '✓ Inviato!' }
+    }[PAGE_LANG] || { sending: 'Sending…', sent: '✓ Sent!' };
+    function track(name, params) {
+      try { if (typeof gtag === 'function') gtag('event', name, params || {}); } catch (e) { /* tracking must never break the form */ }
+    }
 
     const contactForm = document.getElementById('contact-form');
     const formErrorEl = document.getElementById('form-error');
@@ -844,9 +867,7 @@
       const phone     = document.getElementById('contact-phone').value.trim();
       const nationality = document.getElementById('contact-nationality').value.trim();
       const packageEl = document.getElementById('contact-package');
-      const packageText = packageEl.options[packageEl.selectedIndex]
-                          ? packageEl.options[packageEl.selectedIndex].text
-                          : '';
+      const packageText = (packageEl.value && packageEl.options[packageEl.selectedIndex]) ? packageEl.options[packageEl.selectedIndex].text : '';
       const travellers = document.getElementById('contact-travellers').value.trim();
       const date      = document.getElementById('contact-date').value;
       const message   = document.getElementById('contact-message').value.trim();
@@ -858,11 +879,23 @@
         return;
       }
 
+      // Spam trap: real visitors never fill this hidden field. If it is filled, pretend success and send nothing.
+      const trap = document.getElementById('contact-company');
+      if (trap && trap.value.trim() !== '') { formSuccessActionsEl.style.display = 'flex'; contactForm.reset(); return; }
+
+      // EmailJS script blocked or not loaded: show the error (with the WhatsApp suggestion) instead of doing nothing
+      if (!emailjsReady) {
+        track('form_error', { reason: 'emailjs_unavailable', page_path: location.pathname });
+        const tt = getContactT();
+        showFormError(tt?.error_send || 'An error occurred. Please try again or contact us on WhatsApp.');
+        return;
+      }
+
       // Disable submit button while sending
       const submitBtn = contactForm.querySelector('button[type="submit"]');
       const originalText = submitBtn.textContent;
       submitBtn.disabled = true;
-      submitBtn.textContent = 'Sending…';
+      submitBtn.textContent = LABELS.sending;
 
       // Send email via EmailJS
       const templateParams = {
@@ -879,7 +912,8 @@
       emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, templateParams)
         .then(function() {
           // Show success feedback + let the visitor choose to also reach out on WhatsApp
-          submitBtn.textContent = '✓ Sent!';
+          submitBtn.textContent = LABELS.sent;
+          track('generate_lead', { method: 'contact_form', tour: packageEl.value || 'none', page_lang: PAGE_LANG });
           submitBtn.style.background = '#25D366';
           if (successWhatsappEl) { successWhatsappEl.href = buildWhatsappHref(packageText, packageEl.value); }
           formSuccessActionsEl.style.display = 'flex';
@@ -892,6 +926,7 @@
         })
         .catch(function(error) {
           console.error('EmailJS error:', error);
+          track('form_error', { reason: 'send_failed', status: (error && error.status) || 0 });
           submitBtn.disabled = false;
           submitBtn.textContent = originalText;
           const t = getContactT();
@@ -900,9 +935,9 @@
     });
   </script>
 
-  <script src="../js/translations.js?v=4" defer=""></script>
+  <script src="../js/translations.js?v=5" defer=""></script>
   <script src="../js/i18n-extend.js?v=2" defer=""></script>
-  <script src="../js/main.js?v=4" defer=""></script>
+  <script src="../js/main.js?v=5" defer=""></script>
   <script src="../js/lang-switcher.js" defer></script>
 
 

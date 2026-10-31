@@ -335,3 +335,14 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 });
+
+// Contact tracking (GA4): counts clicks on WhatsApp, phone and email links so leads from these channels can be seen
+document.addEventListener('click', function (e) {
+  var a = e.target && e.target.closest ? e.target.closest('a[href]') : null;
+  if (!a || typeof gtag !== 'function') return;
+  var h = a.getAttribute('href') || '', name = null;
+  if (h.indexOf('wa.me/') > -1) name = 'whatsapp_click';
+  else if (h.indexOf('tel:') === 0) name = 'phone_click';
+  else if (h.indexOf('mailto:') === 0) name = 'email_click';
+  if (name) gtag('event', name, { link_url: h.split('?')[0], page_path: location.pathname });
+});

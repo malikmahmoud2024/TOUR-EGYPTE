@@ -34,7 +34,7 @@ const TRANSLATIONS = {
     },
     about: {
       label:    'Our Story',
-      heading:  'Twenty-Five Years of <span>Extraordinary</span> Journeys',
+      heading:  'Twenty-Six Years of <span>Extraordinary</span> Journeys',
       body1:    'Since 2000, Tour Egypte has been crafting unforgettable private journeys through the land of the Pharaohs. We have had the privilege of sharing Egypt\'s magic with over 10,000 travellers from around the world.',
       body2:    'Every tour we create is entirely private — your group, your pace, your memories. Our professional multilingual guides bring history alive at every step, from the Pyramids of Giza to the temples of Luxor and the banks of the Nile.',
       cta:      'Discover Our Story',
@@ -235,7 +235,7 @@ const TRANSLATIONS = {
       form_note: 'No obligation. We will respond with a personalised itinerary and quote within 24 hours.',
       validation_error: 'Please fill in all required fields.',
       error_send: 'An error occurred. Please try again or contact us on WhatsApp.',
-      success_email_note: '✉ Confirmation sent by email',
+      success_email_note: '✓ Request received. We will reply within 24 hours.',
       success_whatsapp_btn: '💬 Contact us on WhatsApp →',
     },
     not_found_page: {
@@ -633,7 +633,7 @@ const TRANSLATIONS = {
     },
     about: {
       label:    'Notre Histoire',
-      heading:  'Vingt-Cinq Ans de Voyages <span>Extraordinaires</span>',
+      heading:  'Vingt-Six Ans de Voyages <span>Extraordinaires</span>',
       body1:    'Depuis 2000, Tour Egypte crée des voyages privés inoubliables au cœur de la terre des Pharaons. Nous avons eu le privilège de partager la magie de l\'Égypte avec plus de 10 000 voyageurs du monde entier.',
       body2:    'Chaque circuit est entièrement privé — votre groupe, votre rythme, vos souvenirs. Nos guides professionnels et multilingues donnent vie à l\'histoire à chaque étape, des Pyramides de Gizeh aux temples de Louxor et aux rives du Nil.',
       cta:      'Découvrir Notre Histoire',
@@ -834,7 +834,7 @@ const TRANSLATIONS = {
       form_note: 'Sans engagement. Nous vous répondrons avec un itinéraire personnalisé et un devis sous 24 heures.',
       validation_error: 'Veuillez remplir tous les champs obligatoires.',
       error_send: 'Une erreur est survenue. Veuillez réessayer ou nous contacter sur WhatsApp.',
-      success_email_note: '✉ Confirmation envoyée par email',
+      success_email_note: '✓ Demande bien reçue. Nous vous répondons sous 24 heures.',
       success_whatsapp_btn: '💬 Nous contacter sur WhatsApp →',
     },
     not_found_page: {
@@ -1240,7 +1240,7 @@ const TRANSLATIONS = {
     },
     about: {
       label:    'Unsere Geschichte',
-      heading:  'Fünfundzwanzig Jahre <span>Außergewöhnliche</span> Reisen',
+      heading:  'Sechsundzwanzig Jahre <span>Außergewöhnliche</span> Reisen',
       body1:    'Seit 2000 gestaltet Tour Egypte unvergessliche Privatreisen durch das Land der Pharaonen. Wir hatten das Privileg, über 10.000 Reisenden aus der ganzen Welt die Magie Ägyptens zu zeigen.',
       body2:    'Jede unserer Touren ist völlig privat — Ihre Gruppe, Ihr Tempo, Ihre Erinnerungen. Unsere professionellen mehrsprachigen Reiseführer erwecken Geschichte zum Leben, von den Pyramiden von Gizeh bis zu den Tempeln von Luxor und den Ufern des Nils.',
       cta:      'Mehr Über Uns',
@@ -1399,7 +1399,7 @@ const TRANSLATIONS = {
       form_note: 'Unverbindlich. Wir antworten mit einer personalisierten Reiseroute und einem Angebot innerhalb von 24 Stunden.',
       validation_error: 'Bitte füllen Sie alle Pflichtfelder aus.',
       error_send: 'Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut oder kontaktieren Sie uns über WhatsApp.',
-      success_email_note: '✉ Bestätigung per E-Mail gesendet',
+      success_email_note: '✓ Anfrage erhalten. Wir antworten innerhalb von 24 Stunden.',
       success_whatsapp_btn: '💬 Kontakt über WhatsApp →',
     },
     not_found_page: {
@@ -1841,7 +1841,7 @@ const TRANSLATIONS = {
     },
     about: {
       label:    'Nuestra Historia',
-      heading:  'Veinticinco Años de Viajes <span>Extraordinarios</span>',
+      heading:  'Veintiséis Años de Viajes <span>Extraordinarios</span>',
       body1:    'Desde 2000, Tour Egypte crea viajes privados e inolvidables a través de la tierra de los faraones. Hemos tenido el privilegio de compartir la magia de Egipto con más de 10.000 viajeros de todo el mundo.',
       body2:    'Cada tour que creamos es completamente privado — tu grupo, tu ritmo, tus recuerdos. Nuestros guías profesionales y multilingües dan vida a la historia a cada paso.',
       cta:      'Descubrir Nuestra Historia',
@@ -2000,7 +2000,7 @@ const TRANSLATIONS = {
       form_note: 'Sin compromiso. Le responderemos con un itinerario personalizado y un presupuesto en menos de 24 horas.',
       validation_error: 'Por favor complete todos los campos requeridos.',
       error_send: 'Ocurrió un error. Por favor inténtelo de nuevo o contáctenos por WhatsApp.',
-      success_email_note: '✉ Confirmación enviada por email',
+      success_email_note: '✓ Solicitud recibida. Le responderemos en 24 horas.',
       success_whatsapp_btn: '💬 Contáctenos por WhatsApp →',
     },
     not_found_page: {
@@ -2440,7 +2440,7 @@ const TRANSLATIONS = {
     },
     about: {
       label:    'La Nostra Storia',
-      heading:  'Venticinque Anni di Viaggi <span>Straordinari</span>',
+      heading:  'Ventisei Anni di Viaggi <span>Straordinari</span>',
       body1:    'Dal 2000, Tour Egypte crea viaggi privati indimenticabili attraverso la terra dei Faraoni. Abbiamo avuto il privilegio di condividere la magia dell\'Egitto con oltre 10.000 viaggiatori da tutto il mondo.',
       body2:    'Ogni tour che creiamo è completamente privato — il tuo gruppo, il tuo ritmo, i tuoi ricordi. Le nostre guide professionali e multilingue danno vita alla storia ad ogni passo, dalle Piramidi di Giza ai templi di Luxor e alle rive del Nilo.',
       cta:      'Scopri La Nostra Storia',
@@ -2599,7 +2599,7 @@ const TRANSLATIONS = {
       form_note: 'Senza impegno. Risponderemo con un itinerario personalizzato e un preventivo entro 24 ore.',
       validation_error: 'Si prega di compilare tutti i campi obbligatori.',
       error_send: 'Si è verificato un errore. Riprovi o ci contatti su WhatsApp.',
-      success_email_note: '✉ Conferma inviata per email',
+      success_email_note: '✓ Richiesta ricevuta. Le risponderemo entro 24 ore.',
       success_whatsapp_btn: '💬 Contattaci su WhatsApp →',
     },
     not_found_page: {
