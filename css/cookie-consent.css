@@ -1,0 +1,174 @@
+/* ==========================================================================
+   Cookie banner + panel — Tour Egypte brand overrides for tarteaucitron.js
+   Loaded by js/cookie-consent.js AFTER js/tarteaucitron/css/tarteaucitron.min.css.
+   Rule: "Accept all" and "Refuse all" always look identical (same size, colour).
+   ========================================================================== */
+
+/* ── Footer "Cookie settings" link (all pages) ────────────────────────── */
+.footer__bottom a.footer__cookies {
+  color: rgba(255,255,255,0.75);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.footer__bottom a.footer__cookies:hover,
+.footer__bottom a.footer__cookies:focus-visible {
+  color: #E8C97A;
+}
+
+/* ── Bottom banner ─────────────────────────────────────────────────────── */
+html body #tarteaucitronRoot #tarteaucitronAlertBig {
+  background: #FBF8F1;
+  color: #1A1208;
+  border-top: 3px solid #C9A84C;
+  box-shadow: 0 -8px 32px rgba(26,18,8,0.14);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 18px !important;
+  line-height: 1.45;
+  padding: 18px 20px;
+  box-sizing: border-box;
+}
+
+html body #tarteaucitronRoot #tarteaucitronAlertBig #tarteaucitronDisclaimerAlert,
+html body #tarteaucitronRoot #tarteaucitronAlertBig #tarteaucitronDisclaimerAlert strong {
+  color: #1A1208;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 18px;
+}
+
+html body #tarteaucitronRoot #tarteaucitronAlertBig #tarteaucitronDisclaimerAlert {
+  display: block;
+  margin: 0 auto 14px;
+  max-width: 900px;
+  text-align: center;
+}
+
+html body #tarteaucitronRoot #tarteaucitronAlertBig button {
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+/* Accept all + Refuse all: same look, same size */
+html body #tarteaucitronRoot #tarteaucitronAlertBig #tarteaucitronPersonalize2,
+html body #tarteaucitronRoot #tarteaucitronAlertBig #tarteaucitronAllDenied2 {
+  background: #1A1208;
+  color: #FBF8F1;
+  border: 2px solid #1A1208;
+  border-radius: 4px;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 15px !important;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  min-width: 190px;
+  min-height: 46px;
+  padding: 12px 22px;
+  margin: 4px 6px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+html body #tarteaucitronRoot #tarteaucitronAlertBig #tarteaucitronPersonalize2:hover,
+html body #tarteaucitronRoot #tarteaucitronAlertBig #tarteaucitronAllDenied2:hover,
+html body #tarteaucitronRoot #tarteaucitronAlertBig #tarteaucitronPersonalize2:focus-visible,
+html body #tarteaucitronRoot #tarteaucitronAlertBig #tarteaucitronAllDenied2:focus-visible {
+  background: #C9A84C;
+  border-color: #C9A84C;
+  color: #1A1208;
+}
+
+/* Hide the vendor tick / cross icons so both buttons are pure text */
+html body #tarteaucitronRoot #tarteaucitronAlertBig .tarteaucitronCheck,
+html body #tarteaucitronRoot #tarteaucitronAlertBig .tarteaucitronCross {
+  display: none;
+}
+
+/* "Personnaliser" — secondary, outlined, same height */
+html body #tarteaucitronRoot #tarteaucitronAlertBig #tarteaucitronCloseAlert {
+  background: transparent;
+  color: #1A1208;
+  border: 2px solid #C9A84C;
+  border-radius: 4px;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 15px !important;
+  font-weight: 600;
+  line-height: 1.2;
+  min-height: 46px;
+  padding: 12px 22px;
+  margin: 4px 6px;
+}
+
+html body #tarteaucitronRoot #tarteaucitronAlertBig #tarteaucitronCloseAlert:hover,
+html body #tarteaucitronRoot #tarteaucitronAlertBig #tarteaucitronCloseAlert:focus-visible {
+  background: #F5E6B8;
+}
+
+html body #tarteaucitronRoot #tarteaucitronAlertBig #tarteaucitronPrivacyUrl {
+  background: transparent;
+  color: #7A5E1E;
+  text-decoration: underline;
+  font-size: 15px !important;
+}
+
+/* Phones: buttons stacked, full width, big tap targets */
+@media (max-width: 767px) {
+  html body #tarteaucitronRoot #tarteaucitronAlertBig {
+    padding: 14px 16px 16px;
+    font-size: 16px !important;
+  }
+  html body #tarteaucitronRoot #tarteaucitronAlertBig #tarteaucitronDisclaimerAlert,
+  html body #tarteaucitronRoot #tarteaucitronAlertBig #tarteaucitronDisclaimerAlert strong {
+    font-size: 16px;
+  }
+  html body #tarteaucitronRoot #tarteaucitronAlertBig #tarteaucitronPersonalize2,
+  html body #tarteaucitronRoot #tarteaucitronAlertBig #tarteaucitronAllDenied2,
+  html body #tarteaucitronRoot #tarteaucitronAlertBig #tarteaucitronCloseAlert {
+    display: block;
+    width: 100%;
+    min-width: 0;
+    margin: 8px 0 0;
+  }
+}
+
+/* ── Settings panel ("Personnaliser") ──────────────────────────────────── */
+html body #tarteaucitronRoot #tarteaucitron,
+html body #tarteaucitronRoot #tarteaucitron * {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+html body #tarteaucitronRoot #tarteaucitron .tarteaucitronH1,
+html body #tarteaucitronRoot #tarteaucitron .tarteaucitronH2,
+html body #tarteaucitronRoot #tarteaucitron .tarteaucitronH3 {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+html body #tarteaucitronRoot #tarteaucitron #tarteaucitronClosePanel {
+  background: #1A1208;
+  color: #FBF8F1;
+}
+
+/* In the panel, Allow and Deny share one look (cream, gold border);
+   the chosen one turns solid gold. Replaces the vendor yellow #fbd600. */
+html body #tarteaucitronRoot #tarteaucitron #tarteaucitronServices .tarteaucitronAllow,
+html body #tarteaucitronRoot #tarteaucitron #tarteaucitronServices .tarteaucitronDeny,
+html body #tarteaucitronRoot #tarteaucitron #tarteaucitronServices .tarteaucitronLine .tarteaucitronAsk .tarteaucitronAllow,
+html body #tarteaucitronRoot #tarteaucitron #tarteaucitronServices .tarteaucitronLine .tarteaucitronAsk .tarteaucitronDeny {
+  background: #FBF8F1;
+  color: #1A1208;
+  border: 1px solid #C9A84C;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+html body #tarteaucitronRoot #tarteaucitron #tarteaucitronServices #tarteaucitronAllAllowed.tarteaucitronIsSelected,
+html body #tarteaucitronRoot #tarteaucitron #tarteaucitronServices #tarteaucitronAllDenied.tarteaucitronIsSelected,
+html body #tarteaucitronRoot #tarteaucitron #tarteaucitronServices .tarteaucitronLine.tarteaucitronIsAllowed .tarteaucitronAllow,
+html body #tarteaucitronRoot #tarteaucitron #tarteaucitronServices .tarteaucitronLine.tarteaucitronIsDenied .tarteaucitronDeny,
+html body #tarteaucitronRoot #tarteaucitron #tarteaucitronServices #tarteaucitronServices_mandatory .tarteaucitronLine button.tarteaucitronAllow {
+  background: #C9A84C;
+  color: #1A1208;
+  opacity: 1;
+}
+
+html body #tarteaucitronRoot #tarteaucitron #tarteaucitronServices .tarteaucitronLine.tarteaucitronIsAllowed,
+html body #tarteaucitronRoot #tarteaucitron #tarteaucitronServices .tarteaucitronLine.tarteaucitronIsDenied {
+  border-color: #C9A84C;
+}
