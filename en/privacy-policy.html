@@ -37,7 +37,7 @@
 
   <link rel="icon" type="image/svg+xml" href="../images/favicon.svg" />
   <link rel="stylesheet" href="../css/fonts.css">
-  <link rel="stylesheet" href="../css/style.css?v=5">
+  <link rel="stylesheet" href="../css/style.css?v=6">
 <style>
     .page-hero {
       position: relative;
@@ -152,8 +152,6 @@
     .legal code { font-family: Consolas, 'Courier New', monospace; font-size: 0.9em; background: var(--off-white);
                   padding: 0.05em 0.35em; border-radius: 3px; }
     .legal strong { color: var(--text-dark); }
-    /* Items still to confirm before publishing */
-    mark.a-verifier { background: #FFE94D; color: #1A1208; padding: 0.05em 0.3em; border-radius: 2px; }
     @media (max-width: 767px) {
       .legal { padding: 3rem 0 4.5rem; }
       .legal__inner { padding: 0 16px; }
@@ -294,21 +292,26 @@
         <li>and, if you choose to give them: your phone number, nationality, the tour you are interested in, the number of travellers, your preferred date and your message.</li>
       </ul>
       <p>We use this only to answer your request and, if you wish, to organise your trip. We never sell it, and we never pass it on to anyone for marketing.</p>
-      <p>The form runs on <strong>EmailJS</strong>, an email delivery service that forwards your message to our inbox. To work, the Contact page loads the EmailJS script from the jsDelivr network.</p>
-      <p>Legal basis: <mark class="a-verifier">steps taken at your request before a possible contract (GDPR Article 6(1)(b)) [À VÉRIFIER]</mark></p>
-      <p>How long we keep it: <mark class="a-verifier">3 years after our last contact with you [À VÉRIFIER]</mark></p>
-      <p><mark class="a-verifier">[À VÉRIFIER] The “newsletter” box at the bottom of each page does not currently save or send any email address. Remove it from the site, or describe it here if it gets connected to a real service.</mark></p>
+      <p>The form runs on <strong>EmailJS</strong>, an email delivery service that forwards your message to our Yahoo inbox. To work, the Contact page loads the EmailJS script from the jsDelivr network.</p>
+      <p><strong>Legal basis:</strong> handling your request before a possible contract (GDPR Article 6(1)(b)).</p>
+      <p><strong>How long we keep it:</strong> 3 years after our last contact with you.</p>
 
       <h2>3. Cookies and visitor statistics</h2>
       <p>We use one measurement tool only: <strong>Google Analytics 4</strong>, for anonymous visitor statistics (number of visits, pages viewed, and so on). It loads <strong>only if you accept it</strong> in the cookie banner. Without your consent, nothing is sent to Google.</p>
       <p>If you accept, Google Analytics sets the cookies <code>_ga</code> and <code>_ga_*</code>, kept for up to 13 months.</p>
+      <p><strong>Legal basis:</strong> your consent (GDPR Article 6(1)(a)).</p>
       <p>Your choice itself is stored in a cookie called <code>tarteaucitron</code> for 6 months, so we don't ask again on every page. The site also remembers, in your browser, the language of the last page you viewed (<code>tour-egypte-lang</code>); this never leaves your device.</p>
       <p>You can change your mind at any time with the <a href="#tarteaucitron" data-cookie-settings>Cookie settings</a> link at the bottom of every page.</p>
       <p>The site's fonts are hosted on our own server, so your browser does not connect to Google Fonts.</p>
 
       <h2>4. Data processed outside the European Union</h2>
-      <p>Our agency is based in Egypt, so the messages you send us are received and handled outside the European Union.</p>
-      <p><mark class="a-verifier">Google (for Google Analytics) and EmailJS may also process data outside the European Union. [À VÉRIFIER]</mark></p>
+      <p>Your data is processed outside the European Union:</p>
+      <ul>
+        <li>our agency is based in Egypt, where we receive and handle your requests;</li>
+        <li>Google Analytics is a Google service (USA), used only if you accept it;</li>
+        <li>EmailJS, the email delivery service, carries the contact form messages;</li>
+        <li>those messages arrive in a Yahoo mailbox (Yahoo, USA).</li>
+      </ul>
 
       <h2>5. Your rights</h2>
       <p>At any time, you can ask us to:</p>
@@ -324,8 +327,8 @@
 
       <h2 id="legal-notice">6. Legal notice</h2>
       <p><strong>Publisher:</strong> Host Tours (Tour Egypte), licensed by the Egyptian Ministry of Tourism — Licence No. 1200, 4 Mohamed Mazloum St, Downtown, Cairo 11511, Egypt. Email: <a href="mailto:Reservation@touregypte.fr">Reservation@touregypte.fr</a>. Phone: <a href="tel:+201223797757">+20 122 379 7757</a>.</p>
-      <p><strong>Director of publication:</strong> <mark class="a-verifier">Mahmoud El Sayed [À VÉRIFIER]</mark></p>
-      <p><strong>Hosting provider:</strong> Hosteur — <mark class="a-verifier">full company name and address [À VÉRIFIER]</mark></p>
+      <p><strong>Director of publication:</strong> Mahmoud El Sayed</p>
+      <p><strong>Hosting provider:</strong> Hosteur SAS, 67 Cours Mirabeau, 13100 Aix-en-Provence, France — <a href="https://www.hosteur.com" target="_blank" rel="noopener">www.hosteur.com</a></p>
     </div>
   </section>
 
@@ -387,14 +390,6 @@
             <div><a href="https://www.facebook.com/share/18RBdhdbtD/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook Page</a></div>
           </div>
         </div>
-        <div class="footer__col">
-          <h4>Stay Inspired</h4>
-          <p style="font-size:0.9rem;color:rgba(255,255,255,0.45);margin-bottom:1rem;">Subscribe for exclusive travel insights and special offers.</p>
-          <form class="footer__newsletter-form" novalidate="">
-            <input type="email" placeholder="Your email address" aria-label="Email address for newsletter" required="">
-            <button type="submit">Subscribe</button>
-          </form>
-        </div>
       </div>
       <div class="footer__bottom">
         <span>© 2026 touregypte.fr. All rights reserved.</span>
@@ -419,7 +414,7 @@
 
   <script src="../js/translations.js?v=5" defer=""></script>
   <script src="../js/i18n-extend.js?v=2" defer=""></script>
-  <script src="../js/main.js?v=5" defer=""></script>
+  <script src="../js/main.js?v=6" defer=""></script>
   <script src="../js/lang-switcher.js" defer></script>
 
 

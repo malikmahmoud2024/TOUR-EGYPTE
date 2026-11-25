@@ -292,25 +292,6 @@ document.addEventListener('DOMContentLoaded', () => {
     startAutoplay();
   }
 
-  /* ── 10. Newsletter form ────────────────────────────────── */
-  const newsletterForm = document.querySelector('.footer__newsletter-form');
-  if (newsletterForm) {
-    newsletterForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const input = newsletterForm.querySelector('input');
-      const btn = newsletterForm.querySelector('button');
-      if (input?.value) {
-        btn.textContent = '✓';
-        btn.style.background = '#4CAF50';
-        input.value = '';
-        setTimeout(() => {
-          const t = TRANSLATIONS[currentLang]?.footer;
-          btn.textContent = t?.subscribe || 'Subscribe';
-          btn.style.background = '';
-        }, 3000);
-      }
-    });
-  }
 
   /* ── 11. Active nav link ────────────────────────────────── */
   const navLinks = document.querySelectorAll('.navbar__links a');
