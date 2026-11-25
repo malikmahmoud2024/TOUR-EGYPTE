@@ -4,12 +4,15 @@
    Rule: "Accept all" and "Refuse all" always look identical (same size, colour).
    ========================================================================== */
 
-/* ── Footer "Cookie settings" link (all pages) ────────────────────────── */
+/* ── Footer "Privacy policy" + "Cookie settings" links (all pages) ────── */
+.footer__bottom a.footer__privacy,
 .footer__bottom a.footer__cookies {
   color: rgba(255,255,255,0.75);
   text-decoration: underline;
   text-underline-offset: 3px;
 }
+.footer__bottom a.footer__privacy:hover,
+.footer__bottom a.footer__privacy:focus-visible,
 .footer__bottom a.footer__cookies:hover,
 .footer__bottom a.footer__cookies:focus-visible {
   color: #E8C97A;

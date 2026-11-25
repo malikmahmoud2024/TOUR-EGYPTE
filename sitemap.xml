@@ -1320,4 +1320,64 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/references.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/references.html"/>
   </url>
+  <url>
+    <loc>https://touregypte.fr/politique-de-confidentialite.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/politique-de-confidentialite.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/datenschutz.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/politica-de-privacidad.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/informativa-privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/politique-de-confidentialite.html"/>
+  </url>
+  <url>
+    <loc>https://touregypte.fr/en/privacy-policy.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/politique-de-confidentialite.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/datenschutz.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/politica-de-privacidad.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/informativa-privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/politique-de-confidentialite.html"/>
+  </url>
+  <url>
+    <loc>https://touregypte.fr/de/datenschutz.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/politique-de-confidentialite.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/datenschutz.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/politica-de-privacidad.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/informativa-privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/politique-de-confidentialite.html"/>
+  </url>
+  <url>
+    <loc>https://touregypte.fr/es/politica-de-privacidad.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/politique-de-confidentialite.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/datenschutz.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/politica-de-privacidad.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/informativa-privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/politique-de-confidentialite.html"/>
+  </url>
+  <url>
+    <loc>https://touregypte.fr/it/informativa-privacy.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://touregypte.fr/politique-de-confidentialite.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://touregypte.fr/en/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://touregypte.fr/de/datenschutz.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://touregypte.fr/es/politica-de-privacidad.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://touregypte.fr/it/informativa-privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://touregypte.fr/politique-de-confidentialite.html"/>
+  </url>
 </urlset>

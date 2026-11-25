@@ -17,23 +17,30 @@
 
   var lang = (document.documentElement.getAttribute('lang') || 'fr').slice(0, 2).toLowerCase();
 
-  /* Privacy page per language. Leave '' until the page exists. */
-  var PRIVACY_URLS = { fr: '', en: '', de: '', es: '', it: '' };
+  /* Privacy page per language (root-relative, so it works from any folder). */
+  var PRIVACY_URLS = {
+    fr: '/politique-de-confidentialite.html',
+    en: '/en/privacy-policy.html',
+    de: '/de/datenschutz.html',
+    es: '/es/politica-de-privacidad.html',
+    it: '/it/informativa-privacy.html'
+  };
 
   /* Consent lifetime in days (read by tarteaucitron when it writes its cookie). */
   window.tarteaucitronForceExpire = 183;
   window.tarteaucitronExpireInDay = true;
 
   /* Short, balanced button labels: "Accept" and "Refuse" read the same weight. */
+  /* privacyUrl = label of the privacy link on the banner (same wording as the footer). */
   var TEXTS = {
-    fr: { acceptAll: 'Tout accepter', denyAll: 'Tout refuser', personalize: 'Personnaliser' },
-    en: { acceptAll: 'Accept all', denyAll: 'Refuse all', personalize: 'Customize' },
+    fr: { acceptAll: 'Tout accepter', denyAll: 'Tout refuser', personalize: 'Personnaliser', privacyUrl: 'Politique de confidentialité' },
+    en: { acceptAll: 'Accept all', denyAll: 'Refuse all', personalize: 'Customize', privacyUrl: 'Privacy policy' },
     de: {
-      acceptAll: 'Alle akzeptieren', denyAll: 'Alle ablehnen', personalize: 'Anpassen',
+      acceptAll: 'Alle akzeptieren', denyAll: 'Alle ablehnen', personalize: 'Anpassen', privacyUrl: 'Datenschutz',
       alertBigPrivacy: 'Diese Website verwendet Cookies und lässt Sie entscheiden, welche Sie aktivieren möchten'
     },
-    es: { acceptAll: 'Aceptar todo', denyAll: 'Rechazar todo', personalize: 'Personalizar' },
-    it: { acceptAll: 'Accetta tutto', denyAll: 'Rifiuta tutto', personalize: 'Personalizza' }
+    es: { acceptAll: 'Aceptar todo', denyAll: 'Rechazar todo', personalize: 'Personalizar', privacyUrl: 'Política de privacidad' },
+    it: { acceptAll: 'Accetta tutto', denyAll: 'Rifiuta tutto', personalize: 'Personalizza', privacyUrl: 'Informativa sulla privacy' }
   };
   if (TEXTS[lang]) { window.tarteaucitronCustomText = TEXTS[lang]; }
 
@@ -45,7 +52,7 @@
     document.head.appendChild(l);
   }
   addCss(tarteaucitron.cdn + 'css/tarteaucitron.min.css?v=' + tarteaucitron.version);
-  addCss(tarteaucitron.cdn + '../../css/cookie-consent.css?v=1');
+  addCss(tarteaucitron.cdn + '../../css/cookie-consent.css?v=2');
 
   tarteaucitron.init({
     privacyUrl: PRIVACY_URLS[lang] || '',
